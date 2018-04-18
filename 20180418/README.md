@@ -1,3 +1,24 @@
+## 20180418 线下活动
+
+*Go 标准包阅读*
+
+Go 版本：go 1.10.1
+
+### strings
+
+- builder.go
+- builder_test.go
+- compare.go
+- compare_test.go
+- example_test.go
+- export_test.go
+- reader_test.go
+- reader.go
+
+### 问题清单
+
+以下是我们在阅读过程中的一些问题，希望可以引起大家的关注，也欢迎大家提出自己的理解，最好可以给以文章总结。
+
 1. defer runtime.GOMAXPROCS(runtime.GOMAXPROCS(1))
 2. runtime.ReadMemStats(&m1)
 3. defer_lock.go
