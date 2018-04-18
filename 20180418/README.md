@@ -11,7 +11,7 @@ import (
 
 func main() {
 	var mu sync.Locker = new(I)
-	defer LockUnlock(mu)
+	defer LockUnlock(mu)()
 	println("doing")
 }
 
