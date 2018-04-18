@@ -72,8 +72,18 @@ func (i *I) Unlock() {
 14. off 与 offset 尴尬的问题
 15. whence where when ？[wiki-whence](https://en.wiktionary.org/wiki/whence)
 16. // It is similar to bytes.NewBufferString but more efficient and read-only.
+17. Go 1.10 开始引入了 builder 
+
+[go1.10.builder](https://golang.org/doc/go1.10#strings)
+
+```
+# https://golang.org/doc/go1.10#strings
+strings ¶
+A new type Builder is a replacement for bytes.Buffer for the use case of accumulating text into a string result. The Builder's API is a restricted subset of bytes.Buffer's that allows it to safely avoid making a duplicate copy of the data during the String method.
+```
 
 ## 参考资料
 
 1. [wiki-whence](https://en.wiktionary.org/wiki/whence)
 2. [Go 延迟函数 defer 详解](https://mp.weixin.qq.com/s/5xeAOYi3OoxCEPe-S2RE2Q)
+3. []()
