@@ -86,4 +86,3 @@ A new type Builder is a replacement for bytes.Buffer for the use case of accumul
 
 1. [wiki-whence](https://en.wiktionary.org/wiki/whence)
 2. [Go 延迟函数 defer 详解](https://mp.weixin.qq.com/s/5xeAOYi3OoxCEPe-S2RE2Q)
-3. []()
