@@ -13,7 +13,7 @@ Gopher 深圳地区线下活动
 
 ## 其他
 
-1. [Go 语言中下划线的分析总结](2018-05-08-anlayze-underscore-in-go.md)
+1. [Go 语言中下划线的分析总结](./other/2018-05-08-anlayze-underscore-in-go.md)
 
 ----
 
