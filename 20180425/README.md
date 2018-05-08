@@ -20,6 +20,7 @@ Go 版本：go 1.10.1
 
 ## 参考资料
 
-0. [Boyer-Moore字符串搜索算法](https://zh.wikipedia.org/zh-hans/Boyer-Moore字符串搜索算法)
-1. [字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
-2. [grep之字符串搜索算法Boyer-Moore由浅入深（比KMP快3-5倍）](http://www.cnblogs.com/lanxuezaipiao/p/3452579.html)
+0. [Boyer-Moore_string_search_algorithmde](http://en.wikipedia.org/wiki/Boyer-Moore_string_search_algorithm)
+1. [Boyer-Moore字符串搜索算法](https://zh.wikipedia.org/zh-hans/Boyer-Moore字符串搜索算法)
+2. [字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
+3. [grep之字符串搜索算法Boyer-Moore由浅入深（比KMP快3-5倍）](http://www.cnblogs.com/lanxuezaipiao/p/3452579.html)
