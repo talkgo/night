@@ -11,9 +11,10 @@ Gopher 深圳地区线下活动
 3. [20180418](./20180418/README.md)
 4. [20180425](./20180425/README.md)
 
-## 其他
+## 微信群讨论
 
-1. [Go 语言中下划线的分析总结](./other/2018-05-08-anlayze-underscore-in-go.md)
+1. [Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
+2. [调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
 
 ----
 
