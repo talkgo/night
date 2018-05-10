@@ -6,12 +6,13 @@ Gopher 深圳地区线下活动
 
 ## 往期回顾
 
-1. [20180321](./20180321/README.md)
-2. [20180411](./20180411/README.md)
-3. [20180418](./20180418/README.md)
-4. [20180425](./20180425/README.md)
+1. [20180321-(cannot take address of temporary variables|telport|goutil|neochain)](./20180321/README.md)
+2. [20180411-telport|tp-micro|ants](./20180411/README.md)
+3. [20180418-strings/builder.go|strings/compare.go|strings/reader.go](./20180418/README.md)
+4. [20180425-strings/replace.go|strings/search.go](./20180425/README.md)
+5. [20180510-strings/strings.go](./20180510/README.md)
 
-## 微信群讨论
+## 微信群平常讨论
 
 1. [Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
 2. [调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
