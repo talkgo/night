@@ -59,7 +59,7 @@ func init() {
 <del>
 
 ```go
-<del> var x string </del>
+var x string 
 func init()(err error) {
     x, err = getValue()
 }
