@@ -27,6 +27,43 @@ Rabin-Karp 算法的思想：
 - len 计算问题？是否是每次都会计算，直接拿值，不需要单独计算的；
 - len 与 runtime 包里面的某些实现的有何区别？
 
+len(string) 的获取string的长度问题。涉及到 string 的结构问题
+在runtime/strings.go 中可以看到 对应的string结构
+```
+type stringStruct struct {
+	str unsafe.Pointer
+	len int
+}
+可以得到在求string的长度的时候，实际上是直接获取值。
+
+在 slice 的结构体中
+type slice struct {
+	array unsafe.Pointer
+	len   int
+	cap   int
+}
+Len 方法 跟len 长度走。
+
+type hmap struct {
+	// Note: the format of the Hmap is encoded in ../../cmd/internal/gc/reflect.go and
+	// ../reflect/type.go. Don't change this structure without also changing that code!
+	count     int // # live cells == size of map.  Must be first (used by len() builtin)
+	flags     uint8
+	B         uint8  // log_2 of # of buckets (can hold up to loadFactor * 2^B items)
+	noverflow uint16 // approximate number of overflow buckets; see incrnoverflow for details
+	hash0     uint32 // hash seed
+
+	buckets    unsafe.Pointer // array of 2^B Buckets. may be nil if count==0.
+	oldbuckets unsafe.Pointer // previous bucket array of half the size, non-nil only when growing
+	nevacuate  uintptr        // progress counter for evacuation (buckets less than this have been evacuated)
+
+	extra *mapextra // optional fields
+}
+
+在map的结构体重 有个 count 的统计 map 的内部数量。
+
+```
+
 func IndexByte(s string, c byte) int // ../runtime/asm_$GOARCH.s）
 
 - strings.s
