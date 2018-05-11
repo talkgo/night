@@ -1,4 +1,4 @@
-## 2018-05-09
+﻿## 2018-05-09
 
 来源：《Go 夜读》微信群
 时间：2018-05-09
@@ -56,12 +56,16 @@ func init() {
 
 2. 
 
+<del>
+
 ```go
-var x string
+<del> var x string </del>
 func init()(err error) {
     x, err = getValue()
 }
 ```
+</del>
+这种办法虽然看起来似乎舒服了一点，但是init 函数不能能有返回值
 
 ## 参考资料
 
