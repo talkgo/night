@@ -65,8 +65,13 @@ func init()(err error) {
 }
 ```
 </del>
-这种办法虽然看起来似乎舒服了一点，但是init 函数不能能有返回值
 
+以上代码是 **错误** 的，Go 语言中 main() 和 init() 函数都不能有返回值，否则编译会报错：
+
+```
+func init must have no arguments and no return values
+func main must have no arguments and no return values
+```
 ## 参考资料
 
 1. [Go 开发工具](https://github.com/yangwenmai/learning-golang#go-开发工具)
