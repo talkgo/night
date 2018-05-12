@@ -1,4 +1,6 @@
-## 20180418 线下活动
+## 2018-04-18 线下活动
+
+>参与人数: 14 人
 
 *Go 标准包阅读*
 
@@ -82,7 +84,7 @@ strings ¶
 A new type Builder is a replacement for bytes.Buffer for the use case of accumulating text into a string result. The Builder's API is a restricted subset of bytes.Buffer's that allows it to safely avoid making a duplicate copy of the data during the String method.
 ```
 
-## 参考资料
+## 延伸阅读
 
 1. [wiki-whence](https://en.wiktionary.org/wiki/whence)
 2. [Go 延迟函数 defer 详解](https://mp.weixin.qq.com/s/5xeAOYi3OoxCEPe-S2RE2Q)

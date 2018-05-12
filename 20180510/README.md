@@ -1,4 +1,6 @@
-## 20180510 线下活动
+## 2018-05-10 线下活动
+
+>参与人数: 20 人
 
 *Go 标准包阅读*
 
@@ -168,7 +170,7 @@ func (as *asciiSet) contains(c byte) bool {
 var asciiSpace = [256]uint8{'\t': 1, '\n': 1, '\v': 1, '\f': 1, '\r': 1, ' ': 1}
 ```
 
-## 参考资料
+## 延伸阅读
 
 1. [~~**大家一定要看这一篇文章：Rabin-Karp 算法（字符串快速查找）**~~](http://www.cnblogs.com/golove/p/3234673.html)
 2. [primes-16777619](https://primes.utm.edu/curios/page.php/16777619.html)

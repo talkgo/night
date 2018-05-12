@@ -1,8 +1,10 @@
 # 2018-03-21 线下分享内容
 
+>参与人数: 3 人
+
 ## cannot take address of temporary variables
 
-参考资料：
+## 延伸阅读
 
 - [https://stackoverflow.com/questions/10535743/address-of-a-temporary-in-go](https://stackoverflow.com/questions/10535743/address-of-a-temporary-in-go)
 - [https://stackoverflow.com/questions/40926479/take-the-address-of-a-character-in-string](https://stackoverflow.com/questions/40926479/take-the-address-of-a-character-in-string)
@@ -23,5 +25,3 @@ Teleport 是一个通用、高效、灵活的Socket框架。
 - Calendar
 - CoarseTime
 - ...
-
-其他更多，可以点击进入
