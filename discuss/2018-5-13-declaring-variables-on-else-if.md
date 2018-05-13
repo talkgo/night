@@ -7,6 +7,8 @@
 推文地址:
 [https://twitter.com/davidcrawshaw/status/994614426064928770](https://twitter.com/davidcrawshaw/status/994614426064928770)
 
+![ifelsetwitter.png](/images/ifelsetwitter.png)
+
 原博文代码如下, [点击在  play 里运行](https://play.golang.org/p/1tD1C6sOxcV):
 
 ```go
@@ -22,11 +24,10 @@ func main() {
 	} else if c := 3; false {
 
 	} else {
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c) // 结果: 1 2 3
 	}
 }
 
-// 结果: 1 2 3
 ```
 
 所以, 就扩展一下如下这种方式:
@@ -45,17 +46,11 @@ func main() {
 		cc := 33
 	} else {
 		fmt.Println(a, b, c)
-		fmt.Println(aa, bb, cc)
+		fmt.Println(aa, bb, cc) // 结果: undefined aa bb cc
 	}
 }
 
-// 结果: 
-// # command-line-arguments
-// other if-else.go:14:15: undefined: aa
-// other if-else.go:14:19: undefined: bb
-// other if-else.go:14:23: undefined: cc
-
-```  
+```
 
 再尝试如下这种方式:
 
@@ -70,12 +65,9 @@ func main() {
 	} else {
 		fmt.Println("not x")
 	}
-	fmt.Println(x)
+	fmt.Println(x) // 结果: other if-else.go:11:14: undefined: x
 }
 
-// 结果: 
-// # command-line-arguments
-// other if-else.go:11:14: undefined: x
 ```
 
 脑洞再大点:
@@ -87,9 +79,9 @@ import "fmt"
 
 func main() {
 	if a := 1; false {
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c) // undefined: b, c
 	} else if b := 2; false {
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c) // undefined: c
 	} else if c := 3; false {
 		fmt.Println(a, b, c)
 	} else {
@@ -97,11 +89,6 @@ func main() {
 	}
 }
 
-// 结果:
-// # command-line-arguments
-// other\if-else.go:7:18: undefined: b
-// other\if-else.go:7:21: undefined: c
-// other\if-else.go:9:21: undefined: c
 ```
 
 合理的猜测: 
@@ -119,25 +106,17 @@ func main() {
 
 	} else {
 		if a := 11; true {
-			fmt.Println(a, b, c)
+			fmt.Println(a, b, c) // 11 2 3
 		}
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c) // 1 2 3
 	}
 }
 
-// 结果:
-// 11 2 3
-// 1 2 3
-
 ```
 
-所以可以得出一个初步的结论: 
+所以可以得出一个初步的结论:
 
 **只有 if/else-if 条件表达式里的变量声明作用域才会向下到达最后 `else` 内部, 显而易见的不能向上作用, 作用域范围仅限于本级, 不影响正常的变量作用范围以及屏蔽作用.**
-
-另外推荐一下这位博主的博客地址, 有不少跟 `Golang` 相关的:
-
-[https://crawshaw.io/](https://crawshaw.io/)
 
 ## 二. 这么做有什么好处和坏处?
 
