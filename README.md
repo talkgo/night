@@ -43,5 +43,6 @@
 
 1. [2018-05-08 Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
 2. [2018-05-09 调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
+3. [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-5-13-declaring-variables-on-else-if.md)
 
 ## 3. 大咖技术分享
