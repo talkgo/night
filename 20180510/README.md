@@ -138,6 +138,7 @@ time.Sleep()的实现函数在runtime包的time.go
 ![unexport04](../images/unexport04.png)
 ![unexport05](../images/unexport05.png)
 
+更多相关知识，大家可点击：[突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 
 - (i+16)/8 这个16，8是什么意思？怎么解读这个逻辑的呢？
 
