@@ -31,6 +31,11 @@
 
 # Go 夜读内容汇总
 
+## 0. 下期预告
+
+1. [2018-05-17-(strings/strings.go【剩余 50%】)])
+2. [2018-05-24-开始 net/http 网络包]
+
 ## 1. 往期回顾
 
 1. [2018-03-21-(cannot take address of temporary variables|telport|goutil|neochain)](./20180321/README.md)
@@ -46,3 +51,6 @@
 3. [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
 
 ## 3. 大咖技术分享
+
+1. 深度分析讲解 Boyer-Moore 和 Rabin-Karp 算法(征集算法讲师)
+
