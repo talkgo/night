@@ -29,6 +29,10 @@
 
 ----
 
+# Go 入门
+
+大家可以前往：[Go 学习之路](https://github.com/developer-learning/learning-golang)
+
 # Go 夜读内容汇总
 
 ## 0. 下期预告
