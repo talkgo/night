@@ -1,9 +1,11 @@
-## 2018-05-09
+## 2018-05-16
 
 来源：《Go 夜读》微信群
-时间：2018-05-09
+时间：2018-05-16
 
-[Go 学习之路](https://github.com/developer-learning/learning-golang)
+----
+
+>推荐新手先看一看[Go 学习之路](https://github.com/developer-learning/learning-golang)
 
 ## 1. 有没有适合小白看的项目？（没有底层语言基础）
 
