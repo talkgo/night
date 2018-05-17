@@ -43,8 +43,7 @@
 
 ## 0. 下期预告
 
-1. [2018-05-17-(strings/strings.go【剩余 50%】)])
-2. [2018-05-24-开始 net/http 网络包]
+1. [2018-05-24-开始 net/http 网络包]
 
 ## 1. 往期回顾
 
@@ -53,6 +52,7 @@
 3. [2018-04-18-(strings/builder.go|strings/compare.go|strings/reader.go)](./20180418/README.md)
 4. [2018-04-25-(strings/replace.go)|strings/search.go](./20180425/README.md)
 5. [2018-05-10-(strings/strings.go 系列一)](./20180510/README.md)
+6. [2018-05-17-(strings/strings.go 系列二)](./20180517/README.md)
 
 ## 2. 日常讨论总结
 
