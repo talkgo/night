@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go)  [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE) [![Release](https://img.shields.io/github/release/developer-learning/night-reading-go.svg?label=Release)](https://github.com/developer-learning/night-reading-go/releases) [![star this repo](http://githubbadges.com/star.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go) [![fork this repo](http://githubbadges.com/fork.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go/fork)
 
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
+
 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
 
 >阅读计划：Go 标准包、开源项目源代码。
@@ -23,9 +27,9 @@
 
 ## 2. 日常讨论总结
 
-1. [2018-05-08 Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
-2. [2018-05-09 调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
-3. [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
+- [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
+- [2018-05-09 调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
+- [2018-05-08 Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
 
 ## 3. 深度剖析
 
@@ -59,8 +63,3 @@
 
 - 深圳市南山区桂庙路口向南瑞峰创业中心B座3079（南山地铁站E1出口，然后往前走 50 米）
 - 欢迎更多场地赞助公司（给其他人参与的机会）。
-
-
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
