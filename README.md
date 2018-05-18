@@ -6,6 +6,8 @@
 
 [![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
 
+[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=night-reading-go)
+
 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
 
 >阅读计划：Go 标准包、开源项目源代码。
