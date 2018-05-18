@@ -94,7 +94,7 @@ func OnesCount64(x uint64) int {
 
 另外一个文档解释的非常清楚：[Efficient_implementation](https://www.wikiwand.com/en/Hamming_weight#/Efficient_implementation)
 
-强烈推荐阅读：
+强烈推荐阅读(只能用于学习查阅，请勿分享传播，如有侵权，请联系我)：
 
 - **[《Hacker's Delit》](../docs/Hacker's-Delight-2nd-Edition.pdf)**
 - [算法心得：高效算法的奥秘（中文第2版）](../docs/算法心得：高效算法的奥秘（中文第2版）.pdf)
