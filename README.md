@@ -16,7 +16,7 @@
 
 ## 0. 下期预告
 
-- **2018-05-24 [faygo](https://github.com/henrylee2cn/faygo) 作者 henrylee2cn 开始主讲 net/http 包**
+- **2018-05-24 [知名爬虫项目 - pholcus](https://github.com/henrylee2cn/pholcus)、[faygo](https://github.com/henrylee2cn/faygo) 作者 henrylee2cn 开始主讲 net/http 包**
 
 ## 1. 往期回顾
 
