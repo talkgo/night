@@ -29,7 +29,7 @@
 
 ## 2. 日常讨论总结
 
-- [2018-05-21 goroutine 作用域问题讨论](./discuss/2018-05-21-goroutine-range.md)
+- [2018-05-21 在循环迭代值在 goroutine 中的使用等问题讨论](./discuss/2018-05-21-using-goroutines-on-loop-iterator-variables.md)
 - [2018-05-18 bitset 实现和循环导入问题讨论](./discuss/2018-05-18-bitset-and-import-cycle-not-allowed.md)
 - [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
 - [Go Vendor && GOPATH 讨论](./discuss/2018-05-10-which-vendor-tool.md)
