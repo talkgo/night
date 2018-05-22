@@ -29,6 +29,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-05-21 goroutine 作用域问题讨论](./discuss/2018-05-21-goroutine-range.md)
 - [2018-05-18 bitset 实现和循环导入问题讨论](./discuss/2018-05-18-bitset-and-import-cycle-not-allowed.md)
 - [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
 - [Go Vendor && GOPATH 讨论](./discuss/2018-05-10-which-vendor-tool.md)
@@ -38,10 +39,11 @@
 ## 3. 深度剖析
 
 1. 深度剖析 Boyer-Moore 和 Rabin-Karp 等字符串搜索算法。
+2. 深度剖析 bitset 。
 
 ## 4. 大咖技术分享
 
-有兴趣的可以联系我。
+有兴趣的可以联系我，并且提供你要分享的话题。
 
 ----
 
@@ -61,9 +63,8 @@
 
 ## 怎么加入
 
-目前微信群已经超过 100 人，请微信搜索 mai_yang ，然后备注你的姓名、公司、来源：Github。
+目前微信群已经超过 100 人，请微信搜索 mai_yang ，然后备注你的姓名、公司、工作职责，来源：Github。
 
 ## 地点
 
 - 深圳市南山区桂庙路口向南瑞峰创业中心B座3079（南山地铁站E1出口，然后往前走 50 米）
-- 欢迎更多场地赞助公司（给其他人参与的机会）。
