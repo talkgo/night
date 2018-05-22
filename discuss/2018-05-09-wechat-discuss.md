@@ -1,4 +1,4 @@
-## 2018-05-09
+﻿## 2018-05-09
 
 来源：《Go 夜读》微信群
 时间：2018-05-09
@@ -56,13 +56,22 @@ func init() {
 
 2. 
 
+<del>
+
 ```go
-var x string
+var x string 
 func init()(err error) {
     x, err = getValue()
 }
 ```
+</del>
 
+以上代码是 **错误** 的，Go 语言中 main() 和 init() 函数都不能有返回值，否则编译会报错：
+
+```
+func init must have no arguments and no return values
+func main must have no arguments and no return values
+```
 ## 参考资料
 
 1. [Go 开发工具](https://github.com/yangwenmai/learning-golang#go-开发工具)

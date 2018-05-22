@@ -1,5 +1,7 @@
 # 2018-04-11 线下分享内容
 
+>参与人数: 9 人
+
 >微服务相关的开源项目，直接根据 Github 讲解，三个相关的项目链接如下:
 
 - [teleport是socket框架](https://github.com/henrylee2cn/teleport)

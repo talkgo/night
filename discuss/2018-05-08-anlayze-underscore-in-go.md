@@ -231,7 +231,7 @@ var _ ResponseWriter = &responseWriter{}
 
 更多源码，点击前往:[gin/response_writer.go](https://github.com/gin-gonic/gin/blob/master/response_writer.go#L48:7)
 
-## 参考资料
+## 延伸阅读
 
 1. [https://stackoverflow.com/questions/38548911/is-it-necessary-to-early-bounds-check-to-guarantee-safety-of-writes-in-golang](https://stackoverflow.com/questions/38548911/is-it-necessary-to-early-bounds-check-to-guarantee-safety-of-writes-in-golang)
 2. [Bounds Checking Elimination](https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit#)

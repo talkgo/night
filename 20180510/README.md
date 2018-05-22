@@ -1,4 +1,6 @@
-## 20180510 线下活动
+## 2018-05-10 线下活动
+
+>参与人数: 20 人
 
 *Go 标准包阅读*
 
@@ -25,25 +27,35 @@ Rabin-Karp 算法的思想：
 - 16777619 为什么是这个值？ RK, FNV 算法
 	16777619 = (2^24 + 403))
 - len 计算问题？是否是每次都会计算，直接拿值，不需要单独计算的；
-- len 与 runtime 包里面的某些实现的有何区别？
 
-len(string) 的获取string的长度问题。涉及到 string 的结构问题
-在runtime/strings.go 中可以看到 对应的string结构
-```
+**`len(string)` 的获取 string 的长度问题：**
+
+>涉及到 string 的结构问题。
+
+在runtime/strings.go 中可以看到对应的 string 结构：
+
+```go
 type stringStruct struct {
 	str unsafe.Pointer
 	len int
 }
-可以得到在求string的长度的时候，实际上是直接获取值。
+```
+
+可以得到在求 string 的长度的时候，实际上是直接获取值。
 
 在 slice 的结构体中
+
+```go
 type slice struct {
 	array unsafe.Pointer
 	len   int
 	cap   int
 }
-Len 方法 跟len 长度走。
+```
 
+Len 方法跟 len 长度走。
+
+```go
 type hmap struct {
 	// Note: the format of the Hmap is encoded in ../../cmd/internal/gc/reflect.go and
 	// ../reflect/type.go. Don't change this structure without also changing that code!
@@ -59,10 +71,11 @@ type hmap struct {
 
 	extra *mapextra // optional fields
 }
+```
 
 在map的结构体重 有个 count 的统计 map 的内部数量。
 
-```
+- len 与 runtime 包里面的某些实现的有何区别？
 
 func IndexByte(s string, c byte) int // ../runtime/asm_$GOARCH.s）
 
@@ -125,6 +138,7 @@ time.Sleep()的实现函数在runtime包的time.go
 ![unexport04](../images/unexport04.png)
 ![unexport05](../images/unexport05.png)
 
+更多相关知识，大家可点击：[突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 
 - (i+16)/8 这个16，8是什么意思？怎么解读这个逻辑的呢？
 
@@ -157,7 +171,7 @@ func (as *asciiSet) contains(c byte) bool {
 var asciiSpace = [256]uint8{'\t': 1, '\n': 1, '\v': 1, '\f': 1, '\r': 1, ' ': 1}
 ```
 
-## 参考资料
+## 延伸阅读
 
 1. [~~**大家一定要看这一篇文章：Rabin-Karp 算法（字符串快速查找）**~~](http://www.cnblogs.com/golove/p/3234673.html)
 2. [primes-16777619](https://primes.utm.edu/curios/page.php/16777619.html)
@@ -167,3 +181,4 @@ var asciiSpace = [256]uint8{'\t': 1, '\n': 1, '\v': 1, '\f': 1, '\r': 1, ' ': 1}
 7. [字符串查找算法（二）](http://blog.cyeam.com/golang/2015/01/15/go_index)
 8. [突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 9. [How to call private functions (bind to hidden symbols) in GoLang](https://sitano.github.io/2016/04/28/golang-private/)
+10. [《深入解析 Go 之基本类型-字符串》](https://github.com/tiancaiamao/go-internals/blob/master/zh/02.1.md#字符串)

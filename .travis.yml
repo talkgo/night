@@ -1,0 +1,32 @@
+language: go
+sudo: false
+
+notifications:
+  email:
+    recipients:
+      - <no value>
+  on_success: change
+  on_failure: always
+
+go:
+  - 1.10.1
+
+install:
+  - go get github.com/go-playground/overalls
+  - go get github.com/mattn/goveralls
+  - go get github.com/smartystreets/goconvey
+  - mkdir -p $GOPATH/src/github.com/developer-learning
+  - cd $GOPATH/src/github.com/developer-learning/night-reading-go
+
+script:
+    - overalls -project=github.com/developer-learning/night-reading-go -covermode=count -ignore='.git,_vendor'
+    - goveralls -coverprofile=overalls.coverprofile -service=travis-ci -repotoken $COVERALLS_TOKEN
+    - go test -race -coverprofile=coverage.txt -covermode=atomic
+    - go test ./...
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+env:
+  global:
+    secure: "xxx"
