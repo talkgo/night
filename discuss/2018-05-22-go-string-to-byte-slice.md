@@ -9,7 +9,7 @@ pb:=&b
 s+="4"
 *ps+="5"
 (*pb)[1] = 0
-(*pb)[1] = 4
+(*pb)[2] = 4
 
 fmt.Printf("%+v\n",*ps)
 fmt.Printf("%+v\n",*pb)

@@ -29,6 +29,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-05-22 字符串转字节切片的问题讨论](./discuss/2018-05-22-go-string-to-byte-slice.md)
 - [2018-05-21 在循环迭代值在 goroutine 中的使用等问题讨论](./discuss/2018-05-21-using-goroutines-on-loop-iterator-variables.md)
 - [2018-05-18 bitset 实现和循环导入问题讨论](./discuss/2018-05-18-bitset-and-import-cycle-not-allowed.md)
 - [2018-05-13 变量的作用域是贯穿整个 if-else-if 的](./discuss/2018-05-13-declaring-variables-on-if-else.md)
