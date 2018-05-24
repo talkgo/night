@@ -18,10 +18,11 @@
 
 ## 0. 下期预告
 
-- **2018-05-24 [知名爬虫项目 - pholcus](https://github.com/henrylee2cn/pholcus)、[faygo](https://github.com/henrylee2cn/faygo) 作者 henrylee2cn 开始主讲 net/http 包**
+- **2018-05-31 [知名爬虫项目 - pholcus](https://github.com/henrylee2cn/pholcus)、[faygo](https://github.com/henrylee2cn/faygo) 作者 henrylee2cn 开始主讲 net/http 包**
 
 ## 1. 往期回顾
 
+- [2018-05-17-(net/http/server.go 系列一)](./20180524/README.md)
 - [2018-05-17-(strings/strings.go 系列二)](./20180517/README.md)
 - [2018-05-10-(strings/strings.go 系列一)](./20180510/README.md)
 - [2018-04-25-(strings/replace.go)|strings/search.go](./20180425/README.md)
