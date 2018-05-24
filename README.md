@@ -14,6 +14,8 @@
 
 ----
 
+## [Go 夜读 YouTube 视频回放](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q)
+
 ## 0. 下期预告
 
 - **2018-05-24 [知名爬虫项目 - pholcus](https://github.com/henrylee2cn/pholcus)、[faygo](https://github.com/henrylee2cn/faygo) 作者 henrylee2cn 开始主讲 net/http 包**
