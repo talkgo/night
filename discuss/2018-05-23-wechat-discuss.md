@@ -27,9 +27,9 @@ func (e ExecuterList) Get(key string) IExecuter {
 }
 ```
 
-使用 `go tool vet` ，会死锁，因为传递了锁。
+使用 `go tool vet` ，出现“Get passes lock by value: ExecuterList contains sync.Map contains sync.Mutex”， 解决方案有两种：。
 
-用指针
+1，sync.Map用指针
 
 ```go
 type X struct {
@@ -37,9 +37,9 @@ type X struct {
 }
 ```
 
-也可以用 `(e *ExecutorList)` ,避免锁的复制。
+2， 也可以用 `(e *ExecutorList)` ,避免锁的复制。
 
-为什么会死锁呢？
+为什么会失效呢？
 
 >因为你每次操作都复制了一遍整个struct，当然也复制了Map里面的Mutex，多线程同时读写时Map里面的锁相当于失效了。理解这个你需要知道的知识点有两个，一是go的参数都是值传递，二是只有用同一把锁才能对某个资源边界进行锁与解锁的操作。
 
