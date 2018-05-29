@@ -53,3 +53,4 @@ dlv debug 一下，运行顺序是一样的，是不是 golang 的 bug 呢？
 2. [容器环境下 go 服务性能诊断方案设计与实现](https://mp.weixin.qq.com/s/cn1q0OoJ61cs5mN9Od3dqg)
 3. [Golang 逃逸分析](https://sheepbao.github.io/post/golang_escape_analysis/)
 4. [spec: order of evaluation of variables in return statement is not determined](https://github.com/golang/go/issues/25609)
+5. [spec: Order_of_evaluation](https://golang.org/ref/spec#Order_of_evaluation)
