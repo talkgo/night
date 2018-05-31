@@ -18,10 +18,11 @@
 
 ## 0. 下期预告
 
-- **2018-05-31 net/http/server.go**
+- **2018-06-07 net/http/server.go**
 
 ## 1. 往期回顾
 
+- [2018-05-31-(net/http/server.go 系列二)](./20180531/README.md)
 - [2018-05-24-(net/http/server.go 系列一)](./20180524/README.md)
 - [2018-05-17-(strings/strings.go 系列二)](./20180517/README.md)
 - [2018-05-10-(strings/strings.go 系列一)](./20180510/README.md)
