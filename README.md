@@ -22,8 +22,6 @@
 
 ## 1. 往期回顾
 
->[查看更多](./reading/README.md)
-
 | 源码总结 | YouTube |
 |:----|:----|
 | [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
@@ -35,9 +33,9 @@
 | [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md) | |
 | [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) | |
 
-## 2. 日常讨论总结
+>[查看更多](./reading/README.md)
 
->[查看更多](./discuss/README.md)
+## 2. 日常讨论总结
 
 - [2018-05-28 Go 语言中 CPU 和内存分析的问题讨论](./discuss/2018-05-28-pprof-in-go.md)
 - [2018-05-23 锁失效和RPC框架选择的问题讨论](./discuss/2018-05-23-wechat-discuss.md)
@@ -48,6 +46,8 @@
 - [Go Vendor && GOPATH 讨论](./discuss/2018-05-10-which-vendor-tool.md)
 - [2018-05-09 调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
 - [2018-05-08 Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
+
+>[查看更多](./discuss/README.md)
 
 ## 3. 技术分析总结
 
@@ -62,7 +62,7 @@
 
 有兴趣的可以联系我，并且提供你要分享的话题。
 
-[其他](./other/README.md)
+[其他更多](./other/README.md)
 
 ----
 
