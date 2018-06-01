@@ -24,14 +24,16 @@
 
 | 源码总结 | YouTube |
 |:----|:----|
-| [2018-05-31-(net/http/server.go 系列二)](./20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
-| [2018-05-24-(net/http/server.go 系列一)](./20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ)
-| [2018-05-17-(strings/strings.go 系列二)](./20180517/README.md)||
-| [2018-05-10-(strings/strings.go 系列一)](./20180510/README.md)||
-| [2018-04-25-(strings/replace.go)、strings/search.go](./20180425/README.md)||
-| [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./20180418/README.md) ||
-| [2018-04-11-(telport、tp-micro、ants)](./20180411/README.md) | |
-| [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./20180321/README.md) | |
+| [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
+| [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ)
+| [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md)||
+| [2018-05-10-(strings/strings.go 系列一)](./reading/20180510/README.md)||
+| [2018-04-25-(strings/replace.go)、strings/search.go](./reading/20180425/README.md)||
+| [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./reading/20180418/README.md) ||
+| [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md) | |
+| [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) | |
+
+>[查看更多](./reading/README.md)
 
 ## 2. 日常讨论总结
 
@@ -45,14 +47,22 @@
 - [2018-05-09 调试-开发工具-赋值:=和=的差别-变量作用域等等](./discuss/2018-05-09-wechat-discuss.md)
 - [2018-05-08 Go 语言中下划线的分析总结](./discuss/2018-05-08-anlayze-underscore-in-go.md)
 
-## 3. 深度剖析
+>[查看更多](./discuss/README.md)
+
+## 3. 技术分析总结
+
+>[查看更多](./articles/README.md)
+
+## 4. 深度剖析
 
 1. 深度剖析 Boyer-Moore 和 Rabin-Karp 等字符串搜索算法。
 2. 深度剖析 bitset 。
 
-## 4. 大咖技术分享
+## 5. 大咖技术分享
 
 有兴趣的可以联系我，并且提供你要分享的话题。
+
+[其他更多](./other/README.md)
 
 ----
 
