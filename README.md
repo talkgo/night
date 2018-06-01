@@ -51,6 +51,8 @@
 
 ## 3. 技术分析总结
 
+- [2018-05-31 批量删除redis key](./articles/2018-05-31_batch-del-redis-key.md)
+
 >[查看更多](./articles/README.md)
 
 ## 4. 深度剖析
