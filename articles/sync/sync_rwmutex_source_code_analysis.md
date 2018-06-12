@@ -1,3 +1,5 @@
+# sync.RWMutex源码分析
+
 针对Golang 1.9的sync.RWMutex进行分析，与Golang 1.10基本一样除了将`panic`改为了`throw`之外其他的都一样。  
 RWMutex是读写互斥锁。锁可以由任意数量的读取器或单个写入器来保持。
 RWMutex的零值是一个解锁的互斥锁。  
