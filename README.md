@@ -18,12 +18,13 @@
 
 ## 0. 下期预告
 
-- **2018-06-07 net/http/server.go**
+- **2018-06-21 net/http**
 
 ## 1. 往期回顾
 
 | 源码总结 | YouTube |
 |:----|:----|
+| [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md) | 无
 | [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
 | [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ)
 | [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md)||
@@ -37,6 +38,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-06-07 tcp连接设置timeout的问题讨论](./discuss/2018-06-07-dial-timeout-in-go.md)
 - [2018-05-28 Go 语言中 CPU 和内存分析的问题讨论](./discuss/2018-05-28-pprof-in-go.md)
 - [2018-05-23 锁失效和RPC框架选择的问题讨论](./discuss/2018-05-23-wechat-discuss.md)
 - [2018-05-22 字符串转字节切片的问题讨论](./discuss/2018-05-22-go-string-to-byte-slice.md)
