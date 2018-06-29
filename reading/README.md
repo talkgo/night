@@ -2,6 +2,7 @@
 
 | 源码总结 | YouTube |
 |:----|:----|
+| [2018-06-28-(net/http/server.go,request.go和net/textproto/reader.go)](./20180614/README.md)| [https://www.youtube.com/watch?v=xodlVBWxTYM](https://www.youtube.com/watch?v=xodlVBWxTYM) |
 | [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./20180614/README.md) | 无
 | [2018-05-31-(net/http/server.go 系列二)](./20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
 | [2018-05-24-(net/http/server.go 系列一)](./20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ)
