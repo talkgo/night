@@ -39,6 +39,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-07-09 Go 中 make 和 new 的用法讨论](./discuss/2018-07-09-make-new-in-go.md)
 - [2018-07-04 关于包命名的讨论](./discuss/2018-07-04-package-names.md)
 - [2018-07-02 关于C1000k问题的讨论](./discuss/2018-07-02-c1000k-on-linux.md)
 - [2018-06-07 tcp连接设置timeout的问题讨论](./discuss/2018-06-07-dial-timeout-in-go.md)
