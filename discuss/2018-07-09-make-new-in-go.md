@@ -91,3 +91,6 @@ go 的逃逸分析决定了是分配到堆上还是栈上。
 
 * [Effective Go#allocation_new](https://golang.org/doc/effective_go.html#allocation_new)
 * [Effective Go#allocation_make](https://golang.org/doc/effective_go.html#allocation_make)
+* [Go 语言机制之逃逸分析（Language Mechanics On Escape Analysis）](https://studygolang.com/articles/12444)
+* [Go 的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
+* [Golang 变量逃逸分析小探](http://reusee.github.io/post/escape_analysis/)
