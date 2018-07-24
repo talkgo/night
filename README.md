@@ -16,9 +16,11 @@
 
 ## [Go 夜读 YouTube 视频回放](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q)
 
-## 0. 下期预告
+## 0. 预告
 
-- **2018-06-21 net/http**
+- **2018-07-26 Golang 代码质量持续检测实践**
+
+	本期线上报名地址：[https://zoom.us/meeting/register/38f594236dc9fdb87c24e00bf0acd2b8](https://zoom.us/meeting/register/38f594236dc9fdb87c24e00bf0acd2b8)
 
 ## 1. 往期回顾
 
@@ -58,6 +60,7 @@
 
 ## 3. 技术分析总结
 
+- [2018-07-22 Golang 代码持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
 - [2018-06-12 sync.Map源码分析](./articles/sync/sync_Map_source_code_analysis.md)
 - [2018-06-12 sync.RWMutex源码分析](./articles/sync/sync_rwmutex_source_code_analysis.md)
 - [2018-06-12 sync.WaitGroup源码分析](./articles/sync/sync_waitgroup_source_code_analysis.md)
