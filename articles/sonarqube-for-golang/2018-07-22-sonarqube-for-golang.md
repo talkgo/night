@@ -18,9 +18,11 @@
 
    ![7.48.39](images/01.png)
 
-* 主机科学上网代理 
+* 主机科学上网代理
 
    192.168.1.100:1087
+
+   ![10.03.05](images/44.png)
 
 * 模拟外网访问
 
@@ -28,6 +30,7 @@
    # 修改 hosts 文件，模拟外网访问
    sudo sh -c "echo '192.168.1.100 jenkins.kenny.com\n192.168.1.100 gitlab.kenny.com\n192.168.1.100 sonarqube.kenny.com' >> /etc/hosts"
    ```
+   ![10.04.09](images/45.png)
 
 * 工具集
 
@@ -49,7 +52,7 @@
 # $jenkins_home 宿主机目录，挂载容器 /var/jenkins_home
 # 我的数据卷目录是 ~/.jenkins
 export JENKINS_HOME=~/.jenkins
-docker run -d --restart=always -p 8080:8080 -p 50000:50000 -v $JENKINS_HOME:/var/jenkins_home --name jenkins jenkins
+docker run -d --restart=always -p 8080:8080 -p 50000:50000 -v $JENKINS_HOME:/var/jenkins_home --name jenkins jenkins:2.60.3
 
 # 查看 jenkins 日志
 docker logs -f jenkins
@@ -93,7 +96,7 @@ docker logs -f jenkins
 # $gitlab_home 宿主机目录
 # 我的数据卷目录是 ~/.gitlab
 export GITLAB_HOME=~/.gitlab
-docker run -d --restart=always -e 'GITLAB_HOST=gitlab.kenny.com' -p 443:443 -p 80:80 -p 22:22 -v $GITLAB_HOME/conf:/etc/gitlab -v $GITLAB_HOME:/var/opt/gitlab -v $GITLAB_HOME/log:/var/log/gitlab --name gitlab gitlab/gitlab-ce
+docker run -d --restart=always -e 'GITLAB_HOST=gitlab.kenny.com' -p 443:443 -p 80:80 -p 22:22 -v $GITLAB_HOME/conf:/etc/gitlab -v $GITLAB_HOME:/var/opt/gitlab -v $GITLAB_HOME/log:/var/log/gitlab --name gitlab gitlab/gitlab-ce:11.1.0-ce.0
 
 # 查看 gitlab 日志
 docker logs -f gitlab
@@ -166,7 +169,6 @@ export SONARQUBE_HOME=~/.sonarqube
 docker run -d --restart=always -p 9000:9000 -v $SONARQUBE_HOME:/opt/sonarqube/data --name sonarqube kennyallen/sonarqube:7.2.1
 
 # 查看 sonarqube 日志
-docker logs -f sonarqube
 ```
 
 ##### 初始化
@@ -210,6 +212,8 @@ docker logs -f sonarqube
    ![9.45.12](images/23.png)
    ![9.45.35](images/24.png)
 
+   ![10.19.06](images/46.png)
+
 ### Jenkins 配置
 
 1. 安装 SonarQube & JDK
@@ -218,7 +222,15 @@ docker logs -f sonarqube
 
    JDK 安装
 
+   ​	勾选我同意 Java SE Development Kit 的许可协议
+
+   ​	点击 Please enter your username/password
+
    ![11.31.38](images/25.png)
+
+   输入你的 oracle 账号密码
+
+   ![10.20.43](images/47.png)
 
    SonarQube Scanner 安装![11.32.15](images/26.png)
 
@@ -226,7 +238,7 @@ docker logs -f sonarqube
 
    进入 系统管理 -> 系统设置
 
-   找到 SonarQube servers
+   Add SonarQube servers
 
    Name 随便填写
 
@@ -284,7 +296,9 @@ docker logs -f sonarqube
 
    SMTP Server 填写对应的SMTP服务地址，如 smtp.163.com
 
-   勾选使用SMTP认证
+   点击高级，勾选使用SMTP认证
+
+   ![10.26.50](/Users/kenny/Desktop/10.26.50.png)
 
    用户名 注意不需要加 @xxx.xxx
 
@@ -305,6 +319,10 @@ docker logs -f sonarqube
 
 2. 使用自定义的工作空间
 
+   点击高级，勾选使用自定义的工作空间
+
+   ![10.28.20](images/49.png)
+
    目录：$JENKINS_HOME/workspace/go/src/gitlab.kenny.com/demo
 
    ![10.51.25](images/33.png)
@@ -313,7 +331,9 @@ docker logs -f sonarqube
 
    Repository URL：http://gitlab.kenny.com/sonarqube/demo.git
 
-   Credentials：Gitlab 用户名密码或 SSH登录等方式都可以![10.37.19](images/34.png)
+   Credentials：点击Add ，添加凭据 (Gitlab 用户名密码或 SSH登录等方式都可以)![10.37.19](images/34.png)
+
+   ![10.29.32](images/50.png)
 
 4. 构建触发器，选中 
 
