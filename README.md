@@ -60,7 +60,7 @@
 
 ## 3. 技术分析总结
 
-- [2018-07-22 Golang 代码持续检测实践](./articles/2018-07-22-sonarqube-for-golang.md)
+- [2018-07-22 Golang 代码持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
 - [2018-06-12 sync.Map源码分析](./articles/sync/sync_Map_source_code_analysis.md)
 - [2018-06-12 sync.RWMutex源码分析](./articles/sync/sync_rwmutex_source_code_analysis.md)
 - [2018-06-12 sync.WaitGroup源码分析](./articles/sync/sync_waitgroup_source_code_analysis.md)
