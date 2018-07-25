@@ -363,11 +363,11 @@ exec gosu sonarqube \
 
    点击高级，勾选使用SMTP认证
 
-   ![10.26.50](/Users/kenny/Desktop/10.26.50.png)
-
    用户名 注意不需要加 @xxx.xxx
 
    密码     填写自己的邮箱密码或授权码
+
+   ![10.26.50](images/48.png)
 
    ![11.50.08](images/30.png)
 
@@ -394,7 +394,7 @@ exec gosu sonarqube \
 
 3. 源码管理
 
-   Repository URL：http://gitlab.kenny.com/sonarqube/demo.git
+   Repository URL：http://gitlab.kenny.com/sonarqube/demo
 
    Credentials：点击Add ，添加凭据 (Gitlab 用户名密码或 SSH登录等方式都可以)![10.37.19](images/34.png)
 
