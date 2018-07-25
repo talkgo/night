@@ -7,3 +7,7 @@
 - [2018-06-13 sync.Cond源码分析](./sync/sync_cond_source_code_analysis.md)
 - [2018-06-13 sync.Once源码分析](./sync/sync_once_source_code_analysis.md)
 - [2018-07-22 Golang 代码持续检测实践](./sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
+
+## 其他
+
+[Go 微服务框架比较](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)
