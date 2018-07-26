@@ -18,14 +18,12 @@
 
 ## 0. 预告
 
-- **2018-07-26 Golang 代码质量持续检测实践**
-
-	本期线上报名地址：[https://zoom.us/meeting/register/38f594236dc9fdb87c24e00bf0acd2b8](https://zoom.us/meeting/register/38f594236dc9fdb87c24e00bf0acd2b8)
 
 ## 1. 往期回顾
 
 | 源码总结 | YouTube |
 |:----|:----|
+| [2018-07-26 Golang 代码质量持续检测实践 | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
 | [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md)| [https://www.youtube.com/watch?v=xodlVBWxTYM](https://www.youtube.com/watch?v=xodlVBWxTYM) |
 | [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md) | 无
 | [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ)
