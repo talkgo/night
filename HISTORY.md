@@ -39,16 +39,13 @@
 
 ### 第三阶段
 
-1. 2018-07-22 发布了一篇文章，2018-07-24 得到了几个Go群的推广；
+1. 2018-07-22 发布了一篇文章《Golang 代码质量持续检测》，2018-07-24 得到了几个Go群的推广；
 2. 2018-07-24 上了 Trending ；
 3. 2018-07-24 微信群达到 333 人；
+4. 2018-07-26 Star 达到了 650 ；
 
 **Github Trending:**
 
 ![](./images/night-reading-go-github-trending_20180724203600.png)
 
-----
-
-**微信群：**
-
-![](./images/2018-07-24-night-reading-go-wechat-16-23.png)
+![](./images/night-reading-go-github-trending_20180726204300.png)
