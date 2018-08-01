@@ -16,25 +16,17 @@
       "profile": "https://maiyang.me",
       "contributions": [
         "code",
-        "blog",
         "bug",
         "design",
-        "doc",
-        "eventOrganizing",
         "example",
-        "fundingFinding",
         "ideas",
-        "platform",
         "question",
         "review",
         "talk",
-        "test",
-        "tool",
-        "translation",
         "tutorial",
         "video",
-        "infra",
-        "financial"
+        "financial",
+        "translation"
       ]
     },
     {
