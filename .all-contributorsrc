@@ -15,7 +15,26 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
       "profile": "https://maiyang.me",
       "contributions": [
-        "code"
+        "code",
+        "blog",
+        "bug",
+        "design",
+        "doc",
+        "eventOrganizing",
+        "example",
+        "fundingFinding",
+        "ideas",
+        "platform",
+        "question",
+        "review",
+        "talk",
+        "test",
+        "tool",
+        "translation",
+        "tutorial",
+        "video",
+        "infra",
+        "financial"
       ]
     },
     {
