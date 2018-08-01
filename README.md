@@ -1,6 +1,5 @@
 # Go 夜读
-
-[![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go)  [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE) [![Release](https://img.shields.io/github/release/developer-learning/night-reading-go.svg?label=Release)](https://github.com/developer-learning/night-reading-go/releases) [![star this repo](http://githubbadges.com/star.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go) [![fork this repo](http://githubbadges.com/fork.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go/fork)
+[![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go)  [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE) [![Release](https://img.shields.io/github/release/developer-learning/night-reading-go.svg?label=Release)](https://github.com/developer-learning/night-reading-go/releases) [![star this repo](http://githubbadges.com/star.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go) [![fork this repo](http://githubbadges.com/fork.svg?user=developer-learning&repo=night-reading-go)](http://github.com/developer-learning/night-reading-go/fork) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## Stargazers over time
 
@@ -105,3 +104,15 @@
 ## 时间
 
 20：00~22：00
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/3869412?v=4" width="100px;"/><br /><sub><b>Jeroen Engels</b></sub>](https://github.com/jfmengels)<br />[📖](https://github.com/yangwenmai/night-reading-go/commits?author=jfmengels "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
