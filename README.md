@@ -109,13 +109,11 @@
 
 我非常重视每一个人对这个项目的贡献，我会将贡献者列表同步更新到这里，欢迎大家提交 PullRequest 给我。
 
->贡献范围包括 [emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)，。
-
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/1710912?v=4" width="100px;"/><br /><sub><b>maiyang</b></sub>](https://maiyang.me)<br />[💻](https://github.com/yangwenmai/night-reading-go/commits?author=yangwenmai "Code") [📝](#blog-yangwenmai "Blogposts") |
+| [<img src="https://avatars3.githubusercontent.com/u/1710912?v=4" width="100px;"/><br /><sub><b>maiyang</b></sub>](https://maiyang.me)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=yangwenmai "Code") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

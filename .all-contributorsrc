@@ -1,6 +1,6 @@
 {
   "projectName": "night-reading-go",
-  "projectOwner": "yangwenmai",
+  "projectOwner": "developer-learning",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -15,8 +15,7 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
       "profile": "https://maiyang.me",
       "contributions": [
-        "code",
-        "blog"
+        "code"
       ]
     }
   ]
