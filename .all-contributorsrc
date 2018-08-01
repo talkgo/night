@@ -10,12 +10,13 @@
   "commit": true,
   "contributors": [
     {
-      "login": "jfmengels",
-      "name": "Jeroen Engels",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/3869412?v=4",
-      "profile": "https://github.com/jfmengels",
+      "login": "yangwenmai",
+      "name": "maiyang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
+      "profile": "https://maiyang.me",
       "contributions": [
-        "doc"
+        "code",
+        "blog"
       ]
     }
   ]
