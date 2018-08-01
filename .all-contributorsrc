@@ -19,15 +19,6 @@
       ]
     },
     {
-      "login": "mougeCM",
-      "name": "Simple Min",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/16773339?v=4",
-      "profile": "https://github.com/mougeCM",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "yuhao5",
       "name": "kenny",
       "avatar_url": "https://avatars3.githubusercontent.com/u/35653599?v=4",
@@ -131,6 +122,15 @@
       "name": "Huang ChuanTong",
       "avatar_url": "https://avatars3.githubusercontent.com/u/416141?v=4",
       "profile": "http://toontong.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mougeCM",
+      "name": "Simple Min",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16773339?v=4",
+      "profile": "https://github.com/mougeCM",
       "contributions": [
         "code"
       ]
