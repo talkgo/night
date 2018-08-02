@@ -6,7 +6,7 @@
 
 ----
 
-## 问题1：println与fmt.Println有何猫腻？
+## 问题1：println与fmt.Println同时使用会发生什么？
   下面2个输出语句代码，哪一行先输出
 ```go
 package main
