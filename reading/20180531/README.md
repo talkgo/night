@@ -29,7 +29,7 @@ func (s *Server) doKeepAlives() bool {
 3. 	panicChan := make(chan interface{}, 1)
 
 ```go
-panicChan := make(chan interface{}, 1)
+	panicChan := make(chan interface{}, 1)
 	go func() {
 		defer func() {
 			if p := recover(); p != nil {
