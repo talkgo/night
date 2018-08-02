@@ -22,6 +22,7 @@
 
 | 源码总结 | YouTube |
 |:----|:----|
+| [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md)| |
 | [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md) | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
 | [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md)| [https://youtu.be/xodlVBWxTYM](https://youtu.be/xodlVBWxTYM) |
 | [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md) | 无
