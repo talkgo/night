@@ -19,7 +19,7 @@ _1.select是随机的还是顺序的？_
 _2.Go语言局部变量分配在栈还是堆？_
 
 > Go语言编译器会自动决定把一个变量放在栈还是放在堆，编译器会做`逃逸分析`，当发现变量的作用域没有跑出函数范围，就可以在栈上，反之则必须分配在堆。
-
+>
 > [查看资料](https://www.jianshu.com/p/4e3478e9d252)
 
 _3.简述一下你对Go垃圾回收机制的理解？_
@@ -28,7 +28,7 @@ _3.简述一下你对Go垃圾回收机制的理解？_
 > v1.3 Mark STW, Sweep 并行        
 > v1.5 三色标记法         
 > v1.8 hybrid write barrier(混合写屏障：优化STW)       
-
+>
 > [Golang垃圾回收剖析](http://legendtkl.com/2017/04/28/golang-gc/)
 
 #### DB相关
@@ -41,55 +41,57 @@ _1.Mysql事物的隔离级别?_
 | 读已提交（read-committed） | 否 | 是 | 是 |
 | 可重复读（repeatable-read） | 否 | 否 | 是 |
 | 串行化（serializable） | 否 | 否 | 否 |
-
+>
 > [相关资料](https://www.cnblogs.com/huanongying/p/7021555.html)
 
-**2.Innodb和Myisam的区别？**
+_2.Innodb和Myisam的区别？_
 
 > Innodb支持事务，而Myisam不支持事务        
 > Innodb支持行级锁，而Myisam支持表级锁        
 > Innodb支持外键，而Myisam不支持       
 > Innodb不支持全文索引，而Myisam支持          
-> Innodb是索引组织表， Myisam是堆表`https://blog.csdn.net/nuli888/article/details/52443011`          
+> Innodb是索引组织表， Myisam是堆表
+>
+> [相关资料](https://blog.csdn.net/nuli888/article/details/52443011)         
 
-**3.Mysql慢响应默认时间?**
+_3.Mysql慢响应默认时间?_
 
 > `10s`         
 
-**4.Explain的含义?**
+_4.Explain的含义?_
 
 > explain显示了mysql如何使用索引来处理select语句以及连接表。可以帮助
 选择更好的索引和写出更优化的查询语句。        
 
-**5.Profile的意义以及使用场景?**
+_5.Profile的意义以及使用场景?_
 
 > Profile用来分析SQL性能的消耗分布情况。当用explain无法解决慢SQL的时
 候，需要用profile来对SQL进行更细致的分析，找出SQL所花的时间大部分消耗在
 哪个部分，确认SQL的性能瓶颈。        
 
-**6.Redis的过期失效机制？**
+_6.Redis的过期失效机制？_
 
 > `scan`扫描+给每个key存储过期时间戳
 
-**7.Redis持久化方案aof的默认fsync时间是多长？**
+_7.Redis持久化方案aof的默认fsync时间是多长？_
 
 > `1s`     
 
-**8.Redis持久化方案rdb和aof的区别？**
+_8.Redis持久化方案rdb和aof的区别？_
 
-- [查看资料](https://juejin.im/post/5ab5f08e518825557f00dfac)
+> [查看资料](https://juejin.im/post/5ab5f08e518825557f00dfac)
 
-**9.Redis怎么查看延迟数据?（非业务操作）**
+_9.Redis怎么查看延迟数据?（非业务操作）_
 
-可以用redis-cli工具加--latency参数可以查看延迟时间
+> 可以用redis-cli工具加--latency参数可以查看延迟时间
 
-> `redis-cli --latency -h 127.0.0.1 -p 6379`
+>> `redis-cli --latency -h 127.0.0.1 -p 6379`
 
-使用slowlog查出引发延迟的慢命令
+> 使用slowlog查出引发延迟的慢命令
 
-> `slowlog get`       
+>> `slowlog get`       
 
-![](./images/slowlog.jpeg)
+> ![](./images/slowlog.jpeg)
 
 **10.Redis的集群怎么搭建？**
 
