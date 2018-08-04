@@ -1,5 +1,5 @@
 # 日常技术讨论总结
-
+- [2018-08-02 go调用shell脚本如何传递参数讨论](./2018-08-02-Go-shell.md)
 - [2018-07-14 包管理、GOPATH、go get命令讨论](./2018-07-14-version-gopath-go-command.md)
 - [2018-07-11 Go在32位系统中使用64位原子操作的坑](./2018-07-11-using_64bit_atomic_in_32bit_system.md)
 - [2018-07-09 Go 中 make 和 new 的用法讨论](./2018-07-09-make-new-in-go.md)
