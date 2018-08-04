@@ -17,6 +17,7 @@
 
 ## 0. 预告
 
+《Kubernetes 从入门到精通》，8月9日晚上20点不见不散。
 
 ## 1. 往期回顾
 
@@ -39,6 +40,9 @@
 
 ## 2. 日常讨论总结
 
+- [2018-08-02 Go 中执行 shell 指令](./discuss/2018-08-02-go-shell.md)
+- [2018-07-31 println与fmt.Println有何猫腻？](./discuss/2018-07-31-println-Println-add_context.md)
+- [2018-07-14 包版本管理？](./discuss/2018-07-14-version-gopath-go-command.md)
 - [2018-07-11 Go在32位系统中使用64位原子操作的坑](./discuss/2018-07-11-using_64bit_atomic_in_32bit_system.md)
 - [2018-07-09 Go 中 make 和 new 的用法讨论](./discuss/2018-07-09-make-new-in-go.md)
 - [2018-07-04 关于包命名的讨论](./discuss/2018-07-04-package-names.md)
@@ -105,6 +109,8 @@
 ## 时间
 
 20：00 ~ 22：00
+
+----
 
 ## 如何参与贡献？
 
