@@ -6,7 +6,7 @@
 时间：2018-08-02
 
 ----
-
+ 
 ## 问题: 如何批量发送apns消息推送
 
 先看下如何发送一条的apns.
@@ -86,7 +86,7 @@ for i := 0; i < *count; i++ {
 }
 
 ```
-
+ 
 ```go
 func worker(client *apns2.Client, notifications <-chan *apns2.Notification, responses chan<- *apns2.Response) {
     for n := range notifications {
