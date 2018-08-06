@@ -88,7 +88,7 @@
 
 ## 6. 面试题专区
 
-- [2018-08-03 面试总结](./interview/2018-08-03_interview_summary.md)
+- [2018-08-03 面试总结](./interview/2018-08-03_interview-summary.md)
 
 ## 我们的目标
 
