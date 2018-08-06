@@ -1,0 +1,168 @@
+{
+  "projectName": "night-reading-go",
+  "projectOwner": "developer-learning",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "yangwenmai",
+      "name": "maiyang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
+      "profile": "https://github.com/yangwenmai",
+      "contributions": [
+        "code",
+        "bug",
+        "design",
+        "example",
+        "ideas",
+        "question",
+        "review",
+        "talk",
+        "tutorial",
+        "video",
+        "financial",
+        "translation"
+      ]
+    },
+    {
+      "login": "mougeCM",
+      "name": "Simple Min",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16773339?v=4",
+      "profile": "https://github.com/mougeCM",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yuhao5",
+      "name": "kenny",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35653599?v=4",
+      "profile": "https://github.com/yuhao5",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "charnlsxy",
+      "name": "charnlsxy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13843868?v=4",
+      "profile": "https://github.com/charnlsxy",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AceDarkknight",
+      "name": "AceDarkknight",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11901298?v=4",
+      "profile": "https://github.com/AceDarkknight",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gnuos",
+      "name": "Data",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3014297?v=4",
+      "profile": "https://github.com/gnuos",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "KISSMonX",
+      "name": "侯名",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2876745?v=4",
+      "profile": "https://github.com/KISSMonX",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dumliu01",
+      "name": "dumliu01",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12060175?v=4",
+      "profile": "https://github.com/dumliu01",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hlily2005",
+      "name": "hlily2005",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1411282?v=4",
+      "profile": "https://github.com/hlily2005",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "fenggolang",
+      "name": "fenggolang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16982786?v=4",
+      "profile": "https://github.com/fenggolang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "henrylee2cn",
+      "name": "henrylee2cn",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10174178?v=4",
+      "profile": "https://github.com/henrylee2cn",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shaqsnake",
+      "name": "shaqsnake",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1336914?v=4",
+      "profile": "https://github.com/shaqsnake",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "TBWISK",
+      "name": "tbwisk",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5728787?v=4",
+      "profile": "https://github.com/TBWISK",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "toontong",
+      "name": "Huang ChuanTong",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/416141?v=4",
+      "profile": "https://github.com/toontong",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zhongxuan123",
+      "name": "The notes of SQL optimize ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10513552?v=4",
+      "profile": "https://github.com/zhongxuan123",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zhouxinxin19920802",
+      "name": "zhouxinxin19920802",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29008269?v=4",
+      "profile": "https://github.com/zhouxinxin19920802",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

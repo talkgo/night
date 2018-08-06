@@ -14,4 +14,6 @@
 .glide/
 .DS_Store
 
+.idea
+
 night-reading-go
