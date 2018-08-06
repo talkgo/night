@@ -1,28 +1,29 @@
-## 面试总结
+# 面试总结
 
 ### 面试岗位
 
-> _后端开发[Golang方向]_
++ _后端开发[Golang]_
 
-### Golang笔试题解析
-
-> [查看此资料足矣](https://blog.csdn.net/weiyuefei/article/details/77963810)
 
 ### 面试题目
 
 #### Golang语言相关
 
-_1.select是随机的还是顺序的？_
+_1.Golang笔试题解析_
+
+> [查看此资料足矣](https://blog.csdn.net/weiyuefei/article/details/77963810)
+
+_2.select是随机的还是顺序的？_
 
 > select会`随机`选择一个可用通用做收发操作
 
-_2.Go语言局部变量分配在栈还是堆？_
+_3.Go语言局部变量分配在栈还是堆？_
 
 > Go语言编译器会自动决定把一个变量放在栈还是放在堆，编译器会做`逃逸分析`，当发现变量的作用域没有跑出函数范围，就可以在栈上，反之则必须分配在堆。
 >
 > [查看资料](https://www.jianshu.com/p/4e3478e9d252)
 
-_3.简述一下你对Go垃圾回收机制的理解？_
+_4.简述一下你对Go垃圾回收机制的理解？_
 
 > v1.1 STW           
 > v1.3 Mark STW, Sweep 并行        
@@ -30,6 +31,15 @@ _3.简述一下你对Go垃圾回收机制的理解？_
 > v1.8 hybrid write barrier(混合写屏障：优化STW)       
 >
 > [Golang垃圾回收剖析](http://legendtkl.com/2017/04/28/golang-gc/)
+
+_5.简述一下golang的协程调度原理?_
+
+> `M(machine)`: 代表着真正的执行计算资源，可以认为它就是os thread（系统线程）。    
+> `P(processor)`: 表示逻辑processor，是线程M的执行的上下文。    
+> `G(goroutine)`: 调度系统的最基本单位goroutine，存储了goroutine的执行stack信息、goroutine状态以及goroutine的任务函数等。     
+> 
+> [查看资料](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180802/README.md)
+
 
 #### DB相关
 
