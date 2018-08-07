@@ -40,6 +40,37 @@ _5.简述一下golang的协程调度原理?_
 > 
 > [查看资料](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180802/README.md)
 
+_6.介绍下 golang 的 runtime 机制?_   
+
+> Runtime 负责管理任务调度，垃圾收集及运行环境。同时，Go提供了一些高级的功能，如goroutine, channel, 以及Garbage collection。这些高级功能需要一个runtime的支持. runtime和用户编译后的代码被linker静态链接起来，形成一个可执行文件。这个文件从操作系统角度来说是一个user space的独立的可执行文件。
+> 从运行的角度来说，这个文件由2部分组成，一部分是用户的代码，另一部分就是runtime。runtime通过接口函数调用来管理goroutine, channel及其他一些高级的功能。从用户代码发起的调用操作系统API的调用都会被runtime拦截并处理。
+
+> Go runtime的一个重要的组成部分是goroutine scheduler。他负责追踪，调度每个goroutine运行，实际上是从应用程序的process所属的thread pool中分配一个thread来执行这个goroutine。因此，和java虚拟机中的Java thread和OS thread映射概念类似，每个goroutine只有分配到一个OS thread才能运行。
+
+> [相关资料](https://blog.csdn.net/xclyfe/article/details/50562349)
+
+![](./images/goruntime.png)
+
+_7.如何获取 go 程序运行时的协程数量, gc 时间, 对象数, 堆栈信息?_   
+ 
+调用接口 runtime.ReadMemStats 可以获取以上所有信息, **注意: 调用此接口会触发 STW(Stop The World)**  
+参考: https://golang.org/pkg/runtime/#ReadMemStats
+
+如果需要打入到日志系统, 可以使用 go 封装好的包, 输出 json 格式. 参考:
+
+1. https://golang.org/pkg/expvar/ 
+2. http://blog.studygolang.com/2017/06/expvar-in-action/ 
+
+更深入的用法就是将得到的运行时数据导入到 ES 内部, 然后使用 Kibana 做 golang 的运行时监控, 可以实时获取到运行的信息(堆栈, 对象数, gc 时间, goroutine, 总内存使用等等), [具体信息可以看 ReadMemStats 的那个结构体](https://golang.org/pkg/runtime/#MemStats)
+ 
+_8.介绍下你平时都是怎么调试 golang 的 bug 以及性能问题的?_
+
+> 1. panic 调用栈
+> 2. pprof
+> 3. 火焰图(配合压测)
+> 4. 使用go run -race 或者 go build -race 来进行竞争检测
+> 5. 查看系统 磁盘IO/网络IO/内存占用/CPU 占用(配合压测)
+
 
 #### DB相关
 
@@ -107,6 +138,27 @@ _10.Redis的集群怎么搭建？_
 
 > [查看资料](https://segmentfault.com/a/1190000008448919)
 
+_11.简单介绍下什么是缓存击穿, 缓存穿透, 缓存雪崩? 能否介绍些应对办法?_
+
+> [查看资料](https://blog.csdn.net/zeb_perfect/article/details/54135506)
+
+_12.关系型数据库 MySQL/PostgreSQL的索引类型? 其他数据库优化方法?_
+
+> 1. https://segmentfault.com/a/1190000003072424
+> 2. https://tech.meituan.com/performance_tunning.html
+
+_13.介绍下数据库分库分表以及读写分离?_
+
+> 分库分表主要解决写的问题, 读写分离主要解决读的问题.
+> 分库分表的策略有很多种: 平均分配, 按权重分配, 按业务分配, 一致性 hash.....  
+> 读写分离的原理大致是一台主、多台从。主提供写操作，从提供读操作.   
+> 方案可以根据以下几个因素来综合考虑:     
+> > 1.数据实时性要求？  
+> > 2.查询复杂度是否比较高？  
+> > 3.读和写的比例即侧重点是哪一个？  
+> 
+> 方案有很多, 大家可以自行搜索, 学习总结. 
+这题源自微博的平台技术专家一条微博: https://m.weibo.cn/status/4265027340366901
 
 #### 操作系统相关
 
@@ -154,7 +206,7 @@ _8.介绍一下Tcpdump？_
 >
 > [查看资料](https://www.cnblogs.com/chyingp/p/linux-command-tcpdump.html)
 
-_什么叫大端和小端？_
+_9. 什么叫大端和小端？_
 
 > **说明**
 >> 1.Little-Endian（小端）就是低位字节排放在内存的低地址端，高位字节排放在内存的高地址端        
@@ -166,9 +218,21 @@ _什么叫大端和小端？_
 >
 >> [查看资料](https://blog.csdn.net/element137/article/details/69091487)
 
+_10. 介绍下 docker 底层原理_
+
+> 1. [查看资料](https://draveness.me/docker)
+> 2. [左耳朵耗子 Docker 基础技术介绍(有例程)](https://coolshell.cn/tag/docker)
+
+_11.介绍些僵尸进程和孤儿进程的区别, 怎么产生的, 怎么避免?_
+
+> [查看资料](https://www.cnblogs.com/lxmhhy/p/6212405.html)
+
+_12.CPU 使用率和 CPU 负载有什么区别?_
+> [查看资料](https://www.cnblogs.com/muahao/p/6492665.html)
+
 #### 网络相关
 
-_1.http三次握手和四次挥手流程示意图？在黑板上画出_
+_1.tcp三次握手和四次挥手流程示意图？在黑板上画出_
 
 > [查看资料](https://blog.csdn.net/smileiam/article/details/78226816)
 
@@ -423,3 +487,15 @@ _5.给40亿个不重复的unsigned int的整数，没排过序的，然后再给
   ...
   以此类推就可以找到了,而且时间复杂度为O(logn)
 ```
+
+_6. 介绍下 RESTFull API 方式下, 怎么做到快速路由?_
+
+> 一般使用前缀树/字典树, 来提高查找速度. 
+
+> 开源的路由模块里, httprouter 是比较快的, 参考: https://github.com/julienschmidt/httprouter   
+> 他使用了一种改进版的前缀树算法. 这个树的应用非常广泛, 除了做路由, 还有 linux 内核里使用, 在数据库里也有用到.   
+> 参考文章:   
+> 1. [路由查找之Radix Tree](https://michaelyou.github.io/2018/02/10/%E8%B7%AF%E7%94%B1%E6%9F%A5%E6%89%BE%E4%B9%8BRadix-Tree/)  
+> 2. [图文详解Radix树](https://blog.csdn.net/petershina/article/details/53313624)  
+> 3.[radix tree在数据库PostgreSQL中的一些应用举例](https://yq.aliyun.com/articles/75334)
+
