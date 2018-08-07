@@ -92,7 +92,15 @@
 
 ## 6. 面试题专区
 
-- [2018-08-03 面试总结](./interview/2018-08-03-interview-summary.md)
+- [笔试题](./interview/interview-pen.md)
+- [Golang语言](./interview/interview-golang-language.md)
+- [数据库](./interview/interview-database.md)
+- [网络](./interview/interview-network.md)
+- [操作系统](./interview/interview-os.md)
+- [数据结构](./interview/interview-data-structure.md)
+- [分布式架构](./interview/interview-architecture.md)
+- [设计](./interview/interview-design.md)
+- [算法](./interview/interview-algorithm.md)
 
 ## 我们的目标
 
