@@ -7,6 +7,6 @@
 - [操作系统](./interview-os.md)
 - [数据结构](./interview-data-structure.md)
 - [分布式架构](./interview-architecture.md)
-- [设计](./interview-design.md)
-- [算法](./interview-algorithm.md)
+- [设计题](./interview-design.md)
+- [算法题](./interview-algorithm.md)
 
