@@ -232,7 +232,7 @@ _12.CPU 使用率和 CPU 负载有什么区别?_
 
 #### 网络相关
 
-_1.http三次握手和四次挥手流程示意图？在黑板上画出_
+_1.tcp三次握手和四次挥手流程示意图？在黑板上画出_
 
 > [查看资料](https://blog.csdn.net/smileiam/article/details/78226816)
 
@@ -498,5 +498,4 @@ _6. 介绍下 RESTFull API 方式下, 怎么做到快速路由?_
 > 1. [路由查找之Radix Tree](https://michaelyou.github.io/2018/02/10/%E8%B7%AF%E7%94%B1%E6%9F%A5%E6%89%BE%E4%B9%8BRadix-Tree/)  
 > 2. [图文详解Radix树](https://blog.csdn.net/petershina/article/details/53313624)  
 > 3.[radix tree在数据库PostgreSQL中的一些应用举例](https://yq.aliyun.com/articles/75334)
-
 
