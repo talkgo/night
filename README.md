@@ -98,7 +98,7 @@
 - [网络](./interview/interview-network.md)
 - [操作系统](./interview/interview-os.md)
 - [数据结构](./interview/interview-data-structure.md)
-- [分布式架构](./interview/interview-architecture.md)
+- [架构](./interview/interview-architecture.md)
 - [设计题](./interview/interview-design.md)
 - [算法题](./interview/interview-algorithm.md)
 
