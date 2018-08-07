@@ -1,4 +1,4 @@
-# Golang语言相关面试题
+# Golang语言
 
 _1.select是随机的还是顺序的？_
 
