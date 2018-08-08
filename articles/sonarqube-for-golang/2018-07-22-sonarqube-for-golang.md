@@ -237,6 +237,8 @@ docker logs -f sonarqube
 
    SonarQube Scanner 安装![11.32.15](images/26.png)
 
+   点击保存。
+
 2. SonarQube Server
 
    进入 系统管理 -> 系统设置
