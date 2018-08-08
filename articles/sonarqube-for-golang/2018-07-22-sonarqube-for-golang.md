@@ -169,6 +169,7 @@ export SONARQUBE_HOME=~/.sonarqube
 docker run -d --restart=always -p 9000:9000 -v $SONARQUBE_HOME:/opt/sonarqube/data --name sonarqube kennyallen/sonarqube:7.2.1
 
 # 查看 sonarqube 日志
+docker logs -f sonarqube
 ```
 
 *Dockerfile:*
