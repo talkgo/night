@@ -1,5 +1,7 @@
 # 日常技术讨论总结
 
+- [2018-08-09 Go 语言终端日志着色](./2018-08-09-log-color-in-go.md)
+- [2018-08-02 APNS 批量发送推送通知](./2018-08-02-apns-push-notification.md)
 - [2018-08-02 go 调用 shell 脚本如何传递参数讨论](./2018-08-02-go-shell.md)
 - [2018-07-14 包管理、GOPATH、go get命令讨论](./2018-07-14-version-gopath-go-command.md)
 - [2018-07-11 Go在32位系统中使用64位原子操作的坑](./2018-07-11-using_64bit_atomic_in_32bit_system.md)
