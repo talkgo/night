@@ -74,6 +74,7 @@ _7. 你们是怎么解决微服务之间调用优化与问题排查的?_
 > 1. https://myslide.cn/slides/8297
 > 2. https://opentalk-blog.b0.upaiyun.com/prod/2017-10-31/9ef338ba14ccca39ce45709b59d70c64.pdf
 > 3. https://github.com/jaegertracing/jaeger
+> 4. Dapper中文版: https://bigbully.github.io/Dapper-translation/
 
 _8. 介绍下 API 网关的作用和应用架构?_
 
