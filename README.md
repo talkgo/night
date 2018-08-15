@@ -12,17 +12,11 @@
 
 >阅读计划：Go 标准包、开源项目源代码。
 
-## 大家可以直接订阅[郝林老师的极客时间专栏](https://time.geekbang.org/column/intro/112)
-
-[<img src="./images/haolin_go_guide.jpeg" width="300px;"/><br /><sub><b>Go 语言核心 36 讲 - 3 个月带你通关 Go 语言</b></sub>](https://time.geekbang.org/column/intro/112)
-
-**有关[郝林的近况、现状以及新的技术专栏](https://mp.weixin.qq.com/s/QYtwmdPyszm6CtK5-r0INA)，技术人都不支持技术人，那我们还可以靠谁，何况郝林老师付出了这么的心血给大家制作的课程。**
-
 ----
 
 ## 0. 预告
 
-《Kubernetes 从入门到精通》，8 月 10 日晚上 20 点不见不散。
+暂无。
 
 ## 1. 往期回顾
 
