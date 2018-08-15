@@ -20,25 +20,28 @@
 
 ## 1. 往期回顾
 
-| 源码总结                                                                                                           | YouTube                                                      |
-| :----------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
-| [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md)                                             | [https://youtu.be/98pIzaOeD2k](https://youtu.be/98pIzaOeD2k) |
-| [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)       | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
-| [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md)               | [https://youtu.be/xodlVBWxTYM](https://youtu.be/xodlVBWxTYM) |
-| [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md)                             | 无                                                           |
-| [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md)                                             | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ) |
-| [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md)                                             | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ) |
-| [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md)                                             |
-| [2018-05-10-(strings/strings.go 系列一)](./reading/20180510/README.md)                                             |
-| [2018-04-25-(strings/replace.go)、strings/search.go](./reading/20180425/README.md)                                 |
-| [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./reading/20180418/README.md)             |
-| [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md)                                               |                                                              |
-| [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) |                                                              |
+| 源码总结 | YouTube |
+| :---- | :---- |
+| Kubernetes 入门指南 | [https://youtu.be/DJgYlmGCmDA](https://youtu.be/DJgYlmGCmDA) |
+| [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md) | [https://youtu.be/98pIzaOeD2k](https://youtu.be/98pIzaOeD2k) |
+| [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md) | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
+| [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md) | [https://youtu.be/xodlVBWxTYM](https://youtu.be/xodlVBWxTYM) |
+| [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md)                             | |
+| [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ) |
+| [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ) |
+| [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md) | |
+| [2018-05-10-(strings/strings.go 系列一)](./reading/20180510/README.md) | |
+| [2018-04-25-(strings/replace.go)、strings/search.go](./reading/20180425/README.md) | |
+| [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./reading/20180418/README.md) | |
+| [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md) | |
+| [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) | |
 
 >[查看更多](./reading/README.md)
 
 ## 2. 日常讨论总结
 
+- [2018-08-15 一篇 zap 日志库引发的激烈讨论，以及 sync.Pool 到底是用来干嘛的？](./discuss/2018-08-15-wechat-discuss.md)
+- [2018-08-14 做实时语音流，用什么来做比较好？rtmp？还是ws？Go 从 1.5 开始默认使用了 CPU 核数？etcd相关讨论](./discuss/2018-08-14-wechat-discuss.md)
 - [2018-08-09 Go 语言终端日志着色](./discuss/2018-08-09-log-color-in-go.md)
 - [2018-08-02 APNS 批量发送推送通知](./discuss/2018-08-02-apns-push-notification.md)
 - [2018-08-02 go 调用 shell 脚本如何传递参数讨论](./discuss/2018-08-02-go-shell.md)
