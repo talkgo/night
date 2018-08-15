@@ -10,7 +10,7 @@
 - 自己做一般都是rtmp
 
 >实时？需要有多实时？直播还是点到点通信？
->A：有一个实现是在 boya 的 rtmp 协议基础上，完善了 golang 的 rtmp 流媒体服务器，最近已经上网运行了，支持查询回源，定点回源等，资源消耗很低。
+>A：有一个实现是在 boya 的 rtmp 协议基础上，完善了 golang 的 rtmp 流媒体服务器，最近已经上网运行了，支持查询回源，定点回源等，资源消耗很低。也可参考项目[livego](https://github.com/gwuhaolin/livego)
 
 ### Go 默认使用 CPU 核数？
 
