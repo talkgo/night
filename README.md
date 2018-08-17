@@ -22,6 +22,7 @@
 
 | 源码总结 | YouTube |
 | :---- | :---- |
+| [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
 | Kubernetes 入门指南 | [https://youtu.be/DJgYlmGCmDA](https://youtu.be/DJgYlmGCmDA) |
 | [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md) | [https://youtu.be/98pIzaOeD2k](https://youtu.be/98pIzaOeD2k) |
 | [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md) | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
