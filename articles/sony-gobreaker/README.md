@@ -10,7 +10,9 @@ author: HuangChuanTonG@WPS.cn
 
 
 ## 1）微软定义的 Circuit breaker
-我不知道正确怎么翻译，直观翻译，可能叫：环形容断器（或叫：循环状态自动切换容断器）。
+
+微软的原文件在此：https://msdn.microsoft.com/en-us/library/dn589784.aspx
+名不知道怎么正确翻译，直观翻译，可能叫：环形容断器（或叫：循环状态自动切换中断器）。
 因为它是在下面3个状态循环切换  ：
 ```
          Closed 
@@ -49,6 +51,8 @@ type Settings struct {
 }
 ```
 ### 2.2）核心的*执行函数*实现
+
+要把容断器使用到工程中，只需要，实例化一个gobreaker，再使用这个Execute包一下原来的请求函数。
 ```go
 func (cb *CircuitBreaker) Execute(req func() (interface{}, error)) (interface{}, error) {
 	generation, err := cb.beforeRequest() // 
@@ -69,25 +73,31 @@ func (cb *CircuitBreaker) Execute(req func() (interface{}, error)) (interface{},
 	return result, err
 }
 ```
+
 ### 2.2 关键  func beforeRequest()
+
 函数做了几件事：
+
  0. 函数的核心功能：判断是否放行请求，计数或达到切换新条件刚切换。
  1. 判断是否Closed，如是，放行所有请求。
-	 -. 并且判断时间是否达到Interval周期，从而清空计数，进入新周期，调用toNewGeneration()
+	 - 并且判断时间是否达到Interval周期，从而清空计数，进入新周期，调用toNewGeneration()	 
  2. 如果是Open状态，返回ErrOpenState，---不放行所有请求。
-	-. 同样判断周期时间，到达则 同样调用 toNewGeneration(){清空计数}
+	- 同样判断周期时间，到达则 同样调用 toNewGeneration(){清空计数}	
  3. 如果是half-open状态，则判断是否已放行MaxRequests个请求，如未达到刚放行；否则返回:ErrTooManyRequests。
  4. 此函数一旦放行请求，就会对请求计数加1（conut.onRequest())，请求后到另一个关键函数 : afterRequest()。
 
 ### 2.3 关键  func afterRequest()
  1. 函数核心内容很简单，就对成功/失败进行计数，达到条件则切换状态。
  2. 与beforeRequest一样，会调用公共函数 currentState(now) 
-	 -. currentState(now) 先判断是否进入一个先的计数时间周期(Interval), 是则重置计数，改变容断器状态，并返回新一代。
-	 -. 如果request耗时大于Interval, 几本每次都会进入新的计数周期，容断器就没什么意义了。
+	 - currentState(now) 先判断是否进入一个先的计数时间周期(Interval), 是则重置计数，改变容断器状态，并返回新一代。
+	 - 如果request耗时大于Interval, 几本每次都会进入新的计数周期，容断器就没什么意义了。
 
 ## 代码的核心内容
 
  1. 使用了一个generation的概念，每一个时间周期(Interval)的计数(count)状态称为一个generation。
  2. 在before/after的两个函数中，实现了两个状态自动切换的机制：
-	 -. 在同一个generation(即时间）周期内，计数满足状态切换条件，即自动切换；
-	 -. 超过一个generation时间周期的也会自动切换；
+	 - 在同一个generation(即时间）周期内，计数满足状态切换条件，即自动切换；
+	 - 超过一个generation时间周期的也会自动切换；
+ 3. 没有使用定时器，只在请求调用时，去检测当时状态与时间间隔。
+ 
+ 

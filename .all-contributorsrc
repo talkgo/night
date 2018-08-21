@@ -13,20 +13,13 @@
       "login": "yangwenmai",
       "name": "maiyang",
       "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
-      "profile": "https://maiyang.me",
+      "profile": "https://github.com/yangwenmai",
       "contributions": [
         "code",
-        "bug",
-        "design",
-        "example",
         "ideas",
-        "question",
         "review",
         "talk",
-        "tutorial",
-        "video",
-        "financial",
-        "translation"
+        "tutorial"
       ]
     },
     {
@@ -60,7 +53,7 @@
       "login": "AceDarkknight",
       "name": "AceDarkknight",
       "avatar_url": "https://avatars3.githubusercontent.com/u/11901298?v=4",
-      "profile": "http://www.cnblogs.com/DilonWu/",
+      "profile": "https://github.com/AceDarkknight",
       "contributions": [
         "code"
       ]
@@ -69,7 +62,7 @@
       "login": "gnuos",
       "name": "Data",
       "avatar_url": "https://avatars2.githubusercontent.com/u/3014297?v=4",
-      "profile": "https://10gb.io",
+      "profile": "https://github.com/gnuos",
       "contributions": [
         "code"
       ]
@@ -78,7 +71,7 @@
       "login": "KISSMonX",
       "name": "侯名",
       "avatar_url": "https://avatars0.githubusercontent.com/u/2876745?v=4",
-      "profile": "http://www.stdbit.com/",
+      "profile": "https://github.com/KISSMonX",
       "contributions": [
         "code"
       ]
@@ -114,7 +107,7 @@
       "login": "henrylee2cn",
       "name": "henrylee2cn",
       "avatar_url": "https://avatars3.githubusercontent.com/u/10174178?v=4",
-      "profile": "https://my.oschina.net/henrylee2cn/blog",
+      "profile": "https://github.com/henrylee2cn",
       "contributions": [
         "code"
       ]
@@ -141,7 +134,43 @@
       "login": "toontong",
       "name": "Huang ChuanTong",
       "avatar_url": "https://avatars3.githubusercontent.com/u/416141?v=4",
-      "profile": "http://toontong.github.io/",
+      "profile": "https://github.com/toontong",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zhongxuan123",
+      "name": "The notes of SQL optimize ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10513552?v=4",
+      "profile": "https://github.com/zhongxuan123",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "zhouxinxin19920802",
+      "name": "zhouxinxin19920802",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29008269?v=4",
+      "profile": "https://github.com/zhouxinxin19920802",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "macaria",
+      "name": "macaria",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20811449?v=4",
+      "profile": "https://github.com/macaria",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DennisMao",
+      "name": "Dennis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15226239?v=4",
+      "profile": "http://github.com/DennisMao",
       "contributions": [
         "code"
       ]
