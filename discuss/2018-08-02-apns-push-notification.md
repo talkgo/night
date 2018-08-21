@@ -9,6 +9,13 @@
  
 ## 问题: 如何批量发送apns消息推送
 
+
+Install apns2
+```go
+    go get -u github.com/sideshow/apns2
+```
+
+
 先看下如何发送一条的apns.
 ```go
 func push(){
@@ -56,46 +63,177 @@ func push(){
 
 服务端接收到发送推送消息的请求后,不是马上发送,而是等待100ms,收集所有这段时间的所有推送请求(设置一个上限),一次向一个tls中去推送.
 
-```go
-cert, err := certificate.FromP12File(*certPath, "")
-if err != nil {
-    log.Fatal("Cert Error:", err)
-}
+先看下我们的推送架构,基本是根据现有的架构自我调整:
 
-notifications := make(chan *apns2.Notification, 100)
-responses := make(chan *apns2.Response, *count)
-
-client := apns2.NewClient(cert).Production()
-
-for i := 0; i < 50; i++ {
-    go worker(client, notifications, responses)
-}
-
-for i := 0; i < *count; i++ {
-    n := &apns2.Notification{
-        DeviceToken: *token,
-        Topic:       *topic,
-        Payload:     payload.NewPayload().Alert(fmt.Sprintf("Hello! %v", i)),
+|  消息队列  |
+        ↓
+| 消息收集器 |
+        ↓
+ |  消息合并  |
+        ↓
+|  过 滤 器  |
+        ↓        
+  推送模块
+  
+  
+  1.最上层就不多加说明了,根据自己公司的消息队列获取到要推送的消息.
+  
+  2.消息收集器是一次获取批量的推送消息,基本公司使用像成熟的消息队列也可以不需要这一层,如果类似使用的redis队列,一次只能获取一个推送消息,就需要加这一层,获取一段时间或者一定量的推送消息,再推给下一层.
+  ```go
+  for   {
+    //检验是否跳出循环,将数据给到下层
+    nowTime := time.Now().UnixNano()
+    if nowTime - beginTime > 150 * millisecond {
+        if len(p_items) != 0 || len(g_items) != 0 || len(c_items) != 0 || len(s_items) != 0  {
+            break
         }
-        notifications <- n
-}
-
-for i := 0; i < *count; i++ {
-    res := <-responses
-    fmt.Printf("%v %v %v\n", res.StatusCode, res.ApnsID, res.Reason)
-}
-
-```
- 
-```go
-func worker(client *apns2.Client, notifications <-chan *apns2.Notification, responses chan<- *apns2.Response) {
-    for n := range notifications {
-    res, err := client.Push(n)
-    if err != nil {
-        log.Fatal("Push Error:", err)
-        }
-        responses <- res
+        beginTime = time.Now().UnixNano()
+    }else if len(p_items) >= 100 {
+        break
+    }else if len(g_items) >= 500 {
+        break
+    }else if len(c_items) >= 100 {
+        break
+    }else if len(s_items) >= 100 {
+        break
     }
+    
+    /*从队列获取推送消息*/
+    
+ }
+ //推给下一层消息收集器
+ if len(p_items) != 0 {
+ p_chan<-p_items
+ }
+ 
+ if len(g_items) != 0 {
+ g_chan<-g_items
+ }
+ 
+ if len(c_items) != 0 {
+ c_chan<-c_items
+ }
+ 
+ if len(s_items) != 0 {
+ s_chan<-s_items
+ }
+ 
+```
+  
+  
+  3.消息合并是用来合并群消息,系统消息.适用于同样的内容,推给不同的对象.
+```go
+
+for msgs := range g_chan {   //这里要小心,不要用到了defer,不然会一直都不释放.
+    
+    // 合并相同的群消息
+    var msgs_dict = make(map[string]*group_msg)
+    /*略*/
+    for _, gmsg := range group_msgs {
+    
+        obj, ok := msgs_dict[gmsg.uuid]
+        if ok {
+        receivers := obj.receivers
+        for i := 0; i < len(gmsg.receivers); i++ {
+            //合并
+            receivers = append(receivers, gmsg.receivers[i])
+        }
+        //保存在map
+        obj.receivers = receivers
+        msgs_dict[gmsg.uuid] = obj
+    
+        } else {
+        msgs_dict[gmsg.uuid] = gmsg
+        }
+    }
+    /*略*/
+}
+  
+```
+  4.过滤器是过滤一些敏感的词语,过滤一些特殊的消息体.
+  
+  5.推送模块,我们要讲的就是apns2.
+  
+  获取certificate文件:
+  ```go
+  func get_apns_cert(P12 string,P12_SECRET string) *tls.Certificate {
+    cert, err := certificate.FromP12File(P12, P12_SECRET)
+    if err != nil {
+        log.Fatal("Cert Error:", err)
+        return nil
+    }
+    return &cert
+  }
+```
+  
+  
+  获取apns:
+  ```go
+  func (ap *Apns_push)get_apns_client(appid int64,P12 string,P12_SECRET string) *apns2.Client {
+  
+    if cer,ok := ap.Apns_cert_dict[appid];ok {
+        client := ap.Client_manager.Get(cer) //Client_manager -> *apns2.ClientManager
+        return client
+    }
+    cert := get_apns_cert(P12 ,P12_SECRET)
+    if cert == nil {
+        return nil
+    }
+    ap.Lock()
+    ap.Apns_cert_dict[appid] = *cert
+    ap.Unlock()
+    client := apns2.NewClient(*cert)
+    ap.Client_manager.Add(client) //Client_manager -> *apns2.ClientManager
+    return client
+  }
+```
+  
+  
+
+编辑apns消息体:
+  ```go
+func(ap *Apns_push)Apns_push(ams []*APNs_msg)  {
+    var notifications []*apns2.Notification
+    for _,am := range ams {
+
+        p := payload.NewPayload()
+        p.Badge(am.Badge)
+        p.Alert(am.Content)
+        if am.Sound == "" {
+            am.Sound = "default"
+        }
+        p.ThreadID(am.Uuid)
+        p.Sound(am.Sound)
+        if am.Custom !=nil {
+            for k,v := range am.Custom {
+                p.Custom(k,v)
+            }
+        }
+
+        notification := &apns2.Notification{
+            DeviceToken:am.DeviceToken,
+            Topic:am.Bundle_id,
+            Payload:p,
+        }
+        notifications = append(notifications, notification)
+    }
+    ap.NotificationsCh<-notifications
+}
+```
+
+推送:
+```go
+func send(client *apns2.Client,notification *apns2.Notification,isRepeat bool,seq int64)  {
+    res, err := client.Development().Push(notification)
+    if err != nil {
+        log.Warnf("Push fail seq:%d -- %v %v %v   token:%s \n",seq, res.StatusCode, res.ApnsID, res.Reason ,notification.DeviceToken)
+        if isRepeat {
+            seq++
+            send(client,notification,false,seq)
+        }
+        return
+    }
+    log.Infof("Push success seq:%d -- %v %v %v   token:%s \n",seq, res.StatusCode, res.ApnsID, res.Reason ,notification.DeviceToken)
 }
 ```
 
