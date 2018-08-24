@@ -105,6 +105,10 @@
 
 [其他更多](./interview/README.md)
 
+## 7. 其他
+
+- [数据库工具推荐](./other/db-client-tools.md)
+
 ----
 
 ## 我们的目标
