@@ -16,9 +16,7 @@
 
 图片CDN：七牛
 
-### 请问nats有类似kafka manager这样的管理后台吗？
-
-?
+### 请问nats有类似[kafka manager](https://github.com/yahoo/kafka-manager)这样的管理后台吗？
 
 - kafka manager 的管理后台：kafkatool
 
