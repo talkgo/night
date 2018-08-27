@@ -1,5 +1,6 @@
 # 日常技术讨论总结
 
+- [2018-08-24 数据库管理工具 GUI&CLI](./discuss/2018-08-24-wechat-discuss.md)
 - [2018-08-23 博客平台的选择 && kafka && nats && spinning threads讨论](./2018-08-23-wechat-discuss.md)
 - [2018-08-15 一篇 zap 日志库引发的激烈讨论，以及 sync.Pool 到底是用来干嘛的？](./2018-08-15-wechat-discuss.md)
 - [2018-08-14 做实时语音流，用什么来做比较好？rtmp？还是ws？Go 从 1.5 开始默认使用了 CPU 核数？etcd相关讨论](./2018-08-14-wechat-discuss.md)
