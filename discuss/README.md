@@ -1,5 +1,8 @@
 # 日常技术讨论总结
 
+- [2018-09-05 浅谈 Git 系统平台](./2018-09-05-git-system.md)
+- [2018-09-04 protobuffer 3 enum && Body bind](./2018-09-04-wechat-discuss.md)
+- [2018-08-30 深入理解 Go Interfaces](./2018-08-30-understanding-go-interfaces.md)
 - [2018-08-24 数据库管理工具 GUI&CLI](./2018-08-24-wechat-discuss.md)
 - [2018-08-23 博客平台的选择 && kafka && nats && spinning threads讨论](./2018-08-23-wechat-discuss.md)
 - [2018-08-15 一篇 zap 日志库引发的激烈讨论，以及 sync.Pool 到底是用来干嘛的？](./2018-08-15-wechat-discuss.md)
