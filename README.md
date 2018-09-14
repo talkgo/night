@@ -43,6 +43,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-09-14 VSCode Go 代码自动补全和自动导入包](./discuss/2018-09-14-tips-in-vscode.md)
 - [2018-09-05 浅谈 Git 系统平台](./discuss/2018-09-05-git-system.md)
 - [2018-09-04 protobuffer 3 enum && Body bind](./discuss/2018-09-04-wechat-discuss.md)
 - [2018-08-30 深入理解 Go Interfaces](./discuss/2018-08-30-understanding-go-interfaces.md)
