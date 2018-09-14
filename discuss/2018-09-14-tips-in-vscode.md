@@ -77,3 +77,23 @@ All tools successfully installed. You're ready to Go :).
 1. 当我们在使用 import 功能的时候，如果无法通过 lint 检查，则不会执行自动 import。
 2. 如果你需要自动 import 的前提是你必须把要导入的包的函数写完整。
 
+附带我的 `settings.json`
+
+```json
+{
+  "go.goroot": "",
+  "go.gopath": "",
+  "go.inferGopath": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.gocodePackageLookupMode": "go",
+  "go.gotoSymbol.includeImports": true,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+  ...
+}
+```
+
+## 参考资料
+
+1. [GOPATH in the VS Code Go extension](https://github.com/Microsoft/vscode-go/wiki/GOPATH-in-the-VS-Code-Go-extension)
+2. [VSCode Golang 开发配置之代码提示](https://www.cnblogs.com/Dennis-mi/p/8280552.html)
