@@ -49,15 +49,28 @@ Installing github.com/haya14busa/goplay/cmd/goplay SUCCEEDED
 All tools successfully installed. You're ready to Go :).
 ```
 
-然后在 Preferences -> Setting 然后输入 go，然后选择 `setting.json`，填入以下配置（自动完成未导入的包）：
+修改默认配置的方法：
+
+>在 Preferences -> Setting 然后输入 go，然后选择 `setting.json`，填入你想要修改的配置
+
+
+- 自动完成未导入的包。
 
 ```json
   "go.autocompleteUnimportedPackages": true,
 ```
 
-特别注意：
+- VSCode 的一些插件需要配置代理，才能够正常安装。
 
-VS Code 需要安装好代理，才能够正常安装，否则可能无法安装成功。
+```json
+  "http.proxy": "192.168.0.100:1087",
+```
+
+- 如果你遇到使用标准包可以出现代码提示，但是使用自己的包或者第三方库无法出现代码提示，你可以查看一下你的配置项。
+
+```json
+  "go.inferGopath": true,
+```
 
 ## 其他
 
