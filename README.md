@@ -16,7 +16,8 @@
 
 ## 0. 预告
 
-暂无。
+- 2018-09-20 《grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析》
+- 2018-09-27 《去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计》
 
 ## 1. 往期回顾
 
