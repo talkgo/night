@@ -1,5 +1,6 @@
 # 日常技术讨论总结
 
+- [2018-09-18 HTTP 压力测试工具](./2018-09-18-benchmark-tools.md)
 - [2018-09-14 VSCode Go 代码自动补全和自动导入包](./2018-09-14-tips-in-vscode.md)
 - [2018-09-05 浅谈 Git 系统平台](./2018-09-05-git-system.md)
 - [2018-09-04 protobuffer 3 enum && Body bind](./2018-09-04-wechat-discuss.md)
