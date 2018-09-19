@@ -116,6 +116,7 @@
 ## 7. 其他
 
 - [数据库工具推荐](./other/db-client-tools.md)
+- [压力测试工具](./other/benchmark-tools.md)
 
 ----
 
