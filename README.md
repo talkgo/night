@@ -44,6 +44,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-09-19 Producer Consumer 丢包问题](./discuss/2018-09-19-wechat-discuss.md)
 - [2018-09-18 HTTP 压力测试工具](./discuss/2018-09-18-benchmark-tools.md)
 - [2018-09-14 VSCode Go 代码自动补全和自动导入包](./discuss/2018-09-14-tips-in-vscode.md)
 - [2018-09-05 浅谈 Git 系统平台](./discuss/2018-09-05-git-system.md)
