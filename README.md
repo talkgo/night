@@ -16,13 +16,13 @@
 
 ## 0. 预告
 
-- 2018-09-20 《grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析》
 - 2018-09-27 《去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计》
 
 ## 1. 往期回顾
 
 | 源码总结 | YouTube |
 | :---- | :---- |
+| [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
 | [2018-09-06 OpenFass 介绍及源码分析](./reading/20180906/2018-09-06-openfass-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
 | [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
 | [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
