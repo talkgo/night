@@ -35,7 +35,7 @@ func consume() {
 		case message := <-messageBuffer:
 			fmt.Println(message)
 		case <-finishedProducing:
-			finishedProducing <- true
+			finishedConsuming <- true
 			return
 		}
 	}
