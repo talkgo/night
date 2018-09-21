@@ -20,25 +20,25 @@
 
 ## 1. 往期回顾
 
-| 源码总结 | YouTube |
-| :---- | :---- |
-| [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
-| [2018-09-06 OpenFass 介绍及源码分析](./reading/20180906/2018-09-06-openfass-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
-| [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
-| [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
-| Kubernetes 入门指南 | [https://youtu.be/DJgYlmGCmDA](https://youtu.be/DJgYlmGCmDA) |
-| [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md) | [https://youtu.be/98pIzaOeD2k](https://youtu.be/98pIzaOeD2k) |
-| [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md) | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
-| [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md) | [https://youtu.be/xodlVBWxTYM](https://youtu.be/xodlVBWxTYM) |
-| [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md)                             | |
-| [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ) |
-| [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ) |
-| [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md) | |
-| [2018-05-10-(strings/strings.go 系列一)](./reading/20180510/README.md) | |
-| [2018-04-25-(strings/replace.go)、strings/search.go](./reading/20180425/README.md) | |
-| [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./reading/20180418/README.md) | |
-| [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md) | |
-| [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) | |
+| 期数 | 分析总结 | YouTube |
+| :---- | :---- | :---- |
+| 第 17 期 | [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
+| 第 16 期 | [2018-09-06 OpenFass 介绍及源码分析](./reading/20180906/2018-09-06-openfass-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
+| 第 15 期 | [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
+| 第 14 期 | [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
+| 第 13 期 | Kubernetes 入门指南 | [https://youtu.be/DJgYlmGCmDA](https://youtu.be/DJgYlmGCmDA) |
+| 第 12 期 | [2018-08-02-(runtime goroutine调度实现)](./reading/20180802/README.md) | [https://youtu.be/98pIzaOeD2k](https://youtu.be/98pIzaOeD2k) |
+| 第 11 期 | [2018-07-26 Golang 代码质量持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md) | [https://youtu.be/d95PZDAabqQ](https://youtu.be/d95PZDAabqQ) |
+| 第 10 期 | [2018-06-28-(net/http/server.go、request.go和net/textproto/reader.go)](./reading/20180628/README.md) | [https://youtu.be/xodlVBWxTYM](https://youtu.be/xodlVBWxTYM) |
+| 第 9 期 | [2018-06-14-(net/http/server.go 和 h2_bundle.go 系列三)](./reading/20180614/README.md)                             | |
+| 第 8 期 | [2018-05-31-(net/http/server.go 系列二)](./reading/20180531/README.md) | [https://youtu.be/U84dn76gixQ](https://youtu.be/U84dn76gixQ) |
+| 第 7 期 | [2018-05-24-(net/http/server.go 系列一)](./reading/20180524/README.md) | [https://youtu.be/H3oXjpiOReQ](https://youtu.be/H3oXjpiOReQ) |
+| 第 6 期 | [2018-05-17-(strings/strings.go 系列二)](./reading/20180517/README.md) | |
+| 第 5 期 | [2018-05-10-(strings/strings.go 系列一)](./reading/20180510/README.md) | |
+| 第 4 期 | [2018-04-25-(strings/replace.go)、strings/search.go](./reading/20180425/README.md) | |
+| 第 3 期 | [2018-04-18-(strings/builder.go、strings/compare.go、strings/reader.go)](./reading/20180418/README.md) | |
+| 第 2 期 | [2018-04-11-(telport、tp-micro、ants)](./reading/20180411/README.md) | |
+| 第 1 期 | [2018-03-21-(cannot take address of temporary variables、telport、goutil、neochain)](./reading/20180321/README.md) | |
 
 >[查看更多](./reading/README.md)
 
