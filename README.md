@@ -84,7 +84,7 @@
 - [2018-06-12 sync.WaitGroup源码分析](./articles/sync/sync_waitgroup_source_code_analysis.md)
 - [2018-06-13 sync.Cond源码分析](./articles/sync/sync_cond_source_code_analysis.md)
 - [2018-06-13 sync.Once源码分析](./articles/sync/sync_once_source_code_analysis.md)
-- [2018-05-31 批量删除redis key](./articles/2018-05-31_batch-del-redis-key.md)
+- [2018-05-31 批量删除redis key](./articles/2018-05-31-batch-del-redis-key.md)
 
 >[查看更多](./articles/README.md)
 
