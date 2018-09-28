@@ -16,12 +16,13 @@
 
 ## 0. 预告
 
-- 第 18 期 2018-09-27 《去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计》
+暂无
 
 ## 1. 往期回顾
 
 | 期数 | 分析总结 | YouTube |
 | :---- | :---- | :---- |
+| 第 18 期 | 去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计 | [https://youtu.be/bAfiKsLbDeE](https://youtu.be/bAfiKsLbDeE) |
 | 第 17 期 | [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
 | 第 16 期 | [2018-09-06 OpenFass 介绍及源码分析](./reading/20180906/2018-09-06-openfass-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
 | 第 15 期 | [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
@@ -44,6 +45,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-09-28 goroutine 中怎么得到返回值？](./discuss/2018-09-28-return-value-in-waitgroup.md)
 - [2018-09-19 Producer Consumer 丢包问题](./discuss/2018-09-19-wechat-discuss.md)
 - [2018-09-18 HTTP 压力测试工具](./discuss/2018-09-18-benchmark-tools.md)
 - [2018-09-14 VSCode Go 代码自动补全和自动导入包](./discuss/2018-09-14-tips-in-vscode.md)
