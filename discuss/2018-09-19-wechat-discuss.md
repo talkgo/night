@@ -6,7 +6,8 @@
 
 ## Producer to Consumer via channel
 这段code有问题，可能程序跑完了，buffer中还存在数据，就丢失了。
-``` golang
+
+```golang
 package main
 
 import (
@@ -56,8 +57,10 @@ buffer中的消息可能没有被处理
 
 
 ## 解决办法
+
 应该用for range从channel 里取，produce 那里直接关闭messageChannel就行了。 （AMan）
-``` golang
+
+```golang
 package main
 
 import (
@@ -99,4 +102,5 @@ func main() {
 ```
 
 ## 提升
+
 可以使用 `make(chan struct{})` 代替 `make(chan bool)`
