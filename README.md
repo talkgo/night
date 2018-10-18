@@ -45,6 +45,7 @@
 
 ## 2. 日常讨论总结
 
+- [2018-10-18 encOp 怎么实现的呢？](./discuss/2018-10-18-encOp.md)
 - [2018-09-28 goroutine 中怎么得到返回值？](./discuss/2018-09-28-return-value-in-waitgroup.md)
 - [2018-09-19 Producer Consumer 丢包问题](./discuss/2018-09-19-wechat-discuss.md)
 - [2018-09-18 HTTP 压力测试工具](./discuss/2018-09-18-benchmark-tools.md)
