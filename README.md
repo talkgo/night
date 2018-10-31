@@ -81,6 +81,7 @@
 
 ## 3. 技术分析总结
 
+- [2018-10-31 sync.Mutex源码分析](./articles/sync/sync_mutex_source_code_analysis.md)
 - [2018-07-26 Sony gobreaker 熔断器源码分析](./articles/sony-gobreaker/README.md)
 - [2018-07-22 Golang 代码持续检测实践](./articles/sonarqube-for-golang/2018-07-22-sonarqube-for-golang.md)
 - [2018-06-12 sync.Map源码分析](./articles/sync/sync_Map_source_code_analysis.md)
