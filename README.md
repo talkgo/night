@@ -24,7 +24,7 @@
 | :---- | :---- | :---- |
 | 第 18 期 | 去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计 | [https://youtu.be/bAfiKsLbDeE](https://youtu.be/bAfiKsLbDeE) |
 | 第 17 期 | [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
-| 第 16 期 | [2018-09-06 OpenFass 介绍及源码分析](./reading/20180906/2018-09-06-openfass-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
+| 第 16 期 | [2018-09-06 OpenFaas 介绍及源码分析](./reading/20180906/2018-09-06-openfaas-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
 | 第 15 期 | [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
 | 第 14 期 | [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
 | 第 13 期 | Kubernetes 入门指南 | [https://youtu.be/DJgYlmGCmDA](https://youtu.be/DJgYlmGCmDA) |
