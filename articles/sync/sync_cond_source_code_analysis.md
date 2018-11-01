@@ -33,7 +33,9 @@ type notifyList struct {
 相当于`Cond`的构造函数，用于初始化`Cond`。
 
 参数为Locker实例初始化,传参数的时候必须是引用或指针,比如&sync.Mutex{}或new(sync.Mutex)，不然会报异常:`cannot use lock (type sync.Mutex) as type sync.Locker in argument to sync.NewCond`。  
-大家可以想想为什么一定要是指针呢？ 知道的可以给我留言回答。 
+
+大家可以想想为什么一定要是指针呢？ 因为如果传入 Locker 实例，在调用 `c.L.Lock()` 和 `c.L.Unlock()` 的时候，会频繁发生锁的复制，会导致锁的失效，甚至导致死锁。
+
 ```go  
 func NewCond(l Locker) *Cond {
 	return &Cond{L: l}
