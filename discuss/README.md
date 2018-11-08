@@ -1,5 +1,6 @@
 # 日常技术讨论总结
 
+- [2018-10-18 cannot take address of temporary variables](./2018-11-08-address_operators.md)
 - [2018-10-18 encOp 怎么实现的呢？](./2018-10-18-encOp.md)
 - [2018-09-28 goroutine 中怎么得到返回值？](./2018-09-28-return-value-in-waitgroup.md)
 - [2018-09-19 Producer Consumer 丢包问题](./2018-09-19-wechat-discuss.md)
