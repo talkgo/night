@@ -24,7 +24,7 @@ func (o *Once) Do(f func()) {
 	o.m.Lock()
 	defer o.m.Unlock()
 	if o.done == 0 {
-	    // 先将done设置为1，再执行f函数
+	    // 执行f函数后将done设置为1
 		defer atomic.StoreUint32(&o.done, 1)
 		f()
 	}
