@@ -46,7 +46,7 @@
 >[查看更多](./reading/README.md)
 
 ## 2. 日常讨论总结
-
+- [2018-11-08 aws的ec2虚拟机示例创建后无法ssh连接登录问题](./discuss/2018-11-08-aws-ec2-ssh-login-problem.md)
 - [2018-10-18 cannot take address of temporary variables](./discuss/2018-11-08-address_operators.md)
 - [2018-10-18 encOp 怎么实现的呢？](./discuss/2018-10-18-encOp.md)
 - [2018-09-28 goroutine 中怎么得到返回值？](./discuss/2018-09-28-return-value-in-waitgroup.md)
