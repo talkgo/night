@@ -6,10 +6,10 @@
 ```
 type WaitGroup struct {
 	noCopy noCopy  // noCopy可以嵌入到结构中，在第一次使用后不可复制,使用go vet作为检测使用
-	// 位值:高32位是计数器，低32位是goroution等待计数。
+	// 位值:高32位是计数器，低32位是goroutine等待计数。
 	// 64位的原子操作需要64位的对齐，但是32位。编译器不能确保它,所以分配了12个byte对齐的8个byte作为状态。
 	state1 [12]byte // byte=uint8范围：0~255，只取前8个元素。转为2进制：0000 0000，0000 0000... ...0000 0000
-	sema   uint32   // 信号量，用于唤醒goroution
+	sema   uint32   // 信号量，用于唤醒goroutine
 }
 ```
 不知道大家是否和我一样，不论是使用Java的CountDownLatch还是Golang的WaitGroup，都会疑问，可以装下多个线程|协程等待呢？看了源码后可以回答了，可以装下
@@ -107,7 +107,7 @@ func (wg *WaitGroup) Wait() {
 			// Counter is 0, no need to wait.
 			return
 		}
-		// 增加等待goroution计数，对低32位加1，不需要移位
+		// 增加等待goroutine计数，对低32位加1，不需要移位
 		if atomic.CompareAndSwapUint64(statep, state, state+1) {
 			// 目的是作为一个简单的sleep原语，以供同步使用
 			runtime_Semacquire(&wg.sema)

@@ -48,3 +48,4 @@ log.Println(xxx)
 
 - [Enum value with index 0 not shown #3808](https://github.com/protocolbuffers/protobuf/issues/3808)
 - [proto3#enum](https://developers.google.com/protocol-buffers/docs/proto3#enum)
+- [In Go, how can I reuse a ReadCloser?](https://stackoverflow.com/questions/33532374/in-go-how-can-i-reuse-a-readcloser)
