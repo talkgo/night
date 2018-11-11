@@ -4,7 +4,7 @@
 
 ## 结构体
 
-```
+```go
 type Mutex struct {
 	state int32  // 指代mutex锁当前的状态
 	sema  uint32 // 信号量，用于唤醒goroutine
@@ -13,7 +13,7 @@ type Mutex struct {
 
 Mutex 中的 state 用于指代锁当前的状态，如下所示
 
-```
+```go
 1111 1111 ...... 1111 1111
 \_________29__________/|||
  存储等待 goroutine 数量 ||表示当前 mutex 是否加锁
@@ -24,7 +24,7 @@ Mutex 中的 state 用于指代锁当前的状态，如下所示
 
 ## 几个常量
 
-```
+```go
 const (
 	mutexLocked = 1 << iota
 	mutexWoken
@@ -62,7 +62,7 @@ Lock 方法申请对 mutex 加锁，Lock 执行的时候，分三种情况
 2. **有冲突 开始自旋**，并等待锁释放，如果其他 goroutine 在这段时间内释放了该锁，直接获得该锁；如果没有释放，进入3
 3. **有冲突，且已经过了自旋阶段** 通过调用 semacquire 函数来让当前 goroutine 进入等待状态
 
-```
+```go
 func (m *Mutex) Lock() {
 	// 查看 state 是否为0，如果是则表示可以加锁，将其状态转换为1，当前 goroutine 加锁成功，函数返回
 	if atomic.CompareAndSwapInt32(&m.state, 0, mutexLocked) {
@@ -153,7 +153,7 @@ func (m *Mutex) Lock() {
 
 Unlock方法释放所申请的锁
 
-```
+```go
 func (m *Mutex) Unlock() {
 	// mutex 的 state 减去1，加锁状态 -> 未加锁
 	new := atomic.AddInt32(&m.state, -mutexLocked)
