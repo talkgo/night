@@ -23,7 +23,7 @@
 
 | 期数 | 分析总结 | YouTube |
 | :---- | :---- | :---- |
-| 第 20 期 | [go test 及测试覆盖率] | [https://youtu.be/S1kmOmsVI4k](https://youtu.be/S1kmOmsVI4k) |
+| 第 20 期 | [go test 及测试覆盖率] | [https://youtu.be/qkFFIIaTgHM](https://youtu.be/qkFFIIaTgHM) |
 | 第 19 期 | [如何开发一个简单高性能的http router及gorouter源码分析 - xujiajun](https://github.com/xujiajun/gorouter) | [https://youtu.be/3BoStxKECL0](https://youtu.be/3BoStxKECL0) |
 | 第 18 期 | 去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计 | [https://youtu.be/bAfiKsLbDeE](https://youtu.be/bAfiKsLbDeE) |
 | 第 17 期 | [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
