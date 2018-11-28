@@ -14,7 +14,7 @@
 
 ### Go 默认使用 CPU 核数？
 
-![](../images/2018-08-14-discuss-01.png)
+![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-14-discuss-01.png)
 
 具体代码：`proc.go#schedinit()`。
 

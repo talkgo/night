@@ -2,7 +2,7 @@
 
 _1.要设计一个秒杀系统要注意什么？_
 
-![](./images/miaosha.jpg)
+![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/miaosha.jpg)
 
 > **前端秒杀页面**
 >

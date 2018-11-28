@@ -7,7 +7,7 @@
 推文地址:
 [https://twitter.com/davidcrawshaw/status/994614426064928770](https://twitter.com/davidcrawshaw/status/994614426064928770)
 
-![ifelsetwitter.png](../images/ifelsetwitter.png)
+![ifelsetwitter.png](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/discuss/images/ifelsetwitter.png)
 
 原博文代码如下, [点击在  play 里运行](https://play.golang.org/p/1tD1C6sOxcV):
 
