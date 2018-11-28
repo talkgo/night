@@ -17,16 +17,17 @@
 
 |![notification](./images/bell-outline-badged.svg)预告|
 |:------------------:|
-|2018年11月28号晚上8点开始，讨论主题：《Go errors 处理》|
+| [Go 编辑器常用配置分享 vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
 
 ## 1. 往期回顾
 
 | 期数 | 分析总结 | YouTube |
 | :---- | :---- | :---- |
-| 第 20 期 | [go test 及测试覆盖率] | [https://youtu.be/qkFFIIaTgHM](https://youtu.be/qkFFIIaTgHM) |
+| 第 21 期 | Go errors 处理及 zap 源码分析 | [https://youtu.be/ImJim15N_Wc](https://youtu.be/ImJim15N_Wc) |
+| 第 20 期 | Go test 及测试覆盖率 | [https://youtu.be/qkFFIIaTgHM](https://youtu.be/qkFFIIaTgHM) |
 | 第 19 期 | [如何开发一个简单高性能的http router及gorouter源码分析 - xujiajun](https://github.com/xujiajun/gorouter) | [https://youtu.be/3BoStxKECL0](https://youtu.be/3BoStxKECL0) |
 | 第 18 期 | 去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计 | [https://youtu.be/bAfiKsLbDeE](https://youtu.be/bAfiKsLbDeE) |
-| 第 17 期 | [2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
+| 第 17 期 | 2018-09-20 grpc 开发及 [grpcp](https://github.com/0x5010/grpcp) 的源码分析] | [https://youtu.be/sMBgYYEgm3c](https://youtu.be/sMBgYYEgm3c) |
 | 第 16 期 | [2018-09-06 OpenFaas 介绍及源码分析](./reading/20180906/2018-09-06-openfaas-guide.md) | [https://youtu.be/bZtgrAVR9HQ](https://youtu.be/bZtgrAVR9HQ) |
 | 第 15 期 | [2018-08-23 多路复用资源池组件剖析](./reading/20180823/2018-08-23-pool-workshop-in-go.md) | [https://youtu.be/CDfrRzgmR4E](https://youtu.be/CDfrRzgmR4E) |
 | 第 14 期 | [2018-08-17 sync.Pool 源码分析及适用场景](./reading/20180817/2018-08-17-sync-pool-reading.pdf) | [https://youtu.be/jaepwn2PWPk](https://youtu.be/jaepwn2PWPk) |
