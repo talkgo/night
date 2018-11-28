@@ -17,7 +17,7 @@
 
 |![notification](./images/bell-outline-badged.svg)预告|
 |:------------------:|
-|2018年11月29号晚上8点开始，讨论主题：《Go errors 处理》|
+|2018年11月28号晚上8点开始，讨论主题：《Go errors 处理》|
 
 ## 1. 往期回顾
 
