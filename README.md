@@ -15,7 +15,7 @@
 ----
 <br>
 
-|![notification](./images/bell-outline-badged.svg)预告|
+|![notification](https://github.com/developer-learning/night-reading-go/raw/master/images/bell-outline-badged.svg?sanitize=true)预告|
 |:------------------:|
 | [《Go 编辑器常用配置分享》-vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
@@ -25,7 +25,7 @@
 
 ## 0. Golang Proposal
 
-- 计划对 [Golang Proposal](https://github.com/golang/proposal) 进行一些阅读后翻译，欢迎有兴趣的朋友参加。
+- 阅读 [Golang Proposal](https://github.com/golang/proposal) ，有兴趣的朋友可以一起。
 
 ## 1. 往期回顾
 
