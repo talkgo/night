@@ -21,7 +21,7 @@
 5. 答疑
 6. 确定线下分享形式（标准包和开源项目）
 
-![语音实录](http://oqos7hrvp.bkt.clouddn.com/voice/20180411_voice.m4a)
+[语音实录](http://oqos7hrvp.bkt.clouddn.com/voice/20180411_voice.m4a)
 
 [语音实录（文字版本 by 录音宝）](./20180411_voice.md)
 

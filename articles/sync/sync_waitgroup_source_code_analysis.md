@@ -5,11 +5,11 @@
 ## 结构体
 ```
 type WaitGroup struct {
-	noCopy noCopy  // noCopy可以嵌入到结构中，在第一次使用后不可复制,使用go vet作为检测使用
-	// 位值:高32位是计数器，低32位是goroution等待计数。
+	noCopy noCopy  // noCopy可以嵌入到结构中，在第一次使用后不可复制,使用go vet作为检测使用，并因此只能进行指针传递，从而保证全局唯一
+	// 位值:高32位是计数器，低32位是goroutine等待计数。
 	// 64位的原子操作需要64位的对齐，但是32位。编译器不能确保它,所以分配了12个byte对齐的8个byte作为状态。
 	state1 [12]byte // byte=uint8范围：0~255，只取前8个元素。转为2进制：0000 0000，0000 0000... ...0000 0000
-	sema   uint32   // 信号量，用于唤醒goroution
+	sema   uint32   // 信号量，用于唤醒goroutine
 }
 ```
 不知道大家是否和我一样，不论是使用Java的CountDownLatch还是Golang的WaitGroup，都会疑问，可以装下多个线程|协程等待呢？看了源码后可以回答了，可以装下
@@ -32,6 +32,12 @@ func (wg *WaitGroup) Add(delta int) {
     // 获取到wg.state1数组中元素组成的二进制对应的十进制的值
 	statep := wg.state()
 	// 高32位是计数器
+    // 原子操作，如初始状态 statep 为空，且 delta 等于 1, 操作 加 1：
+    // 00000000 00000000 00000000 00000001 00000000 …… 00000000
+    // \___________ 前32位 _______________/\__ 后32位均为0 __/
+    // 若当前状态位存在值 1，则再添加 delta 等于 1， 其结果为：
+    // 00000000 00000000 00000000 00000010 00000000 …… 00000000
+    // \___________ 前32位 _______________/\__ 后32位均为0 __/
 	state := atomic.AddUint64(statep, uint64(delta)<<32)
 	// 获取计数器
 	v := int32(state >> 32)
@@ -71,7 +77,11 @@ func (wg *WaitGroup) Add(delta int) {
 // uintptr是golang的内置类型，是能存储指针的整型，uintptr的底层类型是int，它和unsafe.Pointer可相互转换。
 // uintptr和unsafe.Pointer的区别就是：unsafe.Pointer只是单纯的通用指针类型，用于转换不同类型指针，它不可以参与指针运算；
 // 而uintptr是用于指针运算的，GC 不把 uintptr 当指针，也就是说 uintptr 无法持有对象，uintptr类型的目标会被回收。
-// state()函数可以获取到wg.state1数组中元素组成的二进制对应的十进制的值
+// state()函数可以获取到wg.state1数组中元素组成的二进制对应的十进制的值。
+// 根据结构体中初始化分配的 12bytes 来兼容处理 64位操作系统和 32位操作系统,
+// 具体原理是，12bytes 中必定含有一个8bytes，仅仅使用这个含有的8bytes做为数据对齐使用，具体：
+// 当指针位置刚好指在 (2n) 的位置，证明位对齐，使用 8bytes 作为状态计数；
+// 当指针位置指在 (2n+1) 的位置上，抛弃前 4bytes，使用 后8bytes作为位对齐，用于记录状态计数。
 func (wg *WaitGroup) state() *uint64 {
 	if uintptr(unsafe.Pointer(&wg.state1))%8 == 0 {
 		return (*uint64)(unsafe.Pointer(&wg.state1))
@@ -107,7 +117,7 @@ func (wg *WaitGroup) Wait() {
 			// Counter is 0, no need to wait.
 			return
 		}
-		// 增加等待goroution计数，对低32位加1，不需要移位
+		// 增加等待goroutine计数，对低32位加1，不需要移位
 		if atomic.CompareAndSwapUint64(statep, state, state+1) {
 			// 目的是作为一个简单的sleep原语，以供同步使用
 			runtime_Semacquire(&wg.sema)

@@ -1,0 +1,9 @@
+{
+    "default": true,
+    "MD007": false,
+    "no-hard-tabs": false,
+    "line-length": false,
+    "no-inline-html": {
+        "allowed_elements": ["img", "br", "sub", "b"]
+    }
+}
