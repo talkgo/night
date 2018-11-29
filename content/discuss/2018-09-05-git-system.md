@@ -58,7 +58,7 @@ git 系统都有哪一些？
 
 >云服务器至少得 4核8G
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-09-05-gitlab.png)
+![](/images/2018-09-05-gitlab.png)
 
 - gogs 有一个超级大的痛点：CodeReview，但是优点也很突出：速度快，资源占用少。
 

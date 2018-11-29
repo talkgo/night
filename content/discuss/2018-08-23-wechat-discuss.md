@@ -23,7 +23,7 @@ title: 2018-08-23 有什么好的博客平台吗
 
 ### 对kafka的抽象
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-23-kafka-producer-consumer.png)
+![](/images/2018-08-23-kafka-producer-consumer.png)
 
 kafka聚焦于数据管道，nats聚焦于message bus
 
@@ -31,7 +31,7 @@ kafka聚焦于数据管道，nats聚焦于message bus
 
 下面这段代码为什么运行一会儿就停止了呢?
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-23-for-select.png)
+![](/images/2018-08-23-for-select.png)
 
 用 waitgroup 肯定是正常的，研究一个 go sceduler 的问题，所以才故意这样写的。
 
@@ -42,7 +42,7 @@ for {}这种死循环（现实中应该用不着，反正我没用过这种需�
 go 中加入 spinning threads 的目的是啥，有相关资料吗？
 >让 M 工作。
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-23-spinning.png)
+![](/images/2018-08-23-spinning.png)
 
 spin 和 unspin 对应就是 M 运行和休眠的状态，也就是线程运行和休眠的状态，M 只有实在找不多 G 来做的时候才会休眠。
 

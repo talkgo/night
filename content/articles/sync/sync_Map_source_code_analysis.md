@@ -77,32 +77,32 @@ Y=2
 Z=3
 ```
 dirty map主要接受写请求，read map没有数据，此时read map与dirty map数据如下图。
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map1.png)
+![](/images/sync-map1.png)
 
 读取数据的时候从read map中读取，此时read map并没有数据，miss记录从read map读取失败的次数，当misses>=len(dirty map)时，将dirty map直接升级为read map,这里直接对dirty map进行地址拷贝并且dirty map被清空，misses置为0。此时read map与dirty map数据如下图。
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map2.png)
+![](/images/sync-map2.png)
 
 现在有需求对Z元素进行修改Z=4，sync.Map会直接修改read map的元素。
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map3.png)
+![](/images/sync-map3.png)
 
 新加元素K=5，新加的元素就需要操作dirty map了，如果misses达到阀值后dirty map直接升级为read map并且dirty map为空map(read的amended==false)，则dirty map需要从read map复制数据。  
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map4.png)
+![](/images/sync-map4.png)
 
 升级后的效果如下。
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map5.png)
+![](/images/sync-map5.png)
 
 如果需要删除Z，需要分几种情况：  
 一种read map存在该元素且read的amended==false：直接将read中的元素置为nil。
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map6.png)
+![](/images/sync-map6.png)
 
 另一种为元素刚刚写入dirty map且未升级为read map:直接调用golang内置函数delete删除dirty map的元素；
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map7.png)
+![](/images/sync-map7.png)
 
 还有一种是read map和dirty map同时存在该元素：将read map中的元素置为nil，因为read map和dirty map 使用的均为元素地址，所以均被置为nil。
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/sync-map8.png)
+![](/images/sync-map8.png)
 
 
 ### 优化点

@@ -13,7 +13,7 @@ _2.客户端在建立异常中发现很多connect reset by peer,你觉得问题�
 
 _3.https建立连接的过程?_
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/https_connect.jpg)  
+![](/images/https_connect.jpg)  
 
 > 1.客户端发送请求到服务器端     
 > 2.服务器端返回证书和公开密钥，公开密钥作为证书的一部分而存在        

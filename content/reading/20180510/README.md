@@ -123,21 +123,21 @@ package xxx // import "xxx"
 
 举例说明：
 
-![TotalConn01](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/TotalConn01.jpeg)
-![totalConn](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/totalConn.jpeg)
+![TotalConn01](/images/TotalConn01.jpeg)
+![totalConn](/images/totalConn.jpeg)
 
 time.Sleep()的实现函数在runtime包的time.go
 ...
 
 其他更多的使用，大家可以自行搜索 `go:linkname`
 
-![timeSleep](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/timeSleep.jpeg)
+![timeSleep](/images/timeSleep.jpeg)
 
-![unexport01](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/unexport01.png)
-![unexport02](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/unexport02.png)
-![unexport03](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/unexport03.png)
-![unexport04](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/unexport04.png)
-![unexport05](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/unexport05.png)
+![unexport01](/images/unexport01.png)
+![unexport02](/images/unexport02.png)
+![unexport03](/images/unexport03.png)
+![unexport04](/images/unexport04.png)
+![unexport05](/images/unexport05.png)
 
 更多相关知识，大家可点击：[突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 

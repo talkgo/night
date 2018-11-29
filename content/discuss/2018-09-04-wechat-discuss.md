@@ -27,7 +27,7 @@ log.Traceln("body2", body2)
 
 >Body 不是 is.Seeker 无法 seek，应该不能重复 bind 的。
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-09-04-body.jpeg)
+![](/images/2018-09-04-body.jpeg)
 
 ### protobuf 3 枚举第一个必须是0，但是用的时候，用第一个 struct 会是空
 

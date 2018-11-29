@@ -11,10 +11,10 @@ title: 2018-08-15 深度 | 从 Go 高性能日志库 zap 看如何实现高性�
 
 - 我们有一个服务用 logrus 落日志，并发量太高了，直接影响了性能。
 - printf 类型字符串格式化的日志格式，不再推荐，现在日志的消费，逐渐从人转向了计算机，结构化的数据和友好的解析方式更重要。---跟 logrus 的作者观点一样，“核心不是性能”。。。
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-15-discuss-00.png)
+![](/images/2018-08-15-discuss-00.png)
 
 - 我们后面也用 sync.Pool 去优化落日志这一块。（当时因为 logrus 写日志这一块，直接在高并发的时候多开销了10G内存，当时服务总共开销才 15 G内存。后面做了一些优化，用 sync.Pool 提前把日志格式化好，不是用 logrus 里面的 WithFields 之类的，后来对比过 zerolog，但是优化后在 3W 左右的日志并发时，从我们服务器的监控来看，整体没有太大的区别（内存、CPU、服务器的整体速度），所以后面也没有更换 log 库。（原因是在于替换成本也比较高。））
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-15-discuss-01.png)
+![](/images/2018-08-15-discuss-01.png)
 
 ### Echo 里面的 context 也是用 sync.Pool 解决高并发的时候内存占用问题
 
