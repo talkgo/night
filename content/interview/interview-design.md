@@ -3,7 +3,7 @@ title: 设计题
 ---
 _1.要设计一个秒杀系统要注意什么？_
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/miaosha.jpg)
+![](/images/miaosha.jpg)
 
 > **前端秒杀页面**
 >

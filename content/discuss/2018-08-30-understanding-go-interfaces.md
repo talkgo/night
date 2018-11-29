@@ -7,8 +7,8 @@ title: 2018-08-30 理解 Go interface
 
 ### Go 语言不同接口、声明了同名方法，怎么解决问题？
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-30-interface.png)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-30-interface2.png)
+![](/images/2018-08-30-interface.png)
+![](/images/2018-08-30-interface2.png)
 
 1. 防止被其他对象误实现接口。
 

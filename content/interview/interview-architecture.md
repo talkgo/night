@@ -48,7 +48,7 @@ _5.负载均衡分类？_
 
 > 并发访问量大于1000万时可以考虑配合使用
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/load_balance.jpeg)
+![](/images/load_balance.jpeg)
 
 _6.Nginx和Lvs的区别？_
 

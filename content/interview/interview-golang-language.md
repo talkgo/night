@@ -37,7 +37,7 @@ _5.介绍下 golang 的 runtime 机制?_
 
 > [相关资料](https://blog.csdn.net/xclyfe/article/details/50562349)
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/goruntime.png)
+![](/images/goruntime.png)
 
 _6.如何获取 go 程序运行时的协程数量, gc 时间, 对象数, 堆栈信息?_   
  
@@ -52,7 +52,7 @@ _6.如何获取 go 程序运行时的协程数量, gc 时间, 对象数, 堆栈�
 更深入的用法就是将得到的运行时数据导入到 ES 内部, 然后使用 Kibana 做 golang 的运行时监控, 可以实时获取到运行的信息(堆栈, 对象数, gc 时间, goroutine, 总内存使用等等), [具体信息可以看 ReadMemStats 的那个结构体](https://golang.org/pkg/runtime/#MemStats)    
 
 效果大致如下:    
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/interview/images/golang-goroutine-object.png)
+![](/images/golang-goroutine-object.png)
  
 _7.介绍下你平时都是怎么调试 golang 的 bug 以及性能问题的?_
 

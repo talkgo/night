@@ -3,7 +3,7 @@ title: 批量删除redis中的key
 ---
 * **1.首先看图**
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/batch-del-redis-key_one.png)
+![](/images/batch-del-redis-key_one.png)
 
 
 >* 1.我创建了三个以`go:read`开头的key
@@ -12,7 +12,7 @@ title: 批量删除redis中的key
 
 * **2.查看原理**
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/batch-del-redis-key_two.png)
+![](/images/batch-del-redis-key_two.png)
 
 >* 1.执行`redis-cli -p 6379 keys "go:read*"`控制台输出了需要的key
 >* 2.执行`redis-cli -p 6379 keys "go:read*" | xargs -0 echo`,可以看到输出了需要的key，但是有点不一样，双引号被去掉了,这说明数据通过管道传递给了xargs作了相应处理
@@ -20,7 +20,7 @@ title: 批量删除redis中的key
 
 * **3.遇到的问题**
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/batch-del-redis-key_three.png)
+![](/images/batch-del-redis-key_three.png)
 
 >* 1.同样的原理，我设置了三个key，但是这三个key里面包含了双引号,双引号前得加上\转义符
 >* 2.使用`redis-cli -p 6379 keys "go:read*" | xargs redis-cli -p 6379 del`,发现没删除
@@ -31,7 +31,7 @@ title: 批量删除redis中的key
 
 * **4.另一种解决方案**
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/articles/images/batch-del-redis-key_four.png)
+![](/images/batch-del-redis-key_four.png)
 
 >* `for i in $(redis-cli -p 6379 keys "go:read:*");do redis-cli -p 6379 del "$i";done`
 >* 采用shell脚本格式 -> for循环读取key去删除

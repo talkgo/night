@@ -21,7 +21,7 @@ title: 2018-06-28 线下活动
 
 > **1.各个系统的回车换行符区别**                
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/reading/20180628/images/20180628-1.jpeg)
+![](/images/20180628-1.jpeg)
 
 - 注意:`10.13及其以上是macOS系统`
 
@@ -41,7 +41,7 @@ title: 2018-06-28 线下活动
 
 > **4.peek读取字节内部实现**                  
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/reading/20180628/images/20180628-4.jpeg)
+![](/images/20180628-4.jpeg)
 
 - 这里先peek获取流数据(注意：`这里没有对Peek的错误进行处理，而是根据是否Buffered读取到数据来判断错误`)
 - 为什么没有对Peek的错误进行处理呢？`主要是因Peek失败了也有可能不会返回错误`
@@ -54,11 +54,11 @@ title: 2018-06-28 线下活动
 
 看源码发现hearder结尾会存在`\r\n\r\n`和`\n\n`两种字符情况
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/reading/20180628/images/20180628-2.jpeg)
+![](/images/20180628-2.jpeg)
 
 网络上查资料发现只会存在`\r\n\r\n`
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/reading/20180628/images/20180628-3.jpeg)
+![](/images/20180628-3.jpeg)
 
 - TODO                 
 

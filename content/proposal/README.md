@@ -1,4 +1,6 @@
-# Proposing Changes to Go
+---
+title: Proposing Changes to Go
+---
 
 ## Introduction
 

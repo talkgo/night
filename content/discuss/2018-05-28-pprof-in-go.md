@@ -27,23 +27,23 @@ pprof 是一个运行时间段的数据，然后后续分析使用，线上应�
 
 >[appoptics-apm-go](https://github.com/appoptics/appoptics-apm-go)
 
-![memstats](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/memstats.jpeg)
+![memstats](/images/memstats.jpeg)
 
 pprof 算是监控的一种，promethues 中自带的 exporter 就有监控 go runtime 的数据，比如 goroutine 数量，栈等。
 
 ## 3. 返回的 int和interface的区别，如下图：
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/return_before_after_change01.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/return_before_after_change02.jpeg)
+![](/images/return_before_after_change01.jpeg)
+![](/images/return_before_after_change02.jpeg)
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss01.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss02.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss03.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss04.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss05.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss06.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss07.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-28-discuss08.jpeg)
+![](/images/2018-05-28-discuss01.jpeg)
+![](/images/2018-05-28-discuss02.jpeg)
+![](/images/2018-05-28-discuss03.jpeg)
+![](/images/2018-05-28-discuss04.jpeg)
+![](/images/2018-05-28-discuss05.jpeg)
+![](/images/2018-05-28-discuss06.jpeg)
+![](/images/2018-05-28-discuss07.jpeg)
+![](/images/2018-05-28-discuss08.jpeg)
 
 dlv debug 一下，运行顺序是一样的，是不是 golang 的 bug 呢？
 看汇编，不是完全看的懂，如果是interface的时候，会申请一个type为int空interface的结构，然后想把m的值复制给data区，但是结果就是没有成功。

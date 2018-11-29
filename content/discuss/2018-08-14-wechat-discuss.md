@@ -15,7 +15,7 @@ title: 2018-08-14 做实时语音流，用什么来做比较好
 
 ### Go 默认使用 CPU 核数？
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-08-14-discuss-01.png)
+![](/images/2018-08-14-discuss-01.png)
 
 具体代码：`proc.go#schedinit()`。
 

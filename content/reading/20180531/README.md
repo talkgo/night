@@ -53,9 +53,9 @@ func (s *Server) doKeepAlives() bool {
 
 5. Header() Header 注释引发的Trailer的思考？
 
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-31-night-reading-go-01.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-31-night-reading-go-03.jpeg)
-![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/images/2018-05-31-night-reading-go-02.jpeg)
+![](/images/2018-05-31-night-reading-go-01.jpeg)
+![](/images/2018-05-31-night-reading-go-03.jpeg)
+![](/images/2018-05-31-night-reading-go-02.jpeg)
 
 ## 延伸阅读
 
