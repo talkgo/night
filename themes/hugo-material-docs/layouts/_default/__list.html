@@ -1,0 +1,49 @@
+{{ partial "head" . }}
+
+<div class="backdrop">
+    <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+    {{ partial "header" . }}
+</header>
+
+<main class="main">
+    <div class="drawer">
+        {{ partial "drawer" . }}
+    </div>
+
+    <article class="article">
+        <div class="wrapper">
+            <h1>Pages in {{ .Title | singularize }}</h1>
+
+            {{ range .Data.Pages }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+                <h2>{{ .Title }}</h2>
+            </a>
+
+            <br> {{ printf "%s" .Summary | markdownify }}
+
+            <hr> {{ end }}
+
+            <aside class="copyright" role="note">
+                {{ with .Site.Params.copyright }} &copy; {{ now.Format "2006" }} {{ . }} &ndash; {{ end }} - By John Deng.
+            </aside>
+        </div>
+    </article>
+
+    <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+            <div class="wrapper">
+                <div class="meta"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer_js" . }}
