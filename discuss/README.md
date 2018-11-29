@@ -1,5 +1,6 @@
 # 日常技术讨论总结
 
+- [2018-11-29 Golang 的配置中心](./2018-11-29-config-in-go.md)
 - [2018-11-09 强制使用字段命名方式初始化结构体](./2018-11-09-force-to-use-keyed-struct-literals.md)
 - [2018-10-18 cannot take address of temporary variables](./2018-11-08-address_operators.md)
 - [2018-10-18 encOp 怎么实现的呢？](./2018-10-18-encOp.md)
