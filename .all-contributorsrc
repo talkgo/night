@@ -246,6 +246,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "john-deng",
+      "name": "John Deng",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6748475?v=4",
+      "profile": "https://hiboot.hidevops.io",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
