@@ -1,11 +1,13 @@
 package main
 
+import "sync/atomic"
+
 func (s *Server) doKeepAlives() bool {
 	return atomic.LoadInt32(&s.disableKeepAlives) == 0 && !s.shuttingDown()
 }
 
 func xxx() {
-    panicChan := make(chan interface{}, 1)
+	panicChan := make(chan interface{}, 1)
 	go func() {
 		defer func() {
 			if p := recover(); p != nil {
@@ -18,5 +20,5 @@ func xxx() {
 	select {
 	case p := <-panicChan:
 		panic(p)
-    }
+	}
 }
