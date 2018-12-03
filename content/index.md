@@ -5,7 +5,7 @@ type: index
 weight: 0
 ---
 
-[![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
 ## Stargazers over time
 
@@ -20,14 +20,23 @@ weight: 0
 ----
 <br>
 
-|![notification](./images/bell-outline-badged.svg)预告|
+|![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-|2018年11月29号晚上8点开始，讨论主题：《Go errors 处理》|
+| [《Go 编辑器常用配置分享》-vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
+| 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
+| 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
+| 《Go mod 源码实现分析》（欢迎自荐）|
+| 《Drone 源码实现分析》|
+
+## 0. Golang Proposal
+
+- 阅读 [Golang Proposal](https://github.com/golang/proposal) ，有兴趣的朋友可以一起。
 
 ## 1. 往期回顾
 
 | 期数 | 分析总结 | YouTube |
 | :---- | :---- | :---- |
+| 第 21 期 | Go errors 处理及 zap 源码分析 | [https://youtu.be/ImJim15N_Wc](https://youtu.be/ImJim15N_Wc) |
 | 第 20 期 | [go test 及测试覆盖率] | [https://youtu.be/qkFFIIaTgHM](https://youtu.be/qkFFIIaTgHM) |
 | 第 19 期 | [如何开发一个简单高性能的http router及gorouter源码分析 - xujiajun](https://github.com/xujiajun/gorouter) | [https://youtu.be/3BoStxKECL0](https://youtu.be/3BoStxKECL0) |
 | 第 18 期 | 去中心化加密通信框架 [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL)/DH-RPC的设计 | [https://youtu.be/bAfiKsLbDeE](https://youtu.be/bAfiKsLbDeE) |
@@ -53,6 +62,7 @@ weight: 0
 
 ## 2. 日常讨论总结
 
+- [2018-11-29 Golang 的配置中心](./discuss/2018-11-29-config-in-go/)
 - [2018-11-09 强制使用字段命名方式初始化结构体](./discuss/2018-11-09-force-to-use-keyed-struct-literals/)
 - [2018-11-08 aws的ec2虚拟机示例创建后无法ssh连接登录问题](./discuss/2018-11-08-aws-ec2-ssh-login-problem/)
 - [2018-10-18 cannot take address of temporary variables](./discuss/2018-11-08-address_operators/)
@@ -170,6 +180,7 @@ Discord 入群链接：https://discord.gg/Q2FDua9
 ├── reading   // Go 源码阅读
 ├── discuss   // 日常微信群讨论的总结
 ├── articles  // 个人原创的技术文章
+├── interview // Go 面试专区
 └── other     // 其他
 ```
 
@@ -192,7 +203,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [<img src="https://avatars0.githubusercontent.com/u/12060175?v=4" width="100px;"/><br /><sub><b>dumliu01</b></sub>](https://github.com/dumliu01)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=dumliu01 "Code") | [<img src="https://avatars0.githubusercontent.com/u/1411282?v=4" width="100px;"/><br /><sub><b>hlily2005</b></sub>](https://github.com/hlily2005)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=hlily2005 "Code") | [<img src="https://avatars0.githubusercontent.com/u/16982786?v=4" width="100px;"/><br /><sub><b>fenggolang</b></sub>](https://github.com/fenggolang)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=fenggolang "Code") | [<img src="https://avatars3.githubusercontent.com/u/10174178?v=4" width="100px;"/><br /><sub><b>henrylee2cn</b></sub>](https://github.com/henrylee2cn)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=henrylee2cn "Code") | [<img src="https://avatars0.githubusercontent.com/u/1336914?v=4" width="100px;"/><br /><sub><b>shaqsnake</b></sub>](https://github.com/shaqsnake)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=shaqsnake "Code") | [<img src="https://avatars0.githubusercontent.com/u/5728787?v=4" width="100px;"/><br /><sub><b>tbwisk</b></sub>](https://github.com/TBWISK)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=TBWISK "Code") | [<img src="https://avatars3.githubusercontent.com/u/416141?v=4" width="100px;"/><br /><sub><b>Huang ChuanTong</b></sub>](https://github.com/toontong)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=toontong "Code") |
 | [<img src="https://avatars3.githubusercontent.com/u/10513552?v=4" width="100px;"/><br /><sub><b>The notes of SQL optimize </b></sub>](https://github.com/zhongxuan123)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=zhongxuan123 "Code") | [<img src="https://avatars2.githubusercontent.com/u/29008269?v=4" width="100px;"/><br /><sub><b>zhouxinxin19920802</b></sub>](https://github.com/zhouxinxin19920802)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=zhouxinxin19920802 "Code") | [<img src="https://avatars2.githubusercontent.com/u/20811449?v=4" width="100px;"/><br /><sub><b>macaria</b></sub>](https://github.com/macaria)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=macaria "Code") | [<img src="https://avatars3.githubusercontent.com/u/15226239?v=4" width="100px;"/><br /><sub><b>Dennis</b></sub>](http://github.com/DennisMao)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=DennisMao "Code") | [<img src="https://avatars1.githubusercontent.com/u/2696746?v=4" width="100px;"/><br /><sub><b>orangleliu</b></sub>](http://blog.csdn.net/orangleliu)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=orangle "Code") | [<img src="https://avatars1.githubusercontent.com/u/21693162?v=4" width="100px;"/><br /><sub><b>HarbinZhang</b></sub>](https://github.com/HarbinZhang)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=HarbinZhang "Code") | [<img src="https://avatars1.githubusercontent.com/u/7344921?v=4" width="100px;"/><br /><sub><b>LiMingji</b></sub>](https://github.com/SwanSpouse)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=SwanSpouse "Code") |
-| [<img src="https://avatars0.githubusercontent.com/u/22164927?v=4" width="100px;"/><br /><sub><b>wintersnow</b></sub>](https://mickey0524.github.io/)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=mickey0524 "Code") | [<img src="https://avatars2.githubusercontent.com/u/44076738?v=4" width="100px;"/><br /><sub><b>zhuzhenfeng</b></sub>](https://github.com/zhuzhenfeng-finogeeks)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=zhuzhenfeng-finogeeks "Code") | [<img src="https://avatars2.githubusercontent.com/u/6065007?v=4" width="100px;"/><br /><sub><b>徐佳军</b></sub>](https://xujiajun.cn)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=xujiajun "Code") |
+| [<img src="https://avatars0.githubusercontent.com/u/22164927?v=4" width="100px;"/><br /><sub><b>wintersnow</b></sub>](https://mickey0524.github.io/)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=mickey0524 "Code") | [<img src="https://avatars2.githubusercontent.com/u/44076738?v=4" width="100px;"/><br /><sub><b>zhuzhenfeng</b></sub>](https://github.com/zhuzhenfeng-finogeeks)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=zhuzhenfeng-finogeeks "Code") | [<img src="https://avatars2.githubusercontent.com/u/6065007?v=4" width="100px;"/><br /><sub><b>徐佳军</b></sub>](https://xujiajun.cn)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=xujiajun "Code") | [<img src="https://avatars0.githubusercontent.com/u/6884499?v=4" width="100px;"/><br /><sub><b>nicho</b></sub>](https://github.com/NichoZhang)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=NichoZhang "Code") | [<img src="https://avatars1.githubusercontent.com/u/17244565?v=4" width="100px;"/><br /><sub><b>Weifeng Wang</b></sub>](https://www.btxiaowei.net)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=qclaogui "Code") | [<img src="https://avatars3.githubusercontent.com/u/6748475?v=4" width="100px;"/><br /><sub><b>John Deng</b></sub>](https://hiboot.hidevops.io)<br />[💻](https://github.com/developer-learning/night-reading-go/commits?author=john-deng "Code") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
