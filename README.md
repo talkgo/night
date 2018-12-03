@@ -169,7 +169,9 @@ weight: 0
 目前微信群已经超过 `100` 人，请微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
 ## Discord
+
 Discord 入群链接：https://discord.gg/Q2FDua9
+
 ----
 
 ## 如何参与贡献？
