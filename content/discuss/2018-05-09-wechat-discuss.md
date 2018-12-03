@@ -28,8 +28,8 @@ title: 2018-05-09 微信群讨论
     - 服务器认证（这个就不贴了，大家自行Google）
     - [其他更多](https://www.jetbrains.com/go/buy/#edition=discounts)
 
-![](/images/jetbrains1.png)
-![](/images/jetbrains2.png)
+![](/static/images/jetbrains1.png)
+![](/static/images/jetbrains2.png)
 
 - LiteIDE: LiteIDE的跟踪代码很不错,可以同时在一个窗口打开多个项目的目录.
 

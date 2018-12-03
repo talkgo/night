@@ -13,22 +13,22 @@ _2.Go语言局部变量分配在栈还是堆？_
 
 _3.简述一下你对Go垃圾回收机制的理解？_
 
-> v1.1 STW           
-> v1.3 Mark STW, Sweep 并行        
-> v1.5 三色标记法         
-> v1.8 hybrid write barrier(混合写屏障：优化STW)       
+> v1.1 STW
+> v1.3 Mark STW, Sweep 并行
+> v1.5 三色标记法
+> v1.8 hybrid write barrier(混合写屏障：优化STW)
 >
 > [Golang垃圾回收剖析](http://legendtkl.com/2017/04/28/golang-gc/)
 
 _4.简述一下golang的协程调度原理?_
 
-> `M(machine)`: 代表着真正的执行计算资源，可以认为它就是os thread（系统线程）。    
-> `P(processor)`: 表示逻辑processor，是线程M的执行的上下文。    
-> `G(goroutine)`: 调度系统的最基本单位goroutine，存储了goroutine的执行stack信息、goroutine状态以及goroutine的任务函数等。     
-> 
+> `M(machine)`: 代表着真正的执行计算资源，可以认为它就是os thread（系统线程）。
+> `P(processor)`: 表示逻辑processor，是线程M的执行的上下文。
+> `G(goroutine)`: 调度系统的最基本单位goroutine，存储了goroutine的执行stack信息、goroutine状态以及goroutine的任务函数等。
+>
 > [查看资料](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180802/README.md)
 
-_5.介绍下 golang 的 runtime 机制?_   
+_5.介绍下 golang 的 runtime 机制?_
 
 > Runtime 负责管理任务调度，垃圾收集及运行环境。同时，Go提供了一些高级的功能，如goroutine, channel, 以及Garbage collection。这些高级功能需要一个runtime的支持. runtime和用户编译后的代码被linker静态链接起来，形成一个可执行文件。这个文件从操作系统角度来说是一个user space的独立的可执行文件。
 > 从运行的角度来说，这个文件由2部分组成，一部分是用户的代码，另一部分就是runtime。runtime通过接口函数调用来管理goroutine, channel及其他一些高级的功能。从用户代码发起的调用操作系统API的调用都会被runtime拦截并处理。
@@ -37,23 +37,23 @@ _5.介绍下 golang 的 runtime 机制?_
 
 > [相关资料](https://blog.csdn.net/xclyfe/article/details/50562349)
 
-![](/images/goruntime.png)
+![](/static/images/goruntime.png)
 
-_6.如何获取 go 程序运行时的协程数量, gc 时间, 对象数, 堆栈信息?_   
- 
-调用接口 runtime.ReadMemStats 可以获取以上所有信息, **注意: 调用此接口会触发 STW(Stop The World)**  
+_6.如何获取 go 程序运行时的协程数量, gc 时间, 对象数, 堆栈信息?_
+
+调用接口 runtime.ReadMemStats 可以获取以上所有信息, **注意: 调用此接口会触发 STW(Stop The World)**
 参考: https://golang.org/pkg/runtime/#ReadMemStats
 
 如果需要打入到日志系统, 可以使用 go 封装好的包, 输出 json 格式. 参考:
 
-1. https://golang.org/pkg/expvar/ 
-2. http://blog.studygolang.com/2017/06/expvar-in-action/ 
+1. https://golang.org/pkg/expvar/
+2. http://blog.studygolang.com/2017/06/expvar-in-action/
 
-更深入的用法就是将得到的运行时数据导入到 ES 内部, 然后使用 Kibana 做 golang 的运行时监控, 可以实时获取到运行的信息(堆栈, 对象数, gc 时间, goroutine, 总内存使用等等), [具体信息可以看 ReadMemStats 的那个结构体](https://golang.org/pkg/runtime/#MemStats)    
+更深入的用法就是将得到的运行时数据导入到 ES 内部, 然后使用 Kibana 做 golang 的运行时监控, 可以实时获取到运行的信息(堆栈, 对象数, gc 时间, goroutine, 总内存使用等等), [具体信息可以看 ReadMemStats 的那个结构体](https://golang.org/pkg/runtime/#MemStats)
 
-效果大致如下:    
-![](/images/golang-goroutine-object.png)
- 
+效果大致如下:
+![](/static/images/golang-goroutine-object.png)
+
 _7.介绍下你平时都是怎么调试 golang 的 bug 以及性能问题的?_
 
 > 1. panic 调用栈

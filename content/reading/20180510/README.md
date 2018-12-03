@@ -93,7 +93,7 @@ func IndexByte(s string, c byte) int // ../runtime/asm_$GOARCH.s）
 ```
 `*.s` 文件存在的原因是 Go 在编译的时候会启用 -compile 编译器 flag ，它要求所有的函数必须包含函数体，创建一个空的汇编语言文件绕开这个限制。
 
-- go:linkname 
+- go:linkname
 
 >控制谁可以调用它。
 
@@ -123,21 +123,21 @@ package xxx // import "xxx"
 
 举例说明：
 
-![TotalConn01](/images/TotalConn01.jpeg)
-![totalConn](/images/totalConn.jpeg)
+![TotalConn01](/static/images/TotalConn01.jpeg)
+![totalConn](/static/images/totalConn.jpeg)
 
 time.Sleep()的实现函数在runtime包的time.go
 ...
 
 其他更多的使用，大家可以自行搜索 `go:linkname`
 
-![timeSleep](/images/timeSleep.jpeg)
+![timeSleep](/static/images/timeSleep.jpeg)
 
-![unexport01](/images/unexport01.png)
-![unexport02](/images/unexport02.png)
-![unexport03](/images/unexport03.png)
-![unexport04](/images/unexport04.png)
-![unexport05](/images/unexport05.png)
+![unexport01](/static/images/unexport01.png)
+![unexport02](/static/images/unexport02.png)
+![unexport03](/static/images/unexport03.png)
+![unexport04](/static/images/unexport04.png)
+![unexport05](/static/images/unexport05.png)
 
 更多相关知识，大家可点击：[突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 
@@ -168,7 +168,7 @@ func (as *asciiSet) contains(c byte) bool {
 - makeASCIISet
 
 ```go
-// ascii空格包括\t,\n,\v,\f,\r, ` ` 
+// ascii空格包括\t,\n,\v,\f,\r, ` `
 var asciiSpace = [256]uint8{'\t': 1, '\n': 1, '\v': 1, '\f': 1, '\r': 1, ' ': 1}
 ```
 

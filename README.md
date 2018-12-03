@@ -15,7 +15,7 @@
 ----
 <br>
 
-|![notification](https://github.com/developer-learning/night-reading-go/raw/master/images/bell-outline-badged.svg?sanitize=true)预告|
+|![notification](https://github.com/developer-learning/night-reading-go/raw/master/static/images/bell-outline-badged.svg?sanitize=true)预告|
 |:------------------:|
 | [《Go 编辑器常用配置分享》-vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|

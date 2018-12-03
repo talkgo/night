@@ -20,7 +20,7 @@ weight: 0
 ----
 <br>
 
-|![notification](./images/bell-outline-badged.svg)预告|
+|![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
 |2018年11月29号晚上8点开始，讨论主题：《Go errors 处理》|
 

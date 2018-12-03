@@ -48,7 +48,7 @@ _5.负载均衡分类？_
 
 > 并发访问量大于1000万时可以考虑配合使用
 
-![](/images/load_balance.jpeg)
+![](/static/images/load_balance.jpeg)
 
 _6.Nginx和Lvs的区别？_
 
