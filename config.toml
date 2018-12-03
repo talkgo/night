@@ -1,4 +1,5 @@
-baseurl = "https://reading.hidevops.io/"
+baseurl = ""
+relativeurls = true
 title = "Go 夜读"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
