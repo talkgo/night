@@ -168,6 +168,7 @@
 ## 如何参与贡献？
 
 ```sh
+content
 ├── reading   // Go 源码阅读
 ├── discuss   // 日常微信群讨论的总结
 ├── articles  // 个人原创的技术文章
