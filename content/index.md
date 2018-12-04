@@ -66,7 +66,7 @@ Discord 入群链接：https://discord.gg/Q2FDua9
 └── other     // 其他
 ```
 
-[如何参与贡献](https://github.com/developer-learning/night-reading-go/blob/master/CONTRIBUTING.md)
+[如何参与贡献](other/contributing/)
 
 ## Contributors
 
