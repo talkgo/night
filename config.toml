@@ -1,4 +1,4 @@
-baseurl = "reading.hidevops.io"
+baseurl = "https://reading.developerlearning.cn/"
 title = "Go 夜读"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
