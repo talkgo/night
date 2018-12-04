@@ -51,7 +51,7 @@ weight: 0
 └── other     // 其他
 ```
 
-[如何参与贡献](./CONTRIBUTING/)
+[如何参与贡献](https://github.com/developer-learning/night-reading-go/blob/master/CONTRIBUTING.md)
 
 ## Contributors
 
