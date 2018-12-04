@@ -17,19 +17,6 @@ weight: 0
 
 >阅读计划：Go 标准包、开源项目源代码。
 
-----
-<br>
-
-|![notification](/images/bell-outline-badged.svg)预告|
-|:------------------:|
-| [《Go 编辑器常用配置分享》-vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
-| 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
-| 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
-| 《Go mod 源码实现分析》（欢迎自荐）|
-| 《Drone 源码实现分析》|
-
-----
-
 ## 我们的目标
 
 我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。我们希望每次来了的人和没来的人都能够有收获，成长。

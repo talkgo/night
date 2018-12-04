@@ -26,3 +26,7 @@ Github：https://github.com/zhenfeng-zhu
 - OpenFaaS的源码分析
 
 - OpenFaaS的定制
+
+## 观看视频
+
+{{< youtube id="bZtgrAVR9HQ" >}}
