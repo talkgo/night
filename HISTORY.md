@@ -27,7 +27,6 @@
 ![](/images/night-reading-go-star_20180516115000.png)
 ![](/images/night-reading-go-star_20180518142500.png)
 
-
 ----
 
 ### 第二阶段
@@ -62,3 +61,16 @@
 3. 2018-08-07 16:31:00 Star 达到了 913 ；
 4. 2018-08-08 17:08:00 Star 达到了 1067 ；
 
+----
+
+### 第四阶段
+
+>[Go 夜读](https://reading.developerlearning.cn/)终于有自己的官方网站了。
+
+从 2018-09-27 在 issue 中提出[自动更新 README 脚本化](https://github.com/developer-learning/night-reading-go/issues/58)，到最近[将项目中的文章自动同步构建网站](https://github.com/developer-learning/night-reading-go/issues/74)
+
+在这里我要非常感谢 @john-deng ，是你第一次提出来，也是你在一直改进我们的官网。
+
+昨天（2018-12-04）的 GrowingIO 数据：
+
+![](/images/2018-12-04-gio.png)
