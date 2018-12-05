@@ -62,7 +62,7 @@ weight: 0
 - 安装 `npm install -g --save-dev all-contributors-cli`
 - `sh gen_contributors.sh`
 
-贡献类型有多种，比如："code", "ideas","review","talk","tutorial"，你可以在 `。all-contributorsrc` 中修改。
+贡献类型有多种，比如："code", "ideas","review","talk","tutorial"，你可以在 `.all-contributorsrc` 中修改。
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
