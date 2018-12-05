@@ -15,7 +15,11 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/1710912?v=4",
       "profile": "https://github.com/yangwenmai",
       "contributions": [
-        "code"
+        "code",
+        "ideas",
+        "review",
+        "talk",
+        "tutorial"
       ]
     },
     {
@@ -248,6 +252,15 @@
       "name": "John Deng",
       "avatar_url": "https://avatars3.githubusercontent.com/u/6748475?v=4",
       "profile": "https://hiboot.hidevops.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jeasonstudio",
+      "name": "赵吉彤",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17971291?v=4",
+      "profile": "http://jeasonstudio.github.io",
       "contributions": [
         "code"
       ]
