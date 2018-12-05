@@ -1,10 +1,4 @@
----
-date: 2018-11-08T21:07:13+01:00
-title: Go 夜读
-type: index
-weight: 0
----
-
+# [Go 夜读](https://reading.developerlearning.cn/)
 [![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
 ## Stargazers over time
@@ -16,8 +10,6 @@ weight: 0
 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
 
 >阅读计划：Go 标准包、开源项目源代码。
-
-[Go 夜读](https://reading.developerlearning.cn/)
 
 ## 我们的目标
 
