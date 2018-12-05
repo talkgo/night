@@ -17,6 +17,8 @@ weight: 0
 
 >阅读计划：Go 标准包、开源项目源代码。
 
+[Go 夜读](https://reading.developerlearning.cn/)
+
 ## 我们的目标
 
 我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。我们希望每次来了的人和没来的人都能够有收获，成长。
@@ -59,6 +61,8 @@ weight: 0
 
 - 安装 `npm install -g --save-dev all-contributors-cli`
 - `sh gen_contributors.sh`
+
+贡献类型有多种，比如："code", "ideas","review","talk","tutorial"，你可以在 `。all-contributorsrc` 中修改。
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
