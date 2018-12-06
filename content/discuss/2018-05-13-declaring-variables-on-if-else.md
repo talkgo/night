@@ -1,6 +1,8 @@
 ---
-title:  关于变量在 if-else 条件表达式里的作用域范围
+title: 2018-05-13 关于变量在 if-else 条件表达式里的作用域范围
+date: 2018-05-13T00:00:00+08:00
 ---
+
 ## 一. 如何发现这个问题?
 
 我是在浏览 `Twitter` 的时候, 发现博主 [David Crawshaw](https://twitter.com/davidcrawshaw) 分享了一段代码,

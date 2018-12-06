@@ -1,5 +1,6 @@
 ---
 title: 2018-05-22 Go string to byte slice
+date: 2018-05-22T00:00:00+08:00
 ---
 来源：《Go 夜读》微信群
 

@@ -1,6 +1,8 @@
 ---
 title: 批量删除redis中的key
+date: 2018-05-31T00:00:00+08:00
 ---
+
 * **1.首先看图**
 
 ![](/images/batch-del-redis-key_one.png)

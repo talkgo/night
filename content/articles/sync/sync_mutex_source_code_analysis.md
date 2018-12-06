@@ -1,5 +1,6 @@
 ---
 title: sync.Mutex 源码分析
+date: 2018-09-08T00:00:00+08:00
 ---
 针对 Golang 1.10.3 的 sync.Mutex 进行分析，代码位置：`sync/mutex.go`
 
