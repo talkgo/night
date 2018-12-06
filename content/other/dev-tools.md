@@ -30,6 +30,18 @@ Plugins-->material Theme UI-->点击 Install，然后重启 GoLand 即可。
 
 Editor-->General-->Other -> Show quick documentation on mouse move Delay：500 ms，点击应用即可查看。
 
+### GoLand 保存时自动格式化
+
+GoLand/Intellij Idea 可以帮助我们在保存时自动格式化代码.
+
+Preferences...-->Tools-->File watchers-->go fmt/go imports，点击 OK 即可生效。
+
+### 用了 GoLand 会将自己的配置文件覆盖，怎么办？
+
+配置选项取消勾选就行：
+
+Preferences...-->Tools-->Terminal-->将 shell integration 打勾取消，点击 OK 即可生效。
+
 ----
 
 ## Sublime Text 3
