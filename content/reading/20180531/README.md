@@ -57,8 +57,13 @@ func (s *Server) doKeepAlives() bool {
 ![](/images/2018-05-31-night-reading-go-03.jpeg)
 ![](/images/2018-05-31-night-reading-go-02.jpeg)
 
+## 观看视频
+
+{{< youtube id="U84dn76gixQ" >}}
+
 ## 延伸阅读
 
 1. [HTTP Chunked Body/Trailer编码](http://www.unclekevin.org/?p=203)
 2. [example_ResponseWriter_trailers](https://golang.org/pkg/net/http/#example_ResponseWriter_trailers)
 3. [HTTP Header Trailer](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Trailer)
+

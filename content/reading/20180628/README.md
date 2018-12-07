@@ -60,6 +60,10 @@ title: 2018-06-28 线下活动
 
 ![](/images/20180628-3.jpeg)
 
+## 观看视频
+
+{{< youtube id="xodlVBWxTYM" >}}
+
 - TODO                 
 
 
