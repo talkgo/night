@@ -1,5 +1,6 @@
 ---
-title: golang中goroutine的调度
+title: 第12期 golang中goroutine的调度
+date: 2018-08-02T11:49:10+08:00
 ---
 
 郑宝杨(boya) 2018-08-01 listomebao@gmail.com

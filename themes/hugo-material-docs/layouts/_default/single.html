@@ -20,7 +20,9 @@
     <article class="article">
         <div class="wrapper">
             <h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
-            <h3>作者：{{ .Params.author }} {{ if .Params.author }} {{ end }}</h3>
+            <aside >
+                {{ with .Params.author }} 作者: {{ . }} {{ end }}
+            </aside>
 
             {{ .Content }}
 
