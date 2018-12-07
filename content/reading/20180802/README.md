@@ -441,4 +441,6 @@ func newproc1(fn *funcval, argp *uint8, narg int32, callerpc uintptr) {
 新建的G都是_Grunnable的，新建G的时候优先从gfree list从获取G，这样可以复用G，所以上图的状态不是完整的，_Gdead通过newproc会变为_Grunnable，
 通过go func()的语法新建的G，并不是直接运行，而是放入可运行的队列中，什么时候运行用于并不能决定，而是搞调度系统去自发的运行。
 
+## 观看视频
 
+{{< youtube id="98pIzaOeD2k" >}}
