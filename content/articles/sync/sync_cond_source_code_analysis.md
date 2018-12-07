@@ -1,6 +1,8 @@
 ---
 title: sync.Cond源码分析
+date: 2018-09-08T00:00:00+08:00
 ---
+
 Cond的主要作用就是获取锁之后，wait()方法会等待一个通知，来进行下一步锁释放等操作，以此控制锁合适释放，释放频率,适用于在并发环境下goroutine的等待和通知。
 
 针对Golang 1.9的sync.Cond，与Golang 1.10一样。 源代码位置：sync\cond.go。

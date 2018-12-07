@@ -1,5 +1,6 @@
 ---
 title: sync.WaitGroup源码分析
+date: 2018-09-08T00:00:00+08:00
 ---
 针对Golang 1.9的sync.WaitGroup进行分析，与Golang 1.10基本一样除了将`panic`改为了`throw`之外其他的都一样。
 源代码位置：`sync\waitgroup.go`。  

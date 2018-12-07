@@ -1,5 +1,6 @@
 ---
 title: sync.Once源码分析
+date: 2018-09-08T00:00:00+08:00
 ---
 sync.Once可以实现单例模式，确保sync.Once.Do(f func())只会被执行一次，可以初始化某个实例单例。
 

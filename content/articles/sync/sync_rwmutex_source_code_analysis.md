@@ -1,5 +1,6 @@
 ---
 title: sync.RWMutex源码分析
+date: 2018-09-08T00:00:00+08:00
 ---
 针对 Golang 1.9 的 sync.RWMutex 进行分析，与 Golang 1.10 基本一样除了将`panic`改为了`throw`之外其他的都一样
 

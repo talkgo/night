@@ -1,5 +1,6 @@
 ---
 title:  Go 开发工具
+date: 2018-12-06T00:00:00+08:00
 ---
 
 - [VS Code]()
@@ -41,6 +42,14 @@ Preferences...-->Tools-->File watchers-->go fmt/go imports，点击 OK 即可生
 配置选项取消勾选就行：
 
 Preferences...-->Tools-->Terminal-->将 shell integration 打勾取消，点击 OK 即可生效。
+
+### GoLand 怎么选中光标及其往后的所有内容？
+
+VS Code 里面是通过 command+shift+向下箭头。
+
+### GoLand 怎么到文件首行？
+
+VS Code 里面是通过 command+向上箭头。
 
 ----
 
