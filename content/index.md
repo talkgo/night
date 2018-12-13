@@ -22,11 +22,10 @@ weight: 0
 
 |![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| [《Go 编辑器常用配置分享》-vim？vscode？GoLand？Sublime Text?](https://github.com/developer-learning/night-reading-go/issues/77) |
+| 12月20日《Go mod 源码阅读》|
+| 12月27日《讲TSDB引擎介绍，对比及存储细节-yuyang》 |
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
-| 《Go mod 源码实现分析》（欢迎自荐）|
-| 《Drone 源码实现分析》|
 
 ----
 
