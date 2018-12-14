@@ -8,7 +8,6 @@ date: 2018-12-11T17:13:46+08:00
 ## go module初始化
 
 ```golang
-
 go mod init [module name]
 
 ```
@@ -21,7 +20,6 @@ go mod init cmpp
 调用go mod init会自动生成go.mod文件，使用如下：
 
 ```golang
-
 module tx
 
 require github.com/sirupsen/logrus v1.2.0
@@ -62,7 +60,6 @@ vX.Y.Z
 总不能让大家记住每个包的伪版本号吧？显然不太现实，初始化mod文件可以如下写：
 
 ```golang
-
 require github.com/sirupsen/logrus latest
 
 ```
@@ -75,7 +72,6 @@ require github.com/sirupsen/logrus latest
 使用如下命令:
 
 ```golang
-
 go mod edit -fmt
 
 ```
@@ -97,7 +93,6 @@ go: error loading module requirements
 在go.mod进行如下设置：
 
 ```go
-
 replace (
     golang.org/x/crypto v0.0.0-20180820150726-614d502a4dac => github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac
     golang.org/x/net v0.0.0-20180821023952-922f4815f713 => github.com/golang/net v0.0.0-20180826012351-8a410e7b638d
@@ -115,7 +110,6 @@ replace (
 处理：
 
 ```shell
-
 sudo chown -R $(whoami):admin /Users/zhushuyan/go/pkg && sudo chmod -R g+rwx /Users/zhushuyan/go/pkg
 
 ```
