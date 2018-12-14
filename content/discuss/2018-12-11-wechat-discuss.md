@@ -5,7 +5,7 @@ date: 2018-12-11T17:13:46+08:00
 
 来源：《Go 夜读》微信群
 
-## go module初始化
+## Golang module初始化
 
 ```golang
 go mod init [module name]
@@ -15,7 +15,7 @@ go mod init [module name]
 如：
 go mod init cmpp
 
-## go module文件
+## Golang module文件
 
 调用go mod init会自动生成go.mod文件，使用如下：
 
@@ -61,7 +61,6 @@ vX.Y.Z
 
 ```golang
 require github.com/sirupsen/logrus latest
-
 ```
 
 然后运行 go run main.go ，会主动更新版本号，如果运行出现提示不支持latest，可将latest更改为master。
@@ -73,40 +72,43 @@ require github.com/sirupsen/logrus latest
 
 ```golang
 go mod edit -fmt
-
 ```
 
 1.会删除冗余的类库
 2.自动格式化，并排序类库
 注：mod文件可以有多个require，括号要与关键词隔开。
 
-## 问题一：go module下golang.org如何处理被墙
+## 问题一：Golang module下golang.org如何处理被墙
 
 >系统提示
 
+```text
 go: golang.org/x/sys@v0.0.0-20180905080454-ebe1bf3edb33: unrecognized import path "golang.org/x/sys" (https fetch: Get https://golang.org/x/sys?go-get=1: dial tcp 216.239.37.1:443: i/otimeout)
 go: golang.org/x/crypto@v0.0.0-20180904163835-0709b304e793: unrecognized import path "golang.org/x/crypto" (https fetch: Get https://golang.org/x/crypto?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
 go: error loading module requirements
+```
 
 >解决方案
 
 在go.mod进行如下设置：
 
-```go
+```golang
 replace (
     golang.org/x/crypto v0.0.0-20180820150726-614d502a4dac => github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac
     golang.org/x/net v0.0.0-20180821023952-922f4815f713 => github.com/golang/net v0.0.0-20180826012351-8a410e7b638d
     golang.org/x/text v0.3.0 => github.com/golang/text v0.3.0
     golang.org/x/sys v0.3.0=>github.com/golang/sys v0.3.0
 )
-
 ```
 
 ## 问题二：初始化权限设置
 
 >系统提示
 
+```text
 go: writing stat cache:, permission denied
+
+```
 
 >解决方案
 
