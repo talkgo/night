@@ -19,7 +19,7 @@ go mod init cmpp
 
 调用go mod init会自动生成go.mod文件，使用如下：
 
-```golang
+```text
 module tx
 
 require github.com/sirupsen/logrus v1.2.0
@@ -59,7 +59,7 @@ vX.Y.Z
 
 总不能让大家记住每个包的伪版本号吧？显然不太现实，初始化mod文件可以如下写：
 
-```golang
+```text
 require github.com/sirupsen/logrus latest
 ```
 
@@ -92,7 +92,7 @@ go: error loading module requirements
 
 在go.mod进行如下设置：
 
-```golang
+```text
 replace (
     golang.org/x/crypto v0.0.0-20180820150726-614d502a4dac => github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac
     golang.org/x/net v0.0.0-20180821023952-922f4815f713 => github.com/golang/net v0.0.0-20180826012351-8a410e7b638d
@@ -107,13 +107,11 @@ replace (
 
 ```text
 go: writing stat cache:, permission denied
-
 ```
 
 >解决方案
 
 ```shell
 sudo chown -R $(whoami):admin /Users/zhushuyan/go/pkg && sudo chmod -R g+rwx /Users/zhushuyan/go/pkg
-
 ```
 
