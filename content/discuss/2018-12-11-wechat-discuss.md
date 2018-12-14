@@ -1,6 +1,6 @@
 ---
 title: "2018-12-11 微信讨论"
-date: 2018-12-11 PM
+date: 2018-12-11 PM
 ---
 
 来源：《Go 夜读》微信群
@@ -17,7 +17,7 @@ go mod init cmpp
 
 ## go module文件
 
-调用go mod init会自动生成go.mod文件，使用如下：
+调用go mod init会自动生成go.mod文件，使用如下：
 ```go
 
 module tx
@@ -66,7 +66,7 @@ require github.com/sirupsen/logrus latest
 
 ```
 然后运行 go run main.go ，会主动更新版本号，如果运行出现提示不支持latest，可将latest更改为master。
-注：如果的确获取不到版本号，实在不知道的话（比如需要翻墙才可获取的类库），就试试v0.0.0
+注：如果的确获取不到版本号，实在不知道的话（比如需翻墙才可获取的包），就试试v0.0.0
 
 ## mod文件格式化
 
@@ -78,9 +78,9 @@ go mod edit -fmt
 ```
 1.会删除融于的类库
 2.自动格式化，并排序类库
-注：mod文件可以有多个require，括号要与关键词隔开。
+注：mod文件可以有多个require，括号要与关键词隔开。
 
-## go module下golang.org如何处理被墙
+## 问题一：go module下golang.org如何处理被墙
 
 一、系统提示
 
@@ -104,7 +104,7 @@ replace (
 
 ```
 
-## go: writing stat cache:, permission denied
+## 问题二：go: writing stat cache:, permission denied
 
 问题：
 没有权限
