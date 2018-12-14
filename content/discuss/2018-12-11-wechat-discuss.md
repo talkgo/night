@@ -82,13 +82,13 @@ go mod edit -fmt
 
 ## 问题一：go module下golang.org如何处理被墙
 
-一、系统提示
+>系统提示
 
 go: golang.org/x/sys@v0.0.0-20180905080454-ebe1bf3edb33: unrecognized import path "golang.org/x/sys" (https fetch: Get https://golang.org/x/sys?go-get=1: dial tcp 216.239.37.1:443: i/otimeout)
 go: golang.org/x/crypto@v0.0.0-20180904163835-0709b304e793: unrecognized import path "golang.org/x/crypto" (https fetch: Get https://golang.org/x/crypto?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
 go: error loading module requirements
 
-二、解决方案
+>解决方案
 
 在go.mod进行如下设置：
 
@@ -102,12 +102,13 @@ replace (
 
 ```
 
-## 问题二：go: writing stat cache:, permission denied
+## 问题二：初始化权限设置
 
-问题：
-没有权限
+>系统提示
 
-处理：
+go: writing stat cache:, permission denied
+
+>解决方案
 
 ```shell
 sudo chown -R $(whoami):admin /Users/zhushuyan/go/pkg && sudo chmod -R g+rwx /Users/zhushuyan/go/pkg
