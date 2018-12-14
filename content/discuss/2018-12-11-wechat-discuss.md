@@ -1,22 +1,21 @@
 ---
 title: "2018-12-11 微信讨论"
-date: 2018-12-11T17:13:46+08:00
+date: 2018-12-11T00:00:00+08:00
 ---
 
 来源：《Go 夜读》微信群
 
-## Golang module初始化
+时间：2018-12-11
 
+## Golang module初始化
+使用go mod命令进行初始化：
 ```golang
 go mod init [module name]
-
 ```
 
-如：
-go mod init cmpp
+如：go mod init cmpp
 
 ## Golang module文件
-
 调用go mod init会自动生成go.mod文件，使用如下：
 
 ```text
@@ -39,11 +38,9 @@ replace (
 	golang.org/x/text v0.0.0 => github.com/golang/text v0.3.1-0.20181211190257-17bcc049122f // indirect
 	golang.org/x/tools v0.0.0-20181130195746-895048a75ecf => github.com/golang/tools v0.0.0-20181213210126-fe2443f7b950 // indirect
 )
-
 ```
 
 ## mod版本号解读
-
 github.com/acroca/go-symbols v0.0.0-20180523203557-953befd75e2含义：
 
 前面部分是包的名字，也就是import时需要写的部分，而空格之后的是版本号，版本号遵循如下规律：
@@ -67,7 +64,6 @@ require github.com/sirupsen/logrus latest
 注：如果的确获取不到版本号，实在不知道的话（比如需翻墙才可获取的包），就试试v0.0.0
 
 ## mod文件格式化
-
 使用如下命令:
 
 ```golang
@@ -102,7 +98,6 @@ replace (
 ```
 
 ## 问题二：初始化权限设置
-
 >系统提示
 
 ```text
