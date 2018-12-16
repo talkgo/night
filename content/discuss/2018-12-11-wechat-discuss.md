@@ -40,6 +40,8 @@ replace (
 )
 ```
 
+indirect的意思是指这个package被子module/package依赖了，但是main module并没有直接import使用，也就是所谓的间接引用。
+
 ## mod版本号解读
 github.com/acroca/go-symbols v0.0.0-20180523203557-953befd75e2含义：
 
