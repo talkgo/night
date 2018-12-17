@@ -18,8 +18,9 @@
 
 |![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 12月20日《Go mod 源码阅读》|
-| 12月27日《讲TSDB引擎介绍，对比及存储细节-yuyang》 |
+| 2018年12月20日《Go mod 源码阅读》|
+| 2018年12月27日《讲 TSDB 引擎介绍，对比及存储细节 - yuyang》 |
+| 2019年1月3日《基于 Github 构建团队技术博客系统》 |
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
 
