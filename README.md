@@ -42,7 +42,9 @@
 
 ## 怎么加入
 
-目前微信群已经超过 `100` 人，请微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
+大家可以加入 TG 电报群，[Telegram Invite Link](https://t.me/joinchat/BO4aMxTeeUa-Ydo43LxtWA)
+
+如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
 ----
 
