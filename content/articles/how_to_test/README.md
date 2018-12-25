@@ -1,6 +1,17 @@
+---
+title: "how to testing"
+date: 2018-12-25T00:00:00+08:00
+author: xpzouying@gmail.com
+---
+
+
 # HOW TO TESTING
 
-原文参考：https://github.com/xpzouying/learning_golang/tree/master/how_to_test
+原文/源码参考：
+
+- https://github.com/xpzouying/learning_golang/tree/master/how_to_test
+
+作者：xpzouying@gmail.com
 
 ---
 
@@ -54,11 +65,11 @@ go run main.go
 
 浏览器访问：
 
-![image-20181222170909680](./assets/image-20181222170909680-5469749.png)
+![image-20181222170909680](/images/image-20181222170909680-5469749.png)
 
 本地日志记录：
 
-![image-20181222171507017](./assets/image-20181222171507017.jpg)
+![image-20181222171507017](/images/image-20181222171507017.jpg)
 
 
 
@@ -155,7 +166,7 @@ go run main.go
 >
 > 效果截图：
 >
-> ![image-20181222173117732](./assets/image-20181222173117732-5471077.png)
+> ![image-20181222173117732](/images/image-20181222173117732-5471077.png)
 
 
 
@@ -232,7 +243,7 @@ go tool cover -html=coverage.out
 
 效果图为：
 
-![image-20181222180733266](./assets/image-20181222180733266-5473253.png)
+![image-20181222180733266](/images/image-20181222180733266-5473253.png)
 
 
 
