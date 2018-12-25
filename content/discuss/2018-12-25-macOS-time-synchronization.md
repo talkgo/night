@@ -1,12 +1,12 @@
 ---
-title:  2018-11-08 MacOS Time Synchronization
+title:  2018-12-25 MacOS Time Synchronization
 date: 2018-12-25 14:32:08
 ---
 来源: Wechat discuss
 
 ## MacOS Time Synchronization
 
-> 今天在启动Geth(以太坊私链节点)的时候，出现了以下的错误。在比较后发现本机时间落后了北京时间近一分钟。
+> 今天在启动 Geth (以太坊私链节点)的时候，出现了以下的错误。在比较后发现本机时间落后了北京时间近一分钟。
 
 ![](/images/2018-12-25-macOS-time-synchronization-01.jpg)
 
