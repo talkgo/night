@@ -1,6 +1,6 @@
 ---
-title:  2018-12-25 MacOS Time Synchronization
-date: 2018-12-25 14:32:08
+title: 2018-12-25 MacOS Time Synchronization
+date: 2018-12-25T16:36:45+08:00
 ---
 来源: Wechat discuss
 
