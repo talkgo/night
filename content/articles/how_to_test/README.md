@@ -9,7 +9,7 @@ author: xpzouying@gmail.com
 
 原文/源码参考：
 
-- https://github.com/xpzouying/learning_golang/tree/master/how_to_test
+- [how_to_test](https://github.com/xpzouying/learning_golang/tree/master/how_to_test)
 
 作者：xpzouying@gmail.com
 
