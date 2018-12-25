@@ -7,15 +7,24 @@ create: 2018-12-25 19:15:51
 ### 编辑器/IDE
 
 - [VS Code](https://code.visualstudio.com/)
-  星级:⭐️⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️⭐️
+
 - [GoLand](https://www.jetbrains.com/go/)
-  星级:⭐️⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️⭐️
+
 - [Sublime Text3](www.sublimetext.com)
-  星级:⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️
+
 - [Vim](https://www.vim.org/)
-  星级:⭐️⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️⭐️
+
 - [Emacs](http://www.gnu.org/software/emacs/)
-  星级:⭐️⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️⭐️
 
 ### 数据库工具推荐
 
@@ -37,6 +46,7 @@ create: 2018-12-25 19:15:51
 ### 压缩\解压工具
 
 - [KeKa](www.kekaosx.com)
-  星级:⭐️⭐️⭐️⭐️⭐️
+
+  推荐:⭐️⭐️⭐️⭐️⭐️
 
   免费开源、除了LOGO比较丑，功能相对来说算是Mac下最好用的解压工具了
