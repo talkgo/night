@@ -3,23 +3,6 @@ title:  Go 开发工具
 date: 2018-12-06T00:00:00+08:00
 ---
 
-- [VS Code]()
-- [GoLand]()
-- [Sublime Text3]()
-- [Vim]()
-- [Emacs]()
-- [KeKa](www.kekaosx.com) 压缩\解压 工具
-
-  免费开源、除了LOGO比较丑，功能相对来说算是Mac下最好用的解压工具了
-
-----
-
-## VS Code
-
-...
-
-----
-
 ## GoLand
 
 ### GoLand 怎么修改主题样式？
@@ -54,15 +37,4 @@ VS Code 里面是通过 command+shift+向下箭头。
 
 VS Code 里面是通过 command+向上箭头。
 
-----
-
-## Sublime Text 3
-
-----
-
-## Vim
-
-----
-
-## Emacs
 
