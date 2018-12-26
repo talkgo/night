@@ -56,7 +56,7 @@ date: 2018-12-25T00:00:00+08:00
 
 ### 压缩\解压工具
 
-- [KeKa](www.kekaosx.com)
+- [KeKa](https://www.keka.io/zh-cn/)
 
   推荐:⭐️⭐️⭐️⭐️⭐️
 
