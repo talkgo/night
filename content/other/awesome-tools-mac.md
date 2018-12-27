@@ -39,7 +39,7 @@ date: 2018-12-25T00:00:00+08:00
 
 ### 数据库工具推荐
 
-- [SequelPro(MySQL Client GUI)](https://www.sequelpro.com/)
+-  [SequelPro(MySQL Client GUI)](https://www.sequelpro.com/)
 -  [Robot 3T(MongoDB Client GUI)](https://robomongo.org/)
 -  [mycli(MySQL command line client)](https://www.mycli.net/)
 -  [Navicat Premium(DB Client GUI)](https://www.navicat.com/en/products/navicat-premium)
