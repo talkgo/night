@@ -22,7 +22,6 @@ weight: 0
 
 |![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 2019年1月3日《基于 Github 构建技术团队的博客系统-实战篇》 |
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
 
