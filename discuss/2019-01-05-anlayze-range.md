@@ -12,12 +12,14 @@ func main(){
 // Output:
 
 ```
-
+面试时遇到的一个问题,
 这段代码会形成死循环吗?
 
-![](../images/2018-05-19-wechat-discuss-bitset.jpeg)
 
-![import_cycle_not_allowed](../images/import_cycle_not_allowed.jpeg)
+
+回来之后试了一下出乎意料:
+![](../images/2019-01-05-range1.jpeg)
+
 
 
 
