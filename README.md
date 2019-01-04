@@ -11,7 +11,7 @@
 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
 
 >阅读计划：Go 标准包、开源项目源代码。
-
+>加油~
 ----
 
 ## [Go 夜读 YouTube 视频回放](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q)
