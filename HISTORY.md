@@ -10,23 +10,22 @@
 4. 得到几个大 V 的 star，然后自然引流（appleboy, Windy）；
 5. 因为《Go 夜读》线下活动大家都有很多的收获，然后我们还将每期学到的知识进行总结，不久就得到了 [gocn.io](http://gocn.vip) GoCN 每日新闻的推广。
 
-![](./images/night-reading-go-github-trending_20180518142500.png)
+![](/images/night-reading-go-github-trending_20180518142500.png)
 
 **掘金：**
 
-![](./images/night-reading-go-juejin_20180517115400.png)
-![](./images/night-reading-go-juejin_20180518090800.png)
-![](./images/night-reading-go-juejin_20180518142500.png)
-![](./images/night-reading-go-juejin_20180522152100.png)
+![](/images/night-reading-go-juejin_20180517115400.png)
+![](/images/night-reading-go-juejin_20180518090800.png)
+![](/images/night-reading-go-juejin_20180518142500.png)
+![](/images/night-reading-go-juejin_20180522152100.png)
 
 发展时间：从 2018-03-21 到 2018-06-28
 
 >由于场地以及时间的关系，将《Go 夜读》调整为每周四晚上线上活动（zoom.us）。
 
-![](./images/night-reading-go-star_20180516110400.png)
-![](./images/night-reading-go-star_20180516115000.png)
-![](./images/night-reading-go-star_20180518142500.png)
-
+![](/images/night-reading-go-star_20180516110400.png)
+![](/images/night-reading-go-star_20180516115000.png)
+![](/images/night-reading-go-star_20180518142500.png)
 
 ----
 
@@ -45,9 +44,9 @@
 
 **Github Trending:**
 
-![](./images/night-reading-go-github-trending_20180724203600.png)
+![](/images/night-reading-go-github-trending_20180724203600.png)
 
-![](./images/night-reading-go-github-trending_20180726204300.png)
+![](/images/night-reading-go-github-trending_20180726204300.png)
 
 ----
 
@@ -62,3 +61,16 @@
 3. 2018-08-07 16:31:00 Star 达到了 913 ；
 4. 2018-08-08 17:08:00 Star 达到了 1067 ；
 
+----
+
+### 第四阶段
+
+>[Go 夜读](https://reading.developerlearning.cn/)终于有自己的官方网站了。
+
+从 2018-09-27 在 issue 中提出[自动更新 README 脚本化](https://github.com/developer-learning/night-reading-go/issues/58)，到最近[将项目中的文章自动同步构建网站](https://github.com/developer-learning/night-reading-go/issues/74)
+
+在这里我要非常感谢 @john-deng ，是你第一次提出来，也是你在一直改进我们的官网。
+
+昨天（2018-12-04）的 GrowingIO 数据：
+
+![](/images/2018-12-04-gio.png)
