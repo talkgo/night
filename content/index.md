@@ -20,7 +20,7 @@ weight: 0
 ----
 <br>
 
-|![notification](/images/bell-outline-badged.svg)预告|
+|![notification](../static/images/bell-outline-badged.svg)预告|
 |:------------------:|
 | 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
