@@ -32,7 +32,6 @@ func main(){
 	2
 ```
 
-
 看上去 for 循环的次数,在进入循环体前已经确定了,且次数为 range 后 len(sli)
 
 实际上,range 为 golang 的语法糖,其实际执行相当于
