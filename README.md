@@ -18,7 +18,8 @@
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
+| 2019年1月17日《Go mod 源码阅读》 - mai|
+| 2019年1月24日《Go opentracing jaeger 集成及源码分析》 - jukylin |
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
 
 ## 我们的目标
