@@ -232,7 +232,7 @@ index:1肯定是最后执行的，但是index:1的第三个参数是一个函数
 ### 7. 请写出以下输入内容
 ```go
 func main() {
-    s := make([]int, 5)
+    s := make([]int, 0)
     s = append(s, 1, 2, 3)
     fmt.Println(s)
 }

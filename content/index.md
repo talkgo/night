@@ -20,11 +20,9 @@ weight: 0
 ----
 <br>
 
-|![notification](../static/images/bell-outline-badged.svg)预告|
+|![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 2019年1月17日《Go mod 之 modfetch, modget, modinfo, module 源码阅读》 - mai|
-| 2019年1月24日《Go opentracing jaeger 集成及源码分析》 - jukylin|
-| 2019年1月31日《Go mod 之 modfile, modload, par, mvs  源码阅读》 - mai|
+| 《Go opentracing jaeger 集成及源码分析》（欢迎自荐）|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
 
 ----
@@ -47,9 +45,11 @@ weight: 0
 
 ## 怎么加入
 
-大家可以加入 TG 电报群，[Telegram Invite Link](https://t.me/joinchat/BO4aMxTeeUa-Ydo43LxtWA)
+目前微信群已经超过 `100` 人，请微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
-如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
+## Discord
+
+Discord 入群链接：https://discord.gg/Q2FDua9
 
 ----
 
