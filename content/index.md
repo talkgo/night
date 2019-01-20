@@ -20,7 +20,7 @@ weight: 0
 ----
 <br>
 
-|![notification](../static/images/bell-outline-badged.svg)预告|
+|![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
 | 2019年1月24日《Go opentracing jaeger 集成及源码分析》 - jukylin|
 | 2019年1月31日《Go mod 之 modfetch, modget, modfile, modload, par, mvs  源码阅读》 - mai|
