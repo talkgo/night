@@ -44,6 +44,11 @@
 
 如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
+## 回看地址
+
+- [Go 夜读(YouTuBe)](https://www.youtube.com/c/Go%E5%A4%9C%E8%AF%BB)
+- [Go 夜读(bilibili)](https://space.bilibili.com/326749661)
+
 ----
 
 ## 如何参与贡献？
