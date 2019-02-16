@@ -22,7 +22,6 @@ weight: 0
 
 |![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 《Go mod 之 modfetch, modget, modfile, modload, par, mvs  源码阅读》 - mai|
 | 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
 
 ----
