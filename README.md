@@ -18,7 +18,8 @@
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 《Go raft 论文剖析及源码实现分析》（欢迎自荐）|
+| [2019.2.23]《Go 源码阅读》 - mai |
+| [2019.3.2]《etcd raft 源码阅读》 - polyethene |
 
 ## 我们的目标
 
