@@ -18,8 +18,18 @@
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| [2019.2.23]《Go 源码阅读》 - mai |
+| [2019.2.23]《Go flag 源码阅读》 - mai |
 | [2019.3.2]《etcd raft 源码阅读》 - polyethene |
+
+----
+
+## 阅读清单
+
+- [x] strings
+- [x] strconv
+- [x] testing
+- [x] net/http
+- [x] sync
 
 ## 我们的目标
 
