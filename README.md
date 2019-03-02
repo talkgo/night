@@ -18,8 +18,7 @@
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| [2019.2.23]《Go flag 源码阅读》 - mai |
-| [2019.3.2]《etcd raft 源码阅读》 - polyethene |
+| 《Go defer 和逃逸分析》|
 
 ----
 
@@ -30,6 +29,9 @@
 - [x] testing
 - [x] net/http
 - [x] sync
+- [x] flag
+- [x] etcd/raft
+- [ ] defer
 
 ## 我们的目标
 
