@@ -35,7 +35,11 @@ weight: 0
 - [x] sync
 - [x] flag
 - [x] etcd/raft
-- [ ] defer
+- [x] defer
+
+## YouTube
+
+视频回看地址：[Go 夜读 channel](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
 
 ## 我们的目标
 
