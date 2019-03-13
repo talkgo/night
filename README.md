@@ -14,7 +14,7 @@ Go 学习与分享：
 - 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
 >阅读范畴：Go 标准包、开源项目源代码。
 
-- 每天阅读 Go 技术文章的特训营。
+- 每天阅读特训营。
 
 ----
 
