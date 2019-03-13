@@ -13,16 +13,27 @@ weight: 0
 
 [night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=night-reading-go)
 
-每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
+Go 学习与分享：
 
->阅读计划：Go 标准包、开源项目源代码。
+- 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
+>阅读范畴：Go 标准包、开源项目源代码。
+
+- 每天阅读 Go 技术文章的特训营。
 
 ----
+
 <br>
 
-|![notification](/images/bell-outline-badged.svg)预告|
+|![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
 | 3月16日（下周六晚上21点）《plan9 汇编入门，带你打通应用和底层》 - 曹春晖 |
+
+----
+
+## （New）Go 每日阅读特训营
+
+Go 每日特训营暂定规则：
+>每次有超过10人报名发表意见才开“营”。
 
 ----
 
