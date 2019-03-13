@@ -1,6 +1,6 @@
 ---
 date: 2019-03-13T14:52:13+01:00
-title: Go 每日阅读训练营
+title: 每日阅读特训营
 type: index
 weight: 0
 ---
