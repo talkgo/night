@@ -106,9 +106,9 @@ fatal error: all goroutines are asleep - deadlock!  //出现了死锁
 
     GetAB       |            GetA               |                Write
                 |                               |
-r0 占用读锁     |                               |
+r0 占用读锁      |                               |
                 |                               |    w0 尝试获取写锁 等待r0释放读锁
-                |  r1 尝试获取读锁，排在w0后面  |
+                |  r1 尝试获取读锁，排在w0后面      |
 
 ```
 
