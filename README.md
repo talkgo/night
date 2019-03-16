@@ -22,7 +22,6 @@ Go 学习与分享：
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 3月16日（下周六晚上21点）《plan9 汇编入门，带你打通应用和底层》 - 曹春晖 |
 
 ----
 
