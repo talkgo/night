@@ -1,8 +1,11 @@
-﻿# Go opentracing jaeger 集成及源码分析
-
-
+---
+desc: Go opentracing jaeger 集成及源码分析
+title: 第 29 期 Go 夜读之 Go opentracing jaeger 集成及源码分析
+date: 2019-01-23T21:00:00+08:00
+author: jukylin
 ---
 
+# Go opentracing jaeger 集成及源码分析
 
 ## 一、分布式追踪论文
 
@@ -19,7 +22,6 @@
 ### 分布式系统调用过程
 
 ![image](http://bigbully.github.io/Dapper-translation/images/img1.png)
-
 
   
 ###  使用分布式追踪要留意哪些问题
@@ -196,12 +198,6 @@ http://localhost:16686/metrics
 ### 性能调优
 > 观察Jaeger-ui，对线上接口，mysql执行时间进行监控调优
 
+## 观看视频
 
-
-
-
-
-
-
-
-
+{{< youtube id="ub7jtN13KHA" >}}

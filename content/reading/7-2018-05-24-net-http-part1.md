@@ -1,3 +1,56 @@
+---
+title: 第 7 期 2018-05-24 线下活动 - Go 标准包阅读
+date: 2018-05-24T11:49:10+08:00
+---
+>参与人数: 10 人
+
+*Go 标准包阅读*
+
+Go 版本：go 1.10.1
+
+### net/http
+
+- server.go
+
+### 问题
+
+1. Next Protocol Negotiation = NPN
+2. Expect 100 Continue support
+
+>见参考资料
+
+3. header提到了：Expect和host
+4. 判断了 header里面的HOST，但是后面又删除，为什么？
+
+server.go#L980
+
+```go	
+delete(req.Header, "Host")
+```
+
+5. 判断是否支持 HTTP2 （isH2Upgrade）
+
+```go
+// isH2Upgrade reports whether r represents the http2 "client preface"
+// magic string.
+func (r *Request) isH2Upgrade() bool {
+	return r.Method == "PRI" && len(r.Header) == 0 && r.URL.Path == "*" && r.Proto == "HTTP/2.0"
+}
+```
+
+```go
+调用：ProtoAtLeast(1, 1)
+...
+// ProtoAtLeast reports whether the HTTP protocol used
+// in the request is at least major.minor.
+func (r *Request) ProtoAtLeast(major, minor int) bool {
+	return r.ProtoMajor > major ||
+		r.ProtoMajor == major && r.ProtoMinor >= minor
+}
+```
+
+## 会议讨论
+
 20:07:45	 From 永京 李 : ok
 20:07:46	 From 斯 艾 : 可以
 20:07:50	 From joe sean : ok
@@ -136,7 +189,9 @@ func ValidHostHeader(h string) bool {
 |       'a': true, 'b': true, 'c': true, 'd': true, 'e': true, 'f': true, 'g': true, 'h': true,
 21:10:55	 From Jayden Yang : /usr/local/go/src/vendor/golang_org/x/net/lex/httplex/httplex.go
 21:12:06	 From jinleileiking : [256]bool 下标是 ‘0’
-21:13:41	 From 协 崔 : 	if deleteHostHeader {		delete(req.Header, "Host")	}卧槽，我看到的是这样的
+21:13:41	 From 协 崔 : 	if deleteHostHeader {
+		delete(req.Header, "Host")
+	}卧槽，我看到的是这样的
 21:14:40	 From joe sean : 1
 21:15:17	 From mai yang : go1.10.1
 21:15:20	 From Jayden Yang : deleteHostHeader 这个又是啥
@@ -165,3 +220,15 @@ func (b *Reader) Buffered() int { return b.w - b.r }
 //非零。 让这个懒洋洋地再创造一次，因为它曾经是？
 22:12:04	 From Jayden Yang : 看不到屏幕
 22:12:37	 From jinleileiking : 看不到屏幕
+
+## 延伸阅读
+
+1. https://github.com/golang/go/issues/22128
+2. https://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-26#section-6.2.1
+3. https://www.cnblogs.com/tekkaman/archive/2013/04/03/2997781.html
+4. https://benramsey.com/blog/2008/04/http-status-100-continue/
+5. http://www.ituring.com.cn/article/130844
+
+## 观看视频
+
+{{< youtube id="H3oXjpiOReQ" >}}
