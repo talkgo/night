@@ -1,5 +1,5 @@
 ---
-title: 第16期 gateway-reading
+title: 第 16 期 gateway-reading
 date: 2018-09-06T11:49:10+08:00
 tags:
 ---
