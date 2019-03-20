@@ -39,9 +39,10 @@ Go 学习与分享：
 - [x] etcd/raft
 - [x] defer
 
-## YouTube
+## 回看地址
 
-视频回看地址：[Go 夜读 channel](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读(B 站)](https://space.bilibili.com/326749661)
 
 ## 我们的目标
 
@@ -64,11 +65,6 @@ Go 学习与分享：
 <img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
 
 如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
-
-## 回看地址
-
-- [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Go 夜读(bilibili)](https://space.bilibili.com/326749661)
 
 ----
 
