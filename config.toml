@@ -59,7 +59,8 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 		clientID = "d891898cec9e65ff7cd0" # Your client ID
 		clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
 		repo = "reading-go" # The repo to store comments
-		owner = "yangwenmai" # Your GitHub ID
+		owner = "developer-learning" # Your GitHub ID
+		admin = "yangwenmai" # Your GitHub ID
 
 [social]
 	github  = "developer-learning"
