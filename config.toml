@@ -56,10 +56,10 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	# Register a Github OAuth application: https://github.com/settings/applications/new
 	[params.Gitalk]
 		enable = true
-		clientID = "Client ID" # Your client ID
-		clientSecret = "Client Secret" # Your client secret
-		repo = "Git repo" # The repo to store comments
-		owner = "Github ID" # Your GitHub ID
+		clientID = "d891898cec9e65ff7cd0" # Your client ID
+		clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
+		repo = "reading-go" # The repo to store comments
+		owner = "yangwenmai" # Your GitHub ID
 
 [social]
 	github  = "developer-learning"
