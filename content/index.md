@@ -28,6 +28,7 @@ Go 学习与分享：
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
+| 《context 包源码阅读》|
 
 ----
 
@@ -41,6 +42,7 @@ Go 学习与分享：
 - [x] flag
 - [x] etcd/raft
 - [x] defer
+- [ ] context
 
 ## YouTube
 
