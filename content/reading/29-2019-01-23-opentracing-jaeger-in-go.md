@@ -21,7 +21,7 @@ author: jukylin
 
 ### 分布式系统调用过程
 
-![image](http://bigbully.github.io/Dapper-translation/images/img1.png)
+![image](https://bigbully.github.io/Dapper-translation/images/img1.png)
 
   
 ###  使用分布式追踪要留意哪些问题

@@ -9,7 +9,7 @@
       clientSecret: '{{ .Site.Params.Gitalk.clientSecret }}',
       repo: '{{ .Site.Params.Gitalk.repo }}',
       owner: '{{ .Site.Params.Gitalk.owner }}',
-      admin: ['{{ .Site.Params.Gitalk.owner }}'],
+      admin: ['{{ .Site.Params.Gitalk.admin }}'],
       id: location.pathname
     });
     gitalk.render('gitalk-container')
