@@ -390,6 +390,60 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JasonRD",
+      "name": "jasonxie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16793420?v=4",
+      "profile": "http://www.techclone.cn",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "itcuihao",
+      "name": "haoc7",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9942270?v=4",
+      "profile": "http://cuihao.fun",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "wangriyu",
+      "name": "鱼乐",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24445731?s=400&v=4",
+      "profile": "https://blog.wangriyu.wang/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Littlesqx",
+      "name": "Littlesqx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16516151?s=400&v=4",
+      "profile": "https://littlesqx.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mchangxin",
+      "name": "mchangxin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31753706?s=400&v=4",
+      "profile": "https://github.com/mchangxin",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Hokkaitao",
+      "name": "Hokkaitao",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32830059?s=400&v=4",
+      "profile": "https://github.com/Hokkaitao",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
