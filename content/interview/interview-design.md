@@ -4,7 +4,7 @@ date: 2018-07-26T00:00:00+08:00
 ---
 _1.要设计一个秒杀系统要注意什么？_
 
-![](/images/miaosha.jpg)
+![](/static/images/miaosha.jpg)
 
 > **前端秒杀页面**
 >
