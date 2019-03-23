@@ -157,7 +157,7 @@ material design [color palette](http://www.materialui.co/colors). Valid values a
 _lime_, _yellow_, _amber_, _orange_, _deep-orange_, _brown_, _grey_ and
 _blue-grey_. The last three colors can only be used as a primary color.
 
-![Color palette](/images/colors.png)
+![Color palette](/static/images/colors.png)
 
 If the color is set via this configuration, an additional CSS file called
 `palettes.css` is included that defines the color palettes.

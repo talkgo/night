@@ -31,8 +31,8 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	repo_url = "https://github.com/developer-learning/night-reading-go"
 
 	version = ""
-	logo = "images/2018-12-11-night-reading-go.jpg"
-	favicon = "images/favicon.ico"
+	logo = "static/images/2018-12-11-night-reading-go.jpg"
+	favicon = "static/images/favicon.ico"
 
 	permalink = " "
 
