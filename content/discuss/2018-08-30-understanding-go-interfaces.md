@@ -8,8 +8,8 @@ date: 2018-08-30T00:00:00+08:00
 
 ### Go 语言不同接口、声明了同名方法，怎么解决问题？
 
-![](/static/images/2018-08-30-interface.png)
-![](/static/images/2018-08-30-interface2.png)
+![](/images/2018-08-30-interface.png)
+![](/images/2018-08-30-interface2.png)
 
 1. 防止被其他对象误实现接口。
 

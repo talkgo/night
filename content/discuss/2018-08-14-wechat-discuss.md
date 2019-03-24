@@ -16,7 +16,7 @@ date: 2018-08-14T00:00:00+08:00
 
 ### Go 默认使用 CPU 核数？
 
-![](/static/images/2018-08-14-discuss-01.png)
+![](/images/2018-08-14-discuss-01.png)
 
 具体代码：`proc.go#schedinit()`。
 
