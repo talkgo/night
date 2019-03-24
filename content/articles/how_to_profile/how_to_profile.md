@@ -305,7 +305,7 @@ b.ReportAllocs()
       >
       > 使用chrome浏览器打开`torch.svg`，
       >
-      > ![火焰图](/static/images/how_to_profile_torch.svg)
+      > ![火焰图](/images/how_to_profile_torch.svg)
       >
       > 
       >
@@ -321,7 +321,7 @@ b.ReportAllocs()
       >
       > 打开内存火焰图，
       >
-      > ![内存火焰图](/static/images/mem_torch.svg)
+      > ![内存火焰图](/images/mem_torch.svg)
 
 
 
@@ -473,7 +473,7 @@ ROUTINE ======================== _/Users/zouying/src/Github.com/ZOUYING/learning
 (pprof) web handleHello
 ```
 
-![image-20190114114416109](/static/images/image-20190114114416109.png)
+![image-20190114114416109](/images/image-20190114114416109.png)
 
 - 框越大/颜色越红 表示消耗越多/大
 - 连接线表示函数调用，连接线上的参数表示调用子函数的消耗（类似于-cum）
@@ -482,7 +482,7 @@ ROUTINE ======================== _/Users/zouying/src/Github.com/ZOUYING/learning
 
 也可以使用`weblist`或者`weblist handleHello`打开web版本的list，查看具体每一行代码的消耗。示例如下，
 
-![weblist](/static/images/image-20190114114255919.png)
+![weblist](/images/image-20190114114255919.png)
 
 
 
@@ -593,11 +593,11 @@ ROUTINE ======================== _/Users/zouying/src/Github.com/ZOUYING/learning
 
 也可以根据之前的`web`产出的图，查看底层`Format`具体消耗在什么地方，
 
-![image-20190121160506187](/static/images/image-20190121160506187.png)
+![image-20190121160506187](/images/image-20190121160506187.png)
 
 使用`list Format`打开，
 
-![image-20190121160422563](/static/images/image-20190121160422563.png)
+![image-20190121160422563](/images/image-20190121160422563.png)
 
 
 
@@ -865,19 +865,19 @@ A Pool must not be copied after first use.
 
 **工作中遇到过的生产问题：使用logrus进行日志输出**
 
-![image-20190114150048184](/static/images/image-20190114150048184.png)
+![image-20190114150048184](/images/image-20190114150048184.png)
 
 
 
 查看`top`：
 
-![image-20190114150708086](/static/images/image-20190114150708086.png)
+![image-20190114150708086](/images/image-20190114150708086.png)
 
 
 
 查看WithFields为什么消耗这么多，发现在函数中产生大量的赋值操作： 
 
-![image-20190114150807984](/static/images/image-20190114150807984.png)
+![image-20190114150807984](/images/image-20190114150807984.png)
 
 
 
@@ -1200,7 +1200,7 @@ Showing top 10 nodes out of 103
 
 logrus的作者明确表示性能不是核心目标：[logrus - issues 125: Improving logrus performance](https://github.com/Sirupsen/logrus/issues/125)
 
-![image-20190114143908128](/static/images/image-20190114143908128.png)
+![image-20190114143908128](/images/image-20190114143908128.png)
 
 参考[zerolog](https://github.com/rs/zerolog)首页的介绍，将日志库更换为zerolog。
 
@@ -1316,7 +1316,7 @@ BenchmarkHandleFunc-8     1307          391           -70.08%
 
 查看`profile topN`，
 
-![image-20190114152930330](/static/images/image-20190114152930330.png)
+![image-20190114152930330](/images/image-20190114152930330.png)
 
 将`fmt.Sprintf`替换为`bytes.Buffer.Write()`，
 
@@ -1333,7 +1333,7 @@ ok      _/Users/zouying/src/Github.com/ZOUYING/learning_golang/how_to_tuning    
 
 优化后，
 
-![image-20190114153033918](/static/images/image-20190114153033918.png)
+![image-20190114153033918](/images/image-20190114153033918.png)
 
 
 

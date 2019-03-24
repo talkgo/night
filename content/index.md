@@ -26,7 +26,7 @@ Go 学习与分享：
 
 <br>
 
-|![notification](/static/images/bell-outline-badged.svg)预告|
+|![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
 | 《context 包源码阅读》|
 
@@ -66,7 +66,7 @@ Go 学习与分享：
 
 ## 怎么加入
 
-<img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
+<img src="/images/wechat_reading_go.jpg" width="400px;"/>
 
 如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 

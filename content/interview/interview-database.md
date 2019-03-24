@@ -60,7 +60,7 @@ _9.Redis怎么查看延迟数据?（非业务操作）_
 > 
 >> `slowlog get`       
 
-![](/static/images/slowlog.jpeg)
+![](/images/slowlog.jpeg)
 
 _10.Redis的集群怎么搭建？_
 
