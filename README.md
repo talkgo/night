@@ -1,7 +1,7 @@
 # [Go 夜读](https://reading.developerlearning.cn/)
 [![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
-<img src="/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
+<img src="/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
 ## Stargazers over time
 
@@ -22,7 +22,7 @@ Go 学习与分享：
 
 <br>
 
-|![notification](/images/bell-outline-badged.svg)预告|
+|![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
 | 《context 包源码阅读》|
 
@@ -63,7 +63,7 @@ Go 学习与分享：
 
 ## 怎么加入
 
-<img src="/images/wechat_reading_go.jpg" width="400px;"/>
+<img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
 
 如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
