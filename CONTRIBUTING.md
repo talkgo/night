@@ -67,7 +67,7 @@ $ git checkout -b myfeature
 请按照以下一些格式编写：
 
 文件命名：`2018-08-03-contributing.md`；
-文件的图片：放到 `images` 下；
+文件的图片：放到 `static/images` 下；
 文件内容：需要明确标题、日期等基本信息；
 
 ### 第五步：保持分支同步
