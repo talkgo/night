@@ -24,7 +24,7 @@ Go 学习与分享：
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 《context 包源码阅读》|
+| 《k8s 源码阅读》-4月初|
 
 ----
 
@@ -38,7 +38,8 @@ Go 学习与分享：
 - [x] flag
 - [x] etcd/raft
 - [x] defer
-- [ ] context
+- [x] context
+- [ ] kubernetes
 
 ## 回看地址
 
