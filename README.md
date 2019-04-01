@@ -24,6 +24,7 @@ Go 学习与分享：
 
 |![notification](/static/images/bell-outline-badged.svg)预告|
 |:------------------:|
+| 从一个 serverless 的设计开始说起 |
 | github.com/golang/sync -> errgroup、syncmap 等 源码阅读 |
 | 《k8s 源码阅读》-4月初|
 
