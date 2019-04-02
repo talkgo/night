@@ -28,7 +28,7 @@ Go 学习与分享：
 
 |![notification](/images/bell-outline-badged.svg)预告|
 |:------------------:|
-| 《k8s 源码阅读》-4月初|
+| 《k8s 源代码解析 - 调度器》 4月13日 John|
 | github.com/golang/sync -> errgroup、syncmap 等 源码阅读 |
 
 ----
