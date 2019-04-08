@@ -11,12 +11,19 @@
 
 Go 学习与分享：
 
-- 每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。
->阅读范畴：Go 标准包、开源项目源代码。
+- [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-- 每天阅读。
+*每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
+>阅读范畴：Go 标准包、开源项目。
+
+- [每日阅读](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
 
 *你愿意来，那说明你想改变，你也保证自己能做到，那你就得理解一点：在这里，我们是共同付出，你不是吸收者，我也不是分享者，我们可以讨论，但是我们不能帮你坚持或者教你，带你。*
+
+- [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+
+- [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
+- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
 
 ----
 
@@ -70,7 +77,7 @@ Go 学习与分享：
 
 如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
-有同学想要用 Slack 交流，我开放了一个：reading-go Slack: https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE
+有同学想要用 Slack 交流，我开放了一个：[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
 
 ----
 
