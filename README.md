@@ -91,7 +91,8 @@ Go 学习与分享：
 └── other     // 其他
 ```
 
-[如何参与贡献](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- [如何参与贡献](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- *[Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors
 
