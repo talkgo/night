@@ -1,44 +1,44 @@
-# [Go 夜读](https://reading.developerlearning.cn/)
+# [Night Reading Go](https://reading.developerlearning.cn/)
 [![Build Status](https://travis-ci.org/developer-learning/reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/reading-go)](https://goreportcard.com/report/github.com/developer-learning/reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/reading-go.svg?label=Stars)](https://github.com/developer-learning/reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/reading-go.svg?label=Fork)](https://github.com/developer-learning/reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/reading-go?status.svg)](http://godoc.org/github.com/developer-learning/reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/reading-go.svg?label=Issue)](https://github.com/developer-learning/reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/reading-go.svg)](https://github.com/developer-learning/reading-go/blob/master/LICENSE)
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-*其他语言版本: [English](README_EN.md), [简体中文](README.md).*
+*Read this in other languages: [English](README_EN.md), [简体中文](README.md).*
 
-## Stargazers over time
+## Stargazers Over Time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
+[![Stargazers Over Time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
 
 [reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=reading-go)
 
-Go 学习与分享：
+Go Learning and Sharing:
 
-- [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
+- [Night Reading Go](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-*每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
->阅读范畴：Go 标准包、开源项目。
+*We will arrange a meeting one night per week to read the Go source code. If you're a newcomer you can visit here.**[The path of learning Go](https://github.com/developer-learning/learning-golang)**.*
+>Our reading includes: Go Standard Library, Open Source Project.
 
-- [每日阅读](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
+- [Daily reading](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
 
-*你愿意来，那说明你想改变，你也保证自己能做到，那你就得理解一点：在这里，我们是共同付出，你不是吸收者，我也不是分享者，我们可以讨论，但是我们不能帮你坚持或者教你，带你。*
+*If you join these meetings it means you want to develop and learn, and you made a promise to yourself to do your best. But you have to understand one point: in here we are contributing to each other; there is no one-sided giving or taking. We can learn and discuss together but we cannot help you to stay motivated, nor can we teach and guide you every step.*
 
-- [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+- [Daily Question](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
-- [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
+- [Go Project Practice](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
+- [Gin Development](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
 
 ----
 
 <br>
 
-|![notification](/static/images/bell-outline-badged.svg)预告|
+|![notification](/static/images/bell-outline-badged.svg)Announce in advance|
 |:------------------:|
-| 《k8s 源代码解析 - 调度器》 4月13日 John|
-| github.com/golang/sync -> errgroup、syncmap 等 源码阅读 |
+| 《k8s Source Code - Scheduler》 4/13 John|
+| github.com/golang/sync -> errgroup、syncmap ... source code reading |
 
 ----
 
-## 阅读清单
+## Reading List
 
 - [x] strings
 - [x] strconv
@@ -52,62 +52,61 @@ Go 学习与分享：
 - [ ] golang/sync
 - [ ] kubernetes
 
-## 回看地址
+## Playback Address
 
-- [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Go 夜读(B 站)](https://space.bilibili.com/326749661)
+- [Night Reading Go(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Night Reading Go(B 站)](https://space.bilibili.com/326749661)
 
-## 我们的目标
+## Our Goal
 
-我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。我们希望每次来了的人和没来的人都能够有收获，成长。
+We hope everyone will learn Go deeply and grow to become a senior Gopher!
 
-## 我们的方式
+## Our Approach
 
-由一个主讲人带着大家一起去阅读 Go 源代码，一起去啃那些难啃的算法、学习代码里面的奇淫技巧，遇到问题或者有疑惑了，我们可以一起去检索，解答这些问题。我们可以一起学习，共同成长。
+We will choose a leader to read/walk-thorugh the Go source code to everyone, during which we will tackle the difficult algorithms and learn the tricks in the code together. If we encounter problems or have doubts, we can collaboratively research and find answers.
 
->阅读规则：选取 package 包，然后从上往下开始读 xxx.go 文件，每个文件从上往下读导出的函数（一步一步跟逻辑，如果逻辑跳出这个 package 则不做深入探究）。
+>Reading Principle: Choose a package and read a `.go` file from top to bottom. We will review the file step by step but we won't dive into any logic that is outside of the package being reviewed.
 
-## 我们的精神
+## Our Spirit
 
-开源！开源！开源！重要的事，一定要说三遍。
+Open Source! Open Source! Open Source! (important things need to be said thrice :-) )
 
->希望有兴趣的小伙伴们一起加入，让我们一起把 《Go 夜读》建立成一个对大家都有帮助的开源社区。
+>We hope anyone who is interested will join us, to help make "Night Reading Go" an open source community that can benefit everyone.
 
-## 怎么加入
+## How to Join
 
 <img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
 
-如果你想加入微信群，请搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
+If you want to join the WeChat group, search for `mai_yang` and then enter your name, company, job title and responsibility. Please also mention that you found us on Github.
 
-有同学想要用 Slack 交流，我开放了一个：[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+For those of you who want to use Slack, here is how to reach us: [reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
 
 ----
 
-## 如何参与贡献？
+## How to Contribute?
 
 ```sh
-├── reading   // Go 源码阅读
-├── discuss   // 日常微信群讨论的总结
-├── articles  // 个人原创的技术文章
-├── interview // Go 面试专区
-└── other     // 其他
+├── reading   // Go Source Code
+├── discuss   // Summary of the WeChat group daily discussion
+├── articles  // Original Tech Articles
+├── interview // Go Interview
+└── other     // Other stuff
 ```
 
-- [如何参与贡献](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
-- *[Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
+[How to contribute](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
 
 ## Contributors
 
-我非常重视每一个对这个项目的贡献者，我会将贡献者列表更新到这里，目前只有提交 Pull Request 的小伙伴，但是贡献不仅仅如此，还可以包括提交 Issue 以及在社群中有所贡献的人。
+We value everyone who contributes to this project, whether it be creating issues or pull requests (PRs), or just contributing to the community. If you do contribute a PR that we accept, your name will be listed here.
 
-贡献者自己可以提 PR ，方法如下：
+Here's how you can create a PR:
 
-- 安装 `npm install -g --save-dev all-contributors-cli`
+- Install `npm install -g --save-dev all-contributors-cli`
 - `sh gen_contributors.sh`
 
-贡献类型有多种，比如："code", "ideas","review","talk","tutorial"，你可以在 `.all-contributorsrc` 中修改。
+There are many kinds of contributions, like "code", "ideas", "reviews", "talks" or "tutorials". You can modify `.all-contributors`.
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Many thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -121,4 +120,4 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 | [<img src="https://avatars1.githubusercontent.com/u/16793420?v=4" width="100px;"/><br /><sub><b>jasonxie</b></sub>](http://www.techclone.cn)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=JasonRD "Code") | [<img src="https://avatars0.githubusercontent.com/u/9942270?v=4" width="100px;"/><br /><sub><b>haoc7</b></sub>](http://cuihao.fun)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=itcuihao "Code") | [<img src="https://avatars3.githubusercontent.com/u/24445731?s=400&v=4" width="100px;"/><br /><sub><b>鱼乐</b></sub>](https://blog.wangriyu.wang/)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=wangriyu "Code") | [<img src="https://avatars2.githubusercontent.com/u/16516151?s=400&v=4" width="100px;"/><br /><sub><b>Littlesqx</b></sub>](https://littlesqx.github.io/)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=Littlesqx "Code") | [<img src="https://avatars1.githubusercontent.com/u/31753706?s=400&v=4" width="100px;"/><br /><sub><b>mchangxin</b></sub>](https://github.com/mchangxin)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=mchangxin "Code") | [<img src="https://avatars0.githubusercontent.com/u/32830059?s=400&v=4" width="100px;"/><br /><sub><b>Hokkaitao</b></sub>](https://github.com/Hokkaitao)<br />[💻](https://github.com/developer-learning/reading-go/commits?author=Hokkaitao "Code") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. All contributions are welcome!
