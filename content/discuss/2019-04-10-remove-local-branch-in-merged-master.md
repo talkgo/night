@@ -33,3 +33,5 @@ git_branch_cleanup
 其他办法：
 我们也可以遍历本地所有分支，然后排除一些白名单的分支，然后再把其他的全部删掉。
 >`git branch -d xxx` 能删掉的就都删掉了，如果你确定 xxx 分支没有用了，你也可以强制删除 `git branch -D xxx`
+
+更简洁的代码：`git branch -d $(git branch -vv | grep ': gone\]' | awk '{print $1}')`
