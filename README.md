@@ -3,7 +3,12 @@
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-*其他语言版本: [Deutsch](README_DE.md), [English](README_EN.md), [简体中文](README.md).*
+#### *以[其他语言](translations/Translations.md)阅读*
+
+[🇨🇳](README.md)
+[🇭🇰](translations/README.cht.md)
+[🇺🇸](translations/README.en.md)
+[🇩🇪](translations/README.de.md)
 
 ## Stargazers over time
 
@@ -94,7 +99,7 @@ Go 学习与分享：
 ```
 
 - [如何参与贡献](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
-- *[Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
+- *[Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors
 

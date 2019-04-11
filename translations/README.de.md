@@ -3,7 +3,12 @@
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-*Sprachoption: [Deutsch](README_DE.md), [English](README_EN.md), [简体中文](README.md).*
+#### *Lies das in [anderen Sprachen](Translations.md).*
+
+[🇨🇳](../README.md)
+[🇭🇰](README.cht.md)
+[🇺🇸](README.en.md)
+[🇩🇪](README.de.md)
 
 ## Sterngucker im Zeitablauf
 
@@ -94,7 +99,8 @@ Für diejenigen unter Ihnen, die Slack nutzen möchten, ist hier die Anfahrtsbes
 └── other     // Andere
 ```
 
-[Beitragsrichtlinien](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- [Beitragsrichtlinien](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- *[Git Commit Konventionen](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Mitwirkende
 
