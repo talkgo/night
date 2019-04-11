@@ -6,5 +6,5 @@ import (
 
 func (a *AppServer) publicRoutes(r *gin.Engine) {
 	v1 := r.Group("api")
-	v1.GET("/", a.HelloHandler)
+	v1.POST("/register", a.RegisterUserHandler)
 }

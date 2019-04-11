@@ -4,7 +4,8 @@ import (
 	"os"
 )
 
-type config struct {
+// Config contains all the environment varialbes.
+type Config struct {
 	Port       string
 	Env        string
 	PGHost     string
@@ -14,11 +15,12 @@ type config struct {
 	PGName     string
 }
 
-func (c config) IsProd() bool {
+func (c Config) IsProd() bool {
 	return c.Env == "prod"
 }
 
-func GetConfig() config {
+// GetConfig returns the environment varialbes.
+func GetConfig() Config {
 	port, ok := os.LookupEnv("PORT")
 	if !ok {
 		port = "8080"
@@ -51,10 +53,10 @@ func GetConfig() config {
 
 	pgDBName, ok := os.LookupEnv("PG_DB_NAME")
 	if !ok {
-		pgDBName = "gollery"
+		pgDBName = "ginexamples"
 	}
 
-	return config{
+	return Config{
 		Port:       port,
 		Env:        env,
 		PGHost:     pgHost,

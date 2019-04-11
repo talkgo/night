@@ -1,15 +1,16 @@
 package http
 
 import (
-	"gin_examples"
+	"ginexamples"
 	"io"
 	"os"
 
 	"github.com/gin-gonic/gin"
 )
 
+// AppServer contains the information to run a server.
 type AppServer struct {
-	UserService gin_examples.UserService
+	UserService ginexamples.UserService
 	route       *gin.Engine
 }
 
@@ -28,6 +29,7 @@ func (a *AppServer) initialize() {
 	a.route = route
 }
 
+// Run will start the gin server.
 func (a *AppServer) Run() {
 	a.initialize()
 	a.route.Run()

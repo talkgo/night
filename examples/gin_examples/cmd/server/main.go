@@ -1,10 +1,10 @@
 package main
 
 import (
-	"gin_examples/config"
-	"gin_examples/http"
-	"gin_examples/postgres"
-	"gin_examples/service/userService"
+	"ginexamples/config"
+	"ginexamples/http"
+	"ginexamples/postgres"
+	"ginexamples/service/userservice"
 )
 
 func main() {
@@ -19,9 +19,10 @@ func main() {
 	}
 
 	repository := postgres.Initialize(postgresConfig)
+	repository.AutoMigrate()
 
 	server := http.AppServer{
-		UserService: userService.New(repository.UserRepository),
+		UserService: userservice.New(repository.UserRepository),
 	}
 	server.Run()
 }
