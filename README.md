@@ -3,12 +3,12 @@
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-#### *以[其他语言](translations/Translations.md)阅读*
+#### *以[其他语言](Translations.md)阅读*
 
 [🇨🇳](README.md)
-[🇭🇰](translations/README.cht.md)
-[🇺🇸](translations/README.en.md)
-[🇩🇪](translations/README.de.md)
+[🇭🇰](README.cht.md)
+[🇺🇸](README.en.md)
+[🇩🇪](README.de.md)
 
 ## Stargazers over time
 

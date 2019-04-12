@@ -5,7 +5,7 @@
 
 #### *Read this in [other languages](Translations.md).*
 
-[🇨🇳](../README.md)
+[🇨🇳](README.md)
 [🇭🇰](README.cht.md)
 [🇺🇸](README.en.md)
 [🇩🇪](README.de.md)
