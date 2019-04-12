@@ -15,7 +15,7 @@ func main() {
 		Port:     cfg.PGPort,
 		User:     cfg.PGUser,
 		Password: cfg.PGPassword,
-		Name:     cfg.PGName,
+		Name:     cfg.PGDBName,
 	}
 
 	repository := postgres.Initialize(postgresConfig)

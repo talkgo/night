@@ -12,7 +12,7 @@ type Config struct {
 	PGPort     string
 	PGUser     string
 	PGPassword string
-	PGName     string
+	PGDBName   string
 }
 
 func (c Config) IsProd() bool {
@@ -63,6 +63,6 @@ func GetConfig() Config {
 		PGPort:     pgPort,
 		PGUser:     pgUser,
 		PGPassword: pgPassword,
-		PGName:     pgDBName,
+		PGDBName:   pgDBName,
 	}
 }

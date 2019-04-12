@@ -1,6 +1,8 @@
 package ginexamples
 
-import "github.com/jinzhu/gorm"
+import (
+	"github.com/jinzhu/gorm"
+)
 
 type User struct {
 	gorm.Model
@@ -8,6 +10,7 @@ type User struct {
 	Email        string `gorm:"not null;unique_index"`
 	Password     string `gorm:"-"`
 	PasswordHash string `gorm:"not null"`
+	SessionID    string `gorm:"not null"`
 }
 
 type UserRepository interface {

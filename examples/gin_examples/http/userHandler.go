@@ -13,11 +13,6 @@ func (a *AppServer) RegisterUserHandler(c *gin.Context) {
 		Email    string `json:"email"`
 		Password string `json:"password"`
 	}
-	type response struct {
-		ID    string `json:"id"`
-		Name  string `json:"name"`
-		Email string `json:"email"`
-	}
 
 	var (
 		userModel ginexamples.User
@@ -39,8 +34,14 @@ func (a *AppServer) RegisterUserHandler(c *gin.Context) {
 		return
 	}
 
+	setCookie(c, user.SessionID)
 	c.JSON(http.StatusOK, gin.H{
+		"ID":    user.ID,
 		"Name":  user.Name,
 		"Email": user.Email,
 	})
+}
+
+func setCookie(c *gin.Context, value string) {
+	c.SetCookie("sessionID", value, 86400, "/", "localhost", false, true)
 }

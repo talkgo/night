@@ -1,13 +1,15 @@
 # Gin Example
 
+## Testing
+
+```
+make test
+```
+
 ## Running
 
 ```
-make pg-up
-
-go get
-
-go run cmd/server/main.go
+make run
 ```
 
 ## CURL

@@ -2,18 +2,27 @@ package userservice
 
 import (
 	"ginexamples"
+	"ginexamples/auth"
 
 	"github.com/pkg/errors"
 )
 
 type UserService struct {
 	r ginexamples.UserRepository
+	a Authenticator
+}
+
+type Authenticator interface {
+	Hash(password string) (string, error)
+	CompareHash(hashedPassword string, plainPassword string) (bool, error)
+	SessionID() string
 }
 
 // New returns the UserService.
 func New(userRepository ginexamples.UserRepository) *UserService {
 	return &UserService{
 		r: userRepository,
+		a: &auth.Authenticator{},
 	}
 }
 
@@ -27,11 +36,13 @@ func (uS *UserService) CreateUser(user *ginexamples.User, password string) (*gin
 		return &ginexamples.User{}, errors.New("password too short")
 	}
 
-	// if err != nil {
-	// 	return &ginexamples.User{}, errors.Wrap(err, "error hashing password")
-	// }
+	hashedPassword, err := uS.a.Hash(password)
+	if err != nil {
+		return &ginexamples.User{}, errors.Wrap(err, "error hashing password")
+	}
 
-	user.PasswordHash = password
+	user.PasswordHash = hashedPassword
+	user.SessionID = uS.a.SessionID()
 
 	err = uS.r.Store(user)
 	if err != nil {

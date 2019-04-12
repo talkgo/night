@@ -1,11 +1,23 @@
-up:
+run:
+	@echo "=============starting server============="
+	go run cmd/server/main.go
+
+test:
+	@echo "=============running test============="
+	go test ./...
+
+docker-build:
+	@echo "=============building image============="
+	docker build . -t ginexamples-backend:`git rev-parse HEAD`
+
+compose-up:
 	@echo "=============starting gollery locally============="
 	docker-compose -f docker-compose-dev.yml up
 
-logs:
+compose-logs:
 	docker-compose logs -f
 
-down:
+compose-down:
 	docker-compose down
 
 pg-up:
@@ -16,6 +28,6 @@ pg-down:
 	@echo "=============stopping the temporary postgres============="
 	docker stop pg-docker
 
-docker-rest:
+docker-reset:
 	@echo "=============resetting docker============="
 	docker system prune -af
