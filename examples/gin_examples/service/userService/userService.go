@@ -70,3 +70,28 @@ func (uS *UserService) Login(email string, password string) (*ginexamples.User, 
 
 	return user, nil
 }
+
+func (uS *UserService) Logout(sessionID string) error {
+	user, err := uS.r.FindBySessionID(sessionID)
+	if err != nil {
+		return errors.Wrap(err, "error finding by sessionID")
+	}
+
+	user.SessionID = ""
+	uS.r.Update(user)
+
+	return nil
+}
+
+func (uS *UserService) CheckAuthentication(sessionID string) (*ginexamples.User, error) {
+	user, err := uS.r.FindBySessionID(sessionID)
+	if err != nil {
+		return nil, errors.Wrap(err, "error finding by sessionID")
+	}
+
+	return user, nil
+}
+
+func (uS *UserService) GetUser(id string) (*ginexamples.User, error) {
+	return uS.r.Find(id)
+}

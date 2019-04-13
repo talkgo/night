@@ -1,6 +1,7 @@
 package http
 
 import (
+	"fmt"
 	"ginexamples"
 	"net/http"
 
@@ -68,6 +69,64 @@ func (a *AppServer) LoginUserHandler(c *gin.Context) {
 	}
 
 	setCookie(c, user.SessionID)
+	c.JSON(http.StatusOK, gin.H{
+		"Name":  user.Name,
+		"Email": user.Email,
+	})
+}
+
+func (a *AppServer) LogoutUserHandler(c *gin.Context) {
+	sessionID, err := c.Cookie("sessionID")
+	if err != nil || sessionID == "" {
+		c.Status(http.StatusOK)
+		return
+	}
+
+	err = a.UserService.Logout(sessionID)
+	if err != nil {
+		a.Logger.Printf("error logging out user %v", err)
+		c.Status(http.StatusInternalServerError)
+		return
+	}
+
+	setCookie(c, "")
+	c.Status(http.StatusOK)
+}
+
+func (a *AppServer) GetUserHandler(c *gin.Context) {
+	id := c.Param("id")
+	if id == "" {
+		c.Status(http.StatusBadRequest)
+		return
+	}
+
+	user, err := a.UserService.GetUser(id)
+	if err != nil {
+		a.Logger.Printf("error getting user %v", err)
+		c.Status(http.StatusNotFound)
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"Name":  user.Name,
+		"Email": user.Email,
+	})
+}
+
+func (a *AppServer) GetMeHandler(c *gin.Context) {
+	id, exists := c.Get("userID")
+	if exists == false {
+		c.Status(http.StatusBadRequest)
+		return
+	}
+
+	user, err := a.UserService.GetUser(fmt.Sprintf("%d", id))
+	if err != nil {
+		a.Logger.Printf("error getting user %v", err)
+		c.Status(http.StatusNotFound)
+		return
+	}
+
 	c.JSON(http.StatusOK, gin.H{
 		"Name":  user.Name,
 		"Email": user.Email,

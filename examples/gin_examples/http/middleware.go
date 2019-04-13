@@ -1,10 +1,31 @@
 package http
 
 import (
+	"ginexamples"
 	"log"
+	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
+
+func NewAuthMiddleware(provider ginexamples.UserAuthenticationProvider) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		sessionID, err := c.Cookie("sessionID")
+		if err != nil {
+			c.Status(http.StatusForbidden)
+			return
+		}
+
+		user, err := provider.CheckAuthentication(sessionID)
+		if err != nil {
+			c.Status(http.StatusForbidden)
+			return
+		}
+
+		c.Set("userID", user.ID)
+		c.Next()
+	}
+}
 
 func Logger(l *log.Logger) gin.HandlerFunc {
 	return func(c *gin.Context) {

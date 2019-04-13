@@ -1,39 +1,20 @@
 # Gin Example
 
-## Testing
+**[Endpoints](ENDPOINTS.md)**
 
-```
-make test
-```
+## How to Start
 
-## Running
-
-```
-make run
-```
-
-## CURL
-
-Register
-
-```
-curl -XPOST -d '{ "name": "heisenberg", "email": "heisenberg@gmail.com", "password": "saymyname!" }' 'http://localhost:8080/api/register'
-```
-
-Login
-
-```
-curl -XPOST -d '{ "email": "heisenberg@gmail.com", "password": "saymyname!" }' 'http://localhost:8080/api/login'
-```
+- `make test`
+- `make run`
 
 ## Development Flow
 
 ```
-1. Add method to interface in user.go
-2. Add method to userservice.go
-3. Add method to userRepository.go
-4. Add method to userHandler.go
-5. Add method to routes.go
+1. Add method to our interfaces
+2. Add method to services
+3. Add method to repositories
+4. Add method to handlers
+5. Add method to routes
 ```
 
 **Note**

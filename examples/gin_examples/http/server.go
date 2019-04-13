@@ -18,7 +18,9 @@ func (a *AppServer) initialize() {
 	gin.DisableConsoleColor()
 	route := gin.New()
 	public := route.Group("/api", Logger(a.Logger), CORS())
+	private := route.Group("/api/v1", Logger(a.Logger), CORS(), NewAuthMiddleware(a.UserService))
 	a.publicRoutes(public)
+	a.privateRoutes(private)
 
 	a.route = route
 }
