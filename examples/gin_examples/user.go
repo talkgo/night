@@ -16,8 +16,14 @@ type User struct {
 type UserRepository interface {
 	Store(user *User) error
 	FindByEmail(email string) (*User, error)
+	Update(user *User) error
 }
 
 type UserService interface {
 	CreateUser(u *User, password string) (*User, error)
+	UserAuthenticationProvider
+}
+
+type UserAuthenticationProvider interface {
+	Login(email string, password string) (*User, error)
 }

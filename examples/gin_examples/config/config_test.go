@@ -19,6 +19,7 @@ func TestGetConfig(t *testing.T) {
 		{"PG_USER", "testuser"},
 		{"PG_PASSWORD", "testpass"},
 		{"PG_DB_NAME", "testname"},
+		{"LOGFILE", "backend.log"},
 	}
 
 	var testCases = []struct {
@@ -35,6 +36,7 @@ func TestGetConfig(t *testing.T) {
 				"testuser",
 				"testpass",
 				"testname",
+				"backend.log",
 			}},
 		{"unset", true,
 			Config{
@@ -45,6 +47,7 @@ func TestGetConfig(t *testing.T) {
 				"postgres",
 				"",
 				"ginexamples",
+				"",
 			}},
 	}
 

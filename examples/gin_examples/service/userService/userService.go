@@ -14,7 +14,7 @@ type UserService struct {
 
 type Authenticator interface {
 	Hash(password string) (string, error)
-	CompareHash(hashedPassword string, plainPassword string) (bool, error)
+	CompareHash(hashedPassword string, plainPassword string) error
 	SessionID() string
 }
 
@@ -48,5 +48,25 @@ func (uS *UserService) CreateUser(user *ginexamples.User, password string) (*gin
 	if err != nil {
 		return &ginexamples.User{}, errors.Wrap(err, "error storing user")
 	}
+	return user, nil
+}
+
+func (uS *UserService) Login(email string, password string) (*ginexamples.User, error) {
+	user, err := uS.r.FindByEmail(email)
+	if err != nil {
+		return nil, errors.Wrap(err, "error finding user by email")
+	}
+
+	err = uS.a.CompareHash(user.PasswordHash, password)
+	if err != nil {
+		return nil, errors.Wrap(err, "error comparing hash")
+	}
+
+	user.SessionID = uS.a.SessionID()
+	err = uS.r.Update(user)
+	if err != nil {
+		return nil, errors.Wrap(err, "error updating sessionID")
+	}
+
 	return user, nil
 }

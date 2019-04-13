@@ -2,6 +2,7 @@ package postgres
 
 import (
 	"errors"
+	"fmt"
 	"ginexamples"
 
 	"github.com/jinzhu/gorm"
@@ -38,8 +39,7 @@ func (u *UserRepository) FindByEmail(email string) (*ginexamples.User, error) {
 func (u *UserRepository) findBy(key string, value string) (*ginexamples.User, error) {
 	user := ginexamples.User{}
 
-	// FIXME
-	db := u.db.Where("email = ?", value)
+	db := u.db.Where(fmt.Sprintf("%s = ?", key), value)
 	err := first(db, &user)
 
 	return &user, err
@@ -54,6 +54,10 @@ func first(db *gorm.DB, dst interface{}) error {
 		return ErrNotFound
 	}
 	return err
+}
+
+func (u *UserRepository) Update(user *ginexamples.User) error {
+	return u.db.Save(user).Error
 }
 
 type modelError string

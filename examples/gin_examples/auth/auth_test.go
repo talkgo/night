@@ -51,14 +51,12 @@ func TestAuthenticator_CompareWithHash(t *testing.T) {
 			assert.Nil(t, err, "should not cause error")
 			assert.NotEmptyf(t, hash, "hashes do not match")
 
-			ok, err := authenticator.CompareHash(hash, v.input)
+			err = authenticator.CompareHash(hash, v.input)
 
 			if v.input != v.reference {
-				assert.False(t, ok, "password should not match")
 				assert.Error(t, err, "should cause an error")
 				return
 			}
-			assert.True(t, ok, "passwords do not match")
 			assert.Nil(t, err, "should not cause error")
 		})
 	}

@@ -14,11 +14,11 @@ func (a *Authenticator) Hash(password string) (string, error) {
 	return string(hash), nil
 }
 
-func (a *Authenticator) CompareHash(hashedPassword string, plainPassword string) (bool, error) {
+func (a *Authenticator) CompareHash(hashedPassword string, plainPassword string) error {
 	err := bcrypt.CompareHashAndPassword([]byte(hashedPassword), []byte(plainPassword))
 	if err != nil {
-		return false, err
+		return err
 	}
 
-	return true, nil
+	return nil
 }

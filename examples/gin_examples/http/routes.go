@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func (a *AppServer) publicRoutes(r *gin.Engine) {
-	v1 := r.Group("api")
-	v1.POST("/register", a.RegisterUserHandler)
+func (a *AppServer) publicRoutes(router *gin.RouterGroup) {
+	router.POST("/register", a.RegisterUserHandler)
+	router.POST("/login", a.LoginUserHandler)
 }

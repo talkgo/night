@@ -13,6 +13,7 @@ type Config struct {
 	PGUser     string
 	PGPassword string
 	PGDBName   string
+	LogFile    string
 }
 
 func (c Config) IsProd() bool {
@@ -56,6 +57,11 @@ func GetConfig() Config {
 		pgDBName = "ginexamples"
 	}
 
+	logFile, ok := os.LookupEnv("LOGFILE")
+	if !ok {
+		logFile = ""
+	}
+
 	return Config{
 		Port:       port,
 		Env:        env,
@@ -64,5 +70,6 @@ func GetConfig() Config {
 		PGUser:     pgUser,
 		PGPassword: pgPassword,
 		PGDBName:   pgDBName,
+		LogFile:    logFile,
 	}
 }
