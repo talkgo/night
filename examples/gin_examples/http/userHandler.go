@@ -22,7 +22,7 @@ func (a *AppServer) RegisterUserHandler(c *gin.Context) {
 
 	err := c.BindJSON(&req)
 	if err != nil || req.Email == "" || req.Password == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.Status(http.StatusBadRequest)
 		return
 	}
 
@@ -32,7 +32,7 @@ func (a *AppServer) RegisterUserHandler(c *gin.Context) {
 	user, err := a.UserService.CreateUser(&userModel, req.Password)
 	if err != nil {
 		a.Logger.Printf("error creating user: %v", err)
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
 
@@ -57,14 +57,14 @@ func (a *AppServer) LoginUserHandler(c *gin.Context) {
 	var req request
 	err := c.BindJSON(&req)
 	if err != nil || req.Email == "" || req.Password == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.Status(http.StatusBadRequest)
 		return
 	}
 
 	user, err := a.UserService.Login(req.Email, req.Password)
 	if err != nil {
 		a.Logger.Printf("error logging in: %v", err)
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.JSON(http.StatusUnauthorized, gin.H{"error": err.Error()})
 		return
 	}
 
@@ -115,12 +115,12 @@ func (a *AppServer) GetUserHandler(c *gin.Context) {
 
 func (a *AppServer) GetMeHandler(c *gin.Context) {
 	id, exists := c.Get("userID")
-	if exists == false {
+	if id == "" || exists == false {
 		c.Status(http.StatusBadRequest)
 		return
 	}
 
-	user, err := a.UserService.GetUser(fmt.Sprintf("%d", id))
+	user, err := a.UserService.GetUser(fmt.Sprintf("%v", id))
 	if err != nil {
 		a.Logger.Printf("error getting user %v", err)
 		c.Status(http.StatusNotFound)

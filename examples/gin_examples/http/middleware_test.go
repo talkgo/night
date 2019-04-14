@@ -51,7 +51,7 @@ func TestNewAuthMiddleware(t *testing.T) {
 
 		t.Run(v.name, func(t *testing.T) {
 			gin.SetMode(gin.TestMode)
-			r := gin.Default()
+			r := gin.New()
 			r.Use(NewAuthMiddleware(as), testHandler)
 
 			req := httptest.NewRequest("", "/", nil)
@@ -93,7 +93,7 @@ func TestLogger(t *testing.T) {
 			logMiddleWare := Logger(l)
 
 			gin.SetMode(gin.TestMode)
-			r := gin.Default()
+			r := gin.New()
 			r.Use(logMiddleWare, testHandler)
 
 			resp := httptest.NewRecorder()
@@ -136,7 +136,7 @@ func TestCORS(t *testing.T) {
 
 		t.Run(v.name, func(t *testing.T) {
 			gin.SetMode(gin.TestMode)
-			r := gin.Default()
+			r := gin.New()
 			r.Use(CORS(), testHandler)
 
 			req := httptest.NewRequest(v.method, "/", nil)

@@ -2,6 +2,26 @@ package mock
 
 import "ginexamples"
 
+type UserService struct {
+	CreateUserFnInvoked bool
+	CreateUserFn        func(u *ginexamples.User, password string) (*ginexamples.User, error)
+
+	GetUserFnInvoked bool
+	GetUserFn        func(id string) (*ginexamples.User, error)
+
+	UserAuthenticationProvider
+}
+
+func (uSM *UserService) CreateUser(u *ginexamples.User, password string) (*ginexamples.User, error) {
+	uSM.CreateUserFnInvoked = true
+	return uSM.CreateUserFn(u, password)
+}
+
+func (uSM *UserService) GetUser(id string) (*ginexamples.User, error) {
+	uSM.GetUserFnInvoked = true
+	return uSM.GetUserFn(id)
+}
+
 type UserAuthenticationProvider struct {
 	LoginFnInvoked bool
 	LoginFn        func(email string, password string) (*ginexamples.User, error)
