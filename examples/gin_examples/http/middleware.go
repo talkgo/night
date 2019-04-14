@@ -12,24 +12,17 @@ func NewAuthMiddleware(provider ginexamples.UserAuthenticationProvider) gin.Hand
 	return func(c *gin.Context) {
 		sessionID, err := c.Cookie("sessionID")
 		if err != nil {
-			c.Status(http.StatusForbidden)
+			c.AbortWithStatus(http.StatusForbidden)
 			return
 		}
 
 		user, err := provider.CheckAuthentication(sessionID)
 		if err != nil {
-			c.Status(http.StatusForbidden)
+			c.AbortWithStatus(http.StatusForbidden)
 			return
 		}
 
 		c.Set("userID", user.ID)
-		c.Next()
-	}
-}
-
-func Logger(l *log.Logger) gin.HandlerFunc {
-	return func(c *gin.Context) {
-		l.Printf("%s: %s %s", c.Request.RemoteAddr, c.Request.Method, c.Request.URL.Path)
 		c.Next()
 	}
 }
@@ -42,9 +35,17 @@ func CORS() gin.HandlerFunc {
 		c.Writer.Header().Set("Access-Control-Allow-Credentials", "true")
 
 		if c.Request.Method == "OPTIONS" {
+			c.AbortWithStatus(http.StatusOK)
 			return
 		}
 
+		c.Next()
+	}
+}
+
+func Logger(l *log.Logger) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		l.Printf("%s: %s %s", c.Request.RemoteAddr, c.Request.Method, c.Request.URL.Path)
 		c.Next()
 	}
 }

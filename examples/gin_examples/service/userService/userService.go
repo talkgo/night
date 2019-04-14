@@ -29,7 +29,7 @@ func New(userRepository ginexamples.UserRepository) *UserService {
 func (uS *UserService) CreateUser(user *ginexamples.User, password string) (*ginexamples.User, error) {
 	_, err := uS.r.FindByEmail(user.Email)
 	if err == nil {
-		return &ginexamples.User{}, err
+		return &ginexamples.User{}, errors.New("email already exists")
 	}
 
 	if len(password) < 8 {

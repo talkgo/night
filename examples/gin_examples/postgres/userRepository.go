@@ -8,12 +8,6 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-const (
-	// ErrNotFound is returned when a resource cannot be found
-	// in the database.
-	ErrNotFound modelError = "UserRepository: resource not found"
-)
-
 type UserRepository struct {
 	db *gorm.DB
 }
@@ -64,23 +58,14 @@ func (u *UserRepository) findBy(key string, value string) (*ginexamples.User, er
 	return &user, err
 }
 
-// first will query using the provided gorm.DB and it will
-// get the first item returned and place it into dst. If
-// nothing is found in the query, it will return ErrNotFound
 func first(db *gorm.DB, dst interface{}) error {
 	err := db.First(dst).Error
 	if err == gorm.ErrRecordNotFound {
-		return ErrNotFound
+		return errors.New("resource not found")
 	}
 	return err
 }
 
 func (u *UserRepository) Update(user *ginexamples.User) error {
 	return u.db.Save(user).Error
-}
-
-type modelError string
-
-func (e modelError) Error() string {
-	return string(e)
 }
