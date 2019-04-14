@@ -17,13 +17,13 @@ title: Golang 代码质量持续检测
 
 * 网络 (局域网IP：192.168.1.100)
 
-   ![7.48.39](/images/articles/sonarqube-for-golang/01.png)
+   ![7.48.39](/static/images/articles/sonarqube-for-golang/01.png)
 
 * 主机科学上网代理
 
    192.168.1.100:1087
 
-   ![10.03.05](/images/articles/sonarqube-for-golang/44.png)
+   ![10.03.05](/static/images/articles/sonarqube-for-golang/44.png)
 
 * 模拟外网访问
 
@@ -31,7 +31,7 @@ title: Golang 代码质量持续检测
    # 修改 hosts 文件，模拟外网访问
    sudo sh -c "echo '192.168.1.100 jenkins.kenny.com\n192.168.1.100 gitlab.kenny.com\n192.168.1.100 sonarqube.kenny.com' >> /etc/hosts"
    ```
-   ![10.04.09](/images/articles/sonarqube-for-golang/45.png)
+   ![10.04.09](/static/images/articles/sonarqube-for-golang/45.png)
 
 * 工具集
 
@@ -63,7 +63,7 @@ docker logs -f jenkins
 
 1. 打开浏览器，访问 http://jenkins.kenny.com:8080
 
-   ![9.11.34](/images/articles/sonarqube-for-golang/02.png)
+   ![9.11.34](/static/images/articles/sonarqube-for-golang/02.png)
 
    ```shell
    # 在日志中找到管理员密码
@@ -73,21 +73,21 @@ docker logs -f jenkins
    cat $JENKINS_HOME/secrets/initialAdminPassword
    ```
 
-   ![9.09.27](/images/articles/sonarqube-for-golang/03.png)
+   ![9.09.27](/static/images/articles/sonarqube-for-golang/03.png)
 
-   ![9.11.06](/images/articles/sonarqube-for-golang/04.png)
+   ![9.11.06](/static/images/articles/sonarqube-for-golang/04.png)
 
 2. 安装推荐插件 (如果你想自定义安装插件，点击 Select plugins to Install)
 
-   ![9.13.59](/images/articles/sonarqube-for-golang/05.png)
+   ![9.13.59](/static/images/articles/sonarqube-for-golang/05.png)
 
 3. 创建管理员账号
 
-   ![9.19.17](/images/articles/sonarqube-for-golang/06.png)
+   ![9.19.17](/static/images/articles/sonarqube-for-golang/06.png)
 
 4. 初始化完成
 
-   ![9.19.55](/images/articles/sonarqube-for-golang/07.png)
+   ![9.19.55](/static/images/articles/sonarqube-for-golang/07.png)
 
 ### Gitlab
 
@@ -111,18 +111,18 @@ docker logs -f gitlab
 
 2. 设置新密码后，使用 root 用户登录
 
-   ![9.27.29](/images/articles/sonarqube-for-golang/09.png)
+   ![9.27.29](/static/images/articles/sonarqube-for-golang/09.png)
 
-   ![9.27.42](/images/articles/sonarqube-for-golang/10.png)
+   ![9.27.42](/static/images/articles/sonarqube-for-golang/10.png)
 
 3. 新建 sonarqube 项目组
 
-   ![9.29.45](/images/articles/sonarqube-for-golang/11.png)
+   ![9.29.45](/static/images/articles/sonarqube-for-golang/11.png)
 
 4. 在 sonarqube 项目组下新建 demo 项目
 
-   ![9.31.26](/images/articles/sonarqube-for-golang/12.png)
-   ![9.32.38](/images/articles/sonarqube-for-golang/13.png)
+   ![9.31.26](/static/images/articles/sonarqube-for-golang/12.png)
+   ![9.32.38](/static/images/articles/sonarqube-for-golang/13.png)
 
 5. 添加主机公钥到 Gitlab
 
@@ -140,9 +140,9 @@ docker logs -f gitlab
 
    访问 http://gitlab.kenny.com/profile/keys  ，将公钥添加至 Gitlab
 
-   ![9.38.15](/images/articles/sonarqube-for-golang/16.png)
+   ![9.38.15](/static/images/articles/sonarqube-for-golang/16.png)
 
-   ![9.38.18](/images/articles/sonarqube-for-golang/17.png)
+   ![9.38.18](/static/images/articles/sonarqube-for-golang/17.png)
 
 6. 将 sonarqube/demo 项目拉至主机的 $GOPATH 下
 
@@ -179,24 +179,24 @@ docker logs -f sonarqube
 
 1. 打开浏览器，访问 http://sonarqube.kenny.com:9000
 
-   ![8.58.40](/images/articles/sonarqube-for-golang/18.png)
+   ![8.58.40](/static/images/articles/sonarqube-for-golang/18.png)
 
 2. 使用管理员账号登录
 
    * 账号 admin
    * 密码 admin
 
-   ![8.59.06](/images/articles/sonarqube-for-golang/19.png)
+   ![8.59.06](/static/images/articles/sonarqube-for-golang/19.png)
 
 3. 生成 token (作为远程连接 SonarQube 的标识，只生成一次，记得备份哦)
 
    admin_token: **74439d5bc557dcc206fa8b1f2f5516e65680bdc8**
 
-   ![8.59.41](/images/articles/sonarqube-for-golang/20.png)
+   ![8.59.41](/static/images/articles/sonarqube-for-golang/20.png)
 
 4. 安装插件 (进入 Administration -> Marketplace)
 
-   ![9.01.25](/images/articles/sonarqube-for-golang/21.png)
+   ![9.01.25](/static/images/articles/sonarqube-for-golang/21.png)
 
    安装完成后点击重启 SonarQube 服务就OK了
 
@@ -209,14 +209,14 @@ docker logs -f sonarqube
 
 1. 点击进入 系统管理 -> 插件管理 -> 可选插件
 
-   ![9.43.39](/images/articles/sonarqube-for-golang/22.png)
+   ![9.43.39](/static/images/articles/sonarqube-for-golang/22.png)
 
 2. 过滤选中 Gitlab、SonarQube Scanner，点击下载待重启后安装
 
-   ![9.45.12](/images/articles/sonarqube-for-golang/23.png)
-   ![9.45.35](/images/articles/sonarqube-for-golang/24.png)
+   ![9.45.12](/static/images/articles/sonarqube-for-golang/23.png)
+   ![9.45.35](/static/images/articles/sonarqube-for-golang/24.png)
 
-   ![10.19.06](/images/articles/sonarqube-for-golang/46.png)
+   ![10.19.06](/static/images/articles/sonarqube-for-golang/46.png)
 
 ### Jenkins 配置
 
@@ -230,13 +230,13 @@ docker logs -f sonarqube
 
    ​	点击 Please enter your username/password
 
-   ![11.31.38](/images/articles/sonarqube-for-golang/25.png)
+   ![11.31.38](/static/images/articles/sonarqube-for-golang/25.png)
 
    输入你的 oracle 账号密码
 
-   ![10.20.43](/images/articles/sonarqube-for-golang/47.png)
+   ![10.20.43](/static/images/articles/sonarqube-for-golang/47.png)
 
-   SonarQube Scanner 安装![11.32.15](/images/articles/sonarqube-for-golang/26.png)
+   SonarQube Scanner 安装![11.32.15](/static/images/articles/sonarqube-for-golang/26.png)
 
    点击保存。
 
@@ -254,13 +254,13 @@ docker logs -f sonarqube
 
    Server authentication token: 填 SonarQube 初始化时生成的 token
 
-   ![9.53.05](/images/articles/sonarqube-for-golang/27.png)
+   ![9.53.05](/static/images/articles/sonarqube-for-golang/27.png)
 
 3. 取消 Gitlab 授权
 
    取消选中 Enable authentication for '/project' end-point，保存
 
-   ![11.20.17](/images/articles/sonarqube-for-golang/28.png)
+   ![11.20.17](/static/images/articles/sonarqube-for-golang/28.png)
 
 4. 在 jenkins 容器中安装 golang 环境及工具
 
@@ -308,38 +308,38 @@ docker logs -f sonarqube
 
    密码     填写自己的邮箱密码或授权码
 
-   ![10.26.50](/images/articles/sonarqube-for-golang/48.png)
+   ![10.26.50](/static/images/articles/sonarqube-for-golang/48.png)
 
-   ![11.50.08](/images/articles/sonarqube-for-golang/30.png)
+   ![11.50.08](/static/images/articles/sonarqube-for-golang/30.png)
 
    Default Triggers 选中 Always
 
-   ![11.50.26](/images/articles/sonarqube-for-golang/31.png)
+   ![11.50.26](/static/images/articles/sonarqube-for-golang/31.png)
 
 
 ### 新建 Jenkins 构建任务
 
 1. 新构建一个自由风格的软件项目
 
-   ![10.35.38](/images/articles/sonarqube-for-golang/32.png)
+   ![10.35.38](/static/images/articles/sonarqube-for-golang/32.png)
 
 2. 使用自定义的工作空间
 
    点击高级，勾选使用自定义的工作空间
 
-   ![10.28.20](/images/articles/sonarqube-for-golang/49.png)
+   ![10.28.20](/static/images/articles/sonarqube-for-golang/49.png)
 
    目录：$JENKINS_HOME/workspace/go/src/gitlab.kenny.com/demo
 
-   ![10.51.25](/images/articles/sonarqube-for-golang/33.png)
+   ![10.51.25](/static/images/articles/sonarqube-for-golang/33.png)
 
 3. 源码管理
 
    Repository URL：http://gitlab.kenny.com/sonarqube/demo
 
-   Credentials：点击Add ，添加凭据 (Gitlab 用户名密码或 SSH登录等方式都可以)![10.37.19](/images/articles/sonarqube-for-golang/34.png)
+   Credentials：点击Add ，添加凭据 (Gitlab 用户名密码或 SSH登录等方式都可以)![10.37.19](/static/images/articles/sonarqube-for-golang/34.png)
 
-   ![10.29.32](/images/articles/sonarqube-for-golang/50.png)
+   ![10.29.32](/static/images/articles/sonarqube-for-golang/50.png)
 
 4. 构建触发器，选中 
 
@@ -347,13 +347,13 @@ docker logs -f sonarqube
 
    Enabled GitLab triggers 选中 Push Events 和 Accepted Merge Request Events ，表示当 Gitlab 有 push 或 merge 操作发生时触发构建。
 
-   ![10.39.03](/images/articles/sonarqube-for-golang/35.png)
+   ![10.39.03](/static/images/articles/sonarqube-for-golang/35.png)
 
 5. 新建 webhook
 
    在浏览器中打开 http://gitlab.kenny.com/admin/application_settings (请使用 root 登录)，找到 Outbound requests ，点击 Expand 后，选中  Allow requests to the local network from hooks and services 并保存更改。 (允许本地网络的 githook)
 
-   ![10.43.37](/images/articles/sonarqube-for-golang/36.png)
+   ![10.43.37](/static/images/articles/sonarqube-for-golang/36.png)
 
    进入 http://gitlab.kenny.com/sonarqube/demo/settings/integrations
 
@@ -367,7 +367,7 @@ docker logs -f sonarqube
 
    点击 Add web hook
 
-   ![10.46.50](/images/articles/sonarqube-for-golang/37.png)
+   ![10.46.50](/static/images/articles/sonarqube-for-golang/37.png)
 
 6. 增加构建步骤，选中 Execute Shell
 
@@ -424,7 +424,7 @@ docker logs -f sonarqube
 
    Default Content  加上 SonarQube URL: http://sonarqube.kenny.com:9000
 
-   ![11.51.18](/images/articles/sonarqube-for-golang/38.png)
+   ![11.51.18](/static/images/articles/sonarqube-for-golang/38.png)
 
 ## 测试
 
@@ -443,15 +443,15 @@ vim /etc/gitlab/gitlab.rb
 gitlab-ctl reconfigure
 ```
 
-![11.53.59](/images/articles/sonarqube-for-golang/39.png)
+![11.53.59](/static/images/articles/sonarqube-for-golang/39.png)
 
-![11.35.27](/images/articles/sonarqube-for-golang/40.png)
+![11.35.27](/static/images/articles/sonarqube-for-golang/40.png)
 
-![11.09.34](/images/articles/sonarqube-for-golang/41.png)
+![11.09.34](/static/images/articles/sonarqube-for-golang/41.png)
 
-![11.10.01](/images/articles/sonarqube-for-golang/42.png)
+![11.10.01](/static/images/articles/sonarqube-for-golang/42.png)
 
-![11.10.42](/images/articles/sonarqube-for-golang/43.png)
+![11.10.42](/static/images/articles/sonarqube-for-golang/43.png)
 
 ## TODO
 

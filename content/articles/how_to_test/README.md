@@ -65,11 +65,11 @@ go run main.go
 
 浏览器访问：
 
-![image-20181222170909680](/images/image-20181222170909680-5469749.png)
+![image-20181222170909680](/static/images/image-20181222170909680-5469749.png)
 
 本地日志记录：
 
-![image-20181222171507017](/images/image-20181222171507017.jpg)
+![image-20181222171507017](/static/images/image-20181222171507017.jpg)
 
 
 
@@ -243,7 +243,7 @@ go tool cover -html=coverage.out
 
 效果图为：
 
-![image-20181222180733266](/images/image-20181222180733266-5473253.png)
+![image-20181222180733266](/static/images/image-20181222180733266-5473253.png)
 
 
 

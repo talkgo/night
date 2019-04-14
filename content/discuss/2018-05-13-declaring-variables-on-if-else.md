@@ -10,7 +10,7 @@ date: 2018-05-13T00:00:00+08:00
 推文地址:
 [https://twitter.com/davidcrawshaw/status/994614426064928770](https://twitter.com/davidcrawshaw/status/994614426064928770)
 
-![ifelsetwitter.png](/images/ifelsetwitter.png)
+![ifelsetwitter.png](/static/images/ifelsetwitter.png)
 
 原博文代码如下, [点击在  play 里运行](https://play.golang.org/p/1tD1C6sOxcV):
 

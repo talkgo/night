@@ -5,7 +5,7 @@ date: 2018-05-18T00:00:00+08:00
 ---
 ## 1. 包循环依赖如何解决？
 
-![import_cycle_not_allowed](/images/import_cycle_not_allowed.jpeg)
+![import_cycle_not_allowed](/static/images/import_cycle_not_allowed.jpeg)
 
 方法：
 
@@ -40,7 +40,7 @@ A：那你知道锁的底层也是原子锁实现的吧？既然还是整个切�
 
 ### simd 是什么？
 
-![simd](/images/450px-SIMD.svg.png)
+![simd](/static/images/450px-SIMD.svg.png)
 
 >单指令流多数据流（英语：Single Instruction Multiple Data，缩写：SIMD）是一种采用一个控制器来控制多个处理器，同时对一组数据（又称“数据向量”）中的每一个分别执行相同的操作从而实现空间上的并行性的技术。
 
