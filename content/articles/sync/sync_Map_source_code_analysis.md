@@ -176,7 +176,7 @@ func (e *entry) load() (value interface{}, ok bool) {
 	return *(*interface{})(p), true
 }
 ```
-read map主要用于读取，每次Load都先从read读取，当read中不存在且amended为true，就从dirty读取数据  。无论dirty map中是否存在该元素，都会执行missLocked函数，该函数将misses+1，当`m.misses < len(m.dirty)`时，便会将dirty复制到read，此时再将dirty置为nil,misses=0。 
+read map主要用于读取，每次Load都先从read读取，当read中不存在且amended为true，就从dirty读取数据  。无论dirty map中是否存在该元素，都会执行missLocked函数，该函数将misses+1，当`m.misses >= len(m.dirty)`时，便会将dirty复制到read，此时再将dirty置为nil,misses=0。 
 
 #### storage
 设置Key=>Value。
