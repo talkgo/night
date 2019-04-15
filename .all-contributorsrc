@@ -1,5 +1,5 @@
 {
-  "projectName": "night-reading-go",
+  "projectName": "reading-go",
   "projectOwner": "developer-learning",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -19,7 +19,8 @@
         "ideas",
         "review",
         "talk",
-        "tutorial"
+        "tutorial",
+        "design"
       ]
     },
     {
@@ -463,5 +464,6 @@
         "code"
       ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }
