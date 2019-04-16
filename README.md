@@ -3,7 +3,7 @@
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-#### *[其他语言](Translations.md)*
+## 其他语言
 
 [🇨🇳](README.md)
 [🇭🇰](README.cht.md)
