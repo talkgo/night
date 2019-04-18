@@ -74,7 +74,7 @@ date: 2018-12-06T00:00:00+08:00
   set incsearch
 " 搜索时大小写不敏感
   set ignorecase
-" vim 自身命令行模式智能补全
+" vim 末行模式，命令自动补全，在状态栏有显示。按 TAB 键
   set wildmenu
 " 设置tab键为4个空格
   set tabstop=4
@@ -175,6 +175,7 @@ date: 2018-12-06T00:00:00+08:00
   
 
 " 安装Tagbar插件 生成大纲啊，选中快速跳转到目标位置 系统必须安装Exuberant ctags
+" sudo apt install exuberant-ctags && sudo yum install exuberant-ctags
   Plugin 'majutsushi/tagbar'
 
 " Tagbar 配置
