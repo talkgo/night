@@ -1,10 +1,10 @@
 package main
 
 import (
-	"ginexamples/config"
-	"ginexamples/http"
-	"ginexamples/postgres"
-	"ginexamples/service/userservice"
+	"ginexamples/pkg/config"
+	"ginexamples/pkg/http"
+	"ginexamples/pkg/postgres"
+	"ginexamples/pkg/service/userservice"
 	"io"
 	"log"
 	"os"

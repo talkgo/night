@@ -1,15 +1,6 @@
 package http
 
 import (
-	"errors"
-	"ginexamples"
-	"ginexamples/mock"
-	"log"
-	"net/http"
-	"net/http/httptest"
-	"os"
-	"strings"
-	"testing"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"

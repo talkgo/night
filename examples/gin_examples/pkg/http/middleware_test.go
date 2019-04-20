@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"ginexamples"
-	"ginexamples/mock"
+	"ginexamples/pkg/mock"
 	"log"
 	"net/http"
 	"net/http/httptest"

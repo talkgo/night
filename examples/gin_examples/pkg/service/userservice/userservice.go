@@ -2,7 +2,7 @@ package userservice
 
 import (
 	"ginexamples"
-	"ginexamples/auth"
+	"ginexamples/pkg/auth"
 
 	"github.com/pkg/errors"
 )
