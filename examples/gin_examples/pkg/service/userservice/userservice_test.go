@@ -2,7 +2,7 @@ package userservice
 
 import (
 	"ginexamples"
-	"ginexamples/mock"
+	"ginexamples/pkg/mock"
 	"testing"
 
 	"github.com/jinzhu/gorm"
