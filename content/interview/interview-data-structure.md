@@ -17,4 +17,4 @@ _2. 介绍下 RESTFull API 方式下, 怎么做到快速路由?_
 > 参考文章:   
 > 1. [路由查找之Radix Tree](https://michaelyou.github.io/2018/02/10/%E8%B7%AF%E7%94%B1%E6%9F%A5%E6%89%BE%E4%B9%8BRadix-Tree/)  
 > 2. [图文详解Radix树](https://blog.csdn.net/petershina/article/details/53313624)  
-> 3.[radix tree在数据库PostgreSQL中的一些应用举例](https://yq.aliyun.com/articles/75334)
+> 3. [radix tree在数据库PostgreSQL中的一些应用举例](https://yq.aliyun.com/articles/75334)
