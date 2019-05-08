@@ -99,3 +99,18 @@ Go 每日阅读特训营。
 饶全成写了一篇新文章[深入Go的底层，带你走近一群有追求的人](https://www.cnblogs.com/qcrao-2018/p/10562216.html)，给 Go 夜读狠狠的做了一次轰动的推广。
 
 reading-go 再次登上 Github Go Trending 的排行榜。
+
+### 第七阶段
+
+经过自己的思考，我重新调整了 Go 夜读的选题，以及协同方式。
+
+详情可参见：2019.04.13 https://github.com/developer-learning/reading-go/issues/348
+
+### 第八阶段
+
+在经过一段时间的试用，以及对话题的沉淀，预备了几个话题开始分享和讨论。（开始重度推荐 Slack 深度讨论）
+
+将分享文章同步发布到以下平台：gocn.vip studygolang.com v2ex.com zhihu.com 微博
+
+star 数开启于：2800
+
