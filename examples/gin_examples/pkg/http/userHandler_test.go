@@ -1,10 +1,18 @@
 package http
 
 import (
-
+	"errors"
+	"ginexamples"
+	"ginexamples/pkg/mock"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/stretchr/testify/assert"
+	"log"
+	"net/http"
+	"net/http/httptest"
+	"os"
+	"strings"
+	"testing"
 )
 
 func TestAppServer_RegisterUserHandler(t *testing.T) {
