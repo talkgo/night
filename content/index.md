@@ -29,14 +29,6 @@ Go 学习与分享：
 - [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
 - [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
 
-----
-
-<br>
-
-|![notification](/static/images/bell-outline-badged.svg)预告|
-|:------------------:|
-| 《k8s 源代码解析 - 调度器》 4月13日 John|
-| github.com/golang/sync -> errgroup、syncmap 等 源码阅读 |
 
 ----
 
@@ -51,8 +43,8 @@ Go 学习与分享：
 - [x] etcd/raft
 - [x] defer
 - [x] context
-- [ ] golang/sync
-- [ ] kubernetes
+- [x] golang/sync
+- [x] kubernetes
 
 ## 回看地址
 
