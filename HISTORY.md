@@ -120,3 +120,21 @@ star 数开启于：2800
 >持续关注此次增长。
 
 截止到晚上19：07，增长了300多颗星。
+
+![](/static/images/trending_go.jpg)
+
+![](/static/images/trending_developers.jpg)
+
+![](/static/images/trending_repos.jpg)
+
+2019年5月21日，B站关注数猛增150多人，达到1070多人的关注。
+2019年5月21日，YouTube关注订阅达到968人，近千人的关注。
+>非常感谢大家对于Go夜读的支持，欢迎大家积极参与 issue 来发起相关话题的讨论。
+
+![](/static/images/reading_go_bilibili.jpg)
+![](/static/images/reading_go_youtube.jpg)
+
+截止到 2019年5月21日 09:15:00
+
+star：3361，B站：1084，YouTube：971
+
