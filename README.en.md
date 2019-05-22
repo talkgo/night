@@ -80,8 +80,6 @@ Open Source! Open Source! Open Source! (important things need to be said thrice 
 
 ## How to Join
 
-<img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
-
 If you want to join the WeChat group, search for `mai_yang` and then enter your name, company, job title and responsibility. Please also mention that you found us on Github.
 
 For those of you who want to use Slack, here is how to reach us: [reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)

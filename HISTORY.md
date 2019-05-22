@@ -138,3 +138,24 @@ star 数开启于：2800
 
 star：3361，B站：1084，YouTube：971
 
+后面我得知，这一波增长的源头是 Github 精选推荐了 Go 夜读，然后这个推荐又发布在微博上，微博上的蒋涛CSDN又转发了一波，CSDN 又转发了，所以就有了一定传播效应。所以最终得到了较大范围的曝光。
+
+![](/static/images/weibo_github_daily.png)
+![](/static/images/weibo_jiangtao_csdn.png)
+![](/static/images/weibo_csdn_other_forward.png)
+
+截止到 2019年5月21日 18:19:00
+
+star：3504，B站：1119，YouTube：993
+
+这一波推广，不单单是在 Go 语言排名靠前，而且在所有语言中也有一定的排名靠前，包括开发者排名也靠前。
+
+Github Trending：
+
+![](/static/images/github_trending_go_0521.png)
+![](/static/images/github_trending_developer_0521.png)
+
+YouTube 突破 1000：
+
+![](/static/images/reading_go_youtube_1001.jpg)
+
