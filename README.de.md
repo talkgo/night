@@ -81,8 +81,6 @@ Open Source! Open Source! Open Source! (**sondern, nochmals gesagt und dreimal g
 
 ## Wie kann man beitreten?
 
-<img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
-
 Wenn Sie der WeChat-Gruppe beitreten möchten, suchen Sie nach `mai_yang` und geben Sie dann Ihren Namen, Ihr Unternehmen, Ihre Berufsbezeichnung und Ihre Verantwortung ein. Bitte erwähnen Sie auch, dass Sie uns auf Github gefunden haben.
 
 Für diejenigen unter Ihnen, die Slack nutzen möchten, ist hier die Anfahrtsbeschreibung: [reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
