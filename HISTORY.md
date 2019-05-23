@@ -10,22 +10,22 @@
 4. 得到几个大 V 的 star，然后自然引流（appleboy, Windy）；
 5. 因为《Go 夜读》线下活动大家都有很多的收获，然后我们还将每期学到的知识进行总结，不久就得到了 [gocn.io](http://gocn.vip) GoCN 每日新闻的推广。
 
-![](/static/images/night-reading-go-github-trending_20180518142500.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-github-trending_20180518142500.png)
 
 **掘金：**
 
-![](/static/images/night-reading-go-juejin_20180517115400.png)
-![](/static/images/night-reading-go-juejin_20180518090800.png)
-![](/static/images/night-reading-go-juejin_20180518142500.png)
-![](/static/images/night-reading-go-juejin_20180522152100.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-juejin_20180517115400.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-juejin_20180518090800.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-juejin_20180518142500.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-juejin_20180522152100.png)
 
 发展时间：从 2018-03-21 到 2018-06-28
 
 >由于场地以及时间的关系，将《Go 夜读》调整为每周四晚上线上活动（zoom.us）。
 
-![](/static/images/night-reading-go-star_20180516110400.png)
-![](/static/images/night-reading-go-star_20180516115000.png)
-![](/static/images/night-reading-go-star_20180518142500.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-star_20180516110400.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-star_20180516115000.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-star_20180518142500.png)
 
 ----
 
@@ -44,9 +44,9 @@
 
 **Github Trending:**
 
-![](/static/images/night-reading-go-github-trending_20180724203600.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-github-trending_20180724203600.png)
 
-![](/static/images/night-reading-go-github-trending_20180726204300.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-github-trending_20180726204300.png)
 
 ----
 
@@ -73,7 +73,7 @@
 
 昨天（2018-12-04）的 GrowingIO 数据：
 
-![](/static/images/2018-12-04-gio.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-04-gio.png)
 
 ----
 
@@ -121,18 +121,18 @@ star 数开启于：2800
 
 截止到晚上19：07，增长了300多颗星。
 
-![](/static/images/trending_go.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/trending_go.jpg)
 
-![](/static/images/trending_developers.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/trending_developers.jpg)
 
-![](/static/images/trending_repos.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/trending_repos.jpg)
 
 2019年5月21日，B站关注数猛增150多人，达到1070多人的关注。
 2019年5月21日，YouTube关注订阅达到968人，近千人的关注。
 >非常感谢大家对于Go夜读的支持，欢迎大家积极参与 issue 来发起相关话题的讨论。
 
-![](/static/images/reading_go_bilibili.jpg)
-![](/static/images/reading_go_youtube.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/reading_go_bilibili.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/reading_go_youtube.jpg)
 
 截止到 2019年5月21日 09:15:00
 
@@ -140,9 +140,9 @@ star：3361，B站：1084，YouTube：971
 
 后面我得知，这一波增长的源头是 Github 精选推荐了 Go 夜读，然后这个推荐又发布在微博上，微博上的蒋涛CSDN又转发了一波，CSDN 又转发了，所以就有了一定传播效应。所以最终得到了较大范围的曝光。
 
-![](/static/images/weibo_github_daily.png)
-![](/static/images/weibo_jiangtao_csdn.png)
-![](/static/images/weibo_csdn_other_forward.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/weibo_github_daily.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/weibo_jiangtao_csdn.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/weibo_csdn_other_forward.png)
 
 截止到 2019年5月21日 18:19:00
 
@@ -152,10 +152,14 @@ star：3504，B站：1119，YouTube：993
 
 Github Trending：
 
-![](/static/images/github_trending_go_0521.png)
-![](/static/images/github_trending_developer_0521.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/github_trending_go_0521.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/github_trending_developer_0521.png)
 
-YouTube 突破 1000：
+2019年5月21日 21:25 YouTube 突破 1000：
 
-![](/static/images/reading_go_youtube_1001.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/reading_go_youtube_1001.jpg)
+
+截止到 2019年5月23日 09:38:00
+
+star：3643，B站：1184，YouTube：1030
 
