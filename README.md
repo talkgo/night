@@ -3,12 +3,7 @@
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
-## 其他语言
-
-[🇨🇳](README.md)
-[🇭🇰](README.cht.md)
-[🇺🇸](README.en.md)
-[🇩🇪](README.de.md)
+[中文 🇨🇳](README.md) [繁體 🇭🇰](README.cht.md) [English 🇺🇸](README.en.md) [German 🇩🇪](README.de.md)
 
 ## Stargazers over time
 
@@ -27,7 +22,13 @@ Go 学习与分享：
 
 - [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
 	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
-
+	- [goim 开发(todo)]()
+- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
+	- TiDB 源码概览；
+	- 执行引擎；
+	- 优化器；
+	- 事务；
+	- 其他（工程化，测试等）；
 
 ----
 
