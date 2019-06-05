@@ -17,18 +17,20 @@ Go 学习与分享：
 
 - [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-*每周约定一个晚上进行 Go 源码阅读，Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
->阅读范畴：Go 标准包、开源项目。
-
-- [每日阅读](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
-
-*你愿意来，那说明你想改变，你也保证自己能做到，那你就得理解一点：在这里，我们是共同付出，你不是吸收者，我也不是分享者，我们可以讨论，但是我们不能帮你坚持或者教你，带你。*
+*根据[【草案】Go 夜读重大调整(请每个人都来说说你的看法和意见）](https://github.com/developer-learning/reading-go/issues/348)，我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
+>范畴：Go 标准包、开源项目、Go 项目最佳实践等。
 
 - [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
 - [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
-
+	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
+	- [goim 开发(todo)]()
+- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
+	- TiDB 源码概览；
+	- 执行引擎；
+	- 优化器；
+	- 事务；
+	- 其他（工程化，测试等）；
 
 ----
 
