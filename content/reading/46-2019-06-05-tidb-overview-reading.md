@@ -1,6 +1,6 @@
 ---
-desc: Go 夜读之 goim 架构设计与源码分析（20190530第45期）
-title: goim 架构设计与源码分析（20190530第45期）
+desc: Go 夜读 && TiDB 源码阅读之概览
+title: Go 夜读 && TiDB 源码阅读之概览
 date: 2019-06-05T21:10:00+08:00
 author: mai
 ---
