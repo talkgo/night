@@ -1,11 +1,11 @@
 ---
-desc: Go 夜读 && TiDB 源码阅读之 Exector
-title: Go 夜读 && TiDB 源码阅读之 Exector
+desc: Go 夜读 && TiDB 源码阅读之 Executor
+title: 第 47 期 TiDB 源码阅读之 Executor
 date: 2019-06-12T21:10:00+08:00
 author: chenshuang
 ---
 
-## TiDB Exector 内容介绍
+## TiDB Executor 内容介绍
 
 本次分享主要讲 TiDB 中 insert/update/delete/select, 以及 DDL 等是如何执行的，以及涉及到相关模块。大概会涉及以下模块：
 
@@ -25,8 +25,8 @@ PPT: [TiDB Executor 源码阅读.pdf](https://github.com/developer-learning/read
 
 ## 视频回看
 
-1. [TiDB 源码学习之 Exector - YouTube](https://youtu.be/Rcrm4w7sqbM)
-2. [TiDB 源码学习之 Exector - Bilibili](https://www.bilibili.com/video/av55403428/)
+1. [TiDB 源码学习之 Executor - YouTube](https://youtu.be/Rcrm4w7sqbM)
+2. [TiDB 源码学习之 Executor - Bilibili](https://www.bilibili.com/video/av55403428/)
 
 PPT: https://github.com/developer-learning/reading-go/files/3281080/TiDB.Executor.pdf
 
