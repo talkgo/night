@@ -18,14 +18,17 @@ Go 学习与分享：
 *根据[【草案】Go 夜读重大调整(请每个人都来说说你的看法和意见）](https://github.com/developer-learning/reading-go/issues/348)，我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
 >范畴：Go 标准包、开源项目、Go 项目最佳实践等。
 
+- [Paper Reading](https://github.com/developer-learning/paper-reading/)
+>希望通过阅读学术文献的方式，来帮助我们去学习和理解计算机系统，以及 Go 语言。
+
 - [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
 - [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
 	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
 	- [goim 开发(todo)]()
 - **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
-	- TiDB 源码概览；
-	- 执行引擎；
+	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401)；
+	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404)；
 	- 优化器；
 	- 事务；
 	- 其他（工程化，测试等）；
@@ -58,7 +61,7 @@ Go 学习与分享：
 
 ## 我们的基本流程
 
-![](./static/reading-go-share.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/reading-go-share.png)
 
 - issue 上收集大家想要研究的主题、源码库或源码模块。
 - 必须得到至少两个人的参与，该分享才会进入准备阶段。
@@ -74,6 +77,7 @@ Go 学习与分享：
 - 架构设计级；
 - 学习方法、习惯培养等；
 - 效率效能提升等；
+- paper reading；
 
 ### 我们的分享方式
 
