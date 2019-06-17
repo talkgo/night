@@ -1,6 +1,6 @@
 ---
 desc: Go 夜读 && TiDB 源码阅读之概览
-title: Go 夜读 && TiDB 源码阅读之概览
+title: 第 46 期 TiDB 源码阅读之概览
 date: 2019-06-05T21:10:00+08:00
 author: mai
 ---
