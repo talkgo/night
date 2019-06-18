@@ -1,0 +1,78 @@
+baseurl = "https://reading.developerlearning.cn/"
+title = "Go 夜读"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+sectionPagesMenu = "main"
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+# Code highlighting options
+# Hugo uses Chroma but names are the same as the old pygments highlighter
+
+# Highlight shortcode and code fences (```) will be treated similarly
+pygmentscodefences = true
+
+# Change highlight style here.
+# For a full list see: https://xyproto.github.io/splash/docs/all.html
+pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
+
+# Other Chroma options can be added here (and in the highlight shortcode in the markdown file)
+# See list of supported options: https://gohugo.io/content-management/syntax-highlighting/#options
+# for example: pygmentsoptions = "linenos=true"
+
+[params]
+	# General information
+	author = "John Deng"
+	description = "Night Reading Go - Go source reading and offline technical discussion every Thursday night. "
+	copyright = "Released under the Apache 2.0 license"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/developer-learning/night-reading-go"
+
+	version = ""
+	logo = "images/2018-12-11-night-reading-go.jpg"
+	favicon = "images/favicon.ico"
+
+	permalink = " "
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	# Theme color, available values are: red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, grey and blue-grey
+	[params.palette]
+    	primary = "indigo"
+    	accent  = "deep-purple"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+	# https://github.com/gitalk/gitalk#usage
+	# Register a Github OAuth application: https://github.com/settings/applications/new
+	[params.Gitalk]
+		enable = true
+		clientID = "d891898cec9e65ff7cd0" # Your client ID
+		clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
+		repo = "reading-go" # The repo to store comments
+		owner = "developer-learning" # Your GitHub ID
+		admin = "yangwenmai" # Your GitHub ID
+
+[social]
+	github  = "developer-learning"
+	youtube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+[outputs]
+	home = [ "HTML", "JSON"]
+	page = [ "HTML", "JSON"]
+
+	

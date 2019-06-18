@@ -1,0 +1,18 @@
+{{ if .Site.Params.Gitalk.enable }}
+<section id='comments' style='margin:16px 0;padding:1em;background:#efefef;box-shadow:1px 1px 5px #ccc'>
+  <link rel='stylesheet' href='//unpkg.com/gitalk/dist/gitalk.css'>
+  <script src='//unpkg.com/gitalk/dist/gitalk.min.js'></script>
+  <div id='gitalk-container'></div>
+  <script type='text/javascript'>
+    var gitalk = new Gitalk({
+      clientID: '{{ .Site.Params.Gitalk.clientID }}',
+      clientSecret: '{{ .Site.Params.Gitalk.clientSecret }}',
+      repo: '{{ .Site.Params.Gitalk.repo }}',
+      owner: '{{ .Site.Params.Gitalk.owner }}',
+      admin: ['{{ .Site.Params.Gitalk.admin }}'],
+      id: location.pathname
+    });
+    gitalk.render('gitalk-container')
+  </script>
+</section>
+{{ end }}
