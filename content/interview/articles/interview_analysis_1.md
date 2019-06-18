@@ -29,15 +29,15 @@ func defer_call() {
 考点：**defer执行顺序**
 解答：
 defer 是**后进先出**。
-panic 需要等defer 结束后才会向上传递。
-出现panic恐慌时候，会先按照defer的后入先出的顺序执行，最后才会执行panic。
+协程遇到panic时，遍历本协程的defer链表，并执行defer。在执行defer过程中，遇到recover则停止panic，返回recover处继续往下执行。如果没有遇到recover，遍历完本协程的defer链表后，向stderr抛出panic信息。从执行顺序上来看，实际上是按照先进后出的顺序执行defer
 ```go
 打印后
 打印中
 打印前
 panic: 触发异常
-
 ```
+**注意：请用独立终端运行，排查某些IDE对stderr和stdout处理问题导致输出顺序不一致。**
+
 ### 2. 以下代码有什么问题，说明原因。
 ```go
 type student struct {
