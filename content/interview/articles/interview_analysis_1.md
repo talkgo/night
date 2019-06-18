@@ -35,9 +35,9 @@ defer 是**后进先出**。
 打印中
 打印前
 panic: 触发异常
-
-注意：请求独立终端运行，排查某些IDE对stderr和stdout处理问题导致输出顺序不一致。
 ```
+**注意：请求独立终端运行，排查某些IDE对stderr和stdout处理问题导致输出顺序不一致。**
+
 ### 2. 以下代码有什么问题，说明原因。
 ```go
 type student struct {
