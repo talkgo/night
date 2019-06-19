@@ -1,12 +1,11 @@
 ---
-title: 2019-06-19 Gorm timestamp 类型处理
+title: 2019-06-19 Go、Gorm 与 MySQL timestamp
 date: 2019-06-19T00:00:00+08:00
 ---
 
 来源：《Go 夜读》微信群
 
 ----
-
 
 Go、Gorm与MySQL中timestamp交互时遇到的问题
 
