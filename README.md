@@ -29,7 +29,7 @@ Go 学习与分享：
 - **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
 	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401)；
 	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404)；
-	- 优化器；
+	- [优化器](https://youtu.be/4mgx8bq_fcQ)；
 	- 事务；
 	- 其他（工程化，测试等）；
 
