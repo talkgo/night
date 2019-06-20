@@ -25,13 +25,14 @@ Go 学习与分享：
 
 - [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
 	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
-	- [goim 开发(todo)]()
-- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
-	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401)；
-	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404)；
-	- [优化器](https://youtu.be/4mgx8bq_fcQ)；
+	- goim 开发(todo)
+- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
+	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
+	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
+	- [优化器](https://github.com/developer-learning/reading-go/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
 	- 事务；
 	- 其他（工程化，测试等）；
+	- [failpoint 设计与实现](https://github.com/developer-learning/reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
 
 ----
 
