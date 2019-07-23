@@ -1434,5 +1434,4 @@ BenchmarkHandleFunc-8     1307          217           -83.40%
 - [how to test](https://github.com/xpzouying/learning_golang/tree/master/how_to_test)
 - [golang/pprof](https://golang.org/pkg/runtime/pprof/)
 - [golang/profiling-go-programs](https://blog.golang.org/profiling-go-programs)
-- [Google 推出 C++ Go Java Scala的基准性能测试](https://www.cnbeta.com/articles/soft
-  /145252.htm)
+- [Google 推出 C++ Go Java Scala的基准性能测试](https://www.cnbeta.com/articles/soft/145252.htm)
