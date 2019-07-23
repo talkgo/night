@@ -95,15 +95,6 @@
       ]
     },
     {
-      "login": "fenggolang",
-      "name": "fenggolang",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/16982786?v=4",
-      "profile": "https://github.com/fenggolang",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "henrylee2cn",
       "name": "henrylee2cn",
       "avatar_url": "https://avatars3.githubusercontent.com/u/10174178?v=4",
@@ -455,22 +446,85 @@
       ]
     },
     {
-      "login": "dayouba",
+      "login": "wty4427300",
+      "name": "GameOver ",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41495709?s=460&v=4",
+      "profile": "https://www.jianshu.com/u/5eea945d14f6",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "davygeek",
+      "name": "davygeek",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12783140?s=460&v=4",
+      "profile": "http://davygeek.cnblogs.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "changkun",
+      "name": "Ou Changkun",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5498964?s=460&v=4",
+      "profile": "https://changkun.de/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "LinkinStars",
+      "name": "LinkinStar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19712692?s=460&v=4",
+      "profile": "http://www.cnblogs.com/linkstar/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "azd1997",
+      "name": "Eiger",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/33643657?s=460&v=4",
+      "profile": "http://azd1997.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dayuoba",
       "name": "dayu",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/9914235?s=400&v=4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9914235?s=460&v=4",
       "profile": "http://dayuoba.github.io/",
       "contributions": [
         "code"
       ]
     },
     {
-      "login": "wty4427300",
-      "name": "GameOver ",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/41495709?v=4",
-      "profile": "https://www.jianshu.com/u/5eea945d14f6",
+      "login": "scylhy",
+      "name": "scylhy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12492939?s=460&v=4",
+      "profile": "https://blog.csdn.net/scylhy",
       "contributions": [
         "code"
       ]
-    }
+    },
+    {
+      "login": "sober-wang",
+      "name": "尚墨",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35804630?s=460&v=4",
+      "profile": "https://github.com/sober-wang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "xhochipe",
+      "name": "xhochipe",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9391575?s=460&v=4",
+      "profile": "https://github.com/xhochipe",
+      "contributions": [
+        "code"
+      ]
+    },
   ]
 }
