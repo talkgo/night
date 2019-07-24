@@ -30,9 +30,9 @@ Go 学习与分享：
 	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
 	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
 	- [优化器](https://github.com/developer-learning/reading-go/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
-	- 事务；
-	- 其他（工程化，测试等）；
+	- [事务](https://github.com/developer-learning/reading-go/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
 	- [failpoint 设计与实现](https://github.com/developer-learning/reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
+	- 其他（工程化，测试等）；
 
 ----
 
