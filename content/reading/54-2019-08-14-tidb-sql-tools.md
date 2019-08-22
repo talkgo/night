@@ -2,7 +2,7 @@
 desc: Go 夜读之 TiDB SQL 兼容性测试工具简介
 title: 第 54 期 Go 夜读之 TiDB SQL 兼容性测试工具简介
 date: 2019-08-14T21:00:00+08:00
-author: mai
+author: PingCAP
 ---
 
 ## Go 夜读第 54 期 TiDB SQL 兼容性测试工具简介
