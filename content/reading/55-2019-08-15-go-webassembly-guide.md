@@ -2,7 +2,7 @@
 desc: Go 夜读之 Go&WebAssembly 简介
 title: 第 55 期 Go&WebAssembly 简介
 date: 2019-08-15T21:00:00+08:00
-author: mai
+author: 柴大
 ---
 
 ## Go 夜读第 55 期 Go&WebAssembly 简介
