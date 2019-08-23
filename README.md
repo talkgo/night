@@ -94,7 +94,7 @@ Go 学习与分享：
 
 ## 怎么加入
 
-![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/wechat_group_5.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/wechat_group_6.jpg)
 
 微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
 
