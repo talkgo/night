@@ -167,3 +167,23 @@ star：3643，B站：1184，YouTube：1030
 
 star：4278，B站：2026，YouTube：1335
 
+----
+
+## 第十阶段
+
+2019-08-05 开放 Go 夜读 SIG 核心成员的招募。（地址：https://github.com/developer-learning/reading-go/issues/443）
+
+2019-08-07 组建了 3 个人的 SIG 核心小组。
+>小组成员：[yangwenmai](https://github.com/yangwenmai), [changkun](https://github.com/changkun), [FelixSeptem](https://github.com/FelixSeptem)
+
+2019-08-21 第 4 个小伙伴加入 Go 夜读 SIG 核心小组。
+>新增小组成员：[qcrao](https://github.com/qcrao)
+
+2019-08-29 第 5 个小伙伴加入 Go 夜读 SIG 核心小组。
+
+>新增小组成员：[煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
+
+截止 2019-09-09 的一些数据：
+
+GitHub Star：4702，B站：2848 粉丝，YouTube：1589 订阅
+
