@@ -180,4 +180,4 @@ A: 其实我订阅的 Go 的信息并不多，主要原因还是信息量太多�
 
 ## 观看视频
 
-{{< youtube id="O_FJgYKOBYQ" >}}
+{{< youtube id="d7fFCGGn0Wc" >}}
