@@ -27,6 +27,11 @@ https://zoom.us/j/6923842137
 
 （尽量使用可在线预览的幻灯片）
 
+推荐使用以下 2 个 Slides 的某一个作为模板：
+
+- https://docs.google.com/presentation/d/1yZO6a9MKABDPZmmP0zlgQ-jf7ctTzT4WZwMn_NGUO98/edit?usp=sharing
+- https://docs.google.com/presentation/d/1clppbBqjxzPrj-26d_zVeJK2fFiXCsNVXYhKPjEZ4Tc/edit?usp=sharing
+
 ## 参考资料
 
 （你可以列出本次分享所涉及的参考资料，以便大家更好的预习。）
