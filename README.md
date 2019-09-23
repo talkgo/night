@@ -11,21 +11,39 @@
 
 [reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=reading-go)
 
-Go 学习与分享：
+## 怎么加入
+
+### 微信群
+
+微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
+
+### Slack
+
+[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+
+## 📆 订阅 Go 夜读日程
+
+使用浏览器复制并打开 `webcal://p54-caldav.icloud.com/published/2/MTE4NzIyMjg3NjExODcyMhlIG_lObP1pDKXp3D-OjdYtzxG5aB7m4cC2t-vyOTIBkYRd_ur-jul_TwAbi5QPnV12ewwkgqCg4d-s1-nDMjU` ，即可订阅。
+
+## Go 夜读
+
+*我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
 
 - [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-*根据[【草案】Go 夜读重大调整(请每个人都来说说你的看法和意见）](https://github.com/developer-learning/reading-go/issues/348)，我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
->范畴：Go 标准包、开源项目、Go 项目最佳实践等。
+>范畴：Go 标准包、开源项目、Go 项目工程实践与架构设计等。
 
 - [Paper Reading](https://github.com/developer-learning/paper-reading/)
 >希望通过阅读学术文献的方式，来帮助我们去学习和理解计算机系统，以及 Go 语言。
 
-- [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+- [日常问答](https://github.com/developer-learning/reading-go/labels/%E6%97%A5%E5%B8%B8%E9%97%AE%E7%AD%94)
 
-- [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
-	- goim 开发(todo)
+- 推荐
+	- [推荐书籍](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%B1%8D)
+	- [推荐文章](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E6%96%87%E7%AB%A0)
+	- [推荐论文](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E8%AE%BA%E6%96%87)
+	- [推荐项目](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E9%A1%B9%E7%9B%AE)
+	- [推荐工具](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7)
 - **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
 	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
 	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
@@ -33,26 +51,16 @@ Go 学习与分享：
 	- [事务](https://github.com/developer-learning/reading-go/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
 	- [failpoint 设计与实现](https://github.com/developer-learning/reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
 	- 其他（工程化，测试等）；
-
-----
-
-## 阅读清单
-
-- [x] strings
-- [x] strconv
-- [x] testing
-- [x] net/http
-- [x] sync
-- [x] flag
-- [x] etcd/raft
-- [x] defer
-- [x] context
-- [x] kubernetes scheduler
+- **面试**
+	- [面试题](https://github.com/developer-learning/reading-go/labels/%E9%9D%A2%E8%AF%95%E9%A2%98)
+	- [面经](https://github.com/developer-learning/reading-go/labels/%E9%9D%A2%E7%BB%8F)
 
 ## 回看地址
 
 - [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
 - [Go 夜读(B 站)](https://space.bilibili.com/326749661)
+
+----
 
 ## 我们的目标
 
@@ -91,14 +99,6 @@ Go 学习与分享：
 开源！开源！开源！重要的事，一定要说三遍。
 
 >希望有兴趣的小伙伴们一起加入，让我们一起把 《Go 夜读》建立成一个对大家都有帮助的开源社区。
-
-## 怎么加入
-
-![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/wechat_group_6.jpg)
-
-微信搜索 `mai_yang` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
-
-有同学想要用 Slack 交流，我开放了一个：[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
 
 ----
 
