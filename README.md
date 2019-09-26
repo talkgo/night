@@ -1,5 +1,5 @@
 # [Go 夜读](https://reading.developerlearning.cn/)
-[![Build Status](https://travis-ci.org/developer-learning/reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/reading-go)](https://goreportcard.com/report/github.com/developer-learning/reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/reading-go.svg?label=Stars)](https://github.com/developer-learning/reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/reading-go.svg?label=Fork)](https://github.com/developer-learning/reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/reading-go?status.svg)](http://godoc.org/github.com/developer-learning/reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/reading-go.svg?label=Issue)](https://github.com/developer-learning/reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/reading-go.svg)](https://github.com/developer-learning/reading-go/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/developer-learning/night-reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/night-reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/night-reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/night-reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
 <img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
@@ -7,9 +7,9 @@
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
+[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
 
-[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=reading-go)
+[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=night-reading-go)
 
 ## 怎么加入
 
@@ -19,7 +19,7 @@
 
 ### Slack
 
-[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+[night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
 
 ## 📆 订阅 Go 夜读日程
 
@@ -29,31 +29,31 @@
 
 *我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
 
-- [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
+- [Go 夜读](https://github.com/developer-learning/night-reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
 >范畴：Go 标准包、开源项目、Go 项目工程实践与架构设计等。
 
 - [Paper Reading](https://github.com/developer-learning/paper-reading/)
 >希望通过阅读学术文献的方式，来帮助我们去学习和理解计算机系统，以及 Go 语言。
 
-- [日常问答](https://github.com/developer-learning/reading-go/labels/%E6%97%A5%E5%B8%B8%E9%97%AE%E7%AD%94)
+- [日常问答](https://github.com/developer-learning/night-reading-go/labels/%E6%97%A5%E5%B8%B8%E9%97%AE%E7%AD%94)
 
 - 推荐
-	- [推荐书籍](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%B1%8D)
-	- [推荐文章](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E6%96%87%E7%AB%A0)
-	- [推荐论文](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E8%AE%BA%E6%96%87)
-	- [推荐项目](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E9%A1%B9%E7%9B%AE)
-	- [推荐工具](https://github.com/developer-learning/reading-go/labels/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7)
-- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
-	- [TiDB 源码概览](https://github.com/developer-learning/reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
-	- [执行引擎](https://github.com/developer-learning/reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
-	- [优化器](https://github.com/developer-learning/reading-go/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
-	- [事务](https://github.com/developer-learning/reading-go/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
-	- [failpoint 设计与实现](https://github.com/developer-learning/reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
+	- [推荐书籍](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%B1%8D)
+	- [推荐文章](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E6%96%87%E7%AB%A0)
+	- [推荐论文](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E8%AE%BA%E6%96%87)
+	- [推荐项目](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E9%A1%B9%E7%9B%AE)
+	- [推荐工具](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7)
+- **[TiDB 源码学习](https://github.com/developer-learning/night-reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
+	- [TiDB 源码概览](https://github.com/developer-learning/night-reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
+	- [执行引擎](https://github.com/developer-learning/night-reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
+	- [优化器](https://github.com/developer-learning/night-reading-go/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
+	- [事务](https://github.com/developer-learning/night-reading-go/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
+	- [failpoint 设计与实现](https://github.com/developer-learning/night-reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
 	- 其他（工程化，测试等）；
 - **面试**
-	- [面试题](https://github.com/developer-learning/reading-go/labels/%E9%9D%A2%E8%AF%95%E9%A2%98)
-	- [面经](https://github.com/developer-learning/reading-go/labels/%E9%9D%A2%E7%BB%8F)
+	- [面试题](https://github.com/developer-learning/night-reading-go/labels/%E9%9D%A2%E8%AF%95%E9%A2%98)
+	- [面经](https://github.com/developer-learning/night-reading-go/labels/%E9%9D%A2%E7%BB%8F)
 
 ## 回看地址
 
@@ -70,7 +70,7 @@
 
 ## 我们的基本流程
 
-![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/reading-go-share.png)
+![](https://raw.githubusercontent.com/developer-learning/night-reading-go/master/static/reading-go-share.png)
 
 - issue 上收集大家想要研究的主题、源码库或源码模块。
 - 必须得到至少两个人的参与，该分享才会进入准备阶段。
@@ -112,7 +112,7 @@
 └── other     // 其他
 ```
 
-- [如何参与贡献](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- [如何参与贡献](https://github.com/developer-learning/night-reading-go/blob/master/CONTRIBUTING.md)
 - *[Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors
