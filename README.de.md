@@ -83,7 +83,17 @@ Open Source! Open Source! Open Source! (**sondern, nochmals gesagt und dreimal g
 
 Wenn Sie der WeChat-Gruppe beitreten möchten, suchen Sie nach `mai_yang` und geben Sie dann Ihren Namen, Ihr Unternehmen, Ihre Berufsbezeichnung und Ihre Verantwortung ein. Bitte erwähnen Sie auch, dass Sie uns auf Github gefunden haben.
 
-Für diejenigen unter Ihnen, die Slack nutzen möchten, ist hier die Anfahrtsbeschreibung: [reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+Für diejenigen unter Ihnen, die Slack nutzen möchten, ist hier die Anfahrtsbeschreibung: [night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
+
+## Night Reading Go SIG members
+
+>Thanks for you effort.
+
+- [杨文 yangwenmai](https://github.com/yangwenmai)
+- [欧长坤 changkun](https://github.com/changkun)
+- [FelixSeptem](https://github.com/FelixSeptem)
+- [饶全成 qcrao](https://github.com/qcrao)
+- [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
 
 ----
 

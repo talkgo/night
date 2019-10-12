@@ -100,6 +100,16 @@
 
 >希望有兴趣的小伙伴们一起加入，让我们一起把 《Go 夜读》建立成一个对大家都有帮助的开源社区。
 
+## Go 夜读 SIG 核心成员
+
+>感谢 SIG 核心成员对 Go 夜读的付出。
+
+- [杨文 yangwenmai](https://github.com/yangwenmai)
+- [欧长坤 changkun](https://github.com/changkun)
+- [FelixSeptem](https://github.com/FelixSeptem)
+- [饶全成 qcrao](https://github.com/qcrao)
+- [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
+
 ----
 
 ## 如何参与贡献？
