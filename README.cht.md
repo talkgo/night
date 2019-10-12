@@ -54,8 +54,8 @@ Go 學習與分享：
 - [x] etcd/raft
 - [x] defer
 - [x] context
-- [ ] golang/sync
-- [ ] kubernetes
+- [x] golang/sync
+- [x] kubernetes
 
 ## 回看地址
 
@@ -84,7 +84,17 @@ Go 學習與分享：
 
 如果你想加入微信群，請搜索 `mai_yang` ，然後備註你的姓名、公司、工作崗位和職責，備註來源：Github。
 
-有同學想要用 Slack 交流，我開放了一個：[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+有同學想要用 Slack 交流，我開放了一個：[night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
+
+## Night Reading Go SIG members
+
+>Thanks for you effort.
+
+- [杨文 yangwenmai](https://github.com/yangwenmai)
+- [欧长坤 changkun](https://github.com/changkun)
+- [FelixSeptem](https://github.com/FelixSeptem)
+- [饶全成 qcrao](https://github.com/qcrao)
+- [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
 
 ----
 
