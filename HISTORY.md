@@ -187,3 +187,34 @@ star：4278，B站：2026，YouTube：1335
 
 GitHub Star：4702，B站：2848 粉丝，YouTube：1589 订阅
 
+----
+
+## 第十一阶段
+
+2019-11-05 有小伙伴在北邮人论坛发了一个帖子：https://bbs.byr.cn/#!article/Linux/158901
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/beijing-youdian-university.png)
+
+带来了一波北京邮电大学的小伙伴们，也顺带激发了 Github trending，继而 star 增长。
+
+Github Trending Go 语言第 2，全语言第 9 名。
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-today-trending_go_no2_20191107.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-weekly-trending_go_no10_20191107.png)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-today-trending_all_no9_20191107.png)
+
+还有 Github Traffic 的一个小统计：
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-traffic_20191107.png)
+
+发现一个很有趣的事情就是 Go 夜读被放到了 https://allcontributors.org/ 首页上了。
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/allcontributors-night-reading-go-20191107.jpg)
+
+附上一张 Growingio 过去 180 天 https://reading.developerlearning.cn/ 的统计图：
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-180ags-growingio_20191107.png)
+
+截止 2019-11-07 的一些数据：
+
+GitHub Star：5352，B站：3991 粉丝，YouTube：1840 订阅
+
