@@ -525,6 +525,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "panjf2000",
+      "name": "Andy Pan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7496278?v=4",
+      "profile": "http://taohuawu.club",
+      "contributions": [
+        "talk"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }
