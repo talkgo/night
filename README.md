@@ -218,6 +218,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/xhochipe"><img src="https://avatars0.githubusercontent.com/u/9391575?s=460&v=4" width="100px;" alt="xhochipe"/><br /><sub><b>xhochipe</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=xhochipe" title="Code">💻</a></td>
     <td align="center"><a href="http://taohuawu.club"><img src="https://avatars2.githubusercontent.com/u/7496278?v=4" width="100px;" alt="Andy Pan"/><br /><sub><b>Andy Pan</b></sub></a><br /><a href="#talk-panjf2000" title="Talks">📢</a></td>
     <td align="center"><a href="https://github.com/nandyliu"><img src="https://avatars3.githubusercontent.com/u/16110707?v=4" width="100px;" alt="nandyliu"/><br /><sub><b>nandyliu</b></sub></a><br /><a href="#talk-nandyliu" title="Talks">📢</a></td>
+    <td align="center"><a href="http://redhair.cn"><img src="https://avatars0.githubusercontent.com/u/5027885?v=4" width="100px;" alt="shanks"/><br /><sub><b>shanks</b></sub></a><br /><a href="#talk-shanksyang" title="Talks">📢</a></td>
   </tr>
 </table>
 
