@@ -141,10 +141,11 @@
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/yangwenmai"><img src="https://avatars3.githubusercontent.com/u/1710912?v=4" width="100px;" alt="maiyang"/><br /><sub><b>maiyang</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=yangwenmai" title="Code">💻</a> <a href="#ideas-yangwenmai" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-yangwenmai" title="Reviewed Pull Requests">👀</a> <a href="#talk-yangwenmai" title="Talks">📢</a> <a href="#tutorial-yangwenmai" title="Tutorials">✅</a></td>
+    <td align="center"><a href="https://github.com/yangwenmai"><img src="https://avatars3.githubusercontent.com/u/1710912?v=4" width="100px;" alt="maiyang"/><br /><sub><b>maiyang</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=yangwenmai" title="Code">💻</a> <a href="#ideas-yangwenmai" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/developer-learning/night-reading-go/pulls?q=is%3Apr+reviewed-by%3Ayangwenmai" title="Reviewed Pull Requests">👀</a> <a href="#talk-yangwenmai" title="Talks">📢</a> <a href="#tutorial-yangwenmai" title="Tutorials">✅</a></td>
     <td align="center"><a href="https://github.com/mougeCM"><img src="https://avatars1.githubusercontent.com/u/16773339?v=4" width="100px;" alt="Simple Min"/><br /><sub><b>Simple Min</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=mougeCM" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/yuhao5"><img src="https://avatars3.githubusercontent.com/u/35653599?v=4" width="100px;" alt="kenny"/><br /><sub><b>kenny</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=yuhao5" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/charnlsxy"><img src="https://avatars2.githubusercontent.com/u/13843868?v=4" width="100px;" alt="charnlsxy"/><br /><sub><b>charnlsxy</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=charnlsxy" title="Code">💻</a></td>
@@ -224,8 +225,13 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/nandyliu"><img src="https://avatars3.githubusercontent.com/u/16110707?v=4" width="100px;" alt="nandyliu"/><br /><sub><b>nandyliu</b></sub></a><br /><a href="#talk-nandyliu" title="Talks">📢</a></td>
     <td align="center"><a href="http://redhair.cn"><img src="https://avatars0.githubusercontent.com/u/5027885?v=4" width="100px;" alt="shanks"/><br /><sub><b>shanks</b></sub></a><br /><a href="#talk-shanksyang" title="Talks">📢</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yaxinlx"><img src="https://avatars1.githubusercontent.com/u/15266642?v=4" width="100px;" alt="yaxinlx"/><br /><sub><b>yaxinlx</b></sub></a><br /><a href="#talk-yaxinlx" title="Talks">📢</a></td>
+  </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
