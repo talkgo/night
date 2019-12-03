@@ -540,7 +540,7 @@
       "name": "Jinzhu",
       "avatar_url": "https://avatars3.githubusercontent.com/u/6843?v=4",
       "profile": "http://patreon.com/jinzhu",
-            "contributions": [
+      "contributions": [
         "talk"
       ]
     },
@@ -579,7 +579,17 @@
       "contributions": [
         "talk"
       ]
+    },
+    {
+      "login": "yaxinlx",
+      "name": "yaxinlx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15266642?v=4",
+      "profile": "https://github.com/yaxinlx",
+      "contributions": [
+        "talk"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
