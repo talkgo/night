@@ -26,10 +26,6 @@
 
 [night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
 
-## 📆 订阅 Go 夜读日程
-
-使用浏览器复制并打开 `webcal://p54-caldav.icloud.com/published/2/MTE4NzIyMjg3NjExODcyMhlIG_lObP1pDKXp3D-OjdYtzxG5aB7m4cC2t-vyOTIBkYRd_ur-jul_TwAbi5QPnV12ewwkgqCg4d-s1-nDMjU` ，即可订阅。
-
 ## Go 夜读
 
 *我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
