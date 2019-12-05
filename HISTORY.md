@@ -238,3 +238,13 @@ GitHub Star：5352，B站：3991 粉丝，YouTube：1840 订阅
 
 GitHub Star：5489，B站：4281 粉丝，YouTube：1940 订阅
 
+----
+
+Go 夜读又上 Github Trending Go 榜单了，现目前排名第 3。
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/night-reading-go-today-trending_go_no3_20191205.png)
+
+截止 2019-12-05 的一些数据：
+
+GitHub Star：5686，B站：4683 粉丝，YouTube：2050 订阅
+
