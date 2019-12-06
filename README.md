@@ -224,6 +224,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/yaxinlx"><img src="https://avatars1.githubusercontent.com/u/15266642?v=4" width="100px;" alt="yaxinlx"/><br /><sub><b>yaxinlx</b></sub></a><br /><a href="#talk-yaxinlx" title="Talks">📢</a></td>
     <td align="center"><a href="http://about.me/appleboy"><img src="https://avatars0.githubusercontent.com/u/21979?v=4" width="100px;" alt="Bo-Yi Wu"/><br /><sub><b>Bo-Yi Wu</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=appleboy" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KippaZou"><img src="https://avatars2.githubusercontent.com/u/31032511?v=4" width="100px;" alt="Kippa"/><br /><sub><b>Kippa</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=KippaZou" title="Code">💻</a> <a href="#talk-KippaZou" title="Talks">📢</a></td>
   </tr>
 </table>
 
