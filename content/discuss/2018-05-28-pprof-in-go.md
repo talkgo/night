@@ -28,7 +28,7 @@ pprof 是一个运行时间段的数据，然后后续分析使用，线上应�
 
 >[appoptics-apm-go](https://github.com/appoptics/appoptics-apm-go)
 
-![memstats](/images/memstats.jpeg)
+![memstats](/static/images/memstats.jpeg)
 
 pprof 算是监控的一种，promethues 中自带的 exporter 就有监控 go runtime 的数据，比如 goroutine 数量，栈等。
 

@@ -31,8 +31,8 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	repo_url = "https://github.com/developer-learning/night-reading-go"
 
 	version = ""
-	logo = "images/reading.png"
-	favicon = ""
+	logo = "images/2018-12-11-night-reading-go.jpg"
+	favicon = "images/favicon.ico"
 
 	permalink = " "
 
@@ -51,6 +51,16 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
     [params.font]
     	text = "Ubuntu"
     	code = "Ubuntu Mono"
+
+	# https://github.com/gitalk/gitalk#usage
+	# Register a Github OAuth application: https://github.com/settings/applications/new
+	#[params.Gitalk]
+	#	enable = true
+	#	clientID = "d891898cec9e65ff7cd0" # Your client ID
+	#	clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
+	#	repo = "reading-go" # The repo to store comments
+	#	owner = "developer-learning" # Your GitHub ID
+	#	admin = "yangwenmai" # Your GitHub ID
 
 [social]
 	github  = "developer-learning"

@@ -20,8 +20,13 @@
     <article class="article">
         <div class="wrapper">
             <h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
+            <aside >
+                {{ with .Params.author }} 作者: {{ . }} {{ end }}
+            </aside>
 
             {{ .Content }}
+
+			{{ partial "comment" . }}
 
             <aside class="copyright" role="note">
                 {{ with .Site.Params.copyright }} &copy; {{ now.Format "2006" }} {{ . }} &ndash; {{ end }} - By John Deng.

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-result=`curl -s 'https://api.github.com/repos/developer-learning/night-reading-go/contributors' | jq '.[].login' | sed -e 's/"//g'`
+result=`curl -s 'https://api.github.com/repos/developer-learning/reading-go/contributors' | jq '.[].login' | sed -e 's/"//g'`
 
 for element in $result
 do
