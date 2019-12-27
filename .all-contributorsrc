@@ -607,6 +607,15 @@
         "code",
         "talk"
       ]
+    },
+    {
+      "login": "15ho",
+      "name": "15ho",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20267050?v=4",
+      "profile": "https://github.com/15ho",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
