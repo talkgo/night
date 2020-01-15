@@ -616,6 +616,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "draveness",
+      "name": "Draven",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6493255?v=4",
+      "profile": "https://draveness.me/",
+      "contributions": [
+        "talk"
+      ]
     }
   ],
   "contributorsPerLine": 7,
