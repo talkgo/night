@@ -625,6 +625,15 @@
       "contributions": [
         "talk"
       ]
+    },
+    {
+      "login": "h3l",
+      "name": "h3l",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1664952?v=4",
+      "profile": "https://github.com/h3l",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
