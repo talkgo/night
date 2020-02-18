@@ -10,7 +10,7 @@
 
 [![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
 
-[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=night-reading-go)
+[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
 
 ## 怎样加入
 
