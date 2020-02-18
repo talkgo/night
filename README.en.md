@@ -14,7 +14,7 @@
 
 [![Stargazers Over Time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
 
-[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/?u=developer-learning&r=reading-go)
+[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,reading-go)
 
 Go Learning and Sharing:
 
