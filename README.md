@@ -230,6 +230,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/h3l"><img src="https://avatars0.githubusercontent.com/u/1664952?v=4" width="100px;" alt=""/><br /><sub><b>h3l</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=h3l" title="Code">💻</a></td>
     <td align="center"><a href="https://twitter.com/seladb"><img src="https://avatars3.githubusercontent.com/u/9059541?v=4" width="100px;" alt=""/><br /><sub><b>seladb</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=seladb" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/haojunyu"><img src="https://avatars1.githubusercontent.com/u/5105483?v=4" width="100px;" alt=""/><br /><sub><b>郝俊禹</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=haojunyu" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
