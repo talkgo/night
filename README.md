@@ -228,6 +228,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/15ho"><img src="https://avatars2.githubusercontent.com/u/20267050?v=4" width="100px;" alt=""/><br /><sub><b>15ho</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=15ho" title="Code">💻</a></td>
     <td align="center"><a href="https://draveness.me/"><img src="https://avatars0.githubusercontent.com/u/6493255?v=4" width="100px;" alt=""/><br /><sub><b>Draven</b></sub></a><br /><a href="#talk-draveness" title="Talks">📢</a></td>
     <td align="center"><a href="https://github.com/h3l"><img src="https://avatars0.githubusercontent.com/u/1664952?v=4" width="100px;" alt=""/><br /><sub><b>h3l</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=h3l" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/seladb"><img src="https://avatars3.githubusercontent.com/u/9059541?v=4" width="100px;" alt=""/><br /><sub><b>seladb</b></sub></a><br /><a href="https://github.com/developer-learning/night-reading-go/commits?author=seladb" title="Code">💻</a></td>
   </tr>
 </table>
 
