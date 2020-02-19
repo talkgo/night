@@ -643,6 +643,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "haojunyu",
+      "name": "郝俊禹",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5105483?v=4",
+      "profile": "https://github.com/haojunyu",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
