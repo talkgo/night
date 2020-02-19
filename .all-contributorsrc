@@ -634,6 +634,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "seladb",
+      "name": "seladb",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9059541?v=4",
+      "profile": "https://twitter.com/seladb",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
