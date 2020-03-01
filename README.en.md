@@ -80,7 +80,7 @@ Open Source! Open Source! Open Source! (important things need to be said thrice 
 
 ## How to Join
 
-If you want to join the WeChat group, search for `mai_yang` and then enter your name, company, job title and responsibility. Please also mention that you found us on Github.
+If you want to join the WeChat group, search for `night_reading_go` and then enter your name, company, job title and responsibility. Please also mention that you found us on Github.
 
 For those of you who want to use Slack, here is how to reach us: [night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
 
