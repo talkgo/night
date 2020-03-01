@@ -82,7 +82,7 @@ Go 學習與分享：
 
 <img src="/static/images/wechat_reading_go.jpg" width="400px;"/>
 
-如果你想加入微信群，請搜索 `mai_yang` ，然後備註你的姓名、公司、工作崗位和職責，備註來源：Github。
+如果你想加入微信群，請搜索 `night_reading_go` ，然後備註你的姓名、公司、工作崗位和職責，備註來源：Github。
 
 有同學想要用 Slack 交流，我開放了一個：[night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
 
