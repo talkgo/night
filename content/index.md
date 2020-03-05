@@ -1,5 +1,6 @@
 ---
 date: 2018-11-08T21:07:13+01:00
+last_date: 2020-03-05T15:08:00+08:00
 title: Go 夜读
 type: index
 weight: 0
@@ -7,61 +8,93 @@ weight: 0
 
 [![Build Status](https://travis-ci.org/developer-learning/reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/reading-go)](https://goreportcard.com/report/github.com/developer-learning/reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/reading-go.svg?label=Stars)](https://github.com/developer-learning/reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/reading-go.svg?label=Fork)](https://github.com/developer-learning/reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/reading-go?status.svg)](http://godoc.org/github.com/developer-learning/reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/reading-go.svg?label=Issue)](https://github.com/developer-learning/reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/reading-go.svg)](https://github.com/developer-learning/reading-go/blob/master/LICENSE)
 
+[中文 🇨🇳](https://github.com/developer-learning/night-reading-go/blob/master/README.md) [繁體 🇭🇰](https://github.com/developer-learning/night-reading-go/blob/master/README.cht.md) [English 🇺🇸](https://github.com/developer-learning/night-reading-go/blob/master/README.en.md) [German 🇩🇪](https://github.com/developer-learning/night-reading-go/blob/master/README.de.md)
+
 ## Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
+[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
 
-[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
+[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
 
-Go 学习与分享：
+## 怎样加入
 
-- [Go 夜读](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
+### 微信群
 
-*根据[【草案】Go 夜读重大调整(请每个人都来说说你的看法和意见）](https://github.com/developer-learning/reading-go/issues/348)，我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
->范畴：Go 标准包、开源项目、Go 项目最佳实践等。
+微信搜索 `night_reading_go` ，添加好友，**备注你的姓名、公司、工作岗位和职责**，来自：Github，我会拉你入群。
 
-- [每日一问](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+### 微信公众号
 
-- [Go 项目实践](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-	- [Gin 开发](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
-	- [goim 开发(todo)]()
-- **[TiDB 源码学习](https://github.com/developer-learning/reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live](https://zoom.us/j/6923842137) ）**：
-	- TiDB 源码概览；
-	- 执行引擎；
-	- 优化器；
-	- 事务；
+<img src="https://user-images.githubusercontent.com/7698088/67085429-62d38900-f1d1-11e9-9011-5c5a1f5d08ba.png" width="400px;"/>
+
+### Slack
+
+[night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
+
+## Go 夜读
+
+*我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/developer-learning/learning-golang)**。*
+
+- [Go 夜读](https://github.com/developer-learning/night-reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
+
+>范畴：Go 标准包、开源项目、Go 项目工程实践与架构设计等。
+
+- [Paper Reading](https://github.com/developer-learning/paper-reading/)
+>希望通过阅读学术文献的方式，来帮助我们去学习和理解计算机系统，以及 Go 语言。
+
+- [日常问答](https://github.com/developer-learning/night-reading-go/labels/%E6%97%A5%E5%B8%B8%E9%97%AE%E7%AD%94)
+
+- 推荐
+	- [推荐书籍](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%B1%8D)
+	- [推荐文章](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E6%96%87%E7%AB%A0)
+	- [推荐论文](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E8%AE%BA%E6%96%87)
+	- [推荐项目](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E9%A1%B9%E7%9B%AE)
+	- [推荐工具](https://github.com/developer-learning/night-reading-go/labels/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7)
+- **[TiDB 源码学习](https://github.com/developer-learning/night-reading-go/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
+	- [TiDB 源码概览](https://github.com/developer-learning/night-reading-go/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
+	- [执行引擎](https://github.com/developer-learning/night-reading-go/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
+	- [优化器](https://github.com/developer-learning/night-reading-go/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
+	- [事务](https://github.com/developer-learning/night-reading-go/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
+	- [failpoint 设计与实现](https://github.com/developer-learning/night-reading-go/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
 	- 其他（工程化，测试等）；
-
-----
-
-## 阅读清单
-
-- [x] strings
-- [x] strconv
-- [x] testing
-- [x] net/http
-- [x] sync
-- [x] flag
-- [x] etcd/raft
-- [x] defer
-- [x] context
-- [x] golang/sync
-- [x] kubernetes
+- **面试**
+	- [面试题](https://github.com/developer-learning/night-reading-go/labels/%E9%9D%A2%E8%AF%95%E9%A2%98)
+	- [面经](https://github.com/developer-learning/night-reading-go/labels/%E9%9D%A2%E7%BB%8F)
 
 ## 回看地址
 
 - [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
 - [Go 夜读(B 站)](https://space.bilibili.com/326749661)
 
+----
+
 ## 我们的目标
 
 我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。我们希望每次来了的人和没来的人都能够有收获，成长。
 
-## 我们的方式
+让每个想要学习的人都能参与进来，（包括初中高级 Go 工程师），只有层次相当的人才有可能有思维的碰撞和交流，这样最终的产出也尽可能的高质量。
 
-由一个主讲人带着大家一起去阅读 Go 源代码，一起去啃那些难啃的算法、学习代码里面的奇淫技巧，遇到问题或者有疑惑了，我们可以一起去检索，解答这些问题。我们可以一起学习，共同成长。
+## 我们的基本流程
+- issue 上收集大家想要研究的主题、源码库或源码模块
+- 必须得到至少两个人的参与，该分享才会进入准备阶段
+- 由参与的人选出主导人，然后参与者讨论确定分享计划（包括分工，耗时，预计时间，划定分享受众范围等）
+- 参与者准备分享材料
+- 分享主题的审核
+- 线上分享
 
->阅读规则：选取 package 包，然后从上往下开始读 xxx.go 文件，每个文件从上往下读导出的函数（一步一步跟逻辑，如果逻辑跳出这个 package 则不做深入探究）。
+### 我们的选题范围
+
+- 入门级
+- 实操级
+- 架构设计级
+- 学习方法、习惯培养等
+- 效率效能提升等
+- paper reading
+
+### 我们的分享方式
+
+- 各小组确定分享者和准备提问者（可提前收集问题，也可引导参与者提问题）
+- 分享组给分享时会参与的人设置参与准入门槛
+- 分享主题如果是一个系列，则分享的时间都会挨到一起进行
 
 ## 我们的精神
 
@@ -69,11 +102,15 @@ Go 学习与分享：
 
 >希望有兴趣的小伙伴们一起加入，让我们一起把 《Go 夜读》建立成一个对大家都有帮助的开源社区。
 
-## 怎么加入
+## Go 夜读 SIG 核心成员
 
-如果你想加入微信群，请搜索 `night_reading_go` ，然后备注你的姓名、公司、工作岗位和职责，备注来源：Github。
+>感谢 SIG 核心成员对 Go 夜读的付出。
 
-有同学想要用 Slack 交流，我开放了一个：[reading-go Slack](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+- [杨文 yangwenmai](https://github.com/yangwenmai)
+- [欧长坤 changkun](https://github.com/changkun)
+- [FelixSeptem](https://github.com/FelixSeptem)
+- [饶全成 qcrao](https://github.com/qcrao)
+- [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
 
 ----
 
@@ -87,7 +124,8 @@ Go 学习与分享：
 └── other     // 其他
 ```
 
-[如何参与贡献](other/contributing/)
+- [如何参与贡献](https://github.com/developer-learning/night-reading-go/blob/master/CONTRIBUTING.md)
+- *[Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors
 
@@ -97,6 +135,8 @@ Go 学习与分享：
 
 - 安装 `npm install -g --save-dev all-contributors-cli`
 - `sh gen_contributors.sh`
+
+贡献类型有多种，比如："code", "ideas","review","talk","tutorial"，你可以在 `.all-contributorsrc` 中修改。
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
