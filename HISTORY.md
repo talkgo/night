@@ -278,7 +278,9 @@ GitHub Star：6520，B站：7469 粉丝，YouTube：2830 订阅
 
 zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上，人气也是越来越高。
 
-最高人气 3500 多，又是给 Go 夜读创下一个里程碑。
+最高人气 3500 多，bilibili 粉丝数量达到 8000，又是给 Go 夜读创下一个里程碑。
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/bilibili-fans-8000-20200320.jpg.jpg)
 
 再次感谢各位讲师以及参与收看的小伙伴们。
 
