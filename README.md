@@ -1,16 +1,10 @@
+<img src="https://raw.githubusercontent.com/developer-learning/night-reading-go/master/static/images/2018-12-11-night-reading-go.jpg" alt="logo" height="120" align="right" />
+
 # [Go 夜读](https://reading.developerlearning.cn/)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) ![](https://img.shields.io/github/contributors/developer-learning/night-reading-go.svg?style=flat-square&color=orange&label=all%20contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
-<img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
-
 [中文 🇨🇳](README.md) [繁體 🇭🇰](README.cht.md) [English 🇺🇸](README.en.md) [German 🇩🇪](README.de.md)
-
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
-
-[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
 
 ## 怎样加入
 
@@ -20,7 +14,7 @@
 
 ### 微信公众号
 
-<img src="https://user-images.githubusercontent.com/7698088/67085429-62d38900-f1d1-11e9-9011-5c5a1f5d08ba.png" width="400px;"/>
+<img src="https://raw.githubusercontent.com/developer-learning/night-reading-go/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
 
 ### Slack
 
@@ -122,6 +116,12 @@
 
 - [如何参与贡献](https://github.com/developer-learning/night-reading-go/blob/master/CONTRIBUTING.md)
 - *[Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
+
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/developer-learning/night-reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/night-reading-go)
+
+[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
 
 ## Contributors
 
