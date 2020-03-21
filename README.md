@@ -14,7 +14,7 @@
 
 ### 微信公众号
 
-<img src="https://raw.githubusercontent.com/developer-learning/night-reading-go/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
+<img src="https://raw.githubusercontent.com/developer-learning/night-reading-go/master/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
 
 ### Slack
 
