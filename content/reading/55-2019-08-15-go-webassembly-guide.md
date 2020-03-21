@@ -44,8 +44,8 @@ changkun：还没有在生产环境使用过 wasm。从给的马里奥的例子�
 
 ## 参考资料
 
-- [《Go&WebAssembly 简介》 PPT ](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide)
-- [《WebAssembly 标准入门》 图书](https://github.com/chai2010/awesome-wasm-zh/blob/master/webassembly-primer.md)
+- [《Go&WebAssembly 简介》PPT ](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide)
+- [《WebAssembly 标准入门》图书](https://github.com/chai2010/awesome-wasm-zh/blob/master/webassembly-primer.md)
 
 ## 观看视频
 

@@ -183,4 +183,4 @@ var asciiSpace = [256]uint8{'\t': 1, '\n': 1, '\v': 1, '\f': 1, '\r': 1, ' ': 1}
 7. [字符串查找算法（二）](http://blog.cyeam.com/golang/2015/01/15/go_index)
 8. [突破限制,访问其它Go package中的私有函数](http://colobu.com/2017/05/12/call-private-functions-in-other-packages/)
 9. [How to call private functions (bind to hidden symbols) in GoLang](https://sitano.github.io/2016/04/28/golang-private/)
-10. [《深入解析 Go 之基本类型-字符串》](https://github.com/tiancaiamao/go-internals/blob/master/zh/02.1.md#字符串)
+10. [『深入解析 Go 之基本类型-字符串』](https://github.com/tiancaiamao/go-internals/blob/master/zh/02.1.md#字符串)

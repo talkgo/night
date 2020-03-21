@@ -7,7 +7,7 @@ author: mai
 
 ## 预习材料
 
-[第 35 期 Go 夜读之《context 包源码阅读》预习资料 #191](https://github.com/developer-learning/reading-go/issues/191)
+[第 35 期 Go 夜读之『context 包源码阅读』预习资料 #191](https://github.com/developer-learning/reading-go/issues/191)
 
 ## 观看视频
 
