@@ -2,9 +2,18 @@
 
 # [Go 夜读](https://reading.developerlearning.cn/)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars)](https://github.com/developer-learning/night-reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork)](https://github.com/developer-learning/night-reading-go) ![](https://img.shields.io/github/contributors/developer-learning/night-reading-go.svg?style=flat-square&color=orange&label=all%20contributors) [![Documentation](https://godoc.org/github.com/developer-learning/night-reading-go?status.svg)](http://godoc.org/github.com/developer-learning/night-reading-go) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue)](https://github.com/developer-learning/night-reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/night-reading-go?style=flat-square)](https://goreportcard.com/report/github.com/developer-learning/night-reading-go)
+[![GitHub stars](https://img.shields.io/github/stars/developer-learning/night-reading-go.svg?label=Stars&style=flat-square)](https://github.com/developer-learning/night-reading-go)
+[![GitHub forks](https://img.shields.io/github/forks/developer-learning/night-reading-go.svg?label=Fork&style=flat-square)](https://github.com/developer-learning/night-reading-go)
+![](https://img.shields.io/github/contributors/developer-learning/night-reading-go.svg?style=flat-square&color=orange&label=all%20contributors)
+[![Documentation](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/developer-learning/night-reading-go)
+[![GitHub issues](https://img.shields.io/github/issues/developer-learning/night-reading-go.svg?label=Issue&style=flat-square)](https://github.com/developer-learning/night-reading-go/issues)
+[![license](https://img.shields.io/github/license/developer-learning/night-reading-go.svg?style=flat-square)](https://github.com/developer-learning/night-reading-go/blob/master/LICENSE)
 
-[中文 🇨🇳](README.md) [繁體 🇭🇰](README.cht.md) [English 🇺🇸](README.en.md) [German 🇩🇪](README.de.md)
+[![](https://img.shields.io/badge/lang-简体中文-red.svg?longCache=true&style=flat-square)](README.md)
+[![](https://img.shields.io/badge/lang-繁体中文-orange.svg?longCache=true&style=flat-square)](README.cht.md)
+[![](https://img.shields.io/badge/lang-English-informational.svg?longCache=true&style=flat-square)](README.en.md)
+[![](https://img.shields.io/badge/lang-Deutsch-black.svg?longCache=true&style=flat-square)](README.de.md)
 
 ## 怎样加入
 
@@ -52,8 +61,8 @@
 
 ## 回看地址
 
-- [Go 夜读(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Go 夜读(B 站)](https://space.bilibili.com/326749661)
+- [Go 夜读（YouTuBe）](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读（Bilibili）](https://space.bilibili.com/326749661)
 
 ----
 
@@ -90,7 +99,7 @@
 
 开源！开源！开源！重要的事，一定要说三遍。
 
->希望有兴趣的小伙伴们一起加入，让我们一起把 《Go 夜读》建立成一个对大家都有帮助的开源社区。
+>希望有兴趣的小伙伴们一起加入，让我们一起把 『Go 夜读』建立成一个对大家都有帮助的开源社区。
 
 ## Go 夜读 SIG 核心成员
 

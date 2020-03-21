@@ -38,7 +38,7 @@ Go Learning and Sharing:
 
 |![notification](/static/images/bell-outline-badged.svg)Announce in advance|
 |:------------------:|
-| 《k8s Source Code - Scheduler》 4/13 John|
+| k8s Source Code - Scheduler 4/13 John|
 | github.com/golang/sync -> errgroup、syncmap ... source code reading |
 
 ----

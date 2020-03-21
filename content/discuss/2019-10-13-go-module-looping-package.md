@@ -2,7 +2,7 @@
 title: go mod下出现looping trying to add package
 date: 2019-10-13T12:12:00+08:00
 ---
-来源：《Go 夜读》微信群
+来源：『Go 夜读』微信群
 
 时间：2019-10-13
 

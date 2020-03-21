@@ -1,6 +1,6 @@
 ---
 title:  2018-05-18 包循环依赖如何解决
-source: 《Go 夜读》微信群
+source: 『Go 夜读』微信群
 date: 2018-05-18T00:00:00+08:00
 ---
 ## 1. 包循环依赖如何解决？
@@ -93,7 +93,7 @@ func OnesCount64(x uint64) int {
 
 强烈推荐阅读(只能用于学习查阅，请勿分享传播，如有侵权，请联系我)：
 
-- **[《Hacker's Delit》](../docs/Hacker's-Delight-2nd-Edition.pdf)**
+- **[Hacker's Delit](../docs/Hacker's-Delight-2nd-Edition.pdf)**
 - [算法心得：高效算法的奥秘（中文第2版）](../docs/算法心得：高效算法的奥秘（中文第2版）.pdf)
 
 ## 其他
