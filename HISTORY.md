@@ -294,9 +294,11 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 
 希望 Go 夜读可以持续的给大家带来帮助，大家可以从 Go 源码的学习中获得收益。
 
-## 第十七阶段
+截止 2020-03-24 ，两周年的微信公众号文章给 Go 夜读带来了约 300 名订阅者，以下是最近 200 名订阅者的截图。
 
-登上 Github Trending daily 第 2 名，weekly 第 4 名，monthly 第 8 名。
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-night-reading-go-wechat-subscripter.png)
+
+2020-03-24 登上 Github Trending daily 第 2 名，weekly 第 4 名，monthly 第 8 名。
 
 ![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-github-trending-go-daily-no2.jpg)
 ![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-github-trending-go-weekly-no4.jpg)
