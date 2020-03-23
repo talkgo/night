@@ -274,7 +274,7 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 
 最高人气 3500 多，bilibili 粉丝数量达到 8000，又是给 Go 夜读创下一个里程碑。
 
-![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/bilibili-fans-8000-20200320.jpg.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/bilibili-fans-8000-20200320.jpg)
 
 再次感谢各位讲师以及参与收看的小伙伴们。
 
@@ -286,10 +286,18 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 
 @changkun：无独有偶，惊觉自己第一次接触 Go 的时间正好也是两年前的今天，可能这就是冥冥之中与 Go 夜读结下的缘分吧。
 
-@felix：积跬步，至千里。在Go夜读平台上收获成长，分享知识，和广大Gopher一起成长，impact more!
+@felix：积跬步，至千里。在 Go 夜读平台上收获成长，分享知识，和广大 Gopher 一起成长，impact more!
 
 @qcrao：我记得曹大说过一句话，如果没有“影响力”的话，基本上在职场上就是任人宰割。写博客、来夜读分享都可以是扩大自己影响力的途径！希望每个人都能在自己的圈子构建自己的影响力！
 
-@煎鱼：
+@煎鱼：坚持踏出每一步，你就能不断的看到来自未来的新选项，新分支。而 Go 夜读就是一个很好的平台，来试试吧，这是一份技术，沟通，演讲的三倍快乐。
 
 希望 Go 夜读可以持续的给大家带来帮助，大家可以从 Go 源码的学习中获得收益。
+
+## 第十七阶段
+
+登上 Github Trending daily 第 2 名，weekly 第 4 名，monthly 第 8 名。
+
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-github-trending-go-daily-no2.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-github-trending-go-weekly-no4.jpg)
+![](https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2020-03-24-github-trending-go-monthly-no8.jpg)
