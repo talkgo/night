@@ -15,95 +15,160 @@
 [![](https://img.shields.io/badge/lang-English-informational.svg?longCache=true&style=flat-square)](README.en.md)
 [![](https://img.shields.io/badge/lang-Deutsch-black.svg?longCache=true&style=flat-square)](README.de.md)
 
-## 怎样加入
+## 加入方法
 
-### 微信群
+### 微信
 
-微信搜索 `night_reading_go` ，添加好友，**备注你的姓名、公司、工作岗位和职责**，来自：Github，我会拉你入群。
+微信搜索 `night_reading_go` ，添加好友，**备注你的姓名、公司、工作岗位和职责**，
+来自：Github，我会拉你入群。
 
-### 微信公众号
+订阅 Go 夜读微信公众号：
 
 <img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
 
-### Slack
+### Slack / Telegram
 
-[Talk Go Slack](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ)
+[![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-ce385d?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
+[![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ)
 
-## Go 夜读
+[Talk Go Telegram](https://t.me/talkgo_night)
 
-*我们将按计划进行 Go 源码阅读或者 Go 项目实践，你如果是 Go 新手可以先去这里看看 **[Go 学习之路](https://github.com/talk-go/read)**。*
 
-- [Go 夜读](https://github.com/talk-go/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
+## 我们的精神
 
->范畴：Go 标准包、开源项目、Go 项目工程实践与架构设计等。
+**开源！开源！开源！**
 
-- [Paper Reading](https://github.com/talk-go/papers/)
->希望通过阅读学术文献的方式，来帮助我们去学习和理解计算机系统，以及 Go 语言。
+重要的事，一定要说三遍。
 
-- [日常问答](https://github.com/talk-go/night/labels/%E6%97%A5%E5%B8%B8%E9%97%AE%E7%AD%94)
-
-- 推荐
-	- [推荐书籍](https://github.com/talk-go/night/labels/%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%B1%8D)
-	- [推荐文章](https://github.com/talk-go/night/labels/%E6%8E%A8%E8%8D%90%E6%96%87%E7%AB%A0)
-	- [推荐论文](https://github.com/talk-go/night/labels/%E6%8E%A8%E8%8D%90%E8%AE%BA%E6%96%87)
-	- [推荐项目](https://github.com/talk-go/night/labels/%E6%8E%A8%E8%8D%90%E9%A1%B9%E7%9B%AE)
-	- [推荐工具](https://github.com/talk-go/night/labels/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7)
-- **[TiDB 源码学习](https://github.com/talk-go/night/issues/382)（从6月5日开始，每周三晚上21点 [zoom live]）**：
-	- [TiDB 源码概览](https://github.com/talk-go/night/issues/401) [YouTube](https://youtu.be/mK6BOquvQhE)；
-	- [执行引擎](https://github.com/talk-go/night/issues/404) [YouTube](https://youtu.be/Rcrm4w7sqbM)；
-	- [优化器](https://github.com/talk-go/night/issues/413) [YouTube](https://youtu.be/4mgx8bq_fcQ)；
-	- [事务](https://github.com/talk-go/night/issues/421) [YouTube](https://youtu.be/A46VE3aUTKo)；
-	- [failpoint 设计与实现](https://github.com/talk-go/night/issues/372) [YouTube](https://youtu.be/ke7zzny9dxU)
-	- 其他（工程化，测试等）；
-- **面试**
-	- [面试题](https://github.com/talk-go/night/labels/%E9%9D%A2%E8%AF%95%E9%A2%98)
-	- [面经](https://github.com/talk-go/night/labels/%E9%9D%A2%E7%BB%8F)
-
-## 回看地址
-
-- [Go 夜读（YouTuBe）](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Go 夜读（Bilibili）](https://space.bilibili.com/326749661)
-
-----
+希望有兴趣的小伙伴们一起加入，让我们一起把 『Go 夜读』建立成一个对大家都有帮助的开源社区。
 
 ## 我们的目标
 
-我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。我们希望每次来了的人和没来的人都能够有收获，成长。
+我们希望可以推进大家深入了解 Go ，快速成长为资深的 Gopher 。
+我们希望每次来了的人和没来的人都能够有收获，成长。
 
-让每个想要学习的人都能参与进来，（包括初中高级 Go 工程师），只有层次相当的人才有可能有思维的碰撞和交流，这样最终的产出也尽可能的高质量。
+让每个想要学习的人都能参与进来，（包括初中高级 Go 工程师），
+只有层次相当的人才有可能有思维的碰撞和交流，这样最终的产出也尽可能的高质量。
 
-## 我们的基本流程
-- issue 上收集大家想要研究的主题、源码库或源码模块
-- 必须得到至少两个人的参与，该分享才会进入准备阶段
-- 由参与的人选出主导人，然后参与者讨论确定分享计划（包括分工，耗时，预计时间，划定分享受众范围等）
-- 参与者准备分享材料
-- 分享主题的审核
-- 线上分享
+## 主题内容
+
+Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读、工程实践等等，你如果是 Go 新手可以先去这里查看 [Go 学习之路](https://github.com/talk-go/read)。
 
 ### 我们的选题范围
+
+我们的选题范围包括但不限于：
 
 - 入门级
 - 实操级
 - 架构设计级
 - 学习方法、习惯培养等
-- 效率效能提升等
-- paper reading
+- 效率效能提升
+- 论文研讨
 
-### 我们的分享方式
+### 我们的基本流程和分享方式
 
-- 各小组确定分享者和准备提问者（可提前收集问题，也可引导参与者提问题）
-- 分享组给分享时会参与的人设置参与准入门槛
-- 分享主题如果是一个系列，则分享的时间都会挨到一起进行
+1. 通过提交 Issue 的方式来收集大家想要研究的与 Go 相关的源码库或源码模块等话题；
+2. 提交的话题提案必须得到得到 SIG 小组的批准，并成功招募到分享人，该分享才会进入准备阶段。同样欢迎自荐话题并主动进行分享；
+3. 分享人准备分享材料，并在材料准备完毕后交付 SIG 小组审阅；
+4. 当 SIG 小组完成对材料的审阅后，将进行正式排期（这期间包括划定受众范围、审阅任务分工、分发排期计划等）；
+5. 正式在线上进行分享；
+6. 将视频进行后期剪辑并上传至视频网站，再进行后续分发。
 
-## 我们的精神
+### 回看地址
 
-开源！开源！开源！重要的事，一定要说三遍。
+- [Go 夜读（YouTuBe）](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读（Bilibili）](https://space.bilibili.com/326749661)
 
->希望有兴趣的小伙伴们一起加入，让我们一起把 『Go 夜读』建立成一个对大家都有帮助的开源社区。
+### 往期分享
 
-## Go 夜读 SIG 核心成员
+|时间|标题|分享人|
+|:---:|:-----|:---|
+|第 81 期| gorm 介绍与展望 |Jinzhu|
+|第 80 期| 带你提前玩 Go 2 新特性：泛型 |欧长坤|
+|第 79 期| Go-Micro Part 3: 运行时工具集 |舒先|
+|第 78 期| Go Schedular 源码阅读 |饶全成|
+|第 77 期| 阅读 Go 源码带来的收益 |杨文|
+|第 76 期| Kubernetes Scheduler 设计与实现 |Draven|
+|第 75 期| 2020 年 Go 的一些发展计划 |杨文|
+|第 74 期|  time.Timer 源码分析 |欧长坤|
+|第 73 期|趣头条在长链接方面的实践（qrpc）|徐志强|
+|第 72 期|Go-Micro Part 2: 编写微服务实战|舒先|
+|第 71 期|go-ini 配置库评析|无闻|
+|第 70 期|Go 中不常注意的各种细节集锦|老貘|
+|第 69 期|基于 Go 语言周边生态打造的行业技术中台|杨晖|
+|第 68 期|网络知识十全大补丸|刘楠|
+|第 67 期|Go database/sql 数据库连接池分析|邹文通|
+|第 66 期|CSP 理解顺序进程间通信|欧长坤|
+|第 65 期|Go 原生网络模型 vs 异步 Reactor 模型|潘建锋|
+|第 64 期|深入浅出 Golang Runtime|郝以奋|
+|第 63 期|Go 编码风格阅读与讨论|杨文|
+|第 62 期|Go-Micro Part 1: 微服务框架|舒先|
+|第 61 期|Go Modules、Go Module Proxy 和 goproxy.cn|盛傲飞|
+|第 60 期|IPFS 星际文件系统|xcshuan|
+|第 59 期|Real-world Go Concurrency Bugs|欧长坤|
+|第 58 期|What's new in Go 1.13？|杨文|
+|第 57 期|sync/semaphore 源码浅析|Felix|
+|第 56 期|channel & select 源码分析|欧长坤|
+|第 55 期|Go&WebAssembly 简介|柴树彬|
+|第 54 期|Go 夜读之 TiDB SQL 兼容性测试工具简介|PingCAP|
+|第 53 期|Build in func delete from map|杨文|
+|第 52 期|httprouter 简介|曹春晖|
+|第 51 期|sync/errgroup 源码阅读|杨文|
+|第 50 期|GoLand Tips & Tricks|Florin & Shengyou Fan|
+|第 49 期|TiDB 源码阅读之 Transaction|zimulala|
+|第 48 期|TiDB 源码阅读之 Compiler|wangcong|
+|第 47 期|TiDB 源码阅读之 Executor|chenshuang|
+|第 46 期|TiDB 源码阅读之概览|龙恒|
+|第 45 期|goim 架构设计与源码分析|tsingson|
+|第 44 期|map 源码阅读分析|饶全成|
+|第 43 期|gomonkey 框架设计与应用实践|张晓龙|
+|第 42 期|An Introduction to Failpoint Design|龙恒|
+|第 41 期|golint 及 golangci-lint 的介绍和使用|杨文|
+|第 40 期|atomic.Value 的使用和源码分析|杨文|
+|第 39 期|init 函数使用分析|杨文|
+|第 38 期|Kubernetes scheduler 源码阅读|John|
+|第 37 期|从 serverless 的一个设计说起|冉小龙|
+|第 36 期|k8s context 实践源码阅读|杨文|
+|第 35 期|context 源码阅读|杨文|
+|第 34 期|plan9 汇编入门，带你打通应用和底层|曹春晖|
+|第 33 期|defer 和逃逸分析|饶全成|
+|第 32 期|etcd raft 源码阅读|缪昌新|
+|第 31 期|flag 包源码阅读|杨文|
+|第 30 期|go mod 源码阅读 Part 4|杨文|
+|第 29 期|Opentracing jaeger 集成及源码分析|jukylin|
+|第 28 期|go mod 源码阅读 Part 3|杨文|
+|第 27 期|go mod 源码阅读 Part 2|杨文|
+|第 26 期|手把手教你基于 Github+Netlify 构建自动化持续集成的技术团队博客|John|
+|第 25 期|TSDB 引擎介绍，对比及存储细节|yuyang|
+|第 24 期|go mod 源码阅读 Part 1|杨文|
+|第 23 期|Drone 简单介绍和部分源码分析|杨文|
+|第 22 期|Go 开发工具讨论|杨文/John|
+|第 21 期|errors 处理及 zap 源码分析|叶飞／阙坦|
+|第 20 期|go test 及测试覆盖率|杨文|
+|第 19 期|如何开发一个简单高性能的http router及gorouter源码分析|徐佳军|
+|第 18 期|去中心化加密通信框架 CovenantSQL/DH-RPC的设计|王鹏程|
+|第 17 期|grpc 开发及 grpcp 的源码分析|林益帆|
+|第 16 期|gateway-reading||
+|第 15 期|多路复用资源池组件剖析||
+|第 14 期|sync.Pool 源码分析及适用场景|杨文|
+|第 13 期|Kubernetes 入门指南|李森森|
+|第 12 期|Golang 中 Goroutine 的调度|郑宝杨|
+|第 11 期|Golang 代码质量持续检测实践||
+|第 10 期|2018-06-28 线下活动||
+|第 9 期|2018-06-14 线下活动||
+|第 8 期|2018-05-31 线下活动||
+|第 7 期|2018-05-24 线下活动||
+|第 6 期|2018-05-17 线下活动||
+|第 5 期|2018-05-10 线下活动||
+|第 4 期|2018-04-25 线下活动||
+|第 3 期|2018-04-18 线下活动||
+|第 2 期|2018-04-11 线下活动||
+|第 1 期| 2018-03-21 线下活动||
 
->感谢 SIG 核心成员对 Go 夜读的付出。
+## Go 夜读 SIG 小组
+
+SIG 的全称是 Special Interests Group, 或称 Super Intellectual Genius。
+Go 夜读 SIG 小组负责 Go 夜读活动的日常维护，目前的核心成员包括：
 
 - [杨文 yangwenmai](https://github.com/yangwenmai)
 - [欧长坤 changkun](https://github.com/changkun)
@@ -111,20 +176,11 @@
 - [饶全成 qcrao](https://github.com/qcrao)
 - [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
 
-----
+想要加入？参考[如何加入 Go 夜读 SIG 小组](https://github.com/talk-go/night/blob/master/join.md)。
 
 ## 如何参与贡献？
 
-```sh
-├── reading   // Go 源码阅读
-├── discuss   // 日常微信群讨论的总结
-├── articles  // 个人原创的技术文章
-├── interview // Go 面试专区
-└── other     // 其他
-```
-
-- [如何参与贡献](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md)
-- *[Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
+想要参与贡献？阅读 [如何参与贡献](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md) 查看指南。
 
 ## Stargazers over time
 
