@@ -28,7 +28,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/developer-learning/night-reading-go"
+	repo_url = "https://github.com/talk-go/night"
 
 	version = ""
 	logo = "images/2018-12-11-night-reading-go.jpg"
@@ -58,12 +58,12 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	#	enable = true
 	#	clientID = "d891898cec9e65ff7cd0" # Your client ID
 	#	clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
-	#	repo = "reading-go" # The repo to store comments
-	#	owner = "developer-learning" # Your GitHub ID
+	#	repo = "night" # The repo to store comments
+	#	owner = "talk-go" # Your GitHub ID
 	#	admin = "yangwenmai" # Your GitHub ID
 
 [social]
-	github  = "developer-learning"
+	github  = "talk-go"
 	youtube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
 
 [blackfriday]

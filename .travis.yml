@@ -15,11 +15,11 @@ install:
   - go get github.com/go-playground/overalls
   - go get github.com/mattn/goveralls
   - go get github.com/smartystreets/goconvey
-  - mkdir -p $GOPATH/src/github.com/developer-learning
-  - cd $GOPATH/src/github.com/developer-learning/night-reading-go
+  - mkdir -p $GOPATH/src/github.com/talk-go
+  - cd $GOPATH/src/github.com/talk-go/night
 
 script:
-    - overalls -project=github.com/developer-learning/night-reading-go -covermode=count -ignore='.git,_vendor'
+    - overalls -project=github.com/talk-go/night -covermode=count -ignore='.git,_vendor'
     - goveralls -coverprofile=overalls.coverprofile -service=travis-ci -repotoken $COVERALLS_TOKEN
     - go test -race -coverprofile=coverage.txt -covermode=atomic
     - go test ./...

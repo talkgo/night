@@ -85,7 +85,7 @@ author: 龙恒
 22:21:02	 From hezhiyong : prepare 是要开启参数才可以的吧
 22:21:36	 From 熊浪 : 好的，和mysql是一样的。谢谢
 
-PPT: https://reading-go.slack.com/files/U8A45L223/FKA335THT/_reading-go__tidb_source_cdoe_overview.pdf
+PPT: https://talkgo.slack.com/files/U8A45L223/FKA335THT/_reading-go__tidb_source_cdoe_overview.pdf
 
 ## 观看视频
 

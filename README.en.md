@@ -1,7 +1,7 @@
 # [Reading Go](https://reading.developerlearning.cn/)
-[![Build Status](https://travis-ci.org/developer-learning/reading-go.svg?branch=master)](https://travis-ci.org/developer-learning/reading-go) [![Go Report Card](https://goreportcard.com/badge/github.com/developer-learning/reading-go)](https://goreportcard.com/report/github.com/developer-learning/reading-go) [![GitHub stars](https://img.shields.io/github/stars/developer-learning/reading-go.svg?label=Stars)](https://github.com/developer-learning/reading-go) [![GitHub forks](https://img.shields.io/github/forks/developer-learning/reading-go.svg?label=Fork)](https://github.com/developer-learning/reading-go) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/developer-learning/reading-go?status.svg)](http://godoc.org/github.com/developer-learning/reading-go) [![Coverage Status](https://coveralls.io/repos/github/developer-learning/reading-go/badge.svg?branch=master)](https://coveralls.io/github/developer-learning/reading-go?branch=master) [![GitHub issues](https://img.shields.io/github/issues/developer-learning/reading-go.svg?label=Issue)](https://github.com/developer-learning/reading-go/issues) [![license](https://img.shields.io/github/license/developer-learning/reading-go.svg)](https://github.com/developer-learning/reading-go/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/talk-go/night.svg?branch=master)](https://travis-ci.org/talk-go/night) [![Go Report Card](https://goreportcard.com/badge/github.com/talk-go/night)](https://goreportcard.com/report/github.com/talk-go/night) [![GitHub stars](https://img.shields.io/github/stars/talk-go/night.svg?label=Stars)](https://github.com/talk-go/night) [![GitHub forks](https://img.shields.io/github/forks/talk-go/night.svg?label=Fork)](https://github.com/talk-go/night) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/talk-go/night?status.svg)](http://godoc.org/github.com/talk-go/night) [![Coverage Status](https://coveralls.io/repos/github/talk-go/night/badge.svg?branch=master)](https://coveralls.io/github/talk-go/night?branch=master) [![GitHub issues](https://img.shields.io/github/issues/talk-go/night.svg?label=Issue)](https://github.com/talk-go/night/issues) [![license](https://img.shields.io/github/license/talk-go/night.svg)](https://github.com/talk-go/night/blob/master/LICENSE)
 
-<img src="https://raw.githubusercontent.com/developer-learning/reading-go/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
+<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
 #### *Read this in [other languages](Translations.md).*
 
@@ -12,25 +12,25 @@
 
 ## Stargazers Over Time
 
-[![Stargazers Over Time](https://starcharts.herokuapp.com/developer-learning/reading-go.svg)](https://starcharts.herokuapp.com/developer-learning/reading-go)
+[![Stargazers Over Time](https://starcharts.herokuapp.com/talk-go/night.svg)](https://starcharts.herokuapp.com/talk-go/night)
 
-[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
+[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=talk-go,night)
 
 Go Learning and Sharing:
 
-- [Night Reading Go](https://github.com/developer-learning/reading-go/labels/Go%20%E5%A4%9C%E8%AF%BB)
+- [Night Reading Go](https://github.com/talk-go/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-*We will arrange a meeting one night per week to read the Go source code. If you're a newcomer you can visit here.**[The path of learning Go](https://github.com/developer-learning/learning-golang)**.*
+*We will arrange a meeting one night per week to read the Go source code. If you're a newcomer you can visit here.**[The path of learning Go](https://github.com/talk-go/read)**.*
 >Our reading includes: Go Standard Library, Open Source Project.
 
-- [Daily reading](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
+- [Daily reading](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
 
 *If you join these meetings it means you want to develop and learn, and you made a promise to yourself to do your best. But you have to understand one point: in here we are contributing to each other; there is no one-sided giving or taking. We can learn and discuss together but we cannot help you to stay motivated, nor can we teach and guide you every step.*
 
-- [Daily Question](https://github.com/developer-learning/reading-go/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+- [Daily Question](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
-- [Go Project Practice](https://github.com/developer-learning/reading-go/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-- [Gin Development](https://github.com/developer-learning/reading-go/labels/Gin%20%E5%BC%80%E5%8F%91)
+- [Go Project Practice](https://github.com/talk-go/night/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
+- [Gin Development](https://github.com/talk-go/night/labels/Gin%20%E5%BC%80%E5%8F%91)
 
 ----
 
@@ -82,7 +82,7 @@ Open Source! Open Source! Open Source! (important things need to be said thrice 
 
 If you want to join the WeChat group, search for `night_reading_go` and then enter your name, company, job title and responsibility. Please also mention that you found us on Github.
 
-For those of you who want to use Slack, here is how to reach us: [night-reading-go Slack](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
+For those of you who want to use Slack, here is how to reach us: [Talk Go Slack](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ)
 
 ## Night Reading Go SIG members
 
@@ -106,7 +106,7 @@ For those of you who want to use Slack, here is how to reach us: [night-reading-
 └── other     // Other stuff
 ```
 
-- [How to contribute](https://github.com/developer-learning/reading-go/blob/master/CONTRIBUTING.md)
+- [How to contribute](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md)
 - *[Git Commit Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors
