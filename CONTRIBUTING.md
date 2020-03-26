@@ -2,7 +2,7 @@
 title: 如何参与贡献？
 ---
 
->欢迎大家参与讨论，更欢迎大家多多的回馈社区，来开始共享吧！
+欢迎大家参与讨论，更欢迎大家多多的回馈社区，来开始共享吧！
 
 ## 贡献流程
 
@@ -85,6 +85,8 @@ $ git rebase upstream/master
 ```sh
 $ git commit
 ```
+
+请参考 [Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)。
 
 ### 第七步：推送
 
