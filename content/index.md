@@ -8,7 +8,7 @@ weight: 0
 
 <img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-11-night-reading-go.jpg" alt="logo" height="120" align="right" />
 
-# [Go 夜读](https://reading.developerlearning.cn/)
+# [Go 夜读](https://talkgo.org/)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/talk-go/night?style=flat-square)](https://goreportcard.com/report/github.com/talk-go/night)
 [![GitHub stars](https://img.shields.io/github/stars/talk-go/night.svg?label=Stars&style=flat-square)](https://github.com/talk-go/night)
