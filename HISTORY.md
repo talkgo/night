@@ -65,7 +65,7 @@
 
 ### 第四阶段
 
->[Go 夜读](https://reading.developerlearning.cn/)终于有自己的官方网站了。
+>[Go 夜读](https://talkgo.org/)终于有自己的官方网站了。
 
 从 2018-09-27 在 issue 中提出[自动更新 README 脚本化](https://github.com/talk-go/night/issues/58)，到最近[将项目中的文章自动同步构建网站](https://github.com/talk-go/night/issues/74)
 
@@ -210,7 +210,7 @@ Github Trending Go 语言第 2，全语言第 9 名。
 
 ![](https://raw.githubusercontent.com/talk-go/night/master/static/images/allcontributors-night-reading-go-20191107.jpg)
 
-附上一张 Growingio 过去 180 天 https://reading.developerlearning.cn/ 的统计图：
+附上一张 Growingio 过去 180 天 https://talkgo.org/ 的统计图：
 
 ![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-180ags-growingio_20191107.png)
 

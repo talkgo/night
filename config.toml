@@ -1,4 +1,4 @@
-baseurl = "https://reading.developerlearning.cn/"
+baseurl = "https://talkgo.org/"
 title = "Go 夜读"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
@@ -63,8 +63,11 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	#	admin = "yangwenmai" # Your GitHub ID
 
 [social]
-	github  = "talk-go"
-	youtube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
+	Github  = "talk-go"
+	YouTube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
+	Twitter = "https://twitter.com/talkgo_night"
+	Facebook = "https://www.facebook.com/groups/1137463033253241/"
+	Bilibili = "https://space.bilibili.com/326749661"
 
 [blackfriday]
 	smartypants	= true
