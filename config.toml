@@ -22,8 +22,8 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 [params]
 	# General information
-	author = "John Deng"
-	description = "Night Reading Go - Go source reading and offline technical discussion every Thursday night. "
+	author = "Go 夜读 SIG 小组"
+	description = "Talk Go - Go source reading and offline technical discussion every Thursday night."
 	copyright = "Released under the Apache 2.0 license"
 
 	# Repository
@@ -52,22 +52,10 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
     	text = "Ubuntu"
     	code = "Ubuntu Mono"
 
-	# https://github.com/gitalk/gitalk#usage
-	# Register a Github OAuth application: https://github.com/settings/applications/new
-	#[params.Gitalk]
-	#	enable = true
-	#	clientID = "d891898cec9e65ff7cd0" # Your client ID
-	#	clientSecret = "354be45d0e5f3c716cf8f99961868a835544d613" # Your client secret
-	#	repo = "night" # The repo to store comments
-	#	owner = "talk-go" # Your GitHub ID
-	#	admin = "yangwenmai" # Your GitHub ID
-
 [social]
 	Github  = "talk-go"
 	YouTube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
-	Twitter = "https://twitter.com/talkgo_night"
-	Facebook = "https://www.facebook.com/groups/1137463033253241/"
-	Bilibili = "https://space.bilibili.com/326749661"
+	Twitter = "talkgo_night"
 
 [blackfriday]
 	smartypants	= true
