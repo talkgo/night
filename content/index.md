@@ -1,7 +1,7 @@
 ---
 date: 2018-11-08T21:07:13+01:00
 last_date: 2020-03-05T15:08:00+08:00
-title: [Go 夜读](https://talkgo.org/)
+title: Go 夜读
 type: index
 weight: 0
 ---
