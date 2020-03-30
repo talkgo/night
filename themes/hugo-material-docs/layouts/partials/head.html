@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
-    {{ .Hugo.Generator }}
 
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">
@@ -73,7 +72,7 @@
     <script src="{{ "javascripts/modernizr.js" | absURL }}"></script>
     <script src="{{ "javascripts/growingio.js" | absURL }}"></script>
 
-    {{ with .RSSLink }}
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}
     <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
     <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}

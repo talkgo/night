@@ -63,7 +63,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	smartDashes = true
 	plainIDAnchors = true
 [outputs]
-	home = [ "HTML", "JSON"]
-	page = [ "HTML", "JSON"]
+	home = [ "HTML" ]
+	page = [ "HTML" ]
 
 	
