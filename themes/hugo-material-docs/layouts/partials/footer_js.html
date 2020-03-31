@@ -25,7 +25,7 @@
             li.setAttribute("class", "anchor");
 
             var a  = document.createElement("a");
-            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("href", headers[i].parentNode.href);
             a.setAttribute("title", headers[i].innerHTML);
             a.innerHTML = headers[i].innerHTML;
 
