@@ -661,6 +661,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "binderclip",
+      "name": "clip",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8187479?v=4",
+      "profile": "https://yuque.com/clip",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
