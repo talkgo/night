@@ -24,14 +24,15 @@
 
 订阅 Go 夜读微信公众号：
 
-<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
+<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/wechat_logo/talkgo.png" width="360px;"/>
 
-### Slack, Telegram, Twitter, Facebook
+### YouTube, Twitter, Facebook, Telegram, Slack
 
-[![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
-[![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo_night)
+[![](https://img.shields.io/badge/YouTube-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=youtube)](https://youtube.com/c/talkgo_night?sub_confirmation=1)
 [![](https://img.shields.io/badge/Twitter-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=twitter)](https://twitter.com/talkgo_night)
-[![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/1137463033253241/)
+[![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/talkgo/)
+[![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo_night)
+[![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
 
 ## 我们的精神
 
@@ -75,7 +76,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 ### 回看地址
 
-- [Go 夜读（YouTuBe）](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读（YouTuBe）](https://youtube.com/c/talkgo_night?sub_confirmation=1)
 - [Go 夜读（Bilibili）](https://space.bilibili.com/326749661)
 - [Go 夜读（腾讯视频）](https://v.qq.com/vplus/e05f55c8ca5e36f8e370ba49c9e883e0)
 

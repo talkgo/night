@@ -308,3 +308,9 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 ## 第十七阶段
 
 2020-03-26 我们将项目改为 `talk-go/night` 了，相比之前更简单，更好记，也更有意义。
+
+## 第十八阶段
+
+2020-04-05 Go 夜读，有了英文名 Talk Go，并且也在其他各个社交平台开通了。
+
+[Facebook](https://www.facebook.com/groups/talkgo/), [Twitter](https://twitter.com/talkgo_night), [YouTube](https://youtube.com/c/talkgo_night), [Slack](https://talkgo.slack.com), [Telegram](https://t.me/talkgo_night)
