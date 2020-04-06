@@ -30,14 +30,15 @@ weight: 0
 
 订阅 Go 夜读微信公众号：
 
-<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/wechat_logo/night-reading-go.png" width="360px;"/>
+<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/wechat_logo/talkgo.png" width="360px;"/>
 
-### Slack, Telegram, Twitter, Facebook
+### YouTube, Twitter, Facebook, Telegram, Slack
 
-[![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
-[![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo_night)
+[![](https://img.shields.io/badge/YouTube-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=youtube)](https://youtube.com/c/talkgo_night)
 [![](https://img.shields.io/badge/Twitter-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=twitter)](https://twitter.com/talkgo_night)
-[![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/1137463033253241/)
+[![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/talkgo/)
+[![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo_night)
+[![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
 
 ## 我们的精神
 
