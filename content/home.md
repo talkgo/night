@@ -81,7 +81,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 ### 回看地址
 
-- [Go 夜读（YouTuBe）](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
+- [Go 夜读（YouTuBe）](https://youtube.com/c/talkgo_night)
 - [Go 夜读（Bilibili）](https://space.bilibili.com/326749661)
 - [Go 夜读（腾讯视频）](https://v.qq.com/vplus/e05f55c8ca5e36f8e370ba49c9e883e0)
 

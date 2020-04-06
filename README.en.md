@@ -59,8 +59,9 @@ Go Learning and Sharing:
 
 ## Playback Address
 
-- [Night Reading Go(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Night Reading Go(B 站)](https://space.bilibili.com/326749661)
+- [Talk Go(YouTuBe)](https://youtube.com/c/talkgo_night)
+- [Talk Go(Bilibili)](https://space.bilibili.com/326749661)
+- [Talk Go(Tencent)](https://v.qq.com/vplus/e05f55c8ca5e36f8e370ba49c9e883e0)
 
 ## Our Goal
 

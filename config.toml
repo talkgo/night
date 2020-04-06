@@ -54,7 +54,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 [social]
 	Github  = "talk-go"
-	YouTube = "https://youtube.com/c/talkgo_night?sub_confirmation=1"
+	YouTube = "https://youtube.com/c/talkgo_night"
 	Twitter = "talkgo_night"
 	Facebook = "https://www.facebook.com/groups/talkgo/"
 	Telegram = "https://t.me/talkgo_night"
