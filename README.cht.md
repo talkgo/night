@@ -59,8 +59,9 @@ Go 學習與分享：
 
 ## 回看地址
 
-- [Go 夜讀(YouTuBe)](https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q?sub_confirmation=1)
-- [Go 夜讀(B 站)](https://space.bilibili.com/326749661)
+- [Go 夜讀(YouTuBe)](https://youtube.com/c/talkgo_night)
+- [Go 夜讀(Bilibili)](https://space.bilibili.com/326749661)
+- [Go 夜讀(Tencent)](https://v.qq.com/vplus/e05f55c8ca5e36f8e370ba49c9e883e0)
 
 ## 我們的目標
 
