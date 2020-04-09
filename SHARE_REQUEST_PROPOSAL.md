@@ -16,7 +16,6 @@ Go 夜读提供给大家一种渠道，希望可以将探究深入到 Go 的方�
 
 https://github.com/talk-go/night/issues/new?template=share_request.md
 
-选择【发起分享提案】
 
 填写标题：`提案：如何阅读 Go 源码？`
 填写提案正文。（也就是你对此话题的简述和你的一些诉求）
