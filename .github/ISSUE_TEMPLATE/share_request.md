@@ -1,8 +1,10 @@
 ---
-title: '【发起分享提案】'
-labels: 分享话题, Go 夜读
-assignees: yangwenmai
+name: ''
 about: 此模板主要用于如何发起分享提案的小伙伴。
+title: "【发起分享提案】"
+labels: Go 夜读
+assignees: yangwenmai
+
 ---
 
 ## <话题名称>
