@@ -14,7 +14,7 @@ Go 夜读提供给大家一种渠道，希望可以将探究深入到 Go 的方�
 
 ### 第一步
 
-https://github.com/talk-go/night/issues/new
+https://github.com/talk-go/night/issues/new?template=share_request.md
 
 选择【发起分享提案】
 
