@@ -314,3 +314,7 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 2020-04-05 Go 夜读，有了英文名 Talk Go，并且也在其他各个社交平台开通了。
 
 [Facebook](https://www.facebook.com/groups/talkgo/), [Twitter](https://twitter.com/talkgo_night), [YouTube](https://youtube.com/c/talkgo_night), [Slack](https://talkgo.slack.com), [Telegram](https://t.me/talkgo_night)
+
+## 第十九阶段
+
+2020-04-09 Go 夜读受邀开通头条号和西瓜视频，大家可以搜索 `Go 夜读`，即可关注。
