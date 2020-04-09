@@ -181,6 +181,12 @@ Go 夜读 SIG 小组负责 Go 夜读活动的日常维护，目前的核心成�
 
 想要加入？参考[如何加入 Go 夜读 SIG 小组](https://github.com/talk-go/night/blob/master/JOINUS.md)。
 
+## 如何发起分享提案？
+
+你是否经常困扰于某些 Go 话题没有人分享或者很少人关注？自己很想深入研究，但是却是形单影只，经常半途而废呢？
+
+机会来了！！！参考[如何发起分享提案](https://github.com/talk-go/night/blob/master/SHARE_REQUEST_PROPOSAL.md)
+
 ## 如何参与贡献？
 
 想要参与贡献？阅读 [如何参与贡献](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md) 查看指南。
