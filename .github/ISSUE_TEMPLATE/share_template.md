@@ -1,7 +1,8 @@
 ---
+name: '第 100 期<你的话题名称>'
 title: '【分享计划】'
 labels: 分享话题, Go 夜读, 预习资料
-assignees: yangwenmai
+assignees: yangwenmai, changkun
 about: 此模板主要是针对提交分享计划的小伙伴，否则请忽略。
 ---
 

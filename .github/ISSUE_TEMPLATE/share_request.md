@@ -1,7 +1,8 @@
 ---
+name: '提案：如何发起一次分享请求？'
 title: '【发起分享提案】'
 labels: 分享话题, Go 夜读
-assignees: yangwenmai
+assignees: yangwenmai, changkun
 about: 此模板主要用于如何发起分享提案的小伙伴。
 ---
 
