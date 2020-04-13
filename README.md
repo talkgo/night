@@ -310,6 +310,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/luojiego"><img src="https://avatars2.githubusercontent.com/u/3175699?v=4" width="100px;" alt=""/><br /><sub><b>Roger</b></sub></a><br /><a href="https://github.com/talk-go/night/commits?author=luojiego" title="Documentation">📖</a></td>
     <td align="center"><a href="https://yuque.com/clip"><img src="https://avatars3.githubusercontent.com/u/8187479?v=4" width="100px;" alt=""/><br /><sub><b>clip</b></sub></a><br /><a href="https://github.com/talk-go/night/commits?author=binderclip" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/shengyou"><img src="https://avatars2.githubusercontent.com/u/1264736?v=4" width="100px;" alt=""/><br /><sub><b>Shengyou Fan</b></sub></a><br /><a href="#talk-shengyou" title="Talks">📢</a></td>
+    <td align="center"><a href="http://florinpatan.ro"><img src="https://avatars2.githubusercontent.com/u/607868?v=4" width="100px;" alt=""/><br /><sub><b>Florin Pățan</b></sub></a><br /><a href="#talk-dlsniper" title="Talks">📢</a></td>
   </tr>
 </table>
 
