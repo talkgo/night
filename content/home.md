@@ -90,6 +90,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 |   期数   | 标题                                                           | 分享人                                   | 回看                                                                                                                                    |
 | :------: | :------------------------------------------------------------- | :--------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+|  87  | JetBrains GoLand 2020.1 新特性介绍                                   | Florin Pățan & 范圣佑                                   | [YouTube](https://youtu.be/QGEtbFtLMAc) [Bilibili](https://www.bilibili.com/video/BV14g4y1z7Nd/)
 |  86  | Go 中非类型安全指针相关的事实和使用规则                                   | 老貘                                   | [YouTube](https://youtu.be/a_9oLmeFvwk) [Bilibili](https://www.bilibili.com/video/BV15V411d7WS)
 |  85  | 斗鱼 Minerva 配置中心设计与实现                                   | 杜旻翔                                   | [YouTube](https://youtu.be/i-Q3x1PBqD0) [Bilibili](https://www.bilibili.com/video/BV1D54y197nQ)
 |  84  | 图解 Go 之内存对齐                                   | 苗蕾                                   | [YouTube](https://youtu.be/8a2G2MXRUxw) [Bilibili](https://www.bilibili.com/video/BV1iZ4y1j7TT)
