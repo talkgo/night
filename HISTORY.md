@@ -27,6 +27,10 @@
 ![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-star_20180516115000.png)
 ![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-star_20180518142500.png)
 
+### 第一阶段（二）
+
+2018-05-25 开通 YouTube，并上传了 Go 夜读的第一个视频《#7 http 包源码阅读 part1》，不过第一次上传这个视频时没有做剪辑，所以这一期视频在后面是单独又上传了一次。
+
 ----
 
 ### 第二阶段
@@ -74,6 +78,13 @@
 昨天（2018-12-04）的 GrowingIO 数据：
 
 ![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-04-gio.png)
+
+### 第四阶段（二）
+
+2019-01-10 开通了 bilibili，考试成绩 74分。
+随后上传了《#26 手把手教你基于 Github+Netlify 构建自动化持续集》。
+
+![](https://raw.githubusercontent.com/talk-go/night/master/static/images/bilibili_kaoshi.png)
 
 ----
 
@@ -314,3 +325,20 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 2020-04-05 Go 夜读，有了英文名 Talk Go，并且也在其他各个社交平台开通了。
 
 [Facebook](https://www.facebook.com/groups/talkgo/), [Twitter](https://twitter.com/talkgo_night), [YouTube](https://youtube.com/c/talkgo_night), [Slack](https://talkgo.slack.com), [Telegram](https://t.me/talkgo_night)
+
+## 第十九阶段
+
+2020-05-12 Go 夜读 Bilibili 关注数突破 1 万，达到一个新的里程碑。
+
+截止 2020-05-12 的一些数据：
+
+GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
+
+![](https://raw.githubusercontent.com/talk-go/night/master/static/images/bilibili_1w_chengjiu.jpg)
+
+![](https://raw.githubusercontent.com/talk-go/night/master/static/images/bilibili_1w_screenshot.png)
+
+## 第二十阶段
+
+好事成双，今天我们还开通了[Talk Go 社区网站](https://talkgo.org/)。
+
