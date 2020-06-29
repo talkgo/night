@@ -340,5 +340,8 @@ GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
 
 ## 第二十阶段
 
-好事成双，今天我们还开通了[Talk Go 社区网站](https://talkgo.org/)。
+好事成双，今天（2020-05-12）我们还开通了[Talk Go 社区网站](https://talkgo.org/)。
 
+## 第二十一阶段
+
+2020-06-29 ，在[aofei](https://github.com/aofei)同学的帮助下，TalkGo 的 GitHub Repo 用户名正式更换为 talkgo 了，全平台统一，看起来也非常舒服了。
