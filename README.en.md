@@ -94,6 +94,7 @@ For those of you who want to use Slack, here is how to reach us: [Talk Go Slack]
 - [FelixSeptem](https://github.com/FelixSeptem)
 - [饶全成 qcrao](https://github.com/qcrao)
 - [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
+- [盛傲飞 - aofei](https://github.com/aofei)
 
 ----
 

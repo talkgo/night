@@ -95,6 +95,7 @@ Für diejenigen unter Ihnen, die Slack nutzen möchten, ist hier die Anfahrtsbes
 - [FelixSeptem](https://github.com/FelixSeptem)
 - [饶全成 qcrao](https://github.com/qcrao)
 - [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
+- [盛傲飞 - aofei](https://github.com/aofei)
 
 ----
 
