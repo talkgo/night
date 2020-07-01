@@ -345,3 +345,10 @@ GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
 ## 第二十一阶段
 
 2020-06-29 ，在[aofei](https://github.com/aofei)同学的帮助下，TalkGo 的 GitHub Repo 用户名正式更换为 talkgo 了，全平台统一，看起来也非常舒服了。
+
+## 第二十二阶段
+
+2020-07-01 第 6 个小伙伴加入 Go 夜读 SIG 核心小组。
+
+>新增小组成员：[aofei](https://github.com/aofei)
+
