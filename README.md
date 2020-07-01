@@ -188,6 +188,7 @@ Go 夜读 SIG 小组负责 Go 夜读活动的日常维护，目前的核心成�
 - [FelixSeptem](https://github.com/FelixSeptem)
 - [饶全成 qcrao](https://github.com/qcrao)
 - [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
+- [盛傲飞 - aofei](https://github.com/aofei)
 
 想要加入？参考[如何加入 Go 夜读 SIG 小组](https://github.com/talk-go/night/blob/master/JOINUS.md)。
 
