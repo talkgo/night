@@ -69,7 +69,7 @@ https://docs.google.com/presentation/d/1LRs_D-IlrSU-ZrJN7KiBhNmCY5tWXH1b2CyDF7jv
 
 **问：如何解决 Go 1.13 在从 GitLab 拉取模块版本时遇到的，Go 错误地按照非期望值的路径寻找目标模块版本结果致使最终目标模块拉取失败的问题？**
 
-答：GitLab 中配合 `go get` 而设置的 `<meta>` 存在些许问题，导致 Go 1.13 错误地识别了模块的具体路径，这是个 Bug，据说在 GitLab 的新版本中已经被修复了，详细内容可以看 https://github.com/golang/go/issues/34094 这个 Issue。然后目前的解决办法的话除了升级 GitLab 的版本外，还可以参考 https://github.com/talk-go/night/issues/468#issuecomment-535850154 这条回复。
+答：GitLab 中配合 `go get` 而设置的 `<meta>` 存在些许问题，导致 Go 1.13 错误地识别了模块的具体路径，这是个 Bug，据说在 GitLab 的新版本中已经被修复了，详细内容可以看 https://github.com/golang/go/issues/34094 这个 Issue。然后目前的解决办法的话除了升级 GitLab 的版本外，还可以参考 https://github.com/talkgo/night/issues/468#issuecomment-535850154 这条回复。
 
 **问：使用 Go modules 时可以同时依赖同一个模块的不同的两个或者多个小版本（修订版本号不同）吗？**
 

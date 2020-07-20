@@ -1,4 +1,4 @@
-module github.com/talk-go/night
+module github.com/talkgo/night
 
 go 1.14
 

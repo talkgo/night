@@ -34,7 +34,7 @@ https://zoom.us/j/6923842137
 - [关于是否应该支持 resize 的讨论](https://github.com/golang/go/issues/29721)
 - [semaphore 实现的 taskpool](https://github.com/eleniums/async/blob/master/pool.go)
 
-更多见：https://github.com/talk-go/night/issues/456
+更多见：https://github.com/talkgo/night/issues/456
 
 
 ---

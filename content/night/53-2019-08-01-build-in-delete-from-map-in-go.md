@@ -11,7 +11,7 @@ author: mai
 >由此查阅了一些资料，然后促成此次分享。
 
 PPT：
-[build-in func delete from map in go.pptx](https://github.com/talk-go/night/files/3453966/build-in.func.delete.from.map.in.go.pptx)
+[build-in func delete from map in go.pptx](https://github.com/talkgo/night/files/3453966/build-in.func.delete.from.map.in.go.pptx)
 
 ## 分享时间
 

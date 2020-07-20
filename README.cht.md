@@ -1,7 +1,7 @@
 # [Go 夜讀](https://talkgo.org/)
-[![Build Status](https://travis-ci.org/talk-go/night.svg?branch=master)](https://travis-ci.org/talk-go/night) [![Go Report Card](https://goreportcard.com/badge/github.com/talk-go/night)](https://goreportcard.com/report/github.com/talk-go/night) [![GitHub stars](https://img.shields.io/github/stars/talk-go/night.svg?label=Stars)](https://github.com/talk-go/night) [![GitHub forks](https://img.shields.io/github/forks/talk-go/night.svg?label=Fork)](https://github.com/talk-go/night) [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/talk-go/night?status.svg)](http://godoc.org/github.com/talk-go/night) [![Coverage Status](https://coveralls.io/repos/github/talk-go/night/badge.svg?branch=master)](https://coveralls.io/github/talk-go/night?branch=master) [![GitHub issues](https://img.shields.io/github/issues/talk-go/night.svg?label=Issue)](https://github.com/talk-go/night/issues) [![license](https://img.shields.io/github/license/talk-go/night.svg)](https://github.com/talk-go/night/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/talkgo/night.svg?branch=master)](https://travis-ci.org/talkgo/night) [![Go Report Card](https://goreportcard.com/badge/github.com/talkgo/night)](https://goreportcard.com/report/github.com/talkgo/night) [![GitHub stars](https://img.shields.io/github/stars/talkgo/night.svg?label=Stars)](https://github.com/talkgo/night) [![GitHub forks](https://img.shields.io/github/forks/talkgo/night.svg?label=Fork)](https://github.com/talkgo/night) [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/talkgo/night?status.svg)](http://godoc.org/github.com/talkgo/night) [![Coverage Status](https://coveralls.io/repos/github/talkgo/night/badge.svg?branch=master)](https://coveralls.io/github/talkgo/night?branch=master) [![GitHub issues](https://img.shields.io/github/issues/talkgo/night.svg?label=Issue)](https://github.com/talkgo/night/issues) [![license](https://img.shields.io/github/license/talkgo/night.svg)](https://github.com/talkgo/night/blob/master/LICENSE)
 
-<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
 #### *以[其他語言](Translations.md)閱讀*
 
@@ -12,25 +12,25 @@
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/talk-go/night.svg)](https://starcharts.herokuapp.com/talk-go/night)
+[![Stargazers over time](https://starcharts.herokuapp.com/talkgo/night.svg)](https://starcharts.herokuapp.com/talkgo/night)
 
 [reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=developer-learning,night-reading-go)
 
 Go 學習與分享：
 
-- [Go 夜讀](https://github.com/talk-go/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
+- [Go 夜讀](https://github.com/talkgo/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
 *每週約定一個晚上進行 Go 源碼閱讀，Go 新手可以先去這裡看看 **[Go 學習之路](https://github.com/developer-learning/learning-golang)**。 *
 >閱讀範疇：Go 標準包、開源項目。
 
-- [每日閱讀](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
+- [每日閱讀](https://github.com/talkgo/night/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
 
 *你願意來，那說明你想改變，你也保證自己能做到，那你就得理解一點：在這裡，我們是共同付出，你不是吸收者，我也不是分享者，我們可以討論，但是我們不能幫你堅持或者教你，帶你。*
 
-- [每日一問](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+- [每日一問](https://github.com/talkgo/night/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
-- [Go 項目實踐](https://github.com/talk-go/night/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-- [Gin 開發](https://github.com/talk-go/night/labels/Gin%20%E5%BC%80%E5%8F%91)
+- [Go 項目實踐](https://github.com/talkgo/night/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
+- [Gin 開發](https://github.com/talkgo/night/labels/Gin%20%E5%BC%80%E5%8F%91)
 
 ----
 
@@ -110,7 +110,7 @@ Go 學習與分享：
 └── other     // 其他
 ```
 
-- [如何參與貢獻](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md)
+- [如何參與貢獻](https://github.com/talkgo/night/blob/master/CONTRIBUTING.md)
 - *[Git Commit 規範指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors

@@ -15,7 +15,7 @@ date: 2018-05-18T00:00:00+08:00
 
 使用 `govendor list -v` 可以查看一个包被哪些包依赖：
 
-那么反过来，你可能想知道一个包依赖了哪些包？这个是 go 工具链里面提供的方法，直接使用 `go list`，比如：`go list -f '{{ .Imports }}' github.com/talk-go/night`
+那么反过来，你可能想知道一个包依赖了哪些包？这个是 go 工具链里面提供的方法，直接使用 `go list`，比如：`go list -f '{{ .Imports }}' github.com/talkgo/night`
 
 ## 2. bitset
 

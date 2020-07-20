@@ -30,7 +30,7 @@ https://zoom.us/j/6923842137
 - [improve defer perfermance 30%](https://github.com/golang/go/commit/fff4f599fe1c21e411a99de5c9b3777d06ce0ce6)
 - [goproxy.cn - 为中国 Go 语言开发者量身打造的模块代理](https://mp.weixin.qq.com/s/Pw_a5heUgyIkuJrXF4HCVg)
 
-更多见：https://github.com/talk-go/night/issues/465
+更多见：https://github.com/talkgo/night/issues/465
 
 ---
 

@@ -38,8 +38,8 @@ Tony Hoare 提出 CSP 的时代背景是什么？
 
 - [Hoare 1978] [Hoare, C. A. R. (1978). Communicating sequential processes. Communications of the ACM, 21(8), 666–677.](https://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 - [Ou 2019a] [CSP1978 的 Go 语言实现](https://github.com/changkun/gobase/blob/master/csp/csp.go)
-- [Ou 2019b] [第 56 期 channel & select 源码分析](https://github.com/talk-go/night/issues/450)
-- [Ou 2019c] [第 59 期 Real-world Go Concurrency Bugs](https://github.com/talk-go/night/issues/464)
+- [Ou 2019b] [第 56 期 channel & select 源码分析](https://github.com/talkgo/night/issues/450)
+- [Ou 2019c] [第 59 期 Real-world Go Concurrency Bugs](https://github.com/talkgo/night/issues/464)
 
 
 ---

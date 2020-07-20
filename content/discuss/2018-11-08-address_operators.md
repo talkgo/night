@@ -50,5 +50,5 @@ For an operand x of pointer type \*T, the pointer indirection \*x denotes the va
 
 ## 参考资料
 
-1. [Go 夜读第一期 - cannot take address of temporary variables](https://github.com/talk-go/night/tree/master/reading/20180321#cannot-take-address-of-temporary-variables)
+1. [Go 夜读第一期 - cannot take address of temporary variables](https://github.com/talkgo/night/tree/master/reading/20180321#cannot-take-address-of-temporary-variables)
 2. https://golang.org/ref/spec#Address_operators

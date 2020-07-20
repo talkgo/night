@@ -9,7 +9,7 @@ author: wangcong
 
 本次分享主要讲 TiDB 的优化器框架以及具体的 SQL 执行优化原理 。主要涉及 TiDB 的 planner 模块。欢迎大家参加！
 
-PPT: [TiDB Compiler.pdf](https://github.com/talk-go/night/files/3305279/TiDB.Compiler.pdf)
+PPT: [TiDB Compiler.pdf](https://github.com/talkgo/night/files/3305279/TiDB.Compiler.pdf)
 
 
 ## 推荐阅读

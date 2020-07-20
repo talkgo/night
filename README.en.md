@@ -1,7 +1,7 @@
 # [Talk Go](https://talkgo.org/)
-[![Build Status](https://travis-ci.org/talk-go/night.svg?branch=master)](https://travis-ci.org/talk-go/night) [![Go Report Card](https://goreportcard.com/badge/github.com/talk-go/night)](https://goreportcard.com/report/github.com/talk-go/night) [![GitHub stars](https://img.shields.io/github/stars/talk-go/night.svg?label=Stars)](https://github.com/talk-go/night) [![GitHub forks](https://img.shields.io/github/forks/talk-go/night.svg?label=Fork)](https://github.com/talk-go/night) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/talk-go/night?status.svg)](http://godoc.org/github.com/talk-go/night) [![Coverage Status](https://coveralls.io/repos/github/talk-go/night/badge.svg?branch=master)](https://coveralls.io/github/talk-go/night?branch=master) [![GitHub issues](https://img.shields.io/github/issues/talk-go/night.svg?label=Issue)](https://github.com/talk-go/night/issues) [![license](https://img.shields.io/github/license/talk-go/night.svg)](https://github.com/talk-go/night/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/talkgo/night.svg?branch=master)](https://travis-ci.org/talkgo/night) [![Go Report Card](https://goreportcard.com/badge/github.com/talkgo/night)](https://goreportcard.com/report/github.com/talkgo/night) [![GitHub stars](https://img.shields.io/github/stars/talkgo/night.svg?label=Stars)](https://github.com/talkgo/night) [![GitHub forks](https://img.shields.io/github/forks/talkgo/night.svg?label=Fork)](https://github.com/talkgo/night) [![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors) [![Documentation](https://godoc.org/github.com/talkgo/night?status.svg)](http://godoc.org/github.com/talkgo/night) [![Coverage Status](https://coveralls.io/repos/github/talkgo/night/badge.svg?branch=master)](https://coveralls.io/github/talkgo/night?branch=master) [![GitHub issues](https://img.shields.io/github/issues/talkgo/night.svg?label=Issue)](https://github.com/talkgo/night/issues) [![license](https://img.shields.io/github/license/talkgo/night.svg)](https://github.com/talkgo/night/blob/master/LICENSE)
 
-<img src="https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/2018-12-11-night-reading-go.jpg" width="400px;"/>
 
 #### *Read this in [other languages](Translations.md).*
 
@@ -12,25 +12,25 @@
 
 ## Stargazers Over Time
 
-[![Stargazers Over Time](https://starcharts.herokuapp.com/talk-go/night.svg)](https://starcharts.herokuapp.com/talk-go/night)
+[![Stargazers Over Time](https://starcharts.herokuapp.com/talkgo/night.svg)](https://starcharts.herokuapp.com/talkgo/night)
 
-[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=talk-go,night)
+[reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=talkgo,night)
 
 Go Learning and Sharing:
 
-- [Night Reading Go](https://github.com/talk-go/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
+- [Night Reading Go](https://github.com/talkgo/night/labels/Go%20%E5%A4%9C%E8%AF%BB)
 
-*We will arrange a meeting one night per week to read the Go source code. If you're a newcomer you can visit here.**[The path of learning Go](https://github.com/talk-go/read)**.*
+*We will arrange a meeting one night per week to read the Go source code. If you're a newcomer you can visit here.**[The path of learning Go](https://github.com/talkgo/read)**.*
 >Our reading includes: Go Standard Library, Open Source Project.
 
-- [Daily reading](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
+- [Daily reading](https://github.com/talkgo/night/labels/%E6%AF%8F%E6%97%A5%E9%98%85%E8%AF%BB)
 
 *If you join these meetings it means you want to develop and learn, and you made a promise to yourself to do your best. But you have to understand one point: in here we are contributing to each other; there is no one-sided giving or taking. We can learn and discuss together but we cannot help you to stay motivated, nor can we teach and guide you every step.*
 
-- [Daily Question](https://github.com/talk-go/night/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
+- [Daily Question](https://github.com/talkgo/night/labels/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%97%AE)
 
-- [Go Project Practice](https://github.com/talk-go/night/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
-- [Gin Development](https://github.com/talk-go/night/labels/Gin%20%E5%BC%80%E5%8F%91)
+- [Go Project Practice](https://github.com/talkgo/night/labels/Go%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5)
+- [Gin Development](https://github.com/talkgo/night/labels/Gin%20%E5%BC%80%E5%8F%91)
 
 ----
 
@@ -108,7 +108,7 @@ For those of you who want to use Slack, here is how to reach us: [Talk Go Slack]
 └── other     // Other stuff
 ```
 
-- [How to contribute](https://github.com/talk-go/night/blob/master/CONTRIBUTING.md)
+- [How to contribute](https://github.com/talkgo/night/blob/master/CONTRIBUTING.md)
 - *[Git Commit Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)*
 
 ## Contributors

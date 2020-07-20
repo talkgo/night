@@ -15,7 +15,7 @@ author: chenshuang
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/2jnWxKdgFb8uuoI7WAicOIPWnheB8ovPRXtaF9Lyq1pj52DGCfvxg7hI6pamSc9fiaNTf3vfdoibWZRibibKmoal2xw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-PPT: [TiDB Executor 源码阅读.pdf](https://github.com/talk-go/night/files/3281080/TiDB.Executor.pdf)
+PPT: [TiDB Executor 源码阅读.pdf](https://github.com/talkgo/night/files/3281080/TiDB.Executor.pdf)
 
 ## 推荐阅读
 
@@ -28,7 +28,7 @@ PPT: [TiDB Executor 源码阅读.pdf](https://github.com/talk-go/night/files/328
 1. [TiDB 源码学习之 Executor - YouTube](https://youtu.be/Rcrm4w7sqbM)
 2. [TiDB 源码学习之 Executor - Bilibili](https://www.bilibili.com/video/av55403428/)
 
-PPT: https://github.com/talk-go/night/files/3281080/TiDB.Executor.pdf
+PPT: https://github.com/talkgo/night/files/3281080/TiDB.Executor.pdf
 
 ## 问题
 
