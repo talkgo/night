@@ -40,16 +40,16 @@ https://zoom.us/j/6923842137
 - [Tu et al., 2019] [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
   - 本次分享讨论的论文
   - [论文作者的 PPT](https://slideplayer.com/slide/17049966/)
-  - [Bug Table](https://github.com/talk-go/night/files/3587505/bug.table.xlsx)
+  - [Bug Table](https://github.com/talkgo/night/files/3587505/bug.table.xlsx)
   - 论文中对应的 GitHub 仓库：https://github.com/system-pclub/go-concurrency-bugs
   - 与论文作者的一次面谈记录：https://www.jexia.com/en/blog/golang-error-proneness-message-passing/
   - Hacker News 对本文的讨论 https://news.ycombinator.com/item?id=19280927
 - [Utahn, 2019] [Go channels are bad and you should feel bad](https://www.jtolio.com/2016/03/go-channels-are-bad-and-you-should-feel-bad/)
   - Reddit 对本文的讨论：https://www.reddit.com/r/golang/comments/48mnrp/go_channels_are_bad_and_you_should_feel_bad/
-- [Ou, 2019b] [Go 夜读 第 56 期：channel & select 源码分析](https://github.com/talk-go/night/issues/450)
+- [Ou, 2019b] [Go 夜读 第 56 期：channel & select 源码分析](https://github.com/talkgo/night/issues/450)
 
 
-请点击：https://github.com/talk-go/night/issues/464
+请点击：https://github.com/talkgo/night/issues/464
 
 ----
 

@@ -9,7 +9,7 @@ author: zimulala
 
 本次分享主要讲 TiDB 的事务执行过程和一些异常处理，涉及 TiDB 的 session 和 tikv 部分模块。
 
-PDF: [Source code reading of TiDB Transaction .pdf](https://github.com/talk-go/night/files/3329306/Source.code.reading.of.TiDB.Transaction.pdf)
+PDF: [Source code reading of TiDB Transaction .pdf](https://github.com/talkgo/night/files/3329306/Source.code.reading.of.TiDB.Transaction.pdf)
 
 ## 推荐阅读
 

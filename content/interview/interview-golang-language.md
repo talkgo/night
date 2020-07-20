@@ -27,7 +27,7 @@ _4.简述一下golang的协程调度原理?_
 > `P(processor)`: 表示逻辑processor，是线程M的执行的上下文。    
 > `G(goroutine)`: 调度系统的最基本单位goroutine，存储了goroutine的执行stack信息、goroutine状态以及goroutine的任务函数等。     
 > 
-> [查看资料](https://github.com/talk-go/night/blob/master/reading/20180802/README.md)
+> [查看资料](https://github.com/talkgo/night/blob/master/reading/20180802/README.md)
 
 _5.介绍下 golang 的 runtime 机制?_   
 

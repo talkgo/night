@@ -28,7 +28,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/talk-go/night"
+	repo_url = "https://github.com/talkgo/night"
 
 	version = ""
 	logo = "images/2018-12-11-night-reading-go.jpg"
@@ -53,7 +53,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
     	code = "Ubuntu Mono"
 
 [social]
-	Github  = "talk-go"
+	Github  = "talkgo"
 	YouTube = "https://youtube.com/c/talkgo_night"
 	Twitter = "talkgo_night"
 	Facebook = "https://www.facebook.com/groups/talkgo/"

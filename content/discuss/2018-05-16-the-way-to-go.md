@@ -7,7 +7,7 @@ date: 2018-05-16T00:00:00+08:00
 
 ----
 
->推荐新手先看一看[Go 学习之路](https://github.com/talk-go/read)
+>推荐新手先看一看[Go 学习之路](https://github.com/talkgo/read)
 
 ## 1. 有没有适合小白看的项目？（没有底层语言基础）
 

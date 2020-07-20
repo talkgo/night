@@ -6,16 +6,16 @@ title: 如何参与贡献？
 
 ## 贡献流程
 
-### 第一步：Fork [https://github.com/talk-go/night](https://github.com/talk-go/night) 项目
+### 第一步：Fork [https://github.com/talkgo/night](https://github.com/talkgo/night) 项目
 
-1. 访问 [https://github.com/talk-go/night](https://github.com/talk-go/night)；
+1. 访问 [https://github.com/talkgo/night](https://github.com/talkgo/night)；
 2. 点击 Fork 按钮（顶部右侧），建立基于此的分支；
 
 ### 第二步：克隆分支到你本地
 
 ```sh
 # Define a local working directory:
-$ working_dir=/.../src/github.com/talk-go
+$ working_dir=/.../src/github.com/talkgo
 $ user={your github profile name}
 $ mkdir -p $working_dir
 $ cd $working_dir
@@ -25,19 +25,19 @@ $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
 
-$ git remote add upstream https://github.com/talk-go/night.git
+$ git remote add upstream https://github.com/talkgo/night.git
 $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
-upstream	https://github.com/talk-go/night.git (fetch)
-upstream	https://github.com/talk-go/night.git (push)
+upstream	https://github.com/talkgo/night.git (fetch)
+upstream	https://github.com/talkgo/night.git (push)
 
 # Never push to upstream master since you do not have write access.
 $ git remote set-url --push upstream no_push
 $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
-upstream	https://github.com/talk-go/night.git (fetch)
+upstream	https://github.com/talkgo/night.git (fetch)
 upstream	no_push (push)
 ```
 

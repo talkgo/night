@@ -7,7 +7,7 @@ author: 冉小龙
 
 ## 参考资料
 
-1. [预习材料](https://github.com/talk-go/night/issues/324)
+1. [预习材料](https://github.com/talkgo/night/issues/324)
 2. [pulsar-effectively-once](https://streaml.io/blog/pulsar-effectively-once)
 
 ## 观看视频

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-result=`curl -s 'https://api.github.com/repos/talk-go/nit/contributors' | jq '.[].login' | sed -e 's/"//g'`
+result=`curl -s 'https://api.github.com/repos/talkgo/nit/contributors' | jq '.[].login' | sed -e 's/"//g'`
 
 for element in $result
 do

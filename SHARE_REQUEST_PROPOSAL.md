@@ -14,7 +14,7 @@ Go 夜读提供给大家一种渠道，希望可以将探究深入到 Go 的方�
 
 ### 第一步
 
-https://github.com/talk-go/night/issues/new?template=share_request.md
+https://github.com/talkgo/night/issues/new?template=share_request.md
 
 
 填写标题，例如：`提案：如何阅读 Go 源码？`
