@@ -28,6 +28,8 @@
 
 <img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/wechat_logo/talkgo.png" width="860px;"/>
 
+在微信公众号中，我们将会定期发布分享预告，以及不定期的分享优质的技术文章。
+
 ### YouTube, Twitter, Facebook, Telegram, Slack
 
 [![](https://img.shields.io/badge/YouTube-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=youtube)](https://youtube.com/c/talkgo_night)
@@ -35,8 +37,6 @@
 [![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/talkgo/)
 [![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo)
 [![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
-
-在微信公众号中，我们将会定期发布分享预告，以及不定期的分享优质的技术文章。
 
 ## 我们的精神
 
