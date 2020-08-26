@@ -17,14 +17,16 @@
 
 ## 加入方法
 
-### 微信
+### 微信群
 
 微信搜索 `night_reading_go` ，添加好友，**备注你的姓名、公司、工作岗位和职责**，
 来自：Github，我会拉你入群。
 
-订阅 Go 夜读微信公众号：
+在群内大家会就一些话题进行深入交流和探讨，说不定你还能遇到你的“导师”，我相信你会在里面受益良多，希望这个收益可以让你也能积极参与讨论，让微信群因你的加入而更精彩。
 
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/wechat_logo/talkgo.png" width="360px;"/>
+### 订阅 Go 夜读微信公众号
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/wechat_logo/talkgo.png" width="860px;"/>
 
 ### YouTube, Twitter, Facebook, Telegram, Slack
 
@@ -33,6 +35,8 @@
 [![](https://img.shields.io/badge/Facebook-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/talkgo/)
 [![](https://img.shields.io/badge/Telegram-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=telegram)](https://t.me/talkgo)
 [![](https://img.shields.io/badge/Slack-Go%20%E5%A4%9C%E8%AF%BB-2ca5e0?style=for-the-badge&logo=slack)](https://join.slack.com/t/talkgo/shared_invite/zt-89zh1000-KX2tZ6l~FSNP14Oy2B~onQ) 
+
+在微信公众号中，我们将会定期发布分享预告，以及不定期的分享优质的技术文章。
 
 ## 我们的精神
 
