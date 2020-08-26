@@ -10,11 +10,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/talkgo/night.svg?label=Issue&style=flat-square)](https://github.com/talkgo/night/issues)
 [![license](https://img.shields.io/github/license/talkgo/night.svg?style=flat-square)](https://github.com/talkgo/night/blob/master/LICENSE)
 
-[![](https://img.shields.io/badge/lang-简体中文-red.svg?longCache=true&style=flat-square)](README.md)
-[![](https://img.shields.io/badge/lang-繁体中文-orange.svg?longCache=true&style=flat-square)](README.cht.md)
-[![](https://img.shields.io/badge/lang-English-informational.svg?longCache=true&style=flat-square)](README.en.md)
-[![](https://img.shields.io/badge/lang-Deutsch-black.svg?longCache=true&style=flat-square)](README.de.md)
-
 ## 加入方法
 
 ### 微信群
@@ -91,8 +86,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 |                103                | [2020-08-20 TiDB Operator 架构与实现](https://talkgo.org/)                                                      | 付业成@PingCAP                                                                                   | [YouTube](https://youtu.be/KWHuaRReCdw) [Bilibili](https://www.bilibili.com/video/BV1AV411S7b9/)                                                           |
 |                102                | [2020-08-19 Go 官方标准编译器中实现的优化集锦](https://talkgo.org/t/topic/702)                                  | 老貘@go101 作者                                                                                  | [YouTube](https://youtu.be/RCnG5eLH2KM) [Bilibili](https://www.bilibili.com/video/BV1YZ4y1K7w2)                                                            |
 |                101                | [2020-08-16 晓黑板 go-zero 微服务框架的架构设计](https://talkgo.org/t/topic/729)                                | 万俊峰@晓黑板CTO                                                                                 | [YouTube](https://youtu.be/LNG4iX4oNjc) [Bilibili](https://www.bilibili.com/video/BV1rD4y127PD/)                                                           |
-|                100                | [2020-08-13 如何高效的阅读 Go 代码？                                                                            |
-| ](https://talkgo.org/t/topic/623) | Go 夜读 SIG 小组                                                                                                | [YouTube](https://youtu.be/N4Kderp82uM) [Bilibili](https://www.bilibili.com/video/BV1XD4y1U7Pf/) |
+|                100                | [2020-08-13 如何高效的阅读 Go 代码？](https://talkgo.org/t/topic/623) | Go 夜读 SIG 小组                                                                                                | [YouTube](https://youtu.be/N4Kderp82uM) [Bilibili](https://www.bilibili.com/video/BV1XD4y1U7Pf/) |
 |                99                 | [2020-08-06 betterGo——用类似C++的代码生成的方式实现Go泛型](https://talkgo.org/t/topic/619)                      | 张钰泽@西安工业大学                                                                              | [YouTube](https://youtu.be/9qpRQXctlrY) [Bilibili](https://www.bilibili.com/video/BV1oT4y1j7L2/)                                                           |
 |                98                 | [2020-08-01 Go 中的类型递归](https://talkgo.org/t/topic/613)                                                    | 卢俊杰@英语流利说                                                                                | [YouTube](https://youtu.be/TKcN43zBogI) [Bilibili](https://www.bilibili.com/video/BV1UZ4y1T7U1/)                                                           |
 |                97                 | [2020-07-23 我们可以从 mosn 和相关的项目中学习到什么](https://talkgo.org/t/topic/568)                           | 曹春晖@蚂蚁金服                                                                                  | [YouTube](https://youtu.be/Ox58S98o6Cs) [Bilibili](https://www.bilibili.com/video/BV1nt4y1X7eT/)                                                           |
