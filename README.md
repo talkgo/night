@@ -219,6 +219,27 @@ Go 夜读 SIG 小组负责 Go 夜读活动的日常维护，目前的核心成�
 
 ## Contributors
 
+### Code Contributors
+
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/talkgo/night/graphs/contributors"><img src="https://opencollective.com/talkgo/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/talkgo/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/talkgo"><img src="https://opencollective.com/talkgo/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/talkgo/contribute)]
+
+<a href="https://opencollective.com/talkgo/organization/0/website"><img src="https://opencollective.com/talkgo/organization/0/avatar.svg"></a>
+
+## Contributors
+
 我非常重视每一个对这个项目的贡献者，我会将贡献者列表更新到这里，目前只有提交 Pull Request 的小伙伴，但是贡献不仅仅如此，还可以包括提交 Issue 以及在社群中有所贡献的人。
 
 贡献者自己可以提 PR ，方法如下：
