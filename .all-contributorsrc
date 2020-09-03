@@ -689,6 +689,16 @@
       "contributions": [
         "talk"
       ]
+    },
+    {
+      "login": "kevwan",
+      "name": "Kevin Wan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1918356?v=4",
+      "profile": "http://www.xiaoheiban.cn",
+      "contributions": [
+        "talk",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
