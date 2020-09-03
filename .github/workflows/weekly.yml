@@ -1,0 +1,21 @@
+name: auto_issues
+
+on:
+  schedule:
+  - cron: "* * * * 1-5"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: build-go
+        run: |
+          go env -w GO111MODULE=on
+          cd actions && go build weekly .go
+      - name: create-issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: cd actions &&./weekly -c ./issuesinfo.json
