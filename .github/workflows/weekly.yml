@@ -2,7 +2,7 @@ name: auto_issues
 
 on:
   schedule:
-  - cron: "0 0 * * 1"
+  - cron: "* * * * 1-5"
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
       - name: build-go
         run: |
           go env -w GO111MODULE=on
-          cd actions && go build weekly .go
+          cd actions && go build -o weekly weekly.go
       - name: create-issue
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
