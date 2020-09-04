@@ -2,8 +2,7 @@ name: auto_monthly_recommend
 
 on:
   schedule:
-  # TODO: for test 每十分钟执行一次
-  - cron: "*/10 * * * *"
+  - cron: "0 12 1 * *"
 
 jobs:
   build:
