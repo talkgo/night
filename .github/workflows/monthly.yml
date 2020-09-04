@@ -1,4 +1,4 @@
-name: auto_issues
+name: auto_monthly_recommend
 
 on:
   schedule:
