@@ -351,6 +351,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://yuque.com/clip"><img src="https://avatars3.githubusercontent.com/u/8187479?v=4" width="100px;" alt=""/><br /><sub><b>clip</b></sub></a><br /><a href="https://github.com/talkgo/night/commits?author=binderclip" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/shengyou"><img src="https://avatars2.githubusercontent.com/u/1264736?v=4" width="100px;" alt=""/><br /><sub><b>Shengyou Fan</b></sub></a><br /><a href="#talk-shengyou" title="Talks">📢</a></td>
     <td align="center"><a href="http://florinpatan.ro"><img src="https://avatars2.githubusercontent.com/u/607868?v=4" width="100px;" alt=""/><br /><sub><b>Florin Pățan</b></sub></a><br /><a href="#talk-dlsniper" title="Talks">📢</a></td>
+    <td align="center"><a href="http://www.xiaoheiban.cn"><img src="https://avatars1.githubusercontent.com/u/1918356?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wan</b></sub></a><br /><a href="#talk-kevwan" title="Talks">📢</a> <a href="https://github.com/talkgo/night/commits?author=kevwan" title="Documentation">📖</a></td>
   </tr>
 </table>
 
