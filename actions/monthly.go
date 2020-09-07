@@ -56,6 +56,8 @@ func main() {
 		Body:      &issueInfo.Body,
 	}
 
+	closeOldIssues(client, "talkgo", "night", issueInfo.Title)
+
 	issue, resp, err := client.Issues.Create(context.Background(), "talkgo", "night", req)
 	if err != nil {
 
@@ -72,5 +74,40 @@ func main() {
 	}
 
 	fmt.Println("Created new issue %d %s", issue.GetNumber(), issue.GetTitle())
+
+}
+
+func closeOldIssues(client *github.Client, owner, repo string, name string) {
+
+	issues, resp, err := client.Issues.List(context.Background(), false, &github.IssueListOptions{
+		State: "open",
+	})
+
+	if err != nil {
+		if resp != nil {
+			data, err := ioutil.ReadAll(resp.Body)
+			if err == nil {
+				fmt.Println("github api get issues list response :", string(data))
+			}
+		}
+		panic(err)
+	}
+
+	c := "closed"
+	for _, issue := range issues {
+
+		if issue.GetTitle() != name {
+			continue
+		}
+
+		_, _, err := client.Issues.Edit(context.Background(), owner, repo, issue.GetNumber(), &github.IssueRequest{
+			State: &c,
+		})
+
+		if err != nil {
+			panic(err)
+		}
+
+	}
 
 }
