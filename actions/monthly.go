@@ -49,6 +49,12 @@ func main() {
 
 	client := github.NewClient(hc)
 
+	owner := "talkgo"
+	repo := "night"
+
+	// close old issues first
+	closeOldIssues(client, owner, repo, issueInfo.Title)
+
 	req := &github.IssueRequest{
 		Title:     &issueInfo.Title,
 		Labels:    &issueInfo.Labels,
@@ -56,9 +62,8 @@ func main() {
 		Body:      &issueInfo.Body,
 	}
 
-	closeOldIssues(client, "talkgo", "night", issueInfo.Title)
-
-	issue, resp, err := client.Issues.Create(context.Background(), "talkgo", "night", req)
+	// create new issues
+	issue, resp, err := client.Issues.Create(context.Background(), owner, repo, req)
 	if err != nil {
 
 		// err != nil
@@ -73,8 +78,9 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println("Created new issue %d %s", issue.GetNumber(), issue.GetTitle())
+	_ = resp.Body.Close()
 
+	fmt.Printf("Created new issue %d %s \n", issue.GetNumber(), issue.GetTitle())
 }
 
 func closeOldIssues(client *github.Client, owner, repo string, name string) {
@@ -82,7 +88,6 @@ func closeOldIssues(client *github.Client, owner, repo string, name string) {
 	issues, resp, err := client.Issues.List(context.Background(), false, &github.IssueListOptions{
 		State: "open",
 	})
-
 	if err != nil {
 		if resp != nil {
 			data, err := ioutil.ReadAll(resp.Body)
@@ -93,6 +98,8 @@ func closeOldIssues(client *github.Client, owner, repo string, name string) {
 		panic(err)
 	}
 
+	_ = resp.Body.Close()
+
 	c := "closed"
 	for _, issue := range issues {
 
@@ -100,7 +107,12 @@ func closeOldIssues(client *github.Client, owner, repo string, name string) {
 			continue
 		}
 
-		_, _, err := client.Issues.Edit(context.Background(), owner, repo, issue.GetNumber(), &github.IssueRequest{
+		num := issue.GetNumber()
+
+		//@all-contributors
+		createPRByAllContributorsBot(client, owner, repo, num)
+
+		_, _, err := client.Issues.Edit(context.Background(), owner, repo, num, &github.IssueRequest{
 			State: &c,
 		})
 
@@ -108,6 +120,46 @@ func closeOldIssues(client *github.Client, owner, repo string, name string) {
 			panic(err)
 		}
 
+		fmt.Printf("close issue %d %s \n", num, issue.GetTitle())
+	}
+}
+
+func createPRByAllContributorsBot(client *github.Client, owner, repo string, num int) {
+
+	commentsList, resp, err := client.Issues.ListComments(context.Background(), owner, repo, num, &github.IssueListCommentsOptions{})
+	if err != nil {
+		if resp != nil {
+			data, err := ioutil.ReadAll(resp.Body)
+			if err == nil {
+				fmt.Println("github api get issues list response :", string(data))
+			}
+		}
+		panic(err)
 	}
 
+	_ = resp.Body.Close()
+
+	var userNames string
+	for _, v := range commentsList {
+		userNames += "@" + *v.User.Login + " "
+	}
+
+	commentTempleate := "@all-contributors please add %s to doc."
+	body := fmt.Sprintf(commentTempleate, userNames)
+	_, resp, err = client.Issues.CreateComment(context.Background(), owner, repo, num, &github.IssueComment{
+		Body: &body,
+	})
+	if err != nil {
+		if resp != nil {
+			data, err := ioutil.ReadAll(resp.Body)
+			if err == nil {
+				fmt.Println("github api get issues list response :", string(data))
+			}
+		}
+		panic(err)
+	}
+
+	_ = resp.Body.Close()
+
+	fmt.Printf("add users to contributors %s \n", userNames)
 }
