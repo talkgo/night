@@ -238,6 +238,13 @@ Support this project with your organization. Your logo will show up here with a 
 
 <a href="https://opencollective.com/talkgo/organization/0/website"><img src="https://opencollective.com/talkgo/organization/0/avatar.svg"></a>
 
+<p>This project is supported by:</p>
+<p>
+  <a href="https://www.digitalocean.com/">
+    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
+  </a>
+</p>
+
 ## Contributors
 
 我非常重视每一个对这个项目的贡献者，我会将贡献者列表更新到这里，目前只有提交 Pull Request 的小伙伴，但是贡献不仅仅如此，还可以包括提交 Issue 以及在社群中有所贡献的人。
