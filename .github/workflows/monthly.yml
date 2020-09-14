@@ -2,7 +2,7 @@ name: auto_monthly_recommend
 
 on:
   schedule:
-  - cron: "0 12 1 * *"
+  #- cron: "0 12 1 * *"
 
 jobs:
   build:
