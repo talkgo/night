@@ -51,7 +51,10 @@
 
 ## 主题内容
 
-Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读、工程实践等等，你如果是 Go 新手可以先去这里查看 [Go 学习之路](https://github.com/talkgo/read)。
+Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读、工程实践等等。
+
+如果你是一个 Go 新手，可以先去看一下 [Go 学习之路](https://github.com/talkgo/read)
+如果你对 Go 语言的历史比较感兴趣，强烈推荐阅读：[Go: A Documentary](https://golang.design/s/gohistory-talkgo)
 
 ### 我们的选题范围
 
@@ -83,7 +86,8 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 |               期数                | 标题                                                                                                            | 分享人                                                                                           | 回看                                                                                                                                                       |
 | :-------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                103                | [2020-08-20 TiDB Operator 架构与实现](https://talkgo.org/)                                                      | 付业成@PingCAP                                                                                   | [YouTube](https://youtu.be/KWHuaRReCdw) [Bilibili](https://www.bilibili.com/video/BV1AV411S7b9/)                                                           |
+|                104                | [2020-09-13 通过 hashicorp/raft 库手把手调试 raft 算法](https://talkgo.org/t/topic/882)                                                      | 黄威@趣头条                                                                                   | [YouTube](https://youtu.be/EjGNtHrq4UQ) [Bilibili](https://www.bilibili.com/video/BV1tV411m7ir)                                                           |
+|                103                | [2020-08-20 TiDB Operator 架构与实现](https://talkgo.org/t/topic/744/)                                                      | 付业成@PingCAP                                                                                   | [YouTube](https://youtu.be/KWHuaRReCdw) [Bilibili](https://www.bilibili.com/video/BV1AV411S7b9/)                                                           |
 |                102                | [2020-08-19 Go 官方标准编译器中实现的优化集锦](https://talkgo.org/t/topic/702)                                  | 老貘@go101 作者                                                                                  | [YouTube](https://youtu.be/RCnG5eLH2KM) [Bilibili](https://www.bilibili.com/video/BV1YZ4y1K7w2)                                                            |
 |                101                | [2020-08-16 晓黑板 go-zero 微服务框架的架构设计](https://talkgo.org/t/topic/729)                                | 万俊峰@晓黑板CTO                                                                                 | [YouTube](https://youtu.be/LNG4iX4oNjc) [Bilibili](https://www.bilibili.com/video/BV1rD4y127PD/)                                                           |
 |                100                | [2020-08-13 如何高效的阅读 Go 代码？](https://talkgo.org/t/topic/623) | Go 夜读 SIG 小组                                                                                                | [YouTube](https://youtu.be/N4Kderp82uM) [Bilibili](https://www.bilibili.com/video/BV1XD4y1U7Pf/) |
