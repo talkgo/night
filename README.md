@@ -53,8 +53,8 @@
 
 Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读、工程实践等等。
 
-如果你是一个 Go 新手，可以先去看一下 [Go 学习之路](https://github.com/talkgo/read)
-如果你对 Go 语言的历史比较感兴趣，强烈推荐阅读：[Go: A Documentary](https://golang.design/s/gohistory-talkgo)
+- 如果你是一个 Go 新手，推荐阅读：[Go 学习之路](https://github.com/talkgo/read)
+- 如果你对 Go 语言的历史比较感兴趣，强烈推荐阅读：[Go: A Documentary](https://golang.design/s/gohistory-talkgo)
 
 ### 我们的选题范围
 
