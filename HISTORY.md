@@ -376,3 +376,8 @@ GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
 
 随后，Go 夜读又发起并组件了一支 [Go 夜报](https://github.com/talkgo/newspaper)的志愿者小队伍，咱们将会持续为广大程序员（Gopher）输出更多更好更有价值的内容。
 >截止到 2020-08-21 0 点，已经有超过 25 个人报名。
+
+## 第二十六阶段
+
+2020-09-24 Go 夜读公众号将尝试以文字稿的方式呈现已分享内容。
+第 104 期手撕 hashicorp/raft 算法是由 [YouEclipse](https://github.com/YouEclipse) 负责整理，并且还输出了相关文字稿整理的草案。
