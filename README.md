@@ -19,6 +19,13 @@
 
 在群内大家会就一些话题进行深入交流和探讨，说不定你还能遇到你的“导师”，我相信你会在里面受益良多，希望这个收益可以让你也能积极参与讨论，让微信群因你的加入而更精彩。
 
+### 知识星球
+
+【苹果用户请到《Go 夜读》公众号菜单栏点击“知识星球”后扫码加入】
+我们每周会分享 SIG 核心小组的研讨内容，还有高质量的主题分享，你还可以向嘉宾提问。
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="860px;"/>
+
 ### 订阅 Go 夜读微信公众号
 
 <img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/wechat_logo/talkgo.png" width="860px;"/>
