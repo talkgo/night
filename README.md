@@ -22,9 +22,12 @@
 ### 知识星球
 
 【苹果用户请到《Go 夜读》公众号菜单栏点击“知识星球”后扫码加入】
-我们每周会分享 SIG 核心小组的研讨内容，还有高质量的主题分享，你还可以向嘉宾提问。
 
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="860px;"/>
+在知识星球上，我们每周会分享 SIG 核心小组的研讨内容，还有高质量的主题分享，你还可以向嘉宾提问。
+
+现在还是早鸟阶段，名额有限，赶紧微信扫码加入吧！
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="600px;"/>
 
 ### 订阅 Go 夜读微信公众号
 
