@@ -25,7 +25,7 @@
 
 现在还是早鸟阶段，名额有限，满额后将涨价，赶紧微信扫码加入吧！
 
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="600px;"/>
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="860px;"/>
 
 ### 订阅 Go 夜读微信公众号
 
