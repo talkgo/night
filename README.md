@@ -377,12 +377,12 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/shengyou"><img src="https://avatars2.githubusercontent.com/u/1264736?v=4" width="100px;" alt=""/><br /><sub><b>Shengyou Fan</b></sub></a><br /><a href="#talk-shengyou" title="Talks">📢</a></td>
     <td align="center"><a href="http://florinpatan.ro"><img src="https://avatars2.githubusercontent.com/u/607868?v=4" width="100px;" alt=""/><br /><sub><b>Florin Pățan</b></sub></a><br /><a href="#talk-dlsniper" title="Talks">📢</a></td>
     <td align="center"><a href="http://www.xiaoheiban.cn"><img src="https://avatars1.githubusercontent.com/u/1918356?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wan</b></sub></a><br /><a href="#talk-kevwan" title="Talks">📢</a> <a href="https://github.com/talkgo/night/commits?author=kevwan" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Kydaa"><img src="https://avatars1.githubusercontent.com/u/23324176?v=4" width="100px;" alt=""/><br /><sub><b>小佳</b></sub></a><br /><a href="https://github.com/talkgo/night/commits?author=Kydaa" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
