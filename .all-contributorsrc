@@ -699,6 +699,15 @@
         "talk",
         "doc"
       ]
+    },
+    {
+      "login": "Kydaa",
+      "name": "小佳",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23324176?v=4",
+      "profile": "https://github.com/Kydaa",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

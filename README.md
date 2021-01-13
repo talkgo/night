@@ -98,6 +98,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 | 期数 | 标题                                                                                                            | 分享人                                                                   | 回看                                                                                                                                                   |
 | :--: | :-------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 107  | [2020-11-07 Paxos 分布式共识算法介绍](https://talkgo.org/t/topic/1248)                                  | 黄威, 趣头条 Go 后端工程师                                                   | [YouTube](https://youtu.be/bkWL4mtiVbs) [Bilibili](https://www.bilibili.com/video/BV1C5411L7qT)                                                       |
 | 106  | [2020-11-05 嵌入式 Javascript 在 Golang 中的应用](https://talkgo.org/t/topic/1070)                                  | Misko Lee（叶秋）， Noise Labs 创始人                                                   | [YouTube](https://youtu.be/UECpCEB13-w) [Bilibili](https://www.bilibili.com/video/BV16T4y1F7Zz/)                                                       |
 | 105  | [2020-10-03 go-zero 微服务框架解答和线上交流](https://talkgo.org/t/topic/1070)                                  | 万俊峰（Kevin）@晓黑板                                                   | [YouTube](https://youtu.be/TXnS44qPn6A) [Bilibili](https://www.bilibili.com/video/BV1VZ4y1578X/)                                                       |
 | 104  | [2020-09-13 通过 hashicorp/raft 库手把手调试 raft 算法](https://talkgo.org/t/topic/882)                         | 黄威@趣头条                                                              | [YouTube](https://youtu.be/EjGNtHrq4UQ) [Bilibili](https://www.bilibili.com/video/BV1tV411m7ir)                                                        |
@@ -377,12 +378,12 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/shengyou"><img src="https://avatars2.githubusercontent.com/u/1264736?v=4" width="100px;" alt=""/><br /><sub><b>Shengyou Fan</b></sub></a><br /><a href="#talk-shengyou" title="Talks">📢</a></td>
     <td align="center"><a href="http://florinpatan.ro"><img src="https://avatars2.githubusercontent.com/u/607868?v=4" width="100px;" alt=""/><br /><sub><b>Florin Pățan</b></sub></a><br /><a href="#talk-dlsniper" title="Talks">📢</a></td>
     <td align="center"><a href="http://www.xiaoheiban.cn"><img src="https://avatars1.githubusercontent.com/u/1918356?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wan</b></sub></a><br /><a href="#talk-kevwan" title="Talks">📢</a> <a href="https://github.com/talkgo/night/commits?author=kevwan" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Kydaa"><img src="https://avatars1.githubusercontent.com/u/23324176?v=4" width="100px;" alt=""/><br /><sub><b>小佳</b></sub></a><br /><a href="https://github.com/talkgo/night/commits?author=Kydaa" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
