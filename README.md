@@ -8,6 +8,7 @@
 ![](https://img.shields.io/github/contributors/talkgo/night.svg?style=flat-square&color=orange&label=all%20contributors)
 [![Documentation](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/talkgo/night)
 [![GitHub issues](https://img.shields.io/github/issues/talkgo/night.svg?label=Issue&style=flat-square)](https://github.com/talkgo/night/issues)
+![](https://changkun.de/urlstat?mode=github&repo=talkgo/night)
 [![license](https://img.shields.io/github/license/talkgo/night.svg?style=flat-square)](https://github.com/talkgo/night/blob/master/LICENSE)
 
 ## 加入方法
