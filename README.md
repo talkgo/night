@@ -214,19 +214,6 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 |   2   | [2018-04-11 线下活动 - 微服务框架（teleport, tp-micro, ants）](https://talkgo.org/t/topic/21)                   |                                                                          |
 |   1   | [2018-03-21 线下活动 - teleport, goutil](https://talkgo.org/t/topic/20)                                         |                                                                          |
 
-## Go 夜读 SIG 小组
-
-SIG 的全称是 Special Interests Group, 或称 Super Intellectual Genius。
-Go 夜读 SIG 小组负责 Go 夜读活动的日常维护，目前的核心成员包括：
-
-- [杨文 yangwenmai](https://github.com/yangwenmai)
-- [欧长坤 changkun](https://github.com/changkun)
-- [FelixSeptem](https://github.com/FelixSeptem)
-- [饶全成 qcrao](https://github.com/qcrao)
-- [煎鱼 - EDDYCJY](https://github.com/EDDYCJY)
-- [盛傲飞 - aofei](https://github.com/aofei)
-
-想要加入？参考[如何加入 Go 夜读 SIG 小组](https://github.com/talkgo/night/blob/master/JOINUS.md)。
 
 ## 如何发起分享提案？
 
