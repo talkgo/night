@@ -379,6 +379,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/shima-park"><img src="https://avatars.githubusercontent.com/u/4186507?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xingwang Liu</b></sub></a><br /><a href="https://github.com/talkgo/night/commits?author=shima-park" title="Code">💻</a></td>
     <td align="center"><a href="https://flow.visionhope.cn"><img src="https://avatars.githubusercontent.com/u/20399569?v=4?s=100" width="100px;" alt=""/><br /><sub><b>零件</b></sub></a><br /><a href="https://github.com/talkgo/night/commits?author=ionling" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jaydenwen123"><img src="https://avatars.githubusercontent.com/u/38454179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jaydenwen123</b></sub></a><br /><a href="#talk-jaydenwen123" title="Talks">📢</a></td>
   </tr>
 </table>
 
