@@ -753,6 +753,24 @@
       "contributions": [
         "talk"
       ]
+    },
+    {
+      "login": "dreamerjackson",
+      "name": "jonson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42735226?v=4",
+      "profile": "https://dreamerjonson.com/",
+      "contributions": [
+        "talk"
+      ]
+    },
+    {
+      "login": "epii1",
+      "name": "epii1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2030591?v=4",
+      "profile": "https://taoshu.in",
+      "contributions": [
+        "talk"
+      ]
     }
   ],
   "contributorsPerLine": 7,
