@@ -744,6 +744,15 @@
       "contributions": [
         "talk"
       ]
+    },
+    {
+      "login": "yedf",
+      "name": "yedf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6055142?v=4",
+      "profile": "https://github.com/yedf",
+      "contributions": [
+        "talk"
+      ]
     }
   ],
   "contributorsPerLine": 7,
