@@ -391,6 +391,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/jaydenwen123"><img src="https://avatars.githubusercontent.com/u/38454179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jaydenwen123</b></sub></a><br /><a href="#talk-jaydenwen123" title="Talks">📢</a></td>
     <td align="center"><a href="https://space.bilibili.com/26194591"><img src="https://avatars.githubusercontent.com/u/22375523?v=4?s=100" width="100px;" alt=""/><br /><sub><b>roseduan</b></sub></a><br /><a href="#talk-roseduan" title="Talks">📢</a></td>
     <td align="center"><a href="https://dreamerjonson.com/"><img src="https://avatars.githubusercontent.com/u/42735226?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jonson</b></sub></a><br /><a href="#talk-dreamerjackson" title="Talks">📢</a></td>
+    <td align="center"><a href="https://taoshu.in"><img src="https://avatars.githubusercontent.com/u/2030591?v=4?s=100" width="100px;" alt=""/><br /><sub><b>epii1</b></sub></a><br /><a href="#talk-epii1" title="Talks">📢</a></td>
   </tr>
 </table>
 
