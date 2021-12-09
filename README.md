@@ -102,6 +102,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 | 期数  | 标题                                                                                                            | 分享人                                                                   | 回看                                                                                                                                                   |
 | :---: | :-------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  123  | [2021-12-09 eBPF 与 Go，超能力组合](https://talkgo.org/t/topic/3111)                                   | 狄卫华 《Linux 内核观测技术 BPF》译者之一，云原生架构师                             | [YouTube](https://youtu.be/JE_m2honA04/) [Bilibili](https://www.bilibili.com/video/BV19U4yN7PM/)                                                       |
 |  122  | [2021-11-24 7 天用 Go 从零实现系列背后的故事](https://talkgo.org/t/topic/3028)                                   | 极客兔兔，2017 年毕业于复旦大学，现任华为 OS 内核主任工程师。Go 语言业余爱好者，《 7 天用 Go 从零实现系列》作者。                             | [YouTube](https://youtu.be/iCcQwaHhVgo) [Bilibili](https://www.bilibili.com/video/BV1yL4y1p7xX/)                                                       |
 |  121  | [2021-11-04 微服务的数据一致性问题及解决方案 DTM](https://talkgo.org/t/topic/2925)                                   | 叶东富，北京大学计算机硕士，曾任常青藤爸爸CTO，曾任搜狗架构师。开源跨语言分布式事务管理器 dtm作者；C++开源网络框架handy作者。在分布式事务、高可用、分布式共识、性能优化等领域有深入研究。                             | [YouTube](https://youtu.be/0FZ1VWJl62w) [Bilibili](https://www.bilibili.com/video/BV1Fu411Z7LS/)                                                       |
 |  120  | [2021-10-28 垃圾回收与 Go 实现](https://talkgo.org/t/topic/2916)                                   | 郑建勋，《Go语言底层原理剖析》作者                             | [YouTube](https://youtu.be/L-p0N4f_DUc) [Bilibili](https://www.bilibili.com/video/BV1tQ4y1q742/)                                                       |
@@ -238,9 +239,7 @@ Go 夜读将定期进行与 Go 语言相关的话题分享，例如源码阅读�
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/talkgo/night.svg)](https://starcharts.herokuapp.com/talkgo/night)
-
-[night-reading-go Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=talkgo,night)
+[talklgo/night Star History and Stats](https://seladb.github.io/StarTrack-js/#/preload?r=talkgo,night)
 
 ## Contributors
 
