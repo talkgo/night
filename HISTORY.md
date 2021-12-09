@@ -393,3 +393,14 @@ GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
 ## 第二十九阶段
 
 2021-05-20 Go 夜读 bilibili 粉丝数达到 2 万，YouTube 订阅数 4.98K。
+
+## 第三十阶段
+
+2021-12-09 Go 夜读 GitHub Star 数正式突破 1 万。
+
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2021-12-09-talkgo-night-10000-star.png)
+
+Go 夜读 bilibili 粉丝数达到 2.5 万，YouTube 订阅数 5.82K。
+
+Go 夜读更新到第 123 期。
+
