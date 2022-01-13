@@ -413,20 +413,20 @@ func (m *Map) Range(f func(key, value interface{}) bool) {
 sync.Map没有提供获取元素个数的Len()方法，不过可以通过Range()实现。
 ```go
 func Len(sm sync.Map) int {
-	lengh := 0
+	length := 0
 	f := func(key, value interface{}) bool {
-		lengh++
+		length++
 		return true
 	}
-	one:=lengh
-	lengh=0
+	one:=length
+	length=0
 	sm.Range(f)
-	if one != lengh {
-	    one = lengh
-		lengh=0
+	if one != length {
+	    one = length
+		length=0
 		sm.Range(f)
-		if one <lengh {
-			return lengh
+		if one <length {
+			return length
 		}
 		
 	}
