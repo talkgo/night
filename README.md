@@ -11,6 +11,10 @@
 ![](https://changkun.de/urlstat?mode=github&repo=talkgo/night)
 [![license](https://img.shields.io/github/license/talkgo/night.svg?style=flat-square)](https://github.com/talkgo/night/blob/master/LICENSE)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=talkgo/night&type=Date)](https://star-history.com/#talkgo/night&Date)
+
 ## 加入方法
 
 ### 微信群
