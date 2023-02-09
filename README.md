@@ -26,11 +26,43 @@
 
 ### 知识星球
 
-在知识星球上，我们每周会分享 SIG 核心小组的研讨内容，还有高质量的主题分享，你还可以向嘉宾提问。
+2023 年 Go 夜读知识星球做了内容上的全面升，不仅有 Go 新闻专栏，还有高质量的主题分享，你还可以向嘉宾提问。
 
-现在还是早鸟阶段，名额有限，满额后将涨价，赶紧微信扫码加入吧！
+- #Go新闻 第一时间给大家分享 Go 相关的一些变更、讨论。
 
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq.jpg" width="860px;"/>
+现在 5 周年特惠，可以阅读文章[我的回顾与启航：从心出发](https://mp.weixin.qq.com/s/1yoBdUGgwviPcpswJRMhtQ)了解更多，并领取现金券，名额有限哦！
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_share.jpg" width="860px;"/>
+
+2023 年知识星球专栏：
+
+0. #闲聊八卦
+
+1. #连接你我 我要为大家提供更多的 1:1 ，连接所有人的前提是先把我与你连接起来。
+
+- 2023 年目标，与 50 个星友连接，当前进度 2/50，还有少量名额。
+
+2. - #成长手记 讲述我在经营 Go 夜读过程中的一些经历。
+
+3. - #好书共读 从书中学，书中自有黄金屋，书中自有颜如玉。
+
+4. - #好听共享 从播客、视频中学习行业大咖的经验总结。
+
+5. - #以练带学，学以致用 开源项目的实践，7 天系列，30 天系列，效率工具，效率提升等等。
+
+6. - #以码会友 code snippet。
+
+7. - #ToBSaaS
+
+8. - #技术与管理
+
+9. - #私享会 线上交流会
+
+10. - #星友局 线下聚会
+
+...
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png" width="860px;"/>
 
 ### 订阅 Go 夜读微信公众号
 
