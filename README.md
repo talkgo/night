@@ -32,9 +32,10 @@
 
 现在 5 周年特惠，可以阅读文章[我的回顾与启航：从心出发](https://mp.weixin.qq.com/s/1yoBdUGgwviPcpswJRMhtQ)了解更多，并领取现金券，名额有限哦！
 
-
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png" width="240px;"/>
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_share.jpg" width="340px;"/>
+<div>
+	<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png" width="240px;"/>
+	<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_share.jpg" width="340px;"/>
+</div>
 
 2023 年知识星球专栏：
 
