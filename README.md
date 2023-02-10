@@ -32,37 +32,26 @@
 
 现在 5 周年特惠，可以阅读文章[我的回顾与启航：从心出发](https://mp.weixin.qq.com/s/1yoBdUGgwviPcpswJRMhtQ)了解更多，并领取现金券，名额有限哦！
 
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_share.jpg" width="860px;"/>
+
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png" width="240px;"/>
+<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_share.jpg" width="340px;"/>
 
 2023 年知识星球专栏：
 
-0. #闲聊八卦
+- #闲聊八卦
+- #连接你我 我要为大家提供更多的 1:1 ，连接所有人的前提是先把我与你连接起来。
+	- 2023 年目标，与 50 个星友连接，当前进度 2/50，还有少量名额。
+- #成长手记 讲述我在经营 Go 夜读过程中的一些经历。
+- #好书共读 从书中学，书中自有黄金屋，书中自有颜如玉。
+- #好听共享 从播客、视频中学习行业大咖的经验总结。
+- #以练带学，学以致用 开源项目的实践，7 天系列，30 天系列，效率工具，效率提升等等。
+- #以码会友 code snippet。
+- #ToBSaaS
+- #技术与管理
+- #私享会 线上交流会
+- #星友局 线下聚会
 
-1. #连接你我 我要为大家提供更多的 1:1 ，连接所有人的前提是先把我与你连接起来。
-
-- 2023 年目标，与 50 个星友连接，当前进度 2/50，还有少量名额。
-
-2. - #成长手记 讲述我在经营 Go 夜读过程中的一些经历。
-
-3. - #好书共读 从书中学，书中自有黄金屋，书中自有颜如玉。
-
-4. - #好听共享 从播客、视频中学习行业大咖的经验总结。
-
-5. - #以练带学，学以致用 开源项目的实践，7 天系列，30 天系列，效率工具，效率提升等等。
-
-6. - #以码会友 code snippet。
-
-7. - #ToBSaaS
-
-8. - #技术与管理
-
-9. - #私享会 线上交流会
-
-10. - #星友局 线下聚会
-
-...
-
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png" width="860px;"/>
+还想了解什么，直接联系我或者提 Issues。
 
 ### 订阅 Go 夜读微信公众号
 
