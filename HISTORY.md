@@ -461,3 +461,9 @@ Go 夜读更新到第 138 期。
 ![](https://raw.githubusercontent.com/talkgo/night/master/static/images/talkgo_zsxq_category.png)
 
 从上周（2023-03-05）开始，陆陆续续给咱们的讲师和知识星球星友们邮寄了 5 周年 T恤衫，不少伙伴已经收到衣服，试穿反馈还不错。
+
+## 第四十一阶段
+
+2023-06-27 Go 夜读视频号获赞 1000 。
+2023-06-29 Go 夜读更新到第 146 期。
+2023-06-29 Go 夜读 Bilibili 粉丝数达到 3.9 万，YouTube 订阅数 7.31K。
