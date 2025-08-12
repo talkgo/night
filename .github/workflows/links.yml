@@ -10,7 +10,7 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v5.0.0
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.4.1
