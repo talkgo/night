@@ -1,6 +1,6 @@
 module night/actions
 
-go 1.23.0
+go 1.24.0
 
 require (
 	github.com/dyweb/gommon v0.0.13
@@ -10,5 +10,5 @@ require (
 
 require (
 	github.com/google/go-querystring v1.0.0 // indirect
-	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 )
