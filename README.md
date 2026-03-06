@@ -328,10 +328,9 @@ Support this project with your organization. Your logo will show up here with a 
 
 <p>This project is supported by:</p>
 <p>
-  <a href="https://www.digitalocean.com/">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
-  </a>
+  <a href="https://www.digitalocean.com/?refcode=c18e66e7d0e9&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
 </p>
+
 
 ## Contributors
 
