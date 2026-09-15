@@ -8,7 +8,7 @@ require (
 	github.com/jinzhu/gorm v1.9.2
 	github.com/pkg/errors v0.8.1
 	github.com/stretchr/testify v1.8.3
-	golang.org/x/crypto v0.51.0
+	golang.org/x/crypto v0.52.0
 )
 
 require (
